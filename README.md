@@ -49,7 +49,7 @@ Buscando   →  1º estágio em dev
 
 <div align="center">
   <img height="150" src="https://github-readme-stats.vercel.app/api?username=IsaacGomes260653&show_icons=true&theme=github_dark&hide_border=true&bg_color=161b22&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e&rank_icon=github" />
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IsaacGomes260653&layout=compact&theme=github_dark&hide_border=true&bg_color=161b22&title_color=58a6ff&text_color=8b949e" />
+  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IsaacGomes260653&layout=donut&theme=github_dark&hide_border=true&bg_color=161b22&title_color=58a6ff&text_color=8b949e" />
 </div>
 
 <br/>
