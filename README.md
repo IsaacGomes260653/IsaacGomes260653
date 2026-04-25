@@ -78,7 +78,10 @@ Buscando   →  1º estágio em dev
 | Projeto | Descrição | Linguagem |
 |--------|-----------|-----------|
 | [forget_me_not](https://github.com/IsaacGomes260653/forget_me_not) | Aplicação desenvolvida em Python com foco em organização e memória. | ![Python](https://img.shields.io/badge/-Python-3572A5?style=flat-square&logo=python&logoColor=white) |
-| [Programas](https://github.com/IsaacGomes260653/Programas) | Coleção de programas e algoritmos desenvolvidos em C. | ![C](https://img.shields.io/badge/-C-555555?style=flat-square&logo=c&logoColor=white) |
+| [Exercicios-Cpp](https://github.com/IsaacGomes260653/Exercicios-Cpp) | Exercícios e algoritmos gerais desenvolvidos em C++. | ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) |
+| [Exercicios-Java](https://github.com/IsaacGomes260653/Exercicios-Java) | Projetos de segurança cibernética desenvolvidos em Java no CEUB. | ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
+| [Logica-Portugol](https://github.com/IsaacGomes260653/Logica-Portugol) | Algoritmos de lógica de programação escritos em Portugol. | ![Portugol](https://img.shields.io/badge/-Portugol-6A0DAD?style=flat-square&logoColor=white) |
+| [Desenvolvimento-de-sistemas](https://github.com/IsaacGomes260653/Desenvolvimento-de-sistemas) | Trabalhos da disciplina de Desenvolvimento de Sistemas no CEUB. | ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white) |
 
 ---
 
