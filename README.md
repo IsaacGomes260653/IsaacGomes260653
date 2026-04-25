@@ -52,6 +52,25 @@ Buscando   →  1º estágio em dev
   <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IsaacGomes260653&layout=compact&theme=github_dark&hide_border=true&bg_color=161b22&title_color=58a6ff&text_color=8b949e" />
 </div>
 
+<br/>
+
+<!-- Gráfico de contribuições -->
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=IsaacGomes260653&theme=github-compact&hide_border=true&bg_color=161b22&color=58a6ff&line=58a6ff&point=ffffff&area=true&area_color=58a6ff" />
+</div>
+
+---
+
+### 🐍 Contribuições
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output/github-snake.svg" />
+    <img alt="snake animation" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output/github-snake-dark.svg" />
+  </picture>
+</div>
+
 ---
 
 ### 📌 Projetos em destaque
