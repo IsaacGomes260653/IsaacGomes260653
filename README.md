@@ -73,16 +73,19 @@ Buscando   →  1º estágio em dev
 
 ---
 
-### 📌 Projetos em destaque
+## 📌 Projetos em destaque
 
 | Projeto | Descrição | Linguagem |
-|--------|-----------|-----------|
-| [forget_me_not](https://github.com/IsaacGomes260653/forget_me_not) | Aplicação desenvolvida em Python com foco em organização e memória. | ![Python](https://img.shields.io/badge/-Python-3572A5?style=flat-square&logo=python&logoColor=white) |
-| [Exercicios-Cpp](https://github.com/IsaacGomes260653/Exercicios-Cpp) | Exercícios e algoritmos gerais desenvolvidos em C++. | ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) |
-| [Exercicios-Java](https://github.com/IsaacGomes260653/Exercicios-Java) | Projetos de segurança cibernética desenvolvidos em Java no CEUB. | ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
-| [Logica-Portugol](https://github.com/IsaacGomes260653/Logica-Portugol) | Algoritmos de lógica de programação escritos em Portugol. | ![Portugol](https://img.shields.io/badge/-Portugol-6A0DAD?style=flat-square&logoColor=white) |
-| [Desenvolvimento-de-sistemas](https://github.com/IsaacGomes260653/Desenvolvimento-de-sistemas) | Trabalhos da disciplina de Desenvolvimento de Sistemas no CEUB. | ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white) |
-
+|---|---|---|
+| [forget_me_not](https://github.com/IsaacGomes260653/forget_me_not) | Aplicação desenvolvida em Python com foco em organização e memória. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) |
+| [Exercicios-Cpp](https://github.com/IsaacGomes260653/Exercicios-Cpp) | Exercícios e algoritmos gerais desenvolvidos em C++. | ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white) |
+| [Exercicios-Java](https://github.com/IsaacGomes260653/Exercicios-Java) | Projetos de segurança cibernética desenvolvidos em Java no CEUB. | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white) |
+| [Logica-Portugol](https://github.com/IsaacGomes260653/Logica-Portugol) | Algoritmos de lógica de programação escritos em Portugol. | ![Portugol](https://img.shields.io/badge/Portugol-5B00C3?style=flat) |
+| [Desenvolvimento-de-sistemas](https://github.com/IsaacGomes260653/Desenvolvimento-de-sistemas) | Trabalhos da disciplina de Desenvolvimento de Sistemas no CEUB. | ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white) |
+| [Exercicio-PHP](https://github.com/IsaacGomes260653/Exercicio-PHP) | Exercícios práticos e fundamentos desenvolvidos em PHP. | ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white) |
+| [Sistema-de-Gerenciamento-de-Tarefas](https://github.com/IsaacGomes260653/Sistema-de-Gerenciamento-de-Tarefas) | Sistema web focado na organização e gerenciamento de tarefas diárias. | ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white) |
+| [To-do-LIst](https://github.com/IsaacGomes260653/To-do-LIst) | Aplicação prática de Lista de Afazeres (To-Do List). | ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white) |
+| [Album-da-copa](https://github.com/IsaacGomes260653/Album-da-copa) | Projeto com a temática de álbum de figurinhas da Copa. | ![HTML/CSS](https://img.shields.io/badge/Web-E34F26?style=flat&logo=html5&logoColor=white) |
 ---
 
 ### 📬 Contato
