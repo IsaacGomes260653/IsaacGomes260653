@@ -89,6 +89,6 @@ Estudante de Ciência da Computação no 4º semestre (CEUB, conclusão prevista
 
 <div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output/github-contribution-grid-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output/github-snake.svg)
 
 </div>
