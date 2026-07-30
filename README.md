@@ -65,11 +65,11 @@ Estudante de Ciência da Computação no 4º semestre (CEUB, conclusão prevista
 
 <div align="center">
 
-![Stats](https://github-readme-stats.vercel.app/api?username=IsaacGomes260653&show_icons=true&hide_border=true&count_private=true&title_color=4f46e5&icon_color=4f46e5&text_color=555&bg_color=ffffff)
+![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=IsaacGomes260653&theme=default)
 
 ![Streak](https://streak-stats.demolab.com/?user=IsaacGomes260653&hide_border=true&ring=4f46e5&fire=4f46e5&currStreakLabel=4f46e5)
 
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=IsaacGomes260653&layout=compact&hide_border=true&title_color=4f46e5&text_color=555&bg_color=ffffff)
+![Top languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=IsaacGomes260653&theme=default)
 
 </div>
 
