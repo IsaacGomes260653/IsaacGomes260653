@@ -23,11 +23,23 @@
 
 ### 🇧🇷 Sobre mim
 
-Estudante de Ciência da Computação no 4º semestre (CEUB, conclusão prevista para dez/2028) e auxiliar administrativo na **GONAR Engenharia**, onde transformei processos manuais de controle de obra em sistemas próprios. Construo aplicações completas — do banco de dados à interface — em Python, JavaScript e PHP, sempre partindo de problemas reais. Inglês fluente.
+Estudante de Ciência da Computação no 4º semestre (CEUB, conclusão prevista para dez/2028), com bom desempenho acadêmico e foco em desenvolvimento back-end.
+
+Trabalho na **GONAR Engenharia** como auxiliar administrativo, cuidando de controle de almoxarifado e lançamento de notas fiscais — e foi ali que comecei a programar de verdade: identifiquei processos manuais propensos a erro e passei a construir sistemas próprios para resolvê-los, como o **RanchoControl**, que substitui planilhas de controle de refeições e presença em obra.
+
+Construo aplicações completas — do banco de dados à interface — em Python, JavaScript e PHP. Além do RanchoControl, desenvolvi o **ForgetMeNot** (gerenciador de tarefas em Flask/PostgreSQL, com testes, CI e deploy em produção) e o **TaskFlow** (PHP/MySQL). Inglês avançado (Casa Thomas Jefferson).
+
+🎯 **Buscando meu primeiro estágio em desenvolvimento de software.**
 
 ### 🇺🇸 About me
 
-4th-semester Computer Science student (CEUB, graduating Dec 2028) and administrative assistant at **GONAR Engenharia**, where I turned manual construction-site processes into software of my own. I build full applications — from database to interface — in Python, JavaScript, and PHP, always starting from real problems. Fluent in English.
+4th-semester Computer Science student (CEUB, graduating Dec 2028) with a strong academic record and a focus on back-end development.
+
+I work at **GONAR Engenharia** as an administrative assistant, handling inventory control and invoice processing — and that's where I really started coding: I spotted error-prone manual processes and began building my own systems to solve them, such as **RanchoControl**, which replaces spreadsheets for meal and attendance tracking on construction sites.
+
+I build full applications — from database to interface — in Python, JavaScript, and PHP. Beyond RanchoControl, I developed **ForgetMeNot** (a task manager in Flask/PostgreSQL with tests, CI, and a production deploy) and **TaskFlow** (PHP/MySQL). Advanced English (Casa Thomas Jefferson).
+
+🎯 **Looking for my first software development internship.**
 
 ---
 
