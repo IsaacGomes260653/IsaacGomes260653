@@ -71,10 +71,10 @@ I build full applications — from database to interface — in Python, JavaScri
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=IsaacGomes260653&show_icons=true&hide_border=true&bg_color=0D1117&title_color=4f46e5&icon_color=4f46e5&text_color=C9D1D9" alt="stats">
-<img height="165" src="https://streak-stats.demolab.com/?user=IsaacGomes260653&hide_border=true&background=0D1117&ring=4f46e5&fire=4f46e5&currStreakLabel=4f46e5&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E&sideLabels=C9D1D9" alt="streak">
+<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=IsaacGomes260653&theme=github_dark" alt="stats">
+<img height="180" src="https://github-readme-streak-stats-eight.vercel.app?user=IsaacGomes260653&theme=dark&hide_border=true&background=0D1117&ring=4f46e5&fire=4f46e5&currStreakLabel=4f46e5" alt="streak">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=IsaacGomes260653&hide_border=true&bg_color=0D1117&color=C9D1D9&line=4f46e5&point=4f46e5&title_color=C9D1D9" alt="activity graph">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=IsaacGomes260653&theme=github_dark" alt="top languages">
 
 </div>
 
