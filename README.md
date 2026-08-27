@@ -3,6 +3,10 @@
 </p>
 
 <p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=4F46E5&center=true&vCenter=true&width=520&lines=Computer+Science+student+at+CEUB;Back-end+focused+full-stack+developer;Python+%7C+JavaScript+%7C+PHP;Looking+for+my+first+internship" alt="typing">
+</p>
+
+<p align="center">
   Estudante de Ciência da Computação (CEUB) · Desenvolvedor de Software<br>
   <em>Computer Science student · Software Developer — Brasília, Brazil</em>
 </p>
@@ -43,19 +47,13 @@ I build full applications — from database to interface — in Python, JavaScri
 
 ### 🛠️ Tecnologias / Tech stack
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+<div align="center">
 
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+<img src="https://skillicons.dev/icons?i=python,js,php,java,cpp,html,css&theme=dark" alt="languages">
+
+<img src="https://skillicons.dev/icons?i=flask,postgres,mysql,supabase,git,github,vscode&theme=dark" alt="tools">
+
+</div>
 
 ---
 
@@ -63,11 +61,9 @@ I build full applications — from database to interface — in Python, JavaScri
 
 | Projeto | Descrição | Stack |
 |---------|-----------|-------|
-| **[RanchoControl](https://github.com/IsaacGomes260653)** | Sistema offline-first de controle de refeições e presença em obras | JavaScript · IndexedDB |
-| **[ForgetMeNot](https://github.com/IsaacGomes260653)** | Gerenciador de tarefas web com deploy em produção | Python · Flask · PostgreSQL |
-| **[TaskFlow](https://github.com/IsaacGomes260653)** | Gestão de tarefas com autenticação por sessão | PHP · MySQL |
-
-> Substitua os links acima pela URL exata de cada repositório depois de renomeá-los (veja o plano de organização).
+| **[RanchoControl](https://github.com/IsaacGomes260653/ranchocontrol)** | Sistema offline-first de controle de refeições e presença em obras<br><em>Offline-first meal and attendance tracking for construction sites</em> | JavaScript · IndexedDB |
+| **[ForgetMeNot](https://github.com/IsaacGomes260653/forgetmenot)** | Gerenciador de tarefas web com testes, CI e deploy em produção<br><em>Web task manager with tests, CI, and a production deploy</em> | Python · Flask · PostgreSQL |
+| **[TaskFlow](https://github.com/IsaacGomes260653/taskflow)** | Gestão de tarefas com autenticação por sessão<br><em>Task management with session-based authentication</em> | PHP · MySQL |
 
 ---
 
@@ -75,21 +71,10 @@ I build full applications — from database to interface — in Python, JavaScri
 
 <div align="center">
 
-![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=IsaacGomes260653&theme=github_dark)
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=IsaacGomes260653&show_icons=true&hide_border=true&bg_color=0D1117&title_color=4f46e5&icon_color=4f46e5&text_color=C9D1D9" alt="stats">
+<img height="165" src="https://streak-stats.demolab.com/?user=IsaacGomes260653&hide_border=true&background=0D1117&ring=4f46e5&fire=4f46e5&currStreakLabel=4f46e5&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E&sideLabels=C9D1D9" alt="streak">
 
-![Streak](https://streak-stats.demolab.com/?user=IsaacGomes260653&theme=dark&hide_border=true&background=0D1117&ring=4f46e5&fire=4f46e5&currStreakLabel=4f46e5&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E&sideLabels=C9D1D9)
-
-![Top languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=IsaacGomes260653&theme=github_dark)
-
-</div>
-
----
-
-### 📈 Gráfico de atividade / Activity graph
-
-<div align="center">
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=IsaacGomes260653&hide_border=true&bg_color=0D1117&color=C9D1D9&line=4f46e5&point=4f46e5&title_color=C9D1D9)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=IsaacGomes260653&hide_border=true&bg_color=0D1117&color=C9D1D9&line=4f46e5&point=4f46e5&title_color=C9D1D9" alt="activity graph">
 
 </div>
 
@@ -99,6 +84,10 @@ I build full applications — from database to interface — in Python, JavaScri
 
 <div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output/github-snake-dark.svg)
+<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output/github-snake-dark.svg" alt="snake animation">
 
 </div>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=4f46e5&height=100&section=footer" alt="footer">
+</p>
