@@ -78,6 +78,18 @@ I build full applications — from database to interface — in Python, JavaScri
 
 </div>
 
+### 📈 Gráfico de atividade / Activity graph
+
+<div align="center">
+
+<!-- ghchart.rshah.org: mesmo formato do heatmap nativo do GitHub,
+     hospedado à parte dos serviços vercel.app que ficam sobrecarregados -->
+<img src="https://ghchart.rshah.org/4f46e5/IsaacGomes260653" alt="activity graph">
+
+</div>
+
+---
+
 ### 🐍 Contribuições / Contribution snake
 
 <div align="center">
