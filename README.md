@@ -78,15 +78,17 @@ I build full applications — from database to interface — in Python, JavaScri
 
 </div>
 
-<!--
 ### 📈 Gráfico de atividade / Activity graph
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=IsaacGomes260653&hide_border=true&bg_color=0D1117&color=C9D1D9&line=4f46e5&point=4f46e5&title_color=C9D1D9&area=true&area_color=4f46e5" alt="activity graph">
+<!-- ghchart.rshah.org: mesmo formato do heatmap nativo do GitHub,
+     hospedado à parte dos serviços vercel.app que ficam sobrecarregados -->
+<img src="https://ghchart.rshah.org/4f46e5/IsaacGomes260653" alt="activity graph">
 
 </div>
--->
+
+---
 
 ### 🐍 Contribuições / Contribution snake
 
