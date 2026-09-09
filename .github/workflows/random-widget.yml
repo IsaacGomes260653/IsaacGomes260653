@@ -1,0 +1,48 @@
+name: randomize fun corner
+
+on:
+  schedule:
+    - cron: "0 */4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  randomize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: pick a random widget
+        id: pick
+        run: |
+          widgets=("snake" "pacman" "3d")
+          choice=${widgets[$RANDOM % ${#widgets[@]}]}
+          echo "choice=$choice" >> "$GITHUB_OUTPUT"
+          echo "Picked: $choice"
+
+      - name: download the chosen widget assets
+        run: |
+          mkdir -p out
+          case "${{ steps.pick.outputs.choice }}" in
+            snake)
+              curl -fsSL -o out/random-widget.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/github-snake.svg"
+              curl -fsSL -o out/random-widget-dark.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/github-snake-dark.svg"
+              ;;
+            pacman)
+              curl -fsSL -o out/random-widget.svg "https://raw.githubusercontent.com/${{ github.repository }}/output-pacman/pacman-contribution-graph.svg"
+              curl -fsSL -o out/random-widget-dark.svg "https://raw.githubusercontent.com/${{ github.repository }}/output-pacman/pacman-contribution-graph-dark.svg"
+              ;;
+            3d)
+              curl -fsSL -o out/random-widget.svg "https://raw.githubusercontent.com/${{ github.repository }}/output-3d/profile-green-animate.svg"
+              curl -fsSL -o out/random-widget-dark.svg "https://raw.githubusercontent.com/${{ github.repository }}/output-3d/profile-night-rainbow.svg"
+              ;;
+          esac
+          echo "${{ steps.pick.outputs.choice }}" > out/CURRENT_WIDGET.txt
+
+      - name: publish to output-random branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: out
+          publish_branch: output-random
+          force_orphan: true

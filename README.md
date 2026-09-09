@@ -176,6 +176,27 @@ I build full applications — from database to interface — in Python, JavaScri
 
 </div>
 
+---
+
+<a id="fun-corner"></a>
+### 🕹️ Cantinho descontraído / Fun corner
+
+<div align="center">
+
+<!-- A cada ~4h, uma Action sorteia um widget diferente (cobra, Pac-Man
+     ou o grafico 3D) e atualiza o branch output-random. Recarregue a
+     pagina depois de um tempo pra ver mudar. -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-random/random-widget-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-random/random-widget.svg">
+  <img alt="widget aleatorio" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-random/random-widget.svg">
+</picture>
+
+<sub>Muda sozinho a cada ~4h — às vezes cobra 🐍, às vezes Pac-Man 👾, às vezes o gráfico 3D 🧱<br>
+<em>Changes on its own every ~4h — sometimes snake, sometimes Pac-Man, sometimes the 3D graph</em></sub>
+
+</div>
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4f46e5&height=100&section=footer" alt="footer">
 </p>
