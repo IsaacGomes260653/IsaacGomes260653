@@ -82,12 +82,11 @@ I build full applications — from database to interface — in Python, JavaScri
 
 <div align="center">
 
-<!-- Instância própria do github-readme-activity-graph, hospedada na Vercel
-     (isaacgomes260653/github-readme-activity-graph). A instância pública
-     compartilhada (github-readme-activity-graph.vercel.app) parou de
-     funcionar de vez (402 DEPLOYMENT_DISABLED, limite gratuito da Vercel
-     estourado) — por isso o fork/deploy próprio em vez de depender dela. -->
-<img src="https://github-readme-activity-graph-rose-ten.vercel.app/graph?username=IsaacGomes260653&hide_border=true&bg_color=0D1117&color=C9D1D9&line=4f46e5&point=4f46e5&title_color=C9D1D9&area=true&area_color=4f46e5" alt="activity graph">
+<!-- Gráfico gerado por GitHub Action (lowlighter/metrics), sem depender de
+     nenhum serviço externo hospedado (a instância antiga na Vercel exigia
+     um token configurado manualmente lá e parou de funcionar). A Action
+     roda a cada 12h e commita o SVG atualizado no branch output-metrics. -->
+<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.isocalendar.svg" alt="activity graph">
 
 </div>
 
