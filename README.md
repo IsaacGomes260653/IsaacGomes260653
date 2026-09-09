@@ -114,7 +114,12 @@ I build full applications — from database to interface — in Python, JavaScri
 <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=IsaacGomes260653&theme=github_dark" alt="stats">
 <img height="180" src="https://github-readme-streak-stats-eight.vercel.app?user=IsaacGomes260653&theme=dark&hide_border=true&background=0D1117&ring=4f46e5&fire=4f46e5&currStreakLabel=4f46e5" alt="streak">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=IsaacGomes260653&theme=github_dark" alt="top languages">
+<!-- Trocado pelo mesmo motivo do grafico de atividade: o card antigo
+     (servico compartilhado na Vercel) ficava com dados desatualizados
+     por causa do cache dele. Este e gerado pela nossa propria Action
+     lowlighter/metrics a cada 12h, direto a partir do byte-size real
+     das linguagens nos repositorios. -->
+<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.languages.svg" alt="top languages">
 
 </div>
 
