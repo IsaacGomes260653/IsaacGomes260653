@@ -29,7 +29,6 @@
   <a href="#activity-graph">📈 Atividade</a> ·
   <a href="#agora">🎯 Agora</a> ·
   <a href="#aprendendo">📚 Aprendendo</a> ·
-  <a href="#3d-contrib">🧱 3D</a> ·
   <a href="#fun-corner">🕹️ Fun corner</a>
 </p>
 
@@ -133,59 +132,18 @@ I build full applications — from database to interface — in Python, JavaScri
 
 ---
 
-### 🐍 Contribuições / Contribution snake
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output/github-snake.svg">
-  <img alt="snake animation" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output/github-snake.svg">
-</picture>
-
-</div>
-
----
-
-### 👾 Pac-Man
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-pacman/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-pacman/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-pacman/pacman-contribution-graph.svg">
-</picture>
-
-</div>
-
----
-
-<a id="3d-contrib"></a>
-### 🧱 Contribuições em 3D / 3D contributions
-
-<div align="center">
-
-<!-- Gerado pela Action yoshi389111/github-profile-3d-contrib, tambem
-     self-hosted (sem token manual), commitando no branch output-3d. -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-3d/profile-night-rainbow.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-3d/profile-green-animate.svg">
-  <img alt="grafico 3d de contribuicoes" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-3d/profile-green-animate.svg">
-</picture>
-
-</div>
-
----
-
 <a id="fun-corner"></a>
 ### 🕹️ Cantinho descontraído / Fun corner
 
 <div align="center">
 
-<!-- A cada ~4h, uma Action sorteia um widget diferente (cobra, Pac-Man
-     ou o grafico 3D) e atualiza o branch output-random. Recarregue a
-     pagina depois de um tempo pra ver mudar. -->
+<!-- Antes essa secao, o Pac-Man e o grafico 3D apareciam cada um numa
+     secao fixa propria, junto com esta aqui - ai dava a impressao de
+     "tudo ao mesmo tempo" na pagina. Agora só existe esta secao: uma
+     Action sorteia um widget diferente (cobra, Pac-Man ou grafico 3D)
+     a cada ~4h e atualiza o branch output-random. As Actions que geram
+     cada widget continuam rodando nos bastidores (output, output-pacman
+     e output-3d), só a exibicao no README foi unificada aqui. -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-random/random-widget-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-random/random-widget.svg">
