@@ -57,6 +57,30 @@ I build full applications — from database to interface — in Python, JavaScri
 
 ---
 
+<a id="agora"></a>
+### 🎯 Agora / Now
+
+- 🔭 Construindo o **PlayHub**, um portal de mini-jogos para a Mostra de Ciências CEUB 2026
+  <br><em>Building **PlayHub**, a mini-games portal for the CEUB 2026 Science Fair</em>
+- 🛠️ Mantendo o **RanchoControl** em uso real na GONAR Engenharia
+  <br><em>Keeping **RanchoControl** running in real use at GONAR Engenharia</em>
+- 🎯 Buscando meu primeiro estágio em desenvolvimento de software
+  <br><em>Looking for my first software development internship</em>
+
+<a id="aprendendo"></a>
+### 📚 Aprendendo agora / Currently learning
+
+<div align="center">
+
+![Estruturas de dados](https://img.shields.io/badge/Estruturas%20de%20dados-4f46e5?style=flat)
+![Concorrência](https://img.shields.io/badge/Concorrência%20%2F%20Concurrency-4f46e5?style=flat)
+![Docker](https://img.shields.io/badge/Docker-4f46e5?style=flat&logo=docker&logoColor=white)
+![PostgreSQL avançado](https://img.shields.io/badge/PostgreSQL%20avançado-4f46e5?style=flat&logo=postgresql&logoColor=white)
+
+</div>
+
+---
+
 <a id="tech-stack"></a>
 ### 🛠️ Tecnologias / Tech stack
 
