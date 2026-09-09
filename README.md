@@ -21,8 +21,20 @@
   <img src="https://komarev.com/ghpvc/?username=IsaacGomes260653&color=4f46e5&style=flat&label=Perfil+visto" alt="Views">
 </p>
 
+<p align="center">
+  <a href="#sobre-mim">🇧🇷 Sobre</a> ·
+  <a href="#tech-stack">🛠️ Stack</a> ·
+  <a href="#projetos">📌 Projetos</a> ·
+  <a href="#stats">📊 Stats</a> ·
+  <a href="#activity-graph">📈 Atividade</a> ·
+  <a href="#agora">🎯 Agora</a> ·
+  <a href="#aprendendo">📚 Aprendendo</a> ·
+  <a href="#fun-corner">🕹️ Fun corner</a>
+</p>
+
 ---
 
+<a id="sobre-mim"></a>
 ### 🇧🇷 Sobre mim
 
 Estudante de Ciência da Computação no 4º semestre (CEUB, conclusão prevista para dez/2028), com bom desempenho acadêmico e foco em desenvolvimento back-end.
@@ -45,6 +57,7 @@ I build full applications — from database to interface — in Python, JavaScri
 
 ---
 
+<a id="tech-stack"></a>
 ### 🛠️ Tecnologias / Tech stack
 
 <div align="center">
@@ -57,6 +70,7 @@ I build full applications — from database to interface — in Python, JavaScri
 
 ---
 
+<a id="projetos"></a>
 ### 📌 Projetos em destaque / Featured projects
 
 | Projeto | Descrição | Stack |
@@ -67,6 +81,7 @@ I build full applications — from database to interface — in Python, JavaScri
 
 ---
 
+<a id="stats"></a>
 ### 📊 Estatísticas / Stats
 
 <div align="center">
@@ -78,6 +93,7 @@ I build full applications — from database to interface — in Python, JavaScri
 
 </div>
 
+<a id="activity-graph"></a>
 ### 📈 Gráfico de atividade / Activity graph
 
 <div align="center">
