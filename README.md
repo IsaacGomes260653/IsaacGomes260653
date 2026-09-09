@@ -29,6 +29,7 @@
   <a href="#activity-graph">📈 Atividade</a> ·
   <a href="#agora">🎯 Agora</a> ·
   <a href="#aprendendo">📚 Aprendendo</a> ·
+  <a href="#3d-contrib">🧱 3D</a> ·
   <a href="#fun-corner">🕹️ Fun corner</a>
 </p>
 
@@ -154,6 +155,23 @@ I build full applications — from database to interface — in Python, JavaScri
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-pacman/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-pacman/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-pacman/pacman-contribution-graph.svg">
+</picture>
+
+</div>
+
+---
+
+<a id="3d-contrib"></a>
+### 🧱 Contribuições em 3D / 3D contributions
+
+<div align="center">
+
+<!-- Gerado pela Action yoshi389111/github-profile-3d-contrib, tambem
+     self-hosted (sem token manual), commitando no branch output-3d. -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-3d/profile-night-rainbow.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-3d/profile-green-animate.svg">
+  <img alt="grafico 3d de contribuicoes" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-3d/profile-green-animate.svg">
 </picture>
 
 </div>
