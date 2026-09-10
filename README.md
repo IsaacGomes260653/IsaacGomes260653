@@ -128,6 +128,10 @@ I build full applications — from database to interface — in Python, JavaScri
      com os outros dois, sem depender de servico hospedado externo. -->
 <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.achievements.svg" alt="achievements">
 
+<!-- Historico de linhas de codigo adicionadas/removidas, mesma Action
+     e branch dos plugins acima. -->
+<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.lines.svg" alt="lines of code">
+
 </div>
 
 <a id="activity-graph"></a>
