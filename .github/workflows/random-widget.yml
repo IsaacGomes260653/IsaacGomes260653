@@ -15,7 +15,7 @@ jobs:
       - name: pick a random widget
         id: pick
         run: |
-          widgets=("snake" "pacman" "breakout" "galaga" "puzzle-bobble" "bomberman" "minesweeper" "3d")
+          widgets=("snake" "snake-flamengo" "pacman" "breakout" "galaga" "puzzle-bobble" "bomberman" "minesweeper" "3d" "skyline")
           choice=${widgets[$RANDOM % ${#widgets[@]}]}
           echo "choice=$choice" >> "$GITHUB_OUTPUT"
           echo "Picked: $choice"
@@ -28,6 +28,10 @@ jobs:
               curl -fsSL -o out/random-widget.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/github-snake.svg"
               curl -fsSL -o out/random-widget-dark.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/github-snake-dark.svg"
               ;;
+            snake-flamengo)
+              curl -fsSL -o out/random-widget.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/github-snake-flamengo.svg"
+              curl -fsSL -o out/random-widget-dark.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/github-snake-flamengo.svg"
+              ;;
             pacman|breakout|galaga|puzzle-bobble|bomberman|minesweeper)
               curl -fsSL -o out/random-widget.svg "https://raw.githubusercontent.com/${{ github.repository }}/output-pacman/${{ steps.pick.outputs.choice }}-contribution-graph.svg"
               curl -fsSL -o out/random-widget-dark.svg "https://raw.githubusercontent.com/${{ github.repository }}/output-pacman/${{ steps.pick.outputs.choice }}-contribution-graph-dark.svg"
@@ -35,6 +39,10 @@ jobs:
             3d)
               curl -fsSL -o out/random-widget.svg "https://raw.githubusercontent.com/${{ github.repository }}/output-3d/profile-green-animate.svg"
               curl -fsSL -o out/random-widget-dark.svg "https://raw.githubusercontent.com/${{ github.repository }}/output-3d/profile-night-rainbow.svg"
+              ;;
+            skyline)
+              curl -fsSL -o out/random-widget.svg "https://raw.githubusercontent.com/${{ github.repository }}/output-metrics/metrics.plugin.skyline.svg"
+              curl -fsSL -o out/random-widget-dark.svg "https://raw.githubusercontent.com/${{ github.repository }}/output-metrics/metrics.plugin.skyline.svg"
               ;;
           esac
           echo "${{ steps.pick.outputs.choice }}" > out/CURRENT_WIDGET.txt
