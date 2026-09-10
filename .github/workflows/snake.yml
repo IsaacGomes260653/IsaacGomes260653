@@ -18,6 +18,7 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake-flamengo.svg?color_snake=%23e30613&color_dots=%230d0d0d,%233a0000,%23750000,%23b30000,%23e30613
 
       - name: Push to output branch
         uses: peaceiris/actions-gh-pages@v3
