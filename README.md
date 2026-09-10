@@ -188,18 +188,20 @@ I build full applications — from database to interface — in Python, JavaScri
 <!-- Antes essa secao, o Pac-Man e o grafico 3D apareciam cada um numa
      secao fixa propria, junto com esta aqui - ai dava a impressao de
      "tudo ao mesmo tempo" na pagina. Agora só existe esta secao: uma
-     Action sorteia um widget diferente (cobra, Pac-Man ou grafico 3D)
-     a cada ~4h e atualiza o branch output-random. As Actions que geram
-     cada widget continuam rodando nos bastidores (output, output-pacman
-     e output-3d), só a exibicao no README foi unificada aqui. -->
+     Action sorteia um widget diferente a cada ~4h (cobra, cobra tema
+     Flamengo, 6 jogos de arcade sobre o grafico de contribuicoes,
+     grafico 3D ou skyline) e atualiza o branch output-random. As
+     Actions que geram cada widget continuam rodando nos bastidores
+     (output, output-pacman, output-3d, output-metrics), só a exibicao
+     no README foi unificada aqui. -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-random/random-widget-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-random/random-widget.svg">
   <img alt="widget aleatorio" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-random/random-widget.svg">
 </picture>
 
-<sub>Muda sozinho a cada ~4h — às vezes cobra 🐍, às vezes Pac-Man 👾, às vezes o gráfico 3D 🧱<br>
-<em>Changes on its own every ~4h — sometimes snake, sometimes Pac-Man, sometimes the 3D graph</em></sub>
+<sub>Muda sozinho a cada ~4h entre 10 opções: cobra 🐍, cobra do Flamengo 🔴⚫, Pac-Man 👾, breakout, galaga, puzzle-bobble, bomberman, campo minado 💣, gráfico 3D 🧱 ou skyline 🏙️<br>
+<em>Changes on its own every ~4h among 10 options: snake, Flamengo-themed snake, Pac-Man, breakout, galaga, puzzle-bobble, bomberman, minesweeper, 3D graph, or skyline</em></sub>
 
 </div>
 
