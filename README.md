@@ -29,6 +29,7 @@
   <a href="#activity-graph">📈 Atividade</a> ·
   <a href="#agora">🎯 Agora</a> ·
   <a href="#aprendendo">📚 Aprendendo</a> ·
+  <a href="#inspiracoes">⭐ Inspirações</a> ·
   <a href="#fun-corner">🕹️ Fun corner</a>
 </p>
 
@@ -144,6 +145,19 @@ I build full applications — from database to interface — in Python, JavaScri
      um token configurado manualmente lá e parou de funcionar). A Action
      roda a cada 12h e commita o SVG atualizado no branch output-metrics. -->
 <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.isocalendar.svg" alt="activity graph">
+
+</div>
+
+---
+
+<a id="inspiracoes"></a>
+### ⭐ Inspirações / Recently starred
+
+<div align="center">
+
+<!-- Repositorios que dei estrela recentemente -- mesma Action e branch
+     dos outros plugins de metrics, mostra interesses/inspiracoes atuais. -->
+<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.stars.svg" alt="recently starred">
 
 </div>
 
