@@ -25,7 +25,6 @@
   <a href="#sobre-mim">🇧🇷 Sobre</a> ·
   <a href="#tech-stack">🛠️ Stack</a> ·
   <a href="#projetos">📌 Projetos</a> ·
-  <a href="#projetos-ao-vivo">🖥️ Ao vivo</a> ·
   <a href="#stats">📊 Stats</a> ·
   <a href="#activity-graph">📈 Atividade</a> ·
   <a href="#agora">🎯 Agora</a> ·
@@ -106,22 +105,6 @@ I build full applications — from database to interface — in Python, JavaScri
 | **[TaskFlow](https://github.com/IsaacGomes260653/Sistema-de-Gerenciamento-de-Tarefas)** | Gestão de tarefas com autenticação por sessão<br><em>Task management with session-based authentication</em> | PHP · MySQL |
 | **[Álbum da Copa](https://github.com/IsaacGomes260653/Album-da-copa)** | Álbum digital de figurinhas da Copa 2026 com 992 figurinhas, multi-álbum e listas de repetidas/faltantes · [abrir](https://isaacgomes260653.github.io/Album-da-copa/)<br><em>Digital sticker album for the 2026 World Cup with 992 stickers, multi-album support and duplicate/missing lists · [open it](https://isaacgomes260653.github.io/Album-da-copa/)</em> | JavaScript |
 | **[PlayHub](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026)** | Portal com 5 mini-jogos clássicos direto no navegador, para a Mostra de Ciências CEUB 2026 · [jogar](https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/)<br><em>Portal with 5 classic mini-games in the browser, for the CEUB 2026 Science Fair · [play it](https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/)</em> | JavaScript · PWA |
-
----
-
-<a id="projetos-ao-vivo"></a>
-### 🖥️ Projetos ao vivo / Live previews
-
-<div align="center">
-
-<!-- Screenshot automatico das demos publicadas (GitHub Pages), tirado
-     pela mesma Action lowlighter/metrics -- atualiza sozinho, mostra
-     o projeto rodando de verdade em vez de um print manual que fica
-     desatualizado. -->
-<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.screenshot.album.svg" alt="preview Album da Copa" width="46%">
-<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.screenshot.playhub.svg" alt="preview PlayHub" width="46%">
-
-</div>
 
 ---
 
