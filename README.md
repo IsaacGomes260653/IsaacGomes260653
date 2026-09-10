@@ -122,6 +122,12 @@ I build full applications — from database to interface — in Python, JavaScri
      das linguagens nos repositorios. -->
 <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.languages.svg" alt="top languages">
 
+<!-- Conquistas reais do GitHub (Pull Shark, Galaxy Brain etc.), geradas
+     pela mesma Action lowlighter/metrics que ja alimenta o grafico de
+     atividade e o top languages -- atualiza sozinha a cada 12h junto
+     com os outros dois, sem depender de servico hospedado externo. -->
+<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.achievements.svg" alt="achievements">
+
 </div>
 
 <a id="activity-graph"></a>
