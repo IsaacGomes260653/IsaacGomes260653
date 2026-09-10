@@ -99,9 +99,9 @@ I build full applications — from database to interface — in Python, JavaScri
 
 | Projeto | Descrição | Stack |
 |---------|-----------|-------|
-| **[RanchoControl](https://github.com/IsaacGomes260653/ranchocontrol)** | Sistema offline-first de controle de refeições e presença em obras<br><em>Offline-first meal and attendance tracking for construction sites</em> | JavaScript · IndexedDB |
-| **[ForgetMeNot](https://github.com/IsaacGomes260653/forgetmenot)** | Gerenciador de tarefas web com testes, CI e deploy em produção<br><em>Web task manager with tests, CI, and a production deploy</em> | Python · Flask · PostgreSQL |
-| **[TaskFlow](https://github.com/IsaacGomes260653/taskflow)** | Gestão de tarefas com autenticação por sessão<br><em>Task management with session-based authentication</em> | PHP · MySQL |
+| **[RanchoControl](https://github.com/IsaacGomes260653/Controle-de-Refeicao)** | Sistema offline-first de controle de refeições e presença em obras<br><em>Offline-first meal and attendance tracking for construction sites</em> | JavaScript · IndexedDB |
+| **[ForgetMeNot](https://github.com/IsaacGomes260653/forget_me_not)** | Gerenciador de tarefas web com testes, CI e deploy em produção<br><em>Web task manager with tests, CI, and a production deploy</em> | Python · Flask · PostgreSQL |
+| **[TaskFlow](https://github.com/IsaacGomes260653/Sistema-de-Gerenciamento-de-Tarefas)** | Gestão de tarefas com autenticação por sessão<br><em>Task management with session-based authentication</em> | PHP · MySQL |
 | **[Álbum da Copa](https://github.com/IsaacGomes260653/Album-da-copa)** | Álbum digital de figurinhas da Copa 2026 com 992 figurinhas, multi-álbum e listas de repetidas/faltantes<br><em>Digital sticker album for the 2026 World Cup with 992 stickers, multi-album support and duplicate/missing lists</em> | JavaScript |
 
 ---
