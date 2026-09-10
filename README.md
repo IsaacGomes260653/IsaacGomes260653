@@ -60,8 +60,8 @@ I build full applications — from database to interface — in Python, JavaScri
 <a id="agora"></a>
 ### 🎯 Agora / Now
 
-- 🔭 Construindo o **PlayHub**, um portal de mini-jogos para a Mostra de Ciências CEUB 2026
-  <br><em>Building **PlayHub**, a mini-games portal for the CEUB 2026 Science Fair</em>
+- 🔭 Construindo o **[PlayHub](https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/)**, um portal de mini-jogos para a Mostra de Ciências CEUB 2026 — já dá pra jogar
+  <br><em>Building **[PlayHub](https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/)**, a mini-games portal for the CEUB 2026 Science Fair — already playable</em>
 - 🛠️ Mantendo o **RanchoControl** em uso real na GONAR Engenharia
   <br><em>Keeping **RanchoControl** running in real use at GONAR Engenharia</em>
 - 🎯 Buscando meu primeiro estágio em desenvolvimento de software
@@ -102,7 +102,8 @@ I build full applications — from database to interface — in Python, JavaScri
 | **[RanchoControl](https://github.com/IsaacGomes260653/Controle-de-Refeicao)** | Sistema offline-first de controle de refeições e presença em obras<br><em>Offline-first meal and attendance tracking for construction sites</em> | JavaScript · IndexedDB |
 | **[ForgetMeNot](https://github.com/IsaacGomes260653/forget_me_not)** | Gerenciador de tarefas web com testes, CI e deploy em produção<br><em>Web task manager with tests, CI, and a production deploy</em> | Python · Flask · PostgreSQL |
 | **[TaskFlow](https://github.com/IsaacGomes260653/Sistema-de-Gerenciamento-de-Tarefas)** | Gestão de tarefas com autenticação por sessão<br><em>Task management with session-based authentication</em> | PHP · MySQL |
-| **[Álbum da Copa](https://github.com/IsaacGomes260653/Album-da-copa)** | Álbum digital de figurinhas da Copa 2026 com 992 figurinhas, multi-álbum e listas de repetidas/faltantes<br><em>Digital sticker album for the 2026 World Cup with 992 stickers, multi-album support and duplicate/missing lists</em> | JavaScript |
+| **[Álbum da Copa](https://github.com/IsaacGomes260653/Album-da-copa)** | Álbum digital de figurinhas da Copa 2026 com 992 figurinhas, multi-álbum e listas de repetidas/faltantes · [abrir](https://isaacgomes260653.github.io/Album-da-copa/)<br><em>Digital sticker album for the 2026 World Cup with 992 stickers, multi-album support and duplicate/missing lists · [open it](https://isaacgomes260653.github.io/Album-da-copa/)</em> | JavaScript |
+| **[PlayHub](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026)** | Portal com 5 mini-jogos clássicos direto no navegador, para a Mostra de Ciências CEUB 2026 · [jogar](https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/)<br><em>Portal with 5 classic mini-games in the browser, for the CEUB 2026 Science Fair · [play it](https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/)</em> | JavaScript · PWA |
 
 ---
 
