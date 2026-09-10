@@ -70,27 +70,3 @@ jobs:
           output_action: commit
           committer_branch: output-metrics
           committer_message: "chore: update fortune"
-
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_screenshot: yes
-          plugin_screenshot_title: "Álbum da Copa"
-          plugin_screenshot_url: https://isaacgomes260653.github.io/Album-da-copa/
-          filename: metrics.plugin.screenshot.album.svg
-          output_action: commit
-          committer_branch: output-metrics
-          committer_message: "chore: update album-da-copa screenshot"
-
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_screenshot: yes
-          plugin_screenshot_title: "PlayHub"
-          plugin_screenshot_url: https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/
-          filename: metrics.plugin.screenshot.playhub.svg
-          output_action: commit
-          committer_branch: output-metrics
-          committer_message: "chore: update playhub screenshot"
