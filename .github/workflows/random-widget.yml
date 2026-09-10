@@ -15,7 +15,7 @@ jobs:
       - name: pick a random widget
         id: pick
         run: |
-          widgets=("snake" "snake-flamengo" "pacman" "breakout" "galaga" "puzzle-bobble" "bomberman" "minesweeper" "3d" "skyline")
+          widgets=("snake" "snake-flamengo" "pacman" "breakout" "galaga" "puzzle-bobble" "bomberman" "minesweeper" "3d")
           choice=${widgets[$RANDOM % ${#widgets[@]}]}
           echo "choice=$choice" >> "$GITHUB_OUTPUT"
           echo "Picked: $choice"
@@ -39,10 +39,6 @@ jobs:
             3d)
               curl -fsSL -o out/random-widget.svg "https://raw.githubusercontent.com/${{ github.repository }}/output-3d/profile-green-animate.svg"
               curl -fsSL -o out/random-widget-dark.svg "https://raw.githubusercontent.com/${{ github.repository }}/output-3d/profile-night-rainbow.svg"
-              ;;
-            skyline)
-              curl -fsSL -o out/random-widget.svg "https://raw.githubusercontent.com/${{ github.repository }}/output-metrics/metrics.plugin.skyline.svg"
-              curl -fsSL -o out/random-widget-dark.svg "https://raw.githubusercontent.com/${{ github.repository }}/output-metrics/metrics.plugin.skyline.svg"
               ;;
           esac
           echo "${{ steps.pick.outputs.choice }}" > out/CURRENT_WIDGET.txt
