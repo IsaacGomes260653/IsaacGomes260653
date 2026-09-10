@@ -204,5 +204,10 @@ I build full applications — from database to interface — in Python, JavaScri
 </div>
 
 <p align="center">
+<!-- Frase aleatoria, atualizada junto com os outros plugins de metrics. -->
+<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.fortune.svg" alt="frase aleatoria">
+</p>
+
+<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4f46e5&height=100&section=footer" alt="footer">
 </p>
