@@ -55,17 +55,6 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
-          plugin_skyline: yes
-          plugin_skyline_quality: 0.5
-          filename: metrics.plugin.skyline.svg
-          output_action: commit
-          committer_branch: output-metrics
-          committer_message: "chore: update skyline"
-
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
           plugin_lines: yes
           plugin_lines_sections: history
           filename: metrics.plugin.lines.svg
