@@ -20,12 +20,11 @@ jobs:
           # cada linha: type|color-gradient|animation
           themes=(
             "waving|0:4f46e5,100:9333ea|fadeIn"
-            "venom|0:0ea5e9,100:22d3ee|scaleIn"
-            "soft|0:ec4899,100:f97316|twinkling"
-            "slice|0:10b981,100:06b6d4|fadeIn"
-            "blur|0:8b5cf6,100:ec4899|twinkling"
-            "rounded|0:3b82f6,100:6366f1|scaleIn"
-            "wave|0:f59e0b,100:ef4444|fadeIn"
+            "soft|0:3b82f6,100:6366f1|scaleIn"
+            "blur|0:6d28d9,100:4f46e5|twinkling"
+            "cylinder|0:06b6d4,100:4f46e5|fadeIn"
+            "soft|0:4338ca,100:7c3aed|twinkling"
+            "waving|0:1e3a8a,100:6366f1|fadeIn"
           )
           choice=${themes[$RANDOM % ${#themes[@]}]}
           IFS='|' read -r type color animation <<< "$choice"
