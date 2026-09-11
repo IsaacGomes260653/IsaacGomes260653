@@ -43,13 +43,43 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
-          config_display: large
           plugin_lines: yes
           plugin_lines_sections: history
           filename: metrics.plugin.lines.svg
           output_action: commit
           committer_branch: output-metrics
           committer_message: "chore: update lines of code"
+
+      - name: checkout output-metrics branch
+        uses: actions/checkout@v4
+        with:
+          ref: output-metrics
+          path: patch-repo
+
+      - name: widen diff history chart (avoid month label clipping)
+        run: |
+          cd patch-repo
+          python3 - <<'PYEOF'
+          # The lines plugin hardcodes the "Diff history" chart at width=480
+          # (source/plugins/lines/index.mjs, no config option for it), so the
+          # longest month label ("September") gets clipped by the SVG's own
+          # boundary. Widening just the canvas (not the scale, which is
+          # already baked into the path coordinates) gives the rotated
+          # label room to spill into without touching the drawn chart.
+          with open("metrics.plugin.lines.svg", encoding="utf-8") as f:
+              content = f.read()
+          content = content.replace(
+              '<svg xmlns="http://www.w3.org/2000/svg" width="480" height="315">',
+              '<svg xmlns="http://www.w3.org/2000/svg" width="640" height="315">',
+          )
+          with open("metrics.plugin.lines.svg", "w", encoding="utf-8") as f:
+              f.write(content)
+          PYEOF
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add metrics.plugin.lines.svg
+          git diff --cached --quiet || git commit -m "chore: widen diff history chart to avoid label clipping"
+          git push
 
       - uses: lowlighter/metrics@latest
         with:
