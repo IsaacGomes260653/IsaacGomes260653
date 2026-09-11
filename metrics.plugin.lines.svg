@@ -15,7 +15,7 @@
                 </h2>
                 <div class="row margin-bottom">
                     <h3 class="margin-lr-auto">Diff history</h3>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="480" height="315">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="640" height="315">
                         <g transform="translate(0,276)" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle">
                             <path class="domain" stroke="currentColor" d="M39.5,6V0.5H441.5V6"/>
                             <g class="tick" opacity="1" transform="translate(107.37012987012987,0)">
