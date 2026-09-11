@@ -192,5 +192,9 @@ I build full applications — from database to interface — in Python, JavaScri
 </div>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=4f46e5&height=100&section=footer" alt="footer">
+<!-- Rodape, mesma Action e mesmo estilo sorteado do banner do topo
+     (random-banner.yml), pra ficar sempre combinando. -->
+<!--START_SECTION:footer-->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4f46e5,100:9333ea&height=100&section=footer&animation=fadeIn" alt="footer">
+<!--END_SECTION:footer-->
 </p>

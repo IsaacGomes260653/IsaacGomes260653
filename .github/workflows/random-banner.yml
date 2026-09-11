@@ -14,37 +14,52 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: pick a random banner
+      - name: pick a random theme
         id: pick
         run: |
-          banners=(
-            "https://capsule-render.vercel.app/api?type=waving&color=0:4f46e5,100:9333ea&height=170&section=header&text=Isaac%20Gomes%20de%20Moraes&fontColor=ffffff&fontSize=38&animation=fadeIn"
-            "https://capsule-render.vercel.app/api?type=rounded&color=1e293b&height=150&section=header&text=Isaac%20Gomes%20de%20Moraes&fontColor=ffffff&fontSize=32&animation=fadeIn"
-            "https://capsule-render.vercel.app/api?type=venom&color=0:0ea5e9,100:6366f1&height=180&section=header&text=Isaac%20Gomes%20de%20Moraes&fontColor=ffffff&fontSize=36&animation=fadeIn"
-            "https://capsule-render.vercel.app/api?type=soft&color=0:6366f1,100:4f46e5&height=160&section=header&text=Isaac%20Gomes%20de%20Moraes&fontColor=ffffff&fontSize=34&animation=twinkling"
-            "https://capsule-render.vercel.app/api?type=slice&color=0:4f46e5,100:9333ea&height=170&section=header&text=Isaac%20Gomes%20de%20Moraes&fontColor=ffffff&fontSize=36&animation=fadeIn"
-            "https://capsule-render.vercel.app/api?type=blur&color=0:312e81,100:6d28d9&height=170&section=header&text=Isaac%20Gomes%20de%20Moraes&fontColor=ffffff&fontSize=36&animation=fadeIn"
+          # cada linha: type|color-gradient|animation
+          themes=(
+            "waving|0:4f46e5,100:9333ea|fadeIn"
+            "venom|0:0ea5e9,100:22d3ee|scaleIn"
+            "soft|0:ec4899,100:f97316|twinkling"
+            "slice|0:10b981,100:06b6d4|fadeIn"
+            "blur|0:8b5cf6,100:ec4899|twinkling"
+            "rounded|0:3b82f6,100:6366f1|scaleIn"
+            "wave|0:f59e0b,100:ef4444|fadeIn"
           )
-          choice=${banners[$RANDOM % ${#banners[@]}]}
-          echo "url=$choice" >> "$GITHUB_OUTPUT"
-          echo "Picked: $choice"
+          choice=${themes[$RANDOM % ${#themes[@]}]}
+          IFS='|' read -r type color animation <<< "$choice"
 
-      - name: update README banner
+          header_url="https://capsule-render.vercel.app/api?type=${type}&color=${color}&height=170&section=header&text=Isaac%20Gomes%20de%20Moraes&fontColor=ffffff&fontSize=38&animation=${animation}"
+          footer_url="https://capsule-render.vercel.app/api?type=${type}&color=${color}&height=100&section=footer&animation=${animation}"
+
+          echo "header_url=$header_url" >> "$GITHUB_OUTPUT"
+          echo "footer_url=$footer_url" >> "$GITHUB_OUTPUT"
+          echo "Picked: $type / $color / $animation"
+
+      - name: update README banner and footer
         env:
-          BANNER_URL: ${{ steps.pick.outputs.url }}
+          HEADER_URL: ${{ steps.pick.outputs.header_url }}
+          FOOTER_URL: ${{ steps.pick.outputs.footer_url }}
         run: |
           python3 - <<'PYEOF'
           import os, re
 
-          url = os.environ["BANNER_URL"]
-          new_tag = f'<img src="{url}" alt="header">'
+          header_tag = f'<img src="{os.environ["HEADER_URL"]}" alt="header">'
+          footer_tag = f'<img src="{os.environ["FOOTER_URL"]}" alt="footer">'
 
           with open("README.md", encoding="utf-8") as f:
               content = f.read()
 
           content = re.sub(
               r'(<!--START_SECTION:banner-->\n).*?(\n<!--END_SECTION:banner-->)',
-              lambda m: m.group(1) + new_tag + m.group(2),
+              lambda m: m.group(1) + header_tag + m.group(2),
+              content,
+              flags=re.S,
+          )
+          content = re.sub(
+              r'(<!--START_SECTION:footer-->\n).*?(\n<!--END_SECTION:footer-->)',
+              lambda m: m.group(1) + footer_tag + m.group(2),
               content,
               flags=re.S,
           )
