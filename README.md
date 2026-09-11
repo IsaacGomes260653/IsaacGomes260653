@@ -1,5 +1,10 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=4f46e5&height=170&section=header&text=Isaac%20Gomes%20de%20Moraes&fontColor=ffffff&fontSize=38&animation=fadeIn" alt="header">
+<!-- Banner gerado via capsule-render. Uma Action (random-banner.yml) sorteia
+     uma combinacao de estilo/cor a cada 12h de uma lista curada e reescreve
+     a linha abaixo direto no README, mesmo padrao usado no fun corner. -->
+<!--START_SECTION:banner-->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4f46e5,100:9333ea&height=170&section=header&text=Isaac%20Gomes%20de%20Moraes&fontColor=ffffff&fontSize=38&animation=fadeIn" alt="header">
+<!--END_SECTION:banner-->
 </p>
 
 <p align="center">
@@ -185,11 +190,6 @@ I build full applications — from database to interface — in Python, JavaScri
 <em>Changes on its own every ~4h among 9 options: snake, Flamengo-themed snake, Pac-Man, breakout, galaga, puzzle-bobble, bomberman, minesweeper, or 3D graph</em></sub>
 
 </div>
-
-<p align="center">
-<!-- Frase aleatoria, atualizada junto com os outros plugins de metrics. -->
-<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.fortune.svg" alt="frase aleatoria">
-</p>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=4f46e5&height=100&section=footer" alt="footer">
