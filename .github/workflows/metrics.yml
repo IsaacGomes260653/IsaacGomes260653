@@ -70,6 +70,15 @@ jobs:
           # nested/root SVGs clip to their own width by default, so the
           # outer one clips the inner one's extra room right back off if
           # left untouched.
+          #
+          # Widening alone leaves the chart flush against the left edge
+          # (its own d3 layout was computed for a 480-wide box, so the
+          # extra room only appears on the right) -- looks off-center.
+          # The template already has a ".margin-lr-auto" class (used on
+          # the "Diff history" <h3> in the same flex row) that centers a
+          # flex child via auto side margins; reusing it on the chart's
+          # <svg> centers it the same way instead of leaving it pinned
+          # to the left.
           with open("metrics.plugin.lines.svg", encoding="utf-8") as f:
               content = f.read()
 
@@ -81,7 +90,7 @@ jobs:
           )
           content, n_inner = re.subn(
               r'<svg xmlns="http://www\.w3\.org/2000/svg" width="480" height="315">',
-              '<svg xmlns="http://www.w3.org/2000/svg" width="640" height="315">',
+              '<svg xmlns="http://www.w3.org/2000/svg" width="640" height="315" class="margin-lr-auto">',
               content,
           )
           assert n_outer == 1, f"outer card svg width tag not found/patched ({n_outer} matches)"
