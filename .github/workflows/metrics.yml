@@ -60,18 +60,33 @@ jobs:
         run: |
           cd patch-repo
           python3 - <<'PYEOF'
+          import re
+
           # The lines plugin hardcodes the "Diff history" chart at width=480
           # (source/plugins/lines/index.mjs, no config option for it), so the
-          # longest month label ("September") gets clipped by the SVG's own
-          # boundary. Widening just the canvas (not the scale, which is
-          # already baked into the path coordinates) gives the rotated
-          # label room to spill into without touching the drawn chart.
+          # longest month label ("September") gets clipped. Two boundaries
+          # need widening, not just one: the inner chart <svg> (its own
+          # canvas) AND the outer card <svg> that wraps the whole file --
+          # nested/root SVGs clip to their own width by default, so the
+          # outer one clips the inner one's extra room right back off if
+          # left untouched.
           with open("metrics.plugin.lines.svg", encoding="utf-8") as f:
               content = f.read()
-          content = content.replace(
-              '<svg xmlns="http://www.w3.org/2000/svg" width="480" height="315">',
-              '<svg xmlns="http://www.w3.org/2000/svg" width="640" height="315">',
+
+          content, n_outer = re.subn(
+              r'(<svg xmlns="http://www\.w3\.org/2000/svg" width=")480(" height="\d+" class="[^"]*">)',
+              r'\g<1>680\g<2>',
+              content,
+              count=1,
           )
+          content, n_inner = re.subn(
+              r'<svg xmlns="http://www\.w3\.org/2000/svg" width="480" height="315">',
+              '<svg xmlns="http://www.w3.org/2000/svg" width="640" height="315">',
+              content,
+          )
+          assert n_outer == 1, f"outer card svg width tag not found/patched ({n_outer} matches)"
+          assert n_inner == 1, f"inner chart svg width tag not found/patched ({n_inner} matches)"
+
           with open("metrics.plugin.lines.svg", "w", encoding="utf-8") as f:
               f.write(content)
           PYEOF
