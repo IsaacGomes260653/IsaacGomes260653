@@ -60,13 +60,3 @@ jobs:
           output_action: commit
           committer_branch: output-metrics
           committer_message: "chore: update recently starred"
-
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_fortune: yes
-          filename: metrics.plugin.fortune.svg
-          output_action: commit
-          committer_branch: output-metrics
-          committer_message: "chore: update fortune"

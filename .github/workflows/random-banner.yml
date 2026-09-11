@@ -1,0 +1,62 @@
+name: randomize banner
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  randomize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: pick a random banner
+        id: pick
+        run: |
+          banners=(
+            "https://capsule-render.vercel.app/api?type=waving&color=0:4f46e5,100:9333ea&height=170&section=header&text=Isaac%20Gomes%20de%20Moraes&fontColor=ffffff&fontSize=38&animation=fadeIn"
+            "https://capsule-render.vercel.app/api?type=rounded&color=1e293b&height=150&section=header&text=Isaac%20Gomes%20de%20Moraes&fontColor=ffffff&fontSize=32&animation=fadeIn"
+            "https://capsule-render.vercel.app/api?type=venom&color=0:0ea5e9,100:6366f1&height=180&section=header&text=Isaac%20Gomes%20de%20Moraes&fontColor=ffffff&fontSize=36&animation=fadeIn"
+            "https://capsule-render.vercel.app/api?type=soft&color=0:6366f1,100:4f46e5&height=160&section=header&text=Isaac%20Gomes%20de%20Moraes&fontColor=ffffff&fontSize=34&animation=twinkling"
+            "https://capsule-render.vercel.app/api?type=slice&color=0:4f46e5,100:9333ea&height=170&section=header&text=Isaac%20Gomes%20de%20Moraes&fontColor=ffffff&fontSize=36&animation=fadeIn"
+            "https://capsule-render.vercel.app/api?type=blur&color=0:312e81,100:6d28d9&height=170&section=header&text=Isaac%20Gomes%20de%20Moraes&fontColor=ffffff&fontSize=36&animation=fadeIn"
+          )
+          choice=${banners[$RANDOM % ${#banners[@]}]}
+          echo "url=$choice" >> "$GITHUB_OUTPUT"
+          echo "Picked: $choice"
+
+      - name: update README banner
+        env:
+          BANNER_URL: ${{ steps.pick.outputs.url }}
+        run: |
+          python3 - <<'PYEOF'
+          import os, re
+
+          url = os.environ["BANNER_URL"]
+          new_tag = f'<img src="{url}" alt="header">'
+
+          with open("README.md", encoding="utf-8") as f:
+              content = f.read()
+
+          content = re.sub(
+              r'(<!--START_SECTION:banner-->\n).*?(\n<!--END_SECTION:banner-->)',
+              lambda m: m.group(1) + new_tag + m.group(2),
+              content,
+              flags=re.S,
+          )
+
+          with open("README.md", "w", encoding="utf-8") as f:
+              f.write(content)
+          PYEOF
+
+      - name: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: rotate banner"
+          git push
