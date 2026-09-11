@@ -43,6 +43,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
+          config_display: large
           plugin_lines: yes
           plugin_lines_sections: history
           filename: metrics.plugin.lines.svg
