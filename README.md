@@ -3,7 +3,7 @@
      uma combinacao de estilo/cor a cada 12h de uma lista curada e reescreve
      a linha abaixo direto no README, mesmo padrao usado no fun corner. -->
 <!--START_SECTION:banner-->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4f46e5,100:9333ea&height=170&section=header&text=Isaac%20Gomes%20de%20Moraes&fontColor=ffffff&fontSize=38&animation=fadeIn" alt="header">
+<img src="https://capsule-render.vercel.app/api?type=slice&color=0:4f46e5,100:9333ea&height=170&section=header&text=Isaac%20Gomes%20de%20Moraes&fontColor=ffffff&fontSize=36&animation=fadeIn" alt="header">
 <!--END_SECTION:banner-->
 </p>
 
