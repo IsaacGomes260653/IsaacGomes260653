@@ -3,7 +3,7 @@
      uma combinacao de estilo/cor a cada 12h de uma lista curada e reescreve
      a linha abaixo direto no README, mesmo padrao usado no fun corner. -->
 <!--START_SECTION:banner-->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,100:6366f1&height=170&section=header&text=Isaac%20Gomes%20de%20Moraes&fontColor=ffffff&fontSize=38&animation=fadeIn" alt="header">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,100:4f46e5&height=170&section=header&text=Isaac%20Gomes%20de%20Moraes&fontColor=ffffff&fontSize=38&animation=fadeIn" alt="header">
 <!--END_SECTION:banner-->
 </p>
 
@@ -195,6 +195,6 @@ I build full applications — from database to interface — in Python, JavaScri
 <!-- Rodape, mesma Action e mesmo estilo sorteado do banner do topo
      (random-banner.yml), pra ficar sempre combinando. -->
 <!--START_SECTION:footer-->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,100:6366f1&height=100&section=footer&animation=fadeIn" alt="footer">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,100:4f46e5&height=100&section=footer&animation=fadeIn" alt="footer">
 <!--END_SECTION:footer-->
 </p>
