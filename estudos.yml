@@ -1,0 +1,71 @@
+# ─────────────────────────────────────────────────────────────────────
+#  O QUE ESTOU ESTUDANDO AGORA
+#
+#  Edite este arquivo e faça commit. O README se atualiza sozinho em
+#  cerca de 1 minuto (workflow .github/workflows/painel-estudos.yml).
+#  A data de "atualizado em" é a do último commit neste arquivo.
+#
+#  Campos de cada item:
+#    trilha       (opcional) agrupa itens seguidos sob um mesmo título
+#    nome         o que você está estudando
+#    plataforma   onde: Alura, Udemy, YouTube, documentação oficial...
+#    status       estudando | pausado | retomando | concluido
+#    progresso    número de 0 a 100, sem o símbolo %
+#    proximo      próximo passo, numa frase curta
+#    certificado  link do certificado; deixe vazio se não tiver
+#
+#  Onde estiver PREENCHER, troque pelo valor real. Enquanto estiver
+#  PREENCHER, o painel mostra [PREENCHER] no lugar.
+#
+#  Para adicionar um estudo novo, copie um bloco inteiro (do "- nome"
+#  até o "certificado") e cole no fim da lista.
+# ─────────────────────────────────────────────────────────────────────
+
+estudos:
+  - trilha: Dart e Flutter · preparação para a ília
+    nome: Lógica e sintaxe em Dart
+    plataforma: PREENCHER
+    status: PREENCHER
+    progresso: PREENCHER
+    proximo: PREENCHER
+    certificado:
+
+  - trilha: Dart e Flutter · preparação para a ília
+    nome: Programação orientada a objetos (POO)
+    plataforma: PREENCHER
+    status: PREENCHER
+    progresso: PREENCHER
+    proximo: PREENCHER
+    certificado:
+
+  - trilha: Dart e Flutter · preparação para a ília
+    nome: Projeto prático
+    plataforma: PREENCHER
+    status: PREENCHER
+    progresso: PREENCHER
+    proximo: PREENCHER
+    certificado:
+
+  - trilha: Dart e Flutter · preparação para a ília
+    nome: Git e GitHub
+    plataforma: PREENCHER
+    status: PREENCHER
+    progresso: PREENCHER
+    proximo: PREENCHER
+    certificado:
+
+  - trilha: Dart e Flutter · preparação para a ília
+    nome: Flutter
+    plataforma: PREENCHER
+    status: PREENCHER
+    progresso: PREENCHER
+    proximo: PREENCHER
+    certificado:
+
+  - trilha: Dados
+    nome: PREENCHER (nome do curso de Databricks)
+    plataforma: PREENCHER
+    status: retomando
+    progresso: PREENCHER
+    proximo: PREENCHER
+    certificado:
