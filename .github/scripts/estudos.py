@@ -121,5 +121,8 @@ if __name__ == "__main__":
     estudos = json.load(sys.stdin)["estudos"]
     with open("README.md", encoding="utf-8") as f:
         readme = f.read()
+    # Monta tudo antes de abrir para escrita: se faltar um marcador, o
+    # README fica intacto em vez de ser apagado.
+    novo = substitui(readme, painel(estudos, data_do_estudos()))
     with open("README.md", "w", encoding="utf-8", newline="\n") as f:
-        f.write(substitui(readme, painel(estudos, data_do_estudos())))
+        f.write(novo)
