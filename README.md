@@ -15,8 +15,8 @@
 </p>
 
 <p align="center">
-  Estudante de Ciência da Computação (CEUB) · Desenvolvedor de Software<br>
-  <em>Computer Science student · Software Developer — Brasília, Brazil</em>
+  Estudante de Ciência da Computação (UniCEUB) · Desenvolvedor de Software · Brasília, DF<br>
+  <em>Computer Science student · Software Developer · Brasília, Brazil</em>
 </p>
 
 <p align="center">
