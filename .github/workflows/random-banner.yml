@@ -8,9 +8,15 @@ on:
 permissions:
   contents: write
 
+# Mesmo grupo do painel-estudos.yml: os dois reescrevem o README no main.
+concurrency:
+  group: readme-main
+  cancel-in-progress: false
+
 jobs:
   randomize:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
 
@@ -75,5 +81,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git diff --cached --quiet || git commit -m "chore: rotate banner"
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: rotate banner"
+          git pull --rebase
           git push
