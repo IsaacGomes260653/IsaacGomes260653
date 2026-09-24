@@ -92,21 +92,20 @@ def onde(links):
 
 
 def rotulo_curto(etapa):
-    """ "1 · Lógica" em cima e "Logic" embaixo: em duas linhas o nó fica com
-    metade da largura, e as 8 etapas cabem lado a lado sem encolher o texto."""
+    """Número, português e inglês, um por linha. O visualizador de Mermaid do
+    GitHub mostra o diagrama em tamanho natural (não encolhe para caber), e em
+    três linhas as 8 etapas ficam com ~710px, dentro dos ~830px do README."""
     titulo = etapa.get("titulo") or {}
     pt, en = CURTOS.get(texto(titulo.get("pt")), (titulo.get("pt"), titulo.get("en")))
     pt, en = texto(pt), texto(en)
-    linhas = [" · ".join(filter(None, [texto(etapa.get("numero")), pt]))]
-    if en and en != pt:
-        linhas.append(en)
-    return "<br>".join(linhas).replace('"', "#quot;")
+    linhas = [texto(etapa.get("numero")), pt, en if en != pt else ""]
+    return "<br>".join(filter(None, linhas)).replace('"', "#quot;")
 
 
 def diagrama(trilha, etapas):
     linhas = [
         "```mermaid",
-        '%%{init: {"flowchart": {"rankSpacing": 20, "nodeSpacing": 20, "padding": 10, "diagramPadding": 8}}}%%',
+        '%%{init: {"flowchart": {"rankSpacing": 15, "nodeSpacing": 20, "padding": 6, "diagramPadding": 8}}}%%',
         "flowchart LR",
     ]
     titulo = junta(trilha.get("titulo"), " · ")
@@ -198,9 +197,9 @@ def teste():
     assert md.splitlines()[3] == " · ".join(STATUS.values())
     assert "#### Trilha · Track" in md and "#### Dados · Data" in md
     assert "flowchart LR" in md
-    assert 'e1["1 · Lógica<br>Logic"]:::estudando' in md          # apelido curto, EN na 2ª linha
-    assert 'e2["2 · Tópico novo<br>New topic"]:::a_comecar' in md  # sem apelido: título completo
-    assert 'e3["3 · Sem status"]\n' in md                         # sem status: sem cor
+    assert 'e1["1<br>Lógica<br>Logic"]:::estudando' in md         # apelido curto: número, PT e EN
+    assert 'e2["2<br>Tópico novo<br>New topic"]:::a_comecar' in md  # sem apelido: título completo
+    assert 'e3["3<br>Sem status"]\n' in md                        # sem status: sem cor
     assert "e1 --> e2 --> e3" in md
     assert "classDef estudando fill:#4f46e5" in md
     assert "classDef pausado" not in md                           # Databricks fica fora do diagrama
