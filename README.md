@@ -197,22 +197,24 @@ Comecei o curso, mas pausei para focar na preparação para o novo emprego. Volt
 
 #### 🍽️ RanchoControl
 
-Substitui as planilhas de controle de refeições e presença nas obras da GONAR: funciona offline e exporta para Excel.
+Substitui as planilhas de controle de refeições e presença nas obras da GONAR: funciona offline e exporta para Excel.<br>
+<em>Replaces the meal and attendance spreadsheets on GONAR's construction sites: works offline and exports to Excel.</em>
 
 <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-4f46e5?style=flat-square&logo=javascript&logoColor=white"> <img alt="IndexedDB" src="https://img.shields.io/badge/IndexedDB-4f46e5?style=flat-square">
 
-[Repositório](https://github.com/IsaacGomes260653/Controle-de-Refeicao) · <sub>uso interno, sem demo pública</sub>
+[Repositório / Repository](https://github.com/IsaacGomes260653/Controle-de-Refeicao) · <sub>uso interno, sem demo pública / internal use, no public demo</sub>
 
 </td>
 <td width="50%" valign="top">
 
 #### ✅ ForgetMeNot
 
-Gerenciador de tarefas com integração a uma API pública, testes, CI/CD e deploy no Render.
+Gerenciador de tarefas com integração a uma API pública, testes, CI/CD e deploy no Render.<br>
+<em>Task manager with public API integration, tests, CI/CD, and a deploy on Render.</em>
 
 <img alt="Python" src="https://img.shields.io/badge/Python-4f46e5?style=flat-square&logo=python&logoColor=white"> <img alt="Flask" src="https://img.shields.io/badge/Flask-4f46e5?style=flat-square&logo=flask&logoColor=white"> <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4f46e5?style=flat-square&logo=postgresql&logoColor=white"> <img alt="Supabase" src="https://img.shields.io/badge/Supabase-4f46e5?style=flat-square&logo=supabase&logoColor=white">
 
-[Repositório](https://github.com/IsaacGomes260653/forget_me_not) · [Demo](https://forget-me-not-z9hy.onrender.com) <sub>(pode levar ~40s para acordar)</sub>
+[Repositório / Repository](https://github.com/IsaacGomes260653/forget_me_not) · [Demo](https://forget-me-not-z9hy.onrender.com) <sub>(pode levar ~40s para acordar / may take ~40s to wake up)</sub>
 
 </td>
 </tr>
@@ -221,22 +223,24 @@ Gerenciador de tarefas com integração a uma API pública, testes, CI/CD e depl
 
 #### 🗂️ TaskFlow
 
-CRUD de tarefas com login e controle de acesso por sessão.
+CRUD de tarefas com login e controle de acesso por sessão.<br>
+<em>Task CRUD with login and session-based access control.</em>
 
 <img alt="PHP" src="https://img.shields.io/badge/PHP-4f46e5?style=flat-square&logo=php&logoColor=white"> <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4f46e5?style=flat-square&logo=mysql&logoColor=white">
 
-[Repositório](https://github.com/IsaacGomes260653/Sistema-de-Gerenciamento-de-Tarefas)
+[Repositório / Repository](https://github.com/IsaacGomes260653/Sistema-de-Gerenciamento-de-Tarefas)
 
 </td>
 <td width="50%" valign="top">
 
 #### 🐾 Íris Pet Spa
 
-Site imersivo de rolagem para um pet spa fictício, com 12 seções animadas e bolhas de sabão em WebGL.
+Site imersivo de rolagem para um pet spa fictício, com 12 seções animadas e bolhas de sabão em WebGL.<br>
+<em>Immersive scroll site for a fictional pet spa, with 12 animated sections and WebGL soap bubbles.</em>
 
 <img alt="Next.js" src="https://img.shields.io/badge/Next.js-4f46e5?style=flat-square&logo=nextdotjs&logoColor=white"> <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-4f46e5?style=flat-square&logo=typescript&logoColor=white"> <img alt="GSAP" src="https://img.shields.io/badge/GSAP-4f46e5?style=flat-square&logo=greensock&logoColor=white"> <img alt="Three.js" src="https://img.shields.io/badge/Three.js-4f46e5?style=flat-square&logo=threedotjs&logoColor=white">
 
-Repositório [PREENCHER] · Demo [PREENCHER]
+Repositório / Repository [PREENCHER] · Demo [PREENCHER]
 
 </td>
 </tr>
