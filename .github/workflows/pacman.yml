@@ -23,9 +23,9 @@ jobs:
           games: 'pacman,breakout,galaga,puzzle-bobble,bomberman,minesweeper'
 
       - name: push to the output-pacman branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4.1.0
         with:
-          target_branch: output-pacman
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: dist
+          publish_branch: output-pacman
+          force_orphan: true
