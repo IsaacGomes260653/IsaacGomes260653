@@ -51,6 +51,11 @@ Na **GONAR Engenharia Civil** sou assistente administrativo e crio as ferramenta
 Gosto de construir a aplicação inteira, do banco de dados à interface, com testes e deploy.\
 Português nativo · inglês avançado (Casa Thomas Jefferson).
 
+<em>Computer Science student at <b>UniCEUB</b> in Brasília, Brazil, graduating in Dec 2028.<br>
+At <b>GONAR Engenharia Civil</b> I'm an administrative assistant and I build the software tools that solve the company's real problems, like <b>RanchoControl</b>.<br>
+I like building the whole application, from the database to the interface, with tests and deploy.<br>
+Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
+
 ---
 
 <a id="agora"></a>
