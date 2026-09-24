@@ -53,8 +53,8 @@ jobs:
           python3 - <<'PYEOF'
           import os, re
 
-          header_tag = f'<img src="{os.environ["HEADER_URL"]}" alt="Banner em ondas com o nome Isaac Gomes de Moraes">'
-          footer_tag = f'<img src="{os.environ["FOOTER_URL"]}" alt="Rodapé decorativo em ondas">'
+          header_tag = f'<img src="{os.environ["HEADER_URL"]}" alt="Banner em ondas com o nome Isaac Gomes de Moraes / Wave banner with the name Isaac Gomes de Moraes">'
+          footer_tag = f'<img src="{os.environ["FOOTER_URL"]}" alt="Rodapé decorativo em ondas / Decorative wave footer">'
 
           with open("README.md", encoding="utf-8") as f:
               content = f.read()

@@ -3,7 +3,7 @@
      uma combinacao de estilo/cor a cada 12h de uma lista curada e reescreve
      a linha abaixo direto no README, mesmo padrao usado no fun corner. -->
 <!--START_SECTION:banner-->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6d28d9,100:4f46e5&height=170&section=header&text=Isaac%20Gomes%20de%20Moraes&fontColor=ffffff&fontSize=38&animation=twinkling" alt="Banner em ondas com o nome Isaac Gomes de Moraes">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6d28d9,100:4f46e5&height=170&section=header&text=Isaac%20Gomes%20de%20Moraes&fontColor=ffffff&fontSize=38&animation=twinkling" alt="Banner em ondas com o nome Isaac Gomes de Moraes / Wave banner with the name Isaac Gomes de Moraes">
 <!--END_SECTION:banner-->
 </p>
 
@@ -302,11 +302,11 @@ Repositório / Repository [PREENCHER] · Demo [PREENCHER]
      depender da instancia publica na Vercel. -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats/github_dark/3-stats.svg">
-  <img alt="Estatísticas do GitHub: estrelas, commits, pull requests, issues e repositórios em que contribuí" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats/github/3-stats.svg">
+  <img alt="Estatísticas do GitHub: estrelas, commits, pull requests, issues e repositórios em que contribuí / GitHub stats: stars, commits, pull requests, issues and repositories contributed to" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats/github/3-stats.svg">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=IsaacGomes260653&theme=dark&hide_border=true&background=00000000&ring=6366F1&fire=6366F1&currStreakLabel=818CF8">
-  <img alt="Sequência de contribuições: total, sequência atual e maior sequência" src="https://streak-stats.demolab.com?user=IsaacGomes260653&hide_border=true&background=FFFFFF00&ring=4F46E5&fire=4F46E5&currStreakLabel=4F46E5">
+  <img alt="Sequência de contribuições: total, sequência atual e maior sequência / Contribution streak: total, current and longest streak" src="https://streak-stats.demolab.com?user=IsaacGomes260653&hide_border=true&background=FFFFFF00&ring=4F46E5&fire=4F46E5&currStreakLabel=4F46E5">
 </picture>
 
 <!-- Trocado pelo mesmo motivo do grafico de atividade: o card antigo
@@ -314,11 +314,11 @@ Repositório / Repository [PREENCHER] · Demo [PREENCHER]
      por causa do cache dele. Este e gerado pela nossa propria Action
      lowlighter/metrics a cada 12h, direto a partir do byte-size real
      das linguagens nos repositorios. -->
-<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.languages.svg" alt="Linguagens mais usadas nos meus repositórios, por tamanho de código">
+<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.languages.svg" alt="Linguagens mais usadas nos meus repositórios, por tamanho de código / Most used languages in my repositories, by code size">
 
 <!-- Historico de linhas de codigo adicionadas/removidas, mesma Action
      e branch dos plugins acima. -->
-<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.lines.svg" alt="Histórico de linhas de código adicionadas e removidas por mês">
+<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.lines.svg" alt="Histórico de linhas de código adicionadas e removidas por mês / Lines of code added and removed per month">
 
 </div>
 
@@ -331,7 +331,7 @@ Repositório / Repository [PREENCHER] · Demo [PREENCHER]
      nenhum serviço externo hospedado (a instância antiga na Vercel exigia
      um token configurado manualmente lá e parou de funcionar). A Action
      roda a cada 12h e commita o SVG atualizado no branch output-metrics. -->
-<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.isocalendar.svg" alt="Calendário isométrico das contribuições no último ano">
+<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.isocalendar.svg" alt="Calendário isométrico das contribuições no último ano / Isometric calendar of contributions over the last year">
 
 </div>
 
@@ -344,7 +344,7 @@ Repositório / Repository [PREENCHER] · Demo [PREENCHER]
 
 <!-- Repositorios que dei estrela recentemente -- mesma Action e branch
      dos outros plugins de metrics, mostra interesses/inspiracoes atuais. -->
-<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.stars.svg" alt="Repositórios que marquei com estrela recentemente">
+<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.stars.svg" alt="Repositórios que marquei com estrela recentemente / Repositories I starred recently">
 
 </div>
 
@@ -371,7 +371,7 @@ Repositório / Repository [PREENCHER] · Demo [PREENCHER]
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-random/random-widget-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-random/random-widget.svg">
-  <img alt="Widget sorteado do dia: animação sobre o gráfico de contribuições" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-random/random-widget.svg">
+  <img alt="Widget sorteado do dia: animação sobre o gráfico de contribuições / Widget of the day: an animation over the contributions graph" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-random/random-widget.svg">
 </picture>
 
 <sub>Muda sozinho a cada ~4h entre 10 opções: cobra 🐍, cobra do Flamengo 🔴⚫, cobra índigo 💜, Pac-Man 👾, breakout, galaga, puzzle-bobble, bomberman, campo minado 💣 ou gráfico 3D 🧱<br>
@@ -385,14 +385,14 @@ Repositório / Repository [PREENCHER] · Demo [PREENCHER]
 ### 📬 Contato · Contact
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/isaac-gomes-de-moraes-107198365/"><img alt="LinkedIn de Isaac Gomes de Moraes" src="https://img.shields.io/badge/LinkedIn-4f46e5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:isaacgm260653@gmail.com"><img alt="Enviar e-mail para Isaac" src="https://img.shields.io/badge/E--mail-4f46e5?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/isaac-gomes-de-moraes-107198365/"><img alt="LinkedIn de Isaac Gomes de Moraes / Isaac Gomes de Moraes on LinkedIn" src="https://img.shields.io/badge/LinkedIn-4f46e5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:isaacgm260653@gmail.com"><img alt="Enviar e-mail para Isaac / Send Isaac an e-mail" src="https://img.shields.io/badge/E--mail-4f46e5?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
 
 <p align="center">
 <!-- Rodape, mesma Action e mesmo estilo sorteado do banner do topo
      (random-banner.yml), pra ficar sempre combinando. -->
 <!--START_SECTION:footer-->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6d28d9,100:4f46e5&height=100&section=footer&animation=twinkling" alt="Rodapé decorativo em ondas">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6d28d9,100:4f46e5&height=100&section=footer&animation=twinkling" alt="Rodapé decorativo em ondas / Decorative wave footer">
 <!--END_SECTION:footer-->
 </p>
