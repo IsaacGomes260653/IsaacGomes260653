@@ -180,6 +180,11 @@ Repositório [PREENCHER] · Demo [PREENCHER]
 </tr>
 </table>
 
+**Mais projetos**
+
+- **[Álbum da Copa](https://github.com/IsaacGomes260653/Album-da-copa)**: álbum digital de figurinhas da Copa 2026 com as 992 figurinhas, multi-álbum e listas de repetidas e faltantes · [abrir](https://isaacgomes260653.github.io/Album-da-copa/)
+- **[PlayHub](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026)**: portal com 5 mini-jogos clássicos direto no navegador, para a Mostra de Ciências CEUB 2026 · [jogar](https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/)
+
 ---
 
 <a id="stats"></a>
