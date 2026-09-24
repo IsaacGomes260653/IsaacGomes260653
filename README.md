@@ -99,33 +99,6 @@ Português nativo · inglês avançado (Casa Thomas Jefferson).
 
 ---
 
-<a id="tech-stack"></a>
-### 🛠️ Tecnologias
-
-<p align="center"><b>Uso</b></p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,js,ts,php,java,cpp,html,css,flask,nextjs,postgres,supabase,mysql,git,github,vscode&theme=dark&perline=8">
-    <img alt="Python, JavaScript, TypeScript, PHP, Java, C++, HTML, CSS, Flask, Next.js, PostgreSQL, Supabase, MySQL, Git, GitHub e VS Code" src="https://skillicons.dev/icons?i=python,js,ts,php,java,cpp,html,css,flask,nextjs,postgres,supabase,mysql,git,github,vscode&theme=light&perline=8">
-  </picture>
-  <br>
-  <img alt="Claude Code" src="https://img.shields.io/badge/Claude_Code-4f46e5?style=flat-square&logo=claude&logoColor=white">
-</p>
-
-<p align="center"><b>Aprendendo</b></p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=dart,flutter&theme=dark">
-    <img alt="Dart e Flutter" src="https://skillicons.dev/icons?i=dart,flutter&theme=light">
-  </picture>
-  <br>
-  <img alt="Databricks" src="https://img.shields.io/badge/Databricks-4f46e5?style=flat-square&logo=databricks&logoColor=white">
-</p>
-
----
-
 <a id="projetos"></a>
 ### 📌 Projetos em destaque
 
@@ -184,6 +157,33 @@ Repositório [PREENCHER] · Demo [PREENCHER]
 
 - **[Álbum da Copa](https://github.com/IsaacGomes260653/Album-da-copa)**: álbum digital de figurinhas da Copa 2026 com as 992 figurinhas, multi-álbum e listas de repetidas e faltantes · [abrir](https://isaacgomes260653.github.io/Album-da-copa/)
 - **[PlayHub](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026)**: portal com 5 mini-jogos clássicos direto no navegador, para a Mostra de Ciências CEUB 2026 · [jogar](https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/)
+
+---
+
+<a id="tech-stack"></a>
+### 🛠️ Tecnologias
+
+<p align="center"><b>Uso</b></p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,js,ts,php,java,cpp,html,css,flask,nextjs,postgres,supabase,mysql,git,github,vscode&theme=dark&perline=8">
+    <img alt="Python, JavaScript, TypeScript, PHP, Java, C++, HTML, CSS, Flask, Next.js, PostgreSQL, Supabase, MySQL, Git, GitHub e VS Code" src="https://skillicons.dev/icons?i=python,js,ts,php,java,cpp,html,css,flask,nextjs,postgres,supabase,mysql,git,github,vscode&theme=light&perline=8">
+  </picture>
+  <br>
+  <img alt="Claude Code" src="https://img.shields.io/badge/Claude_Code-4f46e5?style=flat-square&logo=claude&logoColor=white">
+</p>
+
+<p align="center"><b>Aprendendo</b></p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=dart,flutter&theme=dark">
+    <img alt="Dart e Flutter" src="https://skillicons.dev/icons?i=dart,flutter&theme=light">
+  </picture>
+  <br>
+  <img alt="Databricks" src="https://img.shields.io/badge/Databricks-4f46e5?style=flat-square&logo=databricks&logoColor=white">
+</p>
 
 ---
 
