@@ -1,0 +1,40 @@
+name: generate summary cards
+
+# Gera o card de estatísticas aqui mesmo, em vez de depender da instância
+# pública na Vercel (que cai por limite de requisições). Mesmo visual de
+# antes, agora nas versões clara e escura, publicadas no branch output-stats.
+
+on:
+  schedule:
+    - cron: "30 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: generate summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@d9632798b299e9ad6940449a859c30742eb5b549 # v0.12.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          AUTO_PUSH: false
+
+      # A action gera todos os ~30 temas; só os do GitHub claro e escuro são usados.
+      - name: keep only the github themes
+        run: |
+          mkdir out
+          cp -r profile-summary-card-output/github profile-summary-card-output/github_dark out/
+
+      - name: push to the output-stats branch
+        uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4.1.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: out
+          publish_branch: output-stats
+          force_orphan: true
