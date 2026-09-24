@@ -31,7 +31,7 @@
 
 <p align="center">
   <a href="#sobre-mim">Sobre</a> ·
-  <a href="#estudos">Estudos</a> ·
+  <a href="#roadmap">Roadmap</a> ·
   <a href="#projetos">Projetos</a> ·
   <a href="#tech-stack">Stack</a> ·
   <a href="#certificados">Certificados</a> ·
@@ -60,41 +60,122 @@ Português nativo · inglês avançado (Casa Thomas Jefferson).
 - 🛠️ Mantendo o **RanchoControl** em uso real na GONAR
 - 🎮 Construindo o **[PlayHub](https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/)**, um portal de mini-jogos para a Mostra de Ciências CEUB 2026, que já dá pra jogar
 
-<a id="estudos"></a>
-### 📚 Estudando agora
+<a id="roadmap"></a>
+### 🗺️ Roadmap de estudos · Study roadmap
 
 <!-- ESTUDOS:INICIO -->
 <!-- Gerado a partir do estudos.yml pelo workflow painel-estudos.yml. Não edite aqui: edite o estudos.yml. -->
 
-**Dart e Flutter · preparação para a ília**
+🟢 Estudando / Studying · ⚪ A começar / Up next · ⏸️ Pausado / Paused · ✅ Concluído / Done
 
-- **Lógica e sintaxe em Dart** · [PREENCHER]<br>
-  progresso [PREENCHER] · ⚪ [PREENCHER]<br>
-  <sub>Próximo passo: [PREENCHER]</sub>
+#### Rumo ao Flutter — preparação para o novo emprego · Road to Flutter — getting ready for my new job
 
-- **Programação orientada a objetos (POO)** · [PREENCHER]<br>
-  progresso [PREENCHER] · ⚪ [PREENCHER]<br>
-  <sub>Próximo passo: [PREENCHER]</sub>
+```mermaid
+%%{init: {"flowchart": {"rankSpacing": 20, "nodeSpacing": 20, "padding": 10, "diagramPadding": 8}}}%%
+flowchart LR
+  accTitle: Rumo ao Flutter — preparação para o novo emprego · Road to Flutter — getting ready for my new job
+  accDescr: Etapas em sequência, a cor mostra o status / Stages in sequence, the color shows the status
+  e1["1 · Lógica<br>Logic"]:::estudando
+  e2["2 · POO<br>OOP"]:::a_comecar
+  e3["3 · Projeto<br>Project"]:::a_comecar
+  e4["4 · Git"]:::a_comecar
+  e5["5 · Flutter"]:::a_comecar
+  e6["6 · Ágil<br>Agile"]:::a_comecar
+  e7["7 · Publicação<br>Release"]:::a_comecar
+  e8["8 · Java + Ruby"]:::a_comecar
+  e1 --> e2 --> e3 --> e4 --> e5 --> e6 --> e7 --> e8
+  classDef estudando fill:#4f46e5,stroke:#818cf8,color:#fff
+  classDef a_comecar fill:#6b7280,stroke:#6b7280,color:#fff
+```
 
-- **Projeto prático** · [PREENCHER]<br>
-  progresso [PREENCHER] · ⚪ [PREENCHER]<br>
-  <sub>Próximo passo: [PREENCHER]</sub>
+<details open>
+<summary><b>1 · Lógica e sintaxe em Dart · Dart logic and syntax</b> — 🟢 Estudando / Studying</summary>
 
-- **Git e GitHub** · [PREENCHER]<br>
-  progresso [PREENCHER] · ⚪ [PREENCHER]<br>
-  <sub>Próximo passo: [PREENCHER]</sub>
+Variáveis e tipos (int, double, String, bool, List, Map), operadores aritméticos, comparativos e lógicos, if/else, switch, for, while e funções com parâmetros posicionais e nomeados.<br>
+<em>Variables and types (int, double, String, bool, List, Map), arithmetic, comparison and logical operators, if/else, switch, for, while, and functions with positional and named parameters.</em>
 
-- **Flutter** · [PREENCHER]<br>
-  progresso [PREENCHER] · ⚪ [PREENCHER]<br>
-  <sub>Próximo passo: [PREENCHER]</sub>
+**Onde / Where:** [DartPad](https://dartpad.dev) · [Dart Language Tour](https://dart.dev/language)
 
-**Dados**
+</details>
 
-- **Databricks · [PREENCHER] (nome do curso)** · [PREENCHER]<br>
-  progresso [PREENCHER] · 🔄 Retomando<br>
-  <sub>Próximo passo: [PREENCHER]</sub>
+<details>
+<summary><b>2 · Programação orientada a objetos · Object-oriented programming</b> — ⚪ A começar / Up next</summary>
 
-<sub>Atualizado em 24/09/2026 · gerado automaticamente a partir do <a href="estudos.yml">estudos.yml</a></sub>
+Classes e objetos, atributos e métodos, construtores padrão e nomeados, encapsulamento com _, herança com extends e sobrescrita com @override.<br>
+<em>Classes and objects, fields and methods, default and named constructors, encapsulation with _, inheritance with extends, and overriding with @override.</em>
+
+**Onde / Where:** [DartPad](https://dartpad.dev) · [Dart Language Tour](https://dart.dev/language)
+
+</details>
+
+<details>
+<summary><b>3 · Projeto prático · Hands-on project</b> — ⚪ A começar / Up next</summary>
+
+Gerenciador de tarefas de console em POO: uma classe Tarefa com métodos para adicionar, listar e marcar como concluída.<br>
+<em>Console to-do manager in OOP: a Task class with methods to add, list, and mark tasks as done.</em>
+
+**Onde / Where:** [DartPad](https://dartpad.dev)
+
+</details>
+
+<details>
+<summary><b>4 · Git e GitHub · Git and GitHub</b> — ⚪ A começar / Up next</summary>
+
+git init, add, commit e push; levar o projeto da etapa 3 do DartPad para a minha máquina e publicá-lo em um repositório público.<br>
+<em>git init, add, commit, and push; move the stage 3 project from DartPad to my machine and publish it in a public repository.</em>
+
+**Onde / Where:** [Pro Git](https://git-scm.com/book) · [GitHub Docs](https://docs.github.com)
+
+</details>
+
+<details>
+<summary><b>5 · Flutter</b> — ⚪ A começar / Up next</summary>
+
+Widgets, layouts, navegação e o meu primeiro app.<br>
+<em>Widgets, layouts, navigation, and my first app.</em>
+
+**Onde / Where:** [Flutter Docs](https://docs.flutter.dev)
+
+</details>
+
+<details>
+<summary><b>6 · Métodos ágeis e ferramentas · Agile methods and tools</b> — ⚪ A começar / Up next</summary>
+
+Scrum, Kanban e Jira no dia a dia de um time de desenvolvimento.<br>
+<em>Scrum, Kanban, and Jira in a development team's daily work.</em>
+
+**Onde / Where:** [Scrum Guide](https://scrumguides.org) · [Atlassian Agile Coach](https://www.atlassian.com/agile)
+
+</details>
+
+<details>
+<summary><b>7 · Do código à loja de apps · From code to the app store</b> — ⚪ A começar / Up next</summary>
+
+Fluxo de desenvolvimento e esteira de release voltada para apps.<br>
+<em>Development workflow and app release pipeline.</em>
+
+**Onde / Where:** [Flutter Docs](https://docs.flutter.dev)
+
+</details>
+
+<details>
+<summary><b>8 · Linguagens de apoio · Supporting languages</b> — ⚪ A começar / Up next</summary>
+
+Java com orientação a objetos e Ruby.<br>
+<em>Object-oriented Java and Ruby.</em>
+
+**Onde / Where:** [Dev.java](https://dev.java/learn/) · [Ruby](https://www.ruby-lang.org)
+
+</details>
+
+#### Dados · Data
+
+<b>Databricks</b> — ⏸️ Pausado / Paused
+
+Comecei o curso, mas pausei para focar na preparação para o novo emprego. Volto em breve.<br>
+<em>I started the course but paused it to focus on preparing for my new job. Coming back soon.</em>
+
+<sub>Atualizado em / Updated on 24/09/2026 · gerado automaticamente a partir do <a href="estudos.yml">estudos.yml</a> / auto-generated from <a href="estudos.yml">estudos.yml</a></sub>
 <!-- ESTUDOS:FIM -->
 
 ---
