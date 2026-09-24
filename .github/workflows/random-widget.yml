@@ -16,7 +16,7 @@ jobs:
       - name: pick a random widget
         id: pick
         run: |
-          widgets=("snake" "snake-flamengo" "pacman" "breakout" "galaga" "puzzle-bobble" "bomberman" "minesweeper" "3d")
+          widgets=("snake" "snake-flamengo" "snake-indigo" "pacman" "breakout" "galaga" "puzzle-bobble" "bomberman" "minesweeper" "3d")
           choice=${widgets[$RANDOM % ${#widgets[@]}]}
           echo "choice=$choice" >> "$GITHUB_OUTPUT"
           echo "Picked: $choice"
@@ -28,6 +28,10 @@ jobs:
             snake)
               curl -fsSL -o out/random-widget.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/github-snake.svg"
               curl -fsSL -o out/random-widget-dark.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/github-snake-dark.svg"
+              ;;
+            snake-indigo)
+              curl -fsSL -o out/random-widget.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/github-snake-indigo.svg"
+              curl -fsSL -o out/random-widget-dark.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/github-snake-indigo-dark.svg"
               ;;
             snake-flamengo)
               curl -fsSL -o out/random-widget.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/github-snake-flamengo.svg"
