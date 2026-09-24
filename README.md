@@ -229,7 +229,7 @@ Repositório [PREENCHER] · Demo [PREENCHER]
 </div>
 
 <a id="activity-graph"></a>
-### 📈 Gráfico de atividade / Activity graph
+### 📈 Gráfico de atividade
 
 <div align="center">
 
@@ -244,7 +244,7 @@ Repositório [PREENCHER] · Demo [PREENCHER]
 ---
 
 <a id="inspiracoes"></a>
-### ⭐ Inspirações / Recently starred
+### ⭐ Inspirações
 
 <div align="center">
 
@@ -257,7 +257,7 @@ Repositório [PREENCHER] · Demo [PREENCHER]
 ---
 
 <a id="fun-corner"></a>
-### 🕹️ Cantinho descontraído / Fun corner
+### 🕹️ Cantinho descontraído
 
 <div align="center">
 
