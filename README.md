@@ -8,7 +8,10 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=4F46E5&center=true&vCenter=true&width=520&lines=Computer+Science+student+at+CEUB;Back-end+focused+full-stack+developer;Python+%7C+JavaScript+%7C+PHP;Looking+for+my+first+internship" alt="typing">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=818CF8&center=true&vCenter=true&width=560&lines=Construo+ferramentas+para+problemas+reais;Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o+no+UniCEUB;Em+breve%3A+dev+mobile+Flutter+na+%C3%ADlia">
+    <img alt="Construo ferramentas para problemas reais · Ciência da Computação no UniCEUB · Em breve: dev mobile Flutter na ília" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=4F46E5&center=true&vCenter=true&width=560&lines=Construo+ferramentas+para+problemas+reais;Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o+no+UniCEUB;Em+breve%3A+dev+mobile+Flutter+na+%C3%ADlia">
+  </picture>
 </p>
 
 <p align="center">
