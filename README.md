@@ -54,14 +54,11 @@ Português nativo · inglês avançado (Casa Thomas Jefferson).
 ---
 
 <a id="agora"></a>
-### 🎯 Agora / Now
+### Agora
 
-- 🔭 Construindo o **[PlayHub](https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/)**, um portal de mini-jogos para a Mostra de Ciências CEUB 2026 — já dá pra jogar
-  <br><em>Building **[PlayHub](https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/)**, a mini-games portal for the CEUB 2026 Science Fair — already playable</em>
-- 🛠️ Mantendo o **RanchoControl** em uso real na GONAR Engenharia
-  <br><em>Keeping **RanchoControl** running in real use at GONAR Engenharia</em>
-- 🎯 Buscando meu primeiro estágio em desenvolvimento de software
-  <br><em>Looking for my first software development internship</em>
+- 📱 A partir de **26/10/2026**: desenvolvedor mobile (Flutter/Dart) na **ília**
+- 🛠️ Mantendo o **RanchoControl** em uso real na GONAR
+- 🎮 Construindo o **[PlayHub](https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/)**, um portal de mini-jogos para a Mostra de Ciências CEUB 2026, que já dá pra jogar
 
 <a id="aprendendo"></a>
 ### 📚 Aprendendo agora / Currently learning
