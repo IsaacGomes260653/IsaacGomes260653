@@ -17,7 +17,7 @@ jobs:
 
     steps:
       - name: generate pacman contribution graph
-        uses: abozanona/pacman-contribution-graph@main
+        uses: abozanona/pacman-contribution-graph@7332e1de7903ab780c3692a4127a59cc13872daa # v5.3.2
         with:
           github_user_name: ${{ github.repository_owner }}
           games: 'pacman,breakout,galaga,puzzle-bobble,bomberman,minesweeper'
