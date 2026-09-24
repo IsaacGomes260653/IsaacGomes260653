@@ -220,11 +220,11 @@ Repositório [PREENCHER] · Demo [PREENCHER]
      por causa do cache dele. Este e gerado pela nossa propria Action
      lowlighter/metrics a cada 12h, direto a partir do byte-size real
      das linguagens nos repositorios. -->
-<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.languages.svg" alt="top languages">
+<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.languages.svg" alt="Linguagens mais usadas nos meus repositórios, por tamanho de código">
 
 <!-- Historico de linhas de codigo adicionadas/removidas, mesma Action
      e branch dos plugins acima. -->
-<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.lines.svg" alt="lines of code">
+<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.lines.svg" alt="Histórico de linhas de código adicionadas e removidas por mês">
 
 </div>
 
@@ -237,7 +237,7 @@ Repositório [PREENCHER] · Demo [PREENCHER]
      nenhum serviço externo hospedado (a instância antiga na Vercel exigia
      um token configurado manualmente lá e parou de funcionar). A Action
      roda a cada 12h e commita o SVG atualizado no branch output-metrics. -->
-<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.isocalendar.svg" alt="activity graph">
+<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.isocalendar.svg" alt="Calendário isométrico das contribuições no último ano">
 
 </div>
 
@@ -250,7 +250,7 @@ Repositório [PREENCHER] · Demo [PREENCHER]
 
 <!-- Repositorios que dei estrela recentemente -- mesma Action e branch
      dos outros plugins de metrics, mostra interesses/inspiracoes atuais. -->
-<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.stars.svg" alt="recently starred">
+<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.stars.svg" alt="Repositórios que marquei com estrela recentemente">
 
 </div>
 
@@ -277,7 +277,7 @@ Repositório [PREENCHER] · Demo [PREENCHER]
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-random/random-widget-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-random/random-widget.svg">
-  <img alt="widget aleatorio" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-random/random-widget.svg">
+  <img alt="Widget sorteado do dia: animação sobre o gráfico de contribuições" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-random/random-widget.svg">
 </picture>
 
 <sub>Muda sozinho a cada ~4h entre 9 opções: cobra 🐍, cobra do Flamengo 🔴⚫, Pac-Man 👾, breakout, galaga, puzzle-bobble, bomberman, campo minado 💣 ou gráfico 3D 🧱<br>
