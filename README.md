@@ -60,17 +60,42 @@ Português nativo · inglês avançado (Casa Thomas Jefferson).
 - 🛠️ Mantendo o **RanchoControl** em uso real na GONAR
 - 🎮 Construindo o **[PlayHub](https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/)**, um portal de mini-jogos para a Mostra de Ciências CEUB 2026, que já dá pra jogar
 
-<a id="aprendendo"></a>
-### 📚 Aprendendo agora / Currently learning
+<a id="estudos"></a>
+### 📚 Estudando agora
 
-<div align="center">
+<!-- ESTUDOS:INICIO -->
+<!-- Gerado a partir do estudos.yml pelo workflow painel-estudos.yml. Não edite aqui: edite o estudos.yml. -->
 
-![Estruturas de dados](https://img.shields.io/badge/Estruturas%20de%20dados-4f46e5?style=flat)
-![Concorrência](https://img.shields.io/badge/Concorrência%20%2F%20Concurrency-4f46e5?style=flat)
-![Docker](https://img.shields.io/badge/Docker-4f46e5?style=flat&logo=docker&logoColor=white)
-![PostgreSQL avançado](https://img.shields.io/badge/PostgreSQL%20avançado-4f46e5?style=flat&logo=postgresql&logoColor=white)
+**Dart e Flutter · preparação para a ília**
 
-</div>
+- **Lógica e sintaxe em Dart** · [PREENCHER]<br>
+  progresso [PREENCHER] · ⚪ [PREENCHER]<br>
+  <sub>Próximo passo: [PREENCHER]</sub>
+
+- **Programação orientada a objetos (POO)** · [PREENCHER]<br>
+  progresso [PREENCHER] · ⚪ [PREENCHER]<br>
+  <sub>Próximo passo: [PREENCHER]</sub>
+
+- **Projeto prático** · [PREENCHER]<br>
+  progresso [PREENCHER] · ⚪ [PREENCHER]<br>
+  <sub>Próximo passo: [PREENCHER]</sub>
+
+- **Git e GitHub** · [PREENCHER]<br>
+  progresso [PREENCHER] · ⚪ [PREENCHER]<br>
+  <sub>Próximo passo: [PREENCHER]</sub>
+
+- **Flutter** · [PREENCHER]<br>
+  progresso [PREENCHER] · ⚪ [PREENCHER]<br>
+  <sub>Próximo passo: [PREENCHER]</sub>
+
+**Dados**
+
+- **Databricks · [PREENCHER] (nome do curso)** · [PREENCHER]<br>
+  progresso [PREENCHER] · 🔄 Retomando<br>
+  <sub>Próximo passo: [PREENCHER]</sub>
+
+<sub>Atualizado em 24/09/2026 · gerado automaticamente a partir do <a href="estudos.yml">estudos.yml</a></sub>
+<!-- ESTUDOS:FIM -->
 
 ---
 
