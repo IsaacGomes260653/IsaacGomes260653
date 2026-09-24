@@ -30,15 +30,15 @@
 </p>
 
 <p align="center">
-  <a href="#sobre-mim">🇧🇷 Sobre</a> ·
-  <a href="#tech-stack">🛠️ Stack</a> ·
-  <a href="#projetos">📌 Projetos</a> ·
-  <a href="#stats">📊 Stats</a> ·
-  <a href="#activity-graph">📈 Atividade</a> ·
-  <a href="#agora">🎯 Agora</a> ·
-  <a href="#aprendendo">📚 Aprendendo</a> ·
-  <a href="#inspiracoes">⭐ Inspirações</a> ·
-  <a href="#fun-corner">🕹️ Fun corner</a>
+  <a href="#sobre-mim">Sobre</a> ·
+  <a href="#estudos">Estudos</a> ·
+  <a href="#projetos">Projetos</a> ·
+  <a href="#tech-stack">Stack</a> ·
+  <a href="#certificados">Certificados</a> ·
+  <a href="#stats">Stats</a> ·
+  <a href="#fun-corner">Fun corner</a> ·
+  <a href="#contato">Contato</a> ·
+  <a href="#english">🇺🇸 English</a>
 </p>
 
 ---
