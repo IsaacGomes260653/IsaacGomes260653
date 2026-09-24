@@ -210,7 +210,10 @@ Repositório [PREENCHER] · Demo [PREENCHER]
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats/github_dark/3-stats.svg">
   <img alt="Estatísticas do GitHub: estrelas, commits, pull requests, issues e repositórios em que contribuí" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats/github/3-stats.svg">
 </picture>
-<img height="180" src="https://github-readme-streak-stats-eight.vercel.app?user=IsaacGomes260653&theme=dark&hide_border=true&background=0D1117&ring=4f46e5&fire=4f46e5&currStreakLabel=4f46e5" alt="streak">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=IsaacGomes260653&theme=dark&hide_border=true&background=00000000&ring=6366F1&fire=6366F1&currStreakLabel=818CF8">
+  <img alt="Sequência de contribuições: total, sequência atual e maior sequência" src="https://streak-stats.demolab.com?user=IsaacGomes260653&hide_border=true&background=FFFFFF00&ring=4F46E5&fire=4F46E5&currStreakLabel=4F46E5">
+</picture>
 
 <!-- Trocado pelo mesmo motivo do grafico de atividade: o card antigo
      (servico compartilhado na Vercel) ficava com dados desatualizados
