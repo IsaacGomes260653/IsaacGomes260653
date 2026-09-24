@@ -26,24 +26,24 @@ jobs:
           mkdir -p out
           case "${{ steps.pick.outputs.choice }}" in
             snake)
-              curl -fsSL -o out/random-widget.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/github-snake.svg"
-              curl -fsSL -o out/random-widget-dark.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/github-snake-dark.svg"
+              curl -fsSL --retry 3 -o out/random-widget.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/github-snake.svg"
+              curl -fsSL --retry 3 -o out/random-widget-dark.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/github-snake-dark.svg"
               ;;
             snake-indigo)
-              curl -fsSL -o out/random-widget.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/github-snake-indigo.svg"
-              curl -fsSL -o out/random-widget-dark.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/github-snake-indigo-dark.svg"
+              curl -fsSL --retry 3 -o out/random-widget.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/github-snake-indigo.svg"
+              curl -fsSL --retry 3 -o out/random-widget-dark.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/github-snake-indigo-dark.svg"
               ;;
             snake-flamengo)
-              curl -fsSL -o out/random-widget.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/github-snake-flamengo.svg"
-              curl -fsSL -o out/random-widget-dark.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/github-snake-flamengo.svg"
+              curl -fsSL --retry 3 -o out/random-widget.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/github-snake-flamengo.svg"
+              curl -fsSL --retry 3 -o out/random-widget-dark.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/github-snake-flamengo.svg"
               ;;
             pacman|breakout|galaga|puzzle-bobble|bomberman|minesweeper)
-              curl -fsSL -o out/random-widget.svg "https://raw.githubusercontent.com/${{ github.repository }}/output-pacman/${{ steps.pick.outputs.choice }}-contribution-graph.svg"
-              curl -fsSL -o out/random-widget-dark.svg "https://raw.githubusercontent.com/${{ github.repository }}/output-pacman/${{ steps.pick.outputs.choice }}-contribution-graph-dark.svg"
+              curl -fsSL --retry 3 -o out/random-widget.svg "https://raw.githubusercontent.com/${{ github.repository }}/output-pacman/${{ steps.pick.outputs.choice }}-contribution-graph.svg"
+              curl -fsSL --retry 3 -o out/random-widget-dark.svg "https://raw.githubusercontent.com/${{ github.repository }}/output-pacman/${{ steps.pick.outputs.choice }}-contribution-graph-dark.svg"
               ;;
             3d)
-              curl -fsSL -o out/random-widget.svg "https://raw.githubusercontent.com/${{ github.repository }}/output-3d/profile-green-animate.svg"
-              curl -fsSL -o out/random-widget-dark.svg "https://raw.githubusercontent.com/${{ github.repository }}/output-3d/profile-night-rainbow.svg"
+              curl -fsSL --retry 3 -o out/random-widget.svg "https://raw.githubusercontent.com/${{ github.repository }}/output-3d/profile-green-animate.svg"
+              curl -fsSL --retry 3 -o out/random-widget-dark.svg "https://raw.githubusercontent.com/${{ github.repository }}/output-3d/profile-night-rainbow.svg"
               ;;
           esac
           echo "${{ steps.pick.outputs.choice }}" > out/CURRENT_WIDGET.txt
