@@ -26,7 +26,7 @@
   <a href="mailto:isaacgm260653@gmail.com">
     <img src="https://img.shields.io/badge/E--mail-4f46e5?style=flat&logo=gmail&logoColor=white" alt="E-mail">
   </a>
-  <img src="https://komarev.com/ghpvc/?username=IsaacGomes260653&color=4f46e5&style=flat&label=Perfil+visto" alt="Contador de visitas do perfil">
+  <img src="https://komarev.com/ghpvc/?username=IsaacGomes260653&color=4f46e5&style=flat&label=Perfil+visto+%2F+Profile+views" alt="Contador de visitas do perfil / Profile view counter">
 </p>
 
 <p align="center">
