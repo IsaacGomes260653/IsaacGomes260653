@@ -1,71 +1,97 @@
-# ─────────────────────────────────────────────────────────────────────
-#  O QUE ESTOU ESTUDANDO AGORA
-#
-#  Edite este arquivo e faça commit. O README se atualiza sozinho em
-#  cerca de 1 minuto (workflow .github/workflows/painel-estudos.yml).
-#  A data de "atualizado em" é a do último commit neste arquivo.
-#
-#  Campos de cada item:
-#    trilha       (opcional) agrupa itens seguidos sob um mesmo título
-#    nome         o que você está estudando
-#    plataforma   onde: Alura, Udemy, YouTube, documentação oficial...
-#    status       estudando | pausado | retomando | concluido
-#    progresso    número de 0 a 100, sem o símbolo %
-#    proximo      próximo passo, numa frase curta
-#    certificado  link do certificado; deixe vazio se não tiver
-#
-#  Onde estiver PREENCHER, troque pelo valor real. Enquanto estiver
-#  PREENCHER, o painel mostra [PREENCHER] no lugar.
-#
-#  Para adicionar um estudo novo, copie um bloco inteiro (do "- nome"
-#  até o "certificado") e cole no fim da lista.
-# ─────────────────────────────────────────────────────────────────────
+# estudos.yml — Roadmap de estudos / Study roadmap
+# Para atualizar: mude o "status" de uma etapa e faça commit. O README se atualiza sozinho.
+# status aceitos: estudando | a_comecar | pausado | concluido
+# Campos vazios ou ausentes NÃO aparecem no README.
 
-estudos:
-  - trilha: Dart e Flutter · preparação para a ília
-    nome: Lógica e sintaxe em Dart
-    plataforma: PREENCHER
-    status: PREENCHER
-    progresso: PREENCHER
-    proximo: PREENCHER
-    certificado:
+trilhas:
+  - id: flutter
+    titulo:
+      pt: "Rumo ao Flutter — preparação para o novo emprego"
+      en: "Road to Flutter — getting ready for my new job"
+    etapas:
+      - numero: 1
+        titulo: { pt: "Lógica e sintaxe em Dart", en: "Dart logic and syntax" }
+        status: estudando
+        conteudo:
+          pt: "Variáveis e tipos (int, double, String, bool, List, Map), operadores aritméticos, comparativos e lógicos, if/else, switch, for, while e funções com parâmetros posicionais e nomeados."
+          en: "Variables and types (int, double, String, bool, List, Map), arithmetic, comparison and logical operators, if/else, switch, for, while, and functions with positional and named parameters."
+        onde:
+          - { nome: "DartPad", url: "https://dartpad.dev" }
+          - { nome: "Dart Language Tour", url: "https://dart.dev/language" }
 
-  - trilha: Dart e Flutter · preparação para a ília
-    nome: Programação orientada a objetos (POO)
-    plataforma: PREENCHER
-    status: PREENCHER
-    progresso: PREENCHER
-    proximo: PREENCHER
-    certificado:
+      - numero: 2
+        titulo: { pt: "Programação orientada a objetos", en: "Object-oriented programming" }
+        status: a_comecar
+        conteudo:
+          pt: "Classes e objetos, atributos e métodos, construtores padrão e nomeados, encapsulamento com _, herança com extends e sobrescrita com @override."
+          en: "Classes and objects, fields and methods, default and named constructors, encapsulation with _, inheritance with extends, and overriding with @override."
+        onde:
+          - { nome: "DartPad", url: "https://dartpad.dev" }
+          - { nome: "Dart Language Tour", url: "https://dart.dev/language" }
 
-  - trilha: Dart e Flutter · preparação para a ília
-    nome: Projeto prático
-    plataforma: PREENCHER
-    status: PREENCHER
-    progresso: PREENCHER
-    proximo: PREENCHER
-    certificado:
+      - numero: 3
+        titulo: { pt: "Projeto prático", en: "Hands-on project" }
+        status: a_comecar
+        conteudo:
+          pt: "Gerenciador de tarefas de console em POO: uma classe Tarefa com métodos para adicionar, listar e marcar como concluída."
+          en: "Console to-do manager in OOP: a Task class with methods to add, list, and mark tasks as done."
+        onde:
+          - { nome: "DartPad", url: "https://dartpad.dev" }
 
-  - trilha: Dart e Flutter · preparação para a ília
-    nome: Git e GitHub
-    plataforma: PREENCHER
-    status: PREENCHER
-    progresso: PREENCHER
-    proximo: PREENCHER
-    certificado:
+      - numero: 4
+        titulo: { pt: "Git e GitHub", en: "Git and GitHub" }
+        status: a_comecar
+        conteudo:
+          pt: "git init, add, commit e push; levar o projeto da etapa 3 do DartPad para a minha máquina e publicá-lo em um repositório público."
+          en: "git init, add, commit, and push; move the stage 3 project from DartPad to my machine and publish it in a public repository."
+        onde:
+          - { nome: "Pro Git", url: "https://git-scm.com/book" }
+          - { nome: "GitHub Docs", url: "https://docs.github.com" }
 
-  - trilha: Dart e Flutter · preparação para a ília
-    nome: Flutter
-    plataforma: PREENCHER
-    status: PREENCHER
-    progresso: PREENCHER
-    proximo: PREENCHER
-    certificado:
+      - numero: 5
+        titulo: { pt: "Flutter", en: "Flutter" }
+        status: a_comecar
+        conteudo:
+          pt: "Widgets, layouts, navegação e o meu primeiro app."
+          en: "Widgets, layouts, navigation, and my first app."
+        onde:
+          - { nome: "Flutter Docs", url: "https://docs.flutter.dev" }
 
-  - trilha: Dados
-    nome: Databricks · PREENCHER (nome do curso)
-    plataforma: PREENCHER
-    status: retomando
-    progresso: PREENCHER
-    proximo: PREENCHER
-    certificado:
+      - numero: 6
+        titulo: { pt: "Métodos ágeis e ferramentas", en: "Agile methods and tools" }
+        status: a_comecar
+        conteudo:
+          pt: "Scrum, Kanban e Jira no dia a dia de um time de desenvolvimento."
+          en: "Scrum, Kanban, and Jira in a development team's daily work."
+        onde:
+          - { nome: "Scrum Guide", url: "https://scrumguides.org" }
+          - { nome: "Atlassian Agile Coach", url: "https://www.atlassian.com/agile" }
+
+      - numero: 7
+        titulo: { pt: "Do código à loja de apps", en: "From code to the app store" }
+        status: a_comecar
+        conteudo:
+          pt: "Fluxo de desenvolvimento e esteira de release voltada para apps."
+          en: "Development workflow and app release pipeline."
+        onde:
+          - { nome: "Flutter Docs", url: "https://docs.flutter.dev" }
+
+      - numero: 8
+        titulo: { pt: "Linguagens de apoio", en: "Supporting languages" }
+        status: a_comecar
+        conteudo:
+          pt: "Java com orientação a objetos e Ruby."
+          en: "Object-oriented Java and Ruby."
+        onde:
+          - { nome: "Dev.java", url: "https://dev.java/learn/" }
+          - { nome: "Ruby", url: "https://www.ruby-lang.org" }
+
+  - id: dados
+    titulo: { pt: "Dados", en: "Data" }
+    etapas:
+      - titulo: { pt: "Databricks", en: "Databricks" }
+        status: pausado
+        nota:
+          pt: "Comecei o curso, mas pausei para focar na preparação para o novo emprego. Volto em breve."
+          en: "I started the course but paused it to focus on preparing for my new job. Coming back soon."
+        onde: []   # Opcional: coloque aqui o nome e o link do curso
