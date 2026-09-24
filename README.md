@@ -187,6 +187,18 @@ Repositório [PREENCHER] · Demo [PREENCHER]
 
 ---
 
+<a id="certificados"></a>
+### 🎓 Certificados
+
+<p align="center">
+  <a href="https://www.netacad.com/courses/networking-essentials"><img alt="Cisco Networking Academy: Networking Essentials" src="https://img.shields.io/badge/Cisco_NetAcad-Networking_Essentials-4f46e5?style=for-the-badge&logo=cisco&logoColor=white&labelColor=312e81"></a>
+  <a href="https://www.netacad.com/courses/introduction-to-modern-ai"><img alt="Cisco Networking Academy: Introduction to Modern AI" src="https://img.shields.io/badge/Cisco_NetAcad-Introduction_to_Modern_AI-4f46e5?style=for-the-badge&logo=cisco&logoColor=white&labelColor=312e81"></a>
+  <!-- Próximo certificado: copie uma das linhas acima, troque o texto do
+       badge (Emissor-Nome_do_curso, com _ no lugar de espaço) e o link. -->
+</p>
+
+---
+
 <a id="stats"></a>
 ### 📊 Estatísticas / Stats
 
