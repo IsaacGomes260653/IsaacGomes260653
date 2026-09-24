@@ -1,0 +1,46 @@
+name: atualiza painel de estudos
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - estudos.yml
+      - .github/scripts/estudos.py
+  schedule:
+    - cron: "0 9 * * *" # 06:00 em Brasília
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Mesmo grupo do random-banner.yml: os dois reescrevem o README no main,
+# então um espera o outro terminar em vez de brigarem no push.
+concurrency:
+  group: readme-main
+  cancel-in-progress: false
+
+jobs:
+  painel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+        with:
+          fetch-depth: 0 # precisa do histórico para achar a data do último commit no estudos.yml
+
+      - name: autoteste do gerador
+        run: python3 .github/scripts/estudos.py --teste
+
+      - name: gera o painel a partir do estudos.yml
+        run: yq -o=json estudos.yml | python3 .github/scripts/estudos.py
+
+      - name: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: atualiza painel de estudos"
+          git pull --rebase
+          git push
