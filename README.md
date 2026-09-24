@@ -265,7 +265,7 @@ Repositório [PREENCHER] · Demo [PREENCHER]
      secao fixa propria, junto com esta aqui - ai dava a impressao de
      "tudo ao mesmo tempo" na pagina. Agora só existe esta secao: uma
      Action sorteia um widget diferente a cada ~4h (cobra, cobra tema
-     Flamengo, 6 jogos de arcade sobre o grafico de contribuicoes ou
+     Flamengo, cobra indigo, 6 jogos de arcade sobre o grafico de contribuicoes ou
      grafico 3D) e atualiza o branch output-random. As Actions que
      geram cada widget continuam rodando nos bastidores (output,
      output-pacman, output-3d), só a exibicao no README foi unificada
@@ -280,8 +280,8 @@ Repositório [PREENCHER] · Demo [PREENCHER]
   <img alt="Widget sorteado do dia: animação sobre o gráfico de contribuições" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-random/random-widget.svg">
 </picture>
 
-<sub>Muda sozinho a cada ~4h entre 9 opções: cobra 🐍, cobra do Flamengo 🔴⚫, Pac-Man 👾, breakout, galaga, puzzle-bobble, bomberman, campo minado 💣 ou gráfico 3D 🧱<br>
-<em>Changes on its own every ~4h among 9 options: snake, Flamengo-themed snake, Pac-Man, breakout, galaga, puzzle-bobble, bomberman, minesweeper, or 3D graph</em></sub>
+<sub>Muda sozinho a cada ~4h entre 10 opções: cobra 🐍, cobra do Flamengo 🔴⚫, cobra índigo 💜, Pac-Man 👾, breakout, galaga, puzzle-bobble, bomberman, campo minado 💣 ou gráfico 3D 🧱<br>
+<em>Changes on its own every ~4h among 10 options: snake, Flamengo-themed snake, indigo snake, Pac-Man, breakout, galaga, puzzle-bobble, bomberman, minesweeper, or 3D graph</em></sub>
 
 </div>
 
