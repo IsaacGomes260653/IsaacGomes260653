@@ -44,7 +44,7 @@
 ---
 
 <a id="sobre-mim"></a>
-### Sobre mim
+### Sobre mim · About me
 
 Estudante de Ciência da Computação no **UniCEUB**, em Brasília, com formatura prevista para dez/2028.\
 Na **GONAR Engenharia Civil** sou assistente administrativo e crio as ferramentas de software que resolvem problemas reais da empresa, como o **RanchoControl**.\
@@ -54,7 +54,7 @@ Português nativo · inglês avançado (Casa Thomas Jefferson).
 ---
 
 <a id="agora"></a>
-### Agora
+### Agora · Now
 
 - 📱 A partir de **26/10/2026**: desenvolvedor mobile (Flutter/Dart) na **ília**
 - 🛠️ Mantendo o **RanchoControl** em uso real na GONAR
@@ -181,7 +181,7 @@ Comecei o curso, mas pausei para focar na preparação para o novo emprego. Volt
 ---
 
 <a id="projetos"></a>
-### 📌 Projetos em destaque
+### 📌 Projetos em destaque · Featured projects
 
 <table>
 <tr>
@@ -234,7 +234,7 @@ Repositório [PREENCHER] · Demo [PREENCHER]
 </tr>
 </table>
 
-**Mais projetos**
+**Mais projetos · More projects**
 
 - **[Álbum da Copa](https://github.com/IsaacGomes260653/Album-da-copa)**: álbum digital de figurinhas da Copa 2026 com as 992 figurinhas, multi-álbum e listas de repetidas e faltantes · [abrir](https://isaacgomes260653.github.io/Album-da-copa/)
 - **[PlayHub](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026)**: portal com 5 mini-jogos clássicos direto no navegador, para a Mostra de Ciências CEUB 2026 · [jogar](https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/)
@@ -242,7 +242,7 @@ Repositório [PREENCHER] · Demo [PREENCHER]
 ---
 
 <a id="tech-stack"></a>
-### 🛠️ Tecnologias
+### 🛠️ Tecnologias · Tech stack
 
 <p align="center"><b>Uso</b></p>
 
@@ -269,7 +269,7 @@ Repositório [PREENCHER] · Demo [PREENCHER]
 ---
 
 <a id="certificados"></a>
-### 🎓 Certificados
+### 🎓 Certificados · Certificates
 
 <p align="center">
   <a href="https://www.netacad.com/courses/networking-essentials"><img alt="Cisco Networking Academy: Networking Essentials" src="https://img.shields.io/badge/Cisco_NetAcad-Networking_Essentials-4f46e5?style=for-the-badge&logo=cisco&logoColor=white&labelColor=312e81"></a>
@@ -281,7 +281,7 @@ Repositório [PREENCHER] · Demo [PREENCHER]
 ---
 
 <a id="stats"></a>
-### 📊 Estatísticas
+### 📊 Estatísticas · Stats
 
 <div align="center">
 
@@ -310,7 +310,7 @@ Repositório [PREENCHER] · Demo [PREENCHER]
 </div>
 
 <a id="activity-graph"></a>
-### 📈 Gráfico de atividade
+### 📈 Gráfico de atividade · Activity graph
 
 <div align="center">
 
@@ -325,7 +325,7 @@ Repositório [PREENCHER] · Demo [PREENCHER]
 ---
 
 <a id="inspiracoes"></a>
-### ⭐ Inspirações
+### ⭐ Inspirações · Inspirations
 
 <div align="center">
 
@@ -338,7 +338,7 @@ Repositório [PREENCHER] · Demo [PREENCHER]
 ---
 
 <a id="fun-corner"></a>
-### 🕹️ Cantinho descontraído
+### 🕹️ Cantinho descontraído · Fun corner
 
 <div align="center">
 
@@ -369,7 +369,7 @@ Repositório [PREENCHER] · Demo [PREENCHER]
 ---
 
 <a id="contato"></a>
-### 📬 Contato
+### 📬 Contato · Contact
 
 <p align="center">
   <a href="https://www.linkedin.com/in/isaac-gomes-de-moraes-107198365/"><img alt="LinkedIn de Isaac Gomes de Moraes" src="https://img.shields.io/badge/LinkedIn-4f46e5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
