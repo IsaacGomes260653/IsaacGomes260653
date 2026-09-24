@@ -78,18 +78,18 @@ Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
 #### Rumo ao Flutter — preparação para o novo emprego · Road to Flutter — getting ready for my new job
 
 ```mermaid
-%%{init: {"flowchart": {"rankSpacing": 20, "nodeSpacing": 20, "padding": 10, "diagramPadding": 8}}}%%
+%%{init: {"flowchart": {"rankSpacing": 15, "nodeSpacing": 20, "padding": 6, "diagramPadding": 8}}}%%
 flowchart LR
   accTitle: Rumo ao Flutter — preparação para o novo emprego · Road to Flutter — getting ready for my new job
   accDescr: Etapas em sequência, a cor mostra o status / Stages in sequence, the color shows the status
-  e1["1 · Lógica<br>Logic"]:::estudando
-  e2["2 · POO<br>OOP"]:::a_comecar
-  e3["3 · Projeto<br>Project"]:::a_comecar
-  e4["4 · Git"]:::a_comecar
-  e5["5 · Flutter"]:::a_comecar
-  e6["6 · Ágil<br>Agile"]:::a_comecar
-  e7["7 · Publicação<br>Release"]:::a_comecar
-  e8["8 · Java + Ruby"]:::a_comecar
+  e1["1<br>Lógica<br>Logic"]:::estudando
+  e2["2<br>POO<br>OOP"]:::a_comecar
+  e3["3<br>Projeto<br>Project"]:::a_comecar
+  e4["4<br>Git"]:::a_comecar
+  e5["5<br>Flutter"]:::a_comecar
+  e6["6<br>Ágil<br>Agile"]:::a_comecar
+  e7["7<br>Publicação<br>Release"]:::a_comecar
+  e8["8<br>Java + Ruby"]:::a_comecar
   e1 --> e2 --> e3 --> e4 --> e5 --> e6 --> e7 --> e8
   classDef estudando fill:#4f46e5,stroke:#818cf8,color:#fff
   classDef a_comecar fill:#6b7280,stroke:#6b7280,color:#fff
