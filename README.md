@@ -61,9 +61,12 @@ Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
 <a id="agora"></a>
 ### Agora · Now
 
-- 📱 A partir de **26/10/2026**: desenvolvedor mobile (Flutter/Dart) na **ília**
-- 🛠️ Mantendo o **RanchoControl** em uso real na GONAR
-- 🎮 Construindo o **[PlayHub](https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/)**, um portal de mini-jogos para a Mostra de Ciências CEUB 2026, que já dá pra jogar
+- 📱 A partir de **26/10/2026**: desenvolvedor mobile (Flutter/Dart) na **ília**<br>
+  <em>Starting <b>Oct 26, 2026</b>: mobile developer (Flutter/Dart) at <b>ília</b></em>
+- 🛠️ Mantendo o **RanchoControl** em uso real na GONAR<br>
+  <em>Keeping <b>RanchoControl</b> in real use at GONAR</em>
+- 🎮 Construindo o **[PlayHub](https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/)**, um portal de mini-jogos para a Mostra de Ciências CEUB 2026, que já dá pra jogar<br>
+  <em>Building <b>PlayHub</b>, a mini-games portal for the CEUB 2026 Science Fair, already playable</em>
 
 <a id="roadmap"></a>
 ### 🗺️ Roadmap de estudos · Study roadmap
