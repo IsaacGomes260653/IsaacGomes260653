@@ -285,6 +285,16 @@ Repositório [PREENCHER] · Demo [PREENCHER]
 
 </div>
 
+---
+
+<a id="contato"></a>
+### 📬 Contato
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/isaac-gomes-de-moraes-107198365/"><img alt="LinkedIn de Isaac Gomes de Moraes" src="https://img.shields.io/badge/LinkedIn-4f46e5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:isaacgm260653@gmail.com"><img alt="Enviar e-mail para Isaac" src="https://img.shields.io/badge/E--mail-4f46e5?style=for-the-badge&logo=gmail&logoColor=white"></a>
+</p>
+
 <a id="english"></a>
 <details>
 <summary><b>🇺🇸 English version</b></summary>
