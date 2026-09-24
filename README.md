@@ -9,8 +9,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=818CF8&center=true&vCenter=true&width=560&lines=Construo+ferramentas+para+problemas+reais;Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o+no+UniCEUB;Em+breve%3A+dev+mobile+Flutter+na+%C3%ADlia">
-    <img alt="Construo ferramentas para problemas reais · Ciência da Computação no UniCEUB · Em breve: dev mobile Flutter na ília" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=4F46E5&center=true&vCenter=true&width=560&lines=Construo+ferramentas+para+problemas+reais;Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o+no+UniCEUB;Em+breve%3A+dev+mobile+Flutter+na+%C3%ADlia">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=818CF8&center=true&vCenter=true&width=560&lines=Construo+ferramentas+para+problemas+reais;I+build+tools+for+real+problems;Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o+no+UniCEUB;Computer+Science+at+UniCEUB;Em+breve%3A+dev+mobile+Flutter+na+%C3%ADlia;Soon%3A+Flutter+mobile+dev+at+%C3%ADlia">
+    <img alt="Construo ferramentas para problemas reais / I build tools for real problems · Ciência da Computação no UniCEUB / Computer Science at UniCEUB · Em breve: dev mobile Flutter na ília / Soon: Flutter mobile dev at ília" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=4F46E5&center=true&vCenter=true&width=560&lines=Construo+ferramentas+para+problemas+reais;I+build+tools+for+real+problems;Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o+no+UniCEUB;Computer+Science+at+UniCEUB;Em+breve%3A+dev+mobile+Flutter+na+%C3%ADlia;Soon%3A+Flutter+mobile+dev+at+%C3%ADlia">
   </picture>
 </p>
 
