@@ -127,15 +127,58 @@ Português nativo · inglês avançado (Casa Thomas Jefferson).
 ---
 
 <a id="projetos"></a>
-### 📌 Projetos em destaque / Featured projects
+### 📌 Projetos em destaque
 
-| Projeto | Descrição | Stack |
-|---------|-----------|-------|
-| **[RanchoControl](https://github.com/IsaacGomes260653/Controle-de-Refeicao)** | Sistema offline-first de controle de refeições e presença em obras<br><em>Offline-first meal and attendance tracking for construction sites</em> | JavaScript · IndexedDB |
-| **[ForgetMeNot](https://github.com/IsaacGomes260653/forget_me_not)** | Gerenciador de tarefas web com testes, CI e deploy em produção<br><em>Web task manager with tests, CI, and a production deploy</em> | Python · Flask · PostgreSQL |
-| **[TaskFlow](https://github.com/IsaacGomes260653/Sistema-de-Gerenciamento-de-Tarefas)** | Gestão de tarefas com autenticação por sessão<br><em>Task management with session-based authentication</em> | PHP · MySQL |
-| **[Álbum da Copa](https://github.com/IsaacGomes260653/Album-da-copa)** | Álbum digital de figurinhas da Copa 2026 com 992 figurinhas, multi-álbum e listas de repetidas/faltantes · [abrir](https://isaacgomes260653.github.io/Album-da-copa/)<br><em>Digital sticker album for the 2026 World Cup with 992 stickers, multi-album support and duplicate/missing lists · [open it](https://isaacgomes260653.github.io/Album-da-copa/)</em> | JavaScript |
-| **[PlayHub](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026)** | Portal com 5 mini-jogos clássicos direto no navegador, para a Mostra de Ciências CEUB 2026 · [jogar](https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/)<br><em>Portal with 5 classic mini-games in the browser, for the CEUB 2026 Science Fair · [play it](https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/)</em> | JavaScript · PWA |
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🍽️ RanchoControl
+
+Substitui as planilhas de controle de refeições e presença nas obras da GONAR: funciona offline e exporta para Excel.
+
+<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-4f46e5?style=flat-square&logo=javascript&logoColor=white"> <img alt="IndexedDB" src="https://img.shields.io/badge/IndexedDB-4f46e5?style=flat-square">
+
+[Repositório](https://github.com/IsaacGomes260653/Controle-de-Refeicao) · <sub>uso interno, sem demo pública</sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### ✅ ForgetMeNot
+
+Gerenciador de tarefas com integração a uma API pública, testes, CI/CD e deploy no Render.
+
+<img alt="Python" src="https://img.shields.io/badge/Python-4f46e5?style=flat-square&logo=python&logoColor=white"> <img alt="Flask" src="https://img.shields.io/badge/Flask-4f46e5?style=flat-square&logo=flask&logoColor=white"> <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4f46e5?style=flat-square&logo=postgresql&logoColor=white"> <img alt="Supabase" src="https://img.shields.io/badge/Supabase-4f46e5?style=flat-square&logo=supabase&logoColor=white">
+
+[Repositório](https://github.com/IsaacGomes260653/forget_me_not) · [Demo](https://forget-me-not-z9hy.onrender.com) <sub>(pode levar ~40s para acordar)</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🗂️ TaskFlow
+
+CRUD de tarefas com login e controle de acesso por sessão.
+
+<img alt="PHP" src="https://img.shields.io/badge/PHP-4f46e5?style=flat-square&logo=php&logoColor=white"> <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4f46e5?style=flat-square&logo=mysql&logoColor=white">
+
+[Repositório](https://github.com/IsaacGomes260653/Sistema-de-Gerenciamento-de-Tarefas)
+
+</td>
+<td width="50%" valign="top">
+
+#### 🐾 Íris Pet Spa
+
+Site imersivo de rolagem para um pet spa fictício, com 12 seções animadas e bolhas de sabão em WebGL.
+
+<img alt="Next.js" src="https://img.shields.io/badge/Next.js-4f46e5?style=flat-square&logo=nextdotjs&logoColor=white"> <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-4f46e5?style=flat-square&logo=typescript&logoColor=white"> <img alt="GSAP" src="https://img.shields.io/badge/GSAP-4f46e5?style=flat-square&logo=greensock&logoColor=white"> <img alt="Three.js" src="https://img.shields.io/badge/Three.js-4f46e5?style=flat-square&logo=threedotjs&logoColor=white">
+
+Repositório [PREENCHER] · Demo [PREENCHER]
+
+</td>
+</tr>
+</table>
 
 ---
 
