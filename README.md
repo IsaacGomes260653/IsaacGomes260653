@@ -194,6 +194,50 @@ I build full applications — from database to interface — in Python, JavaScri
 
 </div>
 
+<a id="english"></a>
+<details>
+<summary><b>🇺🇸 English version</b></summary>
+
+### About me
+
+Computer Science student at **UniCEUB** in Brasília, Brazil, graduating in Dec 2028.\
+At **GONAR Engenharia Civil** I'm an administrative assistant and I build the software tools that solve the company's real problems, like **RanchoControl**.\
+I like building the whole application, from the database to the interface, with tests and deploy.\
+Native Portuguese · advanced English (Casa Thomas Jefferson).
+
+### Now
+
+- 📱 Starting **Oct 26, 2026**: mobile developer (Flutter/Dart) at **ília**
+- 🛠️ Keeping **RanchoControl** in real use at GONAR
+- 🎮 Building **[PlayHub](https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/)**, a mini-games portal for the CEUB 2026 Science Fair, already playable
+
+### Currently studying
+
+Dart and Flutter (getting ready for my new role at ília) and Databricks. The live progress panel is in the Portuguese section above, generated from [`estudos.yml`](estudos.yml).
+
+### Featured projects
+
+- **[RanchoControl](https://github.com/IsaacGomes260653/Controle-de-Refeicao)**: replaces the meal and attendance spreadsheets on GONAR's construction sites; works offline and exports to Excel. *JavaScript · IndexedDB*
+- **[ForgetMeNot](https://github.com/IsaacGomes260653/forget_me_not)**: task manager with public API integration, tests, CI/CD and a deploy on Render · [live demo](https://forget-me-not-z9hy.onrender.com). *Python · Flask · PostgreSQL · Supabase*
+- **[TaskFlow](https://github.com/IsaacGomes260653/Sistema-de-Gerenciamento-de-Tarefas)**: task CRUD with login and session-based access control. *PHP · MySQL*
+- **Íris Pet Spa** ([PREENCHER]): immersive scroll site for a fictional pet spa, with 12 animated sections and WebGL soap bubbles. *Next.js · TypeScript · GSAP · Three.js*
+- More: **[World Cup Album](https://github.com/IsaacGomes260653/Album-da-copa)**, a digital sticker album with all 992 stickers ([open it](https://isaacgomes260653.github.io/Album-da-copa/)) · **[PlayHub](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026)**, 5 classic mini-games in the browser ([play it](https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/))
+
+### Tech
+
+**I use:** Python, Flask, PostgreSQL, Supabase, PHP, MySQL, JavaScript, TypeScript, Next.js, HTML, CSS, Java, C++, Git, GitHub, VS Code and Claude Code\
+**Learning:** Dart, Flutter and Databricks
+
+### Certificates
+
+Cisco Networking Academy: [Networking Essentials](https://www.netacad.com/courses/networking-essentials) · [Introduction to Modern AI](https://www.netacad.com/courses/introduction-to-modern-ai)
+
+### Contact
+
+[LinkedIn](https://www.linkedin.com/in/isaac-gomes-de-moraes-107198365/) · [E-mail](mailto:isaacgm260653@gmail.com)
+
+</details>
+
 <p align="center">
 <!-- Rodape, mesma Action e mesmo estilo sorteado do banner do topo
      (random-banner.yml), pra ficar sempre combinando. -->
