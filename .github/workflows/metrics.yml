@@ -16,7 +16,7 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
@@ -27,7 +27,7 @@ jobs:
           committer_branch: output-metrics
           committer_message: "chore: update activity graph"
 
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
@@ -39,7 +39,7 @@ jobs:
           committer_branch: output-metrics
           committer_message: "chore: update top languages"
 
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
@@ -51,7 +51,7 @@ jobs:
           committer_message: "chore: update lines of code"
 
       - name: checkout output-metrics branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
         with:
           ref: output-metrics
           path: patch-repo
@@ -105,7 +105,7 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: widen diff history chart to avoid label clipping"
           git push
 
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
