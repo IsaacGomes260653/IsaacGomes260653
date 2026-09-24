@@ -100,15 +100,29 @@ Português nativo · inglês avançado (Casa Thomas Jefferson).
 ---
 
 <a id="tech-stack"></a>
-### 🛠️ Tecnologias / Tech stack
+### 🛠️ Tecnologias
 
-<div align="center">
+<p align="center"><b>Uso</b></p>
 
-<img src="https://skillicons.dev/icons?i=python,js,php,java,cpp,html,css&theme=dark" alt="languages">
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,js,ts,php,java,cpp,html,css,flask,nextjs,postgres,supabase,mysql,git,github,vscode&theme=dark&perline=8">
+    <img alt="Python, JavaScript, TypeScript, PHP, Java, C++, HTML, CSS, Flask, Next.js, PostgreSQL, Supabase, MySQL, Git, GitHub e VS Code" src="https://skillicons.dev/icons?i=python,js,ts,php,java,cpp,html,css,flask,nextjs,postgres,supabase,mysql,git,github,vscode&theme=light&perline=8">
+  </picture>
+  <br>
+  <img alt="Claude Code" src="https://img.shields.io/badge/Claude_Code-4f46e5?style=flat-square&logo=claude&logoColor=white">
+</p>
 
-<img src="https://skillicons.dev/icons?i=flask,postgres,mysql,supabase,git,github,vscode&theme=dark" alt="tools">
+<p align="center"><b>Aprendendo</b></p>
 
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=dart,flutter&theme=dark">
+    <img alt="Dart e Flutter" src="https://skillicons.dev/icons?i=dart,flutter&theme=light">
+  </picture>
+  <br>
+  <img alt="Databricks" src="https://img.shields.io/badge/Databricks-4f46e5?style=flat-square&logo=databricks&logoColor=white">
+</p>
 
 ---
 
