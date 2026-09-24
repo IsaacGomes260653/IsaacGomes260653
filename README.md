@@ -30,14 +30,14 @@
 </p>
 
 <p align="center">
-  <a href="#sobre-mim">Sobre</a> ·
+  <a href="#sobre-mim">Sobre / About</a> ·
   <a href="#roadmap">Roadmap</a> ·
-  <a href="#projetos">Projetos</a> ·
+  <a href="#projetos">Projetos / Projects</a> ·
   <a href="#tech-stack">Stack</a> ·
-  <a href="#certificados">Certificados</a> ·
+  <a href="#certificados">Certificados / Certificates</a> ·
   <a href="#stats">Stats</a> ·
   <a href="#fun-corner">Fun corner</a> ·
-  <a href="#contato">Contato</a>
+  <a href="#contato">Contato / Contact</a>
 </p>
 
 ---
