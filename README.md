@@ -200,11 +200,16 @@ Repositório [PREENCHER] · Demo [PREENCHER]
 ---
 
 <a id="stats"></a>
-### 📊 Estatísticas / Stats
+### 📊 Estatísticas
 
 <div align="center">
 
-<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=IsaacGomes260653&theme=github_dark" alt="stats">
+<!-- Gerado pela Action summary-cards.yml (branch output-stats), sem
+     depender da instancia publica na Vercel. -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats/github_dark/3-stats.svg">
+  <img alt="Estatísticas do GitHub: estrelas, commits, pull requests, issues e repositórios em que contribuí" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats/github/3-stats.svg">
+</picture>
 <img height="180" src="https://github-readme-streak-stats-eight.vercel.app?user=IsaacGomes260653&theme=dark&hide_border=true&background=0D1117&ring=4f46e5&fire=4f46e5&currStreakLabel=4f46e5" alt="streak">
 
 <!-- Trocado pelo mesmo motivo do grafico de atividade: o card antigo
