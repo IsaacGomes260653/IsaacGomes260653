@@ -3,7 +3,7 @@
      uma combinacao de estilo/cor a cada 12h de uma lista curada e reescreve
      a linha abaixo direto no README, mesmo padrao usado no fun corner. -->
 <!--START_SECTION:banner-->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,100:6366f1&height=170&section=header&text=Isaac%20Gomes%20de%20Moraes&fontColor=ffffff&fontSize=38&animation=fadeIn" alt="Banner em ondas com o nome Isaac Gomes de Moraes / Wave banner with the name Isaac Gomes de Moraes">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b82f6,100:6366f1&height=170&section=header&text=Isaac%20Gomes%20de%20Moraes&fontColor=ffffff&fontSize=38&animation=scaleIn" alt="Banner em ondas com o nome Isaac Gomes de Moraes / Wave banner with the name Isaac Gomes de Moraes">
 <!--END_SECTION:banner-->
 </p>
 
@@ -393,6 +393,6 @@ Repositório / Repository [PREENCHER] · Demo [PREENCHER]
 <!-- Rodape, mesma Action e mesmo estilo sorteado do banner do topo
      (random-banner.yml), pra ficar sempre combinando. -->
 <!--START_SECTION:footer-->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,100:6366f1&height=100&section=footer&animation=fadeIn" alt="Rodapé decorativo em ondas / Decorative wave footer">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b82f6,100:6366f1&height=100&section=footer&animation=scaleIn" alt="Rodapé decorativo em ondas / Decorative wave footer">
 <!--END_SECTION:footer-->
 </p>
