@@ -391,3 +391,18 @@ trilhas:
           - { nome: "Databricks Academy", url: "https://www.databricks.com/learn/training/home", preco: "gratuito / free" }
           - { nome: "Databricks Free Edition", url: "https://www.databricks.com/learn/free-edition", preco: "gratuito / free" }
           - { nome: "Data Engineer Associate", url: "https://www.databricks.com/learn/certification/data-engineer-associate", preco: "US$ 200 · 45 questões · 90 min" }
+
+# Cursos complementares, fora das trilhas: aparecem em "Extras", sem status.
+extras:
+  - nome: "Flutter & Dart — The Complete Guide (Udemy)"
+    url: "https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/"
+    preco: "pago / paid"
+    nota:
+      pt: "De Maximilian Schwarzmüller. Comprar só em promoção."
+      en: "By Maximilian Schwarzmüller. Buy only on sale."
+  - nome: "Flutter Course for Beginners (freeCodeCamp)"
+    url: "https://www.freecodecamp.org/news/learn-flutter-full-course/"
+    preco: "gratuito / free"
+    nota:
+      pt: "De 2022: usar só como complemento."
+      en: "From 2022: use only as a supplement."
