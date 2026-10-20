@@ -205,8 +205,53 @@ trilhas:
         conteudo:
           pt: "Widgets, layouts, navegação e o meu primeiro app."
           en: "Widgets, layouts, navigation, and my first app."
+        subtemas:
+          - { nome: "Quick install · Install Flutter", estrela: true, url: "https://docs.flutter.dev/learn/pathway/quick-install" }
+          - nome: "Introduction to Flutter UI"
+            url: "https://docs.flutter.dev/learn/pathway/tutorial"
+            itens:
+              - { nome: "Tutorial introduction", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial" }
+              - { nome: "Create a Flutter app", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/create-an-app" }
+              - { nome: "Widget fundamentals", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/widget-fundamentals" }
+              - { nome: "Layout widgets on a screen", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/layout" }
+              - { nome: "DevTools", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/devtools" }
+              - { nome: "Handle user input", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/user-input" }
+              - { nome: "Learn about stateful widgets", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/stateful-widget" }
+              - { nome: "Add implicit animations", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/implicit-animations" }
+          - nome: "State in Flutter apps"
+            url: "https://docs.flutter.dev/learn/pathway/tutorial/set-up-state-project"
+            itens:
+              - { nome: "The state management project", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/set-up-state-project" }
+              - { nome: "Make HTTP requests", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/http-requests" }
+              - { nome: "Use ChangeNotifier to update app state", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/change-notifier" }
+              - { nome: "Use ListenableBuilder to update app UI", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/listenable-builder" }
+          - nome: "Flutter UI 102"
+            url: "https://docs.flutter.dev/learn/pathway/tutorial/advanced-ui"
+            itens:
+              - { nome: "Advanced UI features", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/advanced-ui" }
+              - { nome: "Adaptive layouts", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/adaptive-layout" }
+              - { nome: "Scrolling and slivers", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/slivers" }
+              - { nome: "Stack based navigation", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/navigation" }
+          - { nome: "How Flutter works", estrela: true, url: "https://docs.flutter.dev/learn/pathway/how-flutter-works" }
+          - nome: { pt: "Flutter Foundations (depois que eu começar)", en: "Flutter Foundations (after I start)" }
+            url: "https://codewithandrea.com/courses/flutter-foundations/"
+            itens:
+              - { nome: "Intro and Project Overview" }
+              - { nome: "Navigation with GoRouter" }
+              - { nome: "App Architecture" }
+              - { nome: "State Management with Riverpod (Part I)" }
+              - { nome: "State Management with Riverpod (Part II)" }
+              - { nome: "Automated Testing (Part I)" }
+              - { nome: "Automated Testing (Part II)" }
+              - { nome: "Feature: Shopping Cart (with local data persistence)" }
+              - { nome: "Feature: Checkout Flows" }
+              - { nome: "Error Handling" }
+              - { nome: "Feature: Product Reviews" }
+              - { nome: "Feature: Product Search" }
+              - { nome: "New Riverpod 2.0 APIs & Riverpod Generator" }
         onde:
-          - { nome: "Flutter Docs", url: "https://docs.flutter.dev" }
+          - { nome: "Flutter learning pathway", url: "https://docs.flutter.dev/learn/pathway" }
+          - { nome: "Flutter Foundations", url: "https://codewithandrea.com/courses/flutter-foundations/", preco: "US$ 99" }
 
       - numero: 6
         titulo: { pt: "Métodos ágeis e ferramentas", en: "Agile methods and tools" }
@@ -214,9 +259,45 @@ trilhas:
         conteudo:
           pt: "Scrum, Kanban e Jira no dia a dia de um time de desenvolvimento."
           en: "Scrum, Kanban, and Jira in a development team's daily work."
+        subtemas:
+          - nome: { pt: "Scrum · papéis (Scrum Team)", en: "Scrum · roles (Scrum Team)" }
+            url: "https://scrumguides.org/scrum-guide.html#scrum-team"
+            itens:
+              - { nome: "Developers", estrela: true, url: "https://scrumguides.org/scrum-guide.html#developers" }
+              - { nome: "Product Owner", estrela: true, url: "https://scrumguides.org/scrum-guide.html#product-owner" }
+              - { nome: "Scrum Master", estrela: true, url: "https://scrumguides.org/scrum-guide.html#scrum-master" }
+          - nome: { pt: "Scrum · eventos", en: "Scrum · events" }
+            url: "https://scrumguides.org/scrum-guide.html#scrum-events"
+            itens:
+              - { nome: "The Sprint", estrela: true, url: "https://scrumguides.org/scrum-guide.html#the-sprint" }
+              - { nome: "Sprint Planning", estrela: true, url: "https://scrumguides.org/scrum-guide.html#sprint-planning" }
+              - { nome: "Daily Scrum", estrela: true, url: "https://scrumguides.org/scrum-guide.html#daily-scrum" }
+              - { nome: "Sprint Review", estrela: true, url: "https://scrumguides.org/scrum-guide.html#sprint-review" }
+              - { nome: "Sprint Retrospective", estrela: true, url: "https://scrumguides.org/scrum-guide.html#sprint-retrospective" }
+          - nome: { pt: "Scrum · artefatos", en: "Scrum · artifacts" }
+            url: "https://scrumguides.org/scrum-guide.html#scrum-artifacts"
+            itens:
+              - { nome: "Product Backlog", estrela: true, url: "https://scrumguides.org/scrum-guide.html#product-backlog" }
+              - { nome: "Sprint Backlog", estrela: true, url: "https://scrumguides.org/scrum-guide.html#sprint-backlog" }
+              - { nome: "Increment", estrela: true, url: "https://scrumguides.org/scrum-guide.html#increment" }
+          - { nome: { pt: "Simulado Scrum Open", en: "Scrum Open assessment" }, estrela: true, url: "https://www.scrum.org/open-assessments/scrum-open" }
+          - nome: "Kanban"
+            url: "https://www.atlassian.com/agile/kanban"
+            itens:
+              - { nome: { pt: "Quadro", en: "Board" }, estrela: true, url: "https://www.atlassian.com/agile/kanban/boards" }
+              - { nome: { pt: "Limite de WIP", en: "WIP limits" }, estrela: true, url: "https://www.atlassian.com/agile/kanban/wip-limits" }
+              - { nome: { pt: "Fluxo", en: "Flow" }, estrela: true, url: "https://www.atlassian.com/agile/kanban" }
+          - nome: { pt: "Jira — projetos, issues, quadros e sprints", en: "Jira — projects, issues, boards, and sprints" }
+            url: "https://community-link.atlassian.com/learning/path/get-the-most-out-of-jira"
+            itens:
+              - { nome: "Get started quickly with Jira", estrela: true, url: "https://community-link.atlassian.com/learning/path/get-the-most-out-of-jira/course/get-started-with-jira" }
+              - { nome: "Track your work effectively in Jira", estrela: true, url: "https://community-link.atlassian.com/learning/path/get-the-most-out-of-jira/course/track-your-work-effectively-in-jira" }
+              - { nome: "Personalize how you work in Jira", estrela: true, url: "https://community-link.atlassian.com/learning/path/get-the-most-out-of-jira/course/jira-dashboard-training" }
         onde:
-          - { nome: "Scrum Guide", url: "https://scrumguides.org" }
-          - { nome: "Atlassian Agile Coach", url: "https://www.atlassian.com/agile" }
+          - { nome: "Scrum Guide", url: "https://scrumguides.org/scrum-guide.html" }
+          - { nome: "Scrum Open", url: "https://www.scrum.org/open-assessments/scrum-open" }
+          - { nome: "Atlassian Agile Coach · Kanban", url: "https://www.atlassian.com/agile/kanban" }
+          - { nome: "Jira · Get the most out of Jira", url: "https://community-link.atlassian.com/learning/path/get-the-most-out-of-jira" }
 
       - numero: 7
         titulo: { pt: "Do código à loja de apps", en: "From code to the app store" }
@@ -224,8 +305,25 @@ trilhas:
         conteudo:
           pt: "Fluxo de desenvolvimento e esteira de release voltada para apps."
           en: "Development workflow and app release pipeline."
+        subtemas:
+          - { nome: "Course Introduction" }
+          - { nome: "Launcher Icons and Splash Screens" }
+          - { nome: "Adding Flavors to a Flutter App" }
+          - { nome: "Error Monitoring with Sentry and Crashlytics" }
+          - { nome: "Analytics with Mixpanel and Firebase Analytics" }
+          - { nome: "Force Update Strategies" }
+          - { nome: "In-App Reviews" }
+          - { nome: "Creating a Landing Page for your Mobile app" }
+          - { nome: "Releasing Your iOS App on the App Store" }
+          - { nome: "Releasing Your Android App on the Google Play Store" }
+          - { nome: "Release Automation with Codemagic" }
+          - { nome: "Release Automation with GitHub Actions" }
+          - { nome: "Code Push with Shorebird" }
+          - { nome: "Automated Screenshot Generation Strategies" }
+          - { nome: "Feature Toggles and A/B Testing" }
+          - { nome: "Appendix 1: A Riverpod Primer" }
         onde:
-          - { nome: "Flutter Docs", url: "https://docs.flutter.dev" }
+          - { nome: "Flutter in Production", url: "https://codewithandrea.com/courses/flutter-in-production/", preco: "US$ 79 a US$ 119" }
 
       - numero: 8
         titulo: { pt: "Linguagens de apoio", en: "Supporting languages" }
@@ -233,9 +331,22 @@ trilhas:
         conteudo:
           pt: "Java com orientação a objetos e Ruby."
           en: "Object-oriented Java and Ruby."
+        subtemas:
+          - nome: { pt: "Java — MOOC de Helsinque", en: "Java — University of Helsinki MOOC" }
+            url: "https://java-programming.mooc.fi/"
+            itens:
+              - { nome: { pt: "Java Programming I (partes 1 a 7)", en: "Java Programming I (parts 1–7)" }, url: "https://java-programming.mooc.fi/part-1" }
+              - { nome: { pt: "Java Programming II (partes 8 a 14)", en: "Java Programming II (parts 8–14)" }, url: "https://java-programming.mooc.fi/part-8" }
+          - nome: { pt: "Ruby em Vinte Minutos", en: "Ruby in Twenty Minutes" }
+            url: "https://www.ruby-lang.org/pt/documentation/quickstart/"
+            itens:
+              - { nome: { pt: "Parte 1", en: "Part 1" }, url: "https://www.ruby-lang.org/pt/documentation/quickstart/" }
+              - { nome: { pt: "Parte 2", en: "Part 2" }, url: "https://www.ruby-lang.org/pt/documentation/quickstart/2/" }
+              - { nome: { pt: "Parte 3", en: "Part 3" }, url: "https://www.ruby-lang.org/pt/documentation/quickstart/3/" }
+              - { nome: { pt: "Parte 4", en: "Part 4" }, url: "https://www.ruby-lang.org/pt/documentation/quickstart/4/" }
         onde:
-          - { nome: "Dev.java", url: "https://dev.java/learn/" }
-          - { nome: "Ruby", url: "https://www.ruby-lang.org" }
+          - { nome: "Java Programming MOOC", url: "https://java-programming.mooc.fi/" }
+          - { nome: "Ruby em Vinte Minutos", url: "https://www.ruby-lang.org/pt/documentation/quickstart/" }
 
   - id: dados
     titulo: { pt: "Dados", en: "Data" }
