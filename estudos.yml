@@ -13,6 +13,7 @@ trilhas:
     titulo:
       pt: "Rumo ao Flutter — preparação para o novo emprego"
       en: "Road to Flutter — getting ready for my new job"
+    curto: { pt: "Rumo ao Flutter", en: "Road to Flutter" }   # título da imagem do roadmap
     etapas:
       - numero: 1
         titulo: { pt: "Lógica e sintaxe em Dart", en: "Dart logic and syntax" }
