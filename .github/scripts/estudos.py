@@ -21,6 +21,8 @@ from xml.etree import ElementTree
 
 INICIO = "<!-- ESTUDOS:INICIO -->"
 FIM = "<!-- ESTUDOS:FIM -->"
+AGORA_INICIO = "<!-- AGORA:INICIO -->"
+AGORA_FIM = "<!-- AGORA:FIM -->"
 
 # A ordem daqui é a ordem da legenda.
 STATUS = {
@@ -456,6 +458,8 @@ def painel(dados, data, svgs):
             blocos.append(f"#### {titulo}")
         if etapas:
             blocos.append(figura(trilha, svgs))
+            if texto(dados.get("painel")) and trilha is dados["trilhas"][0]:
+                blocos.append(f'<sub>✏️ <a href="{escape(dados["painel"])}">Atualizar progresso · Update progress</a></sub>')
         blocos += [b for b in map(etapa, etapas) if b]
     blocos += list(filter(None, [extras(dados.get("extras"))]))
     blocos.append(
@@ -472,10 +476,32 @@ def painel(dados, data, svgs):
     ])
 
 
-def substitui(readme, bloco):
-    padrao = re.compile(re.escape(INICIO) + r".*?" + re.escape(FIM), re.S)
+def hoje_brasilia():
+    # O Brasil não tem horário de verão desde 2019: UTC-3 o ano todo.
+    return datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=-3))).date()
+
+
+def vale(item, hoje):
+    """O item do Agora aparece hoje? "ate" e "desde" são opcionais (AAAA-MM-DD)."""
+    ate, desde = texto(item.get("ate")), texto(item.get("desde"))
+    return (not ate or hoje <= datetime.date.fromisoformat(ate)) and (
+        not desde or hoje >= datetime.date.fromisoformat(desde))
+
+
+def agora(dados, hoje):
+    """Seção Agora · Now: português e, logo abaixo, inglês em itálico."""
+    itens = []
+    for item in dados.get("agora") or []:
+        pt, en = texto(item.get("pt")), texto(item.get("en"))
+        if pt and vale(item, hoje):
+            itens.append(f"- {pt}" + (f"<br>\n  <em>{en}</em>" if en else ""))
+    return "\n".join([AGORA_INICIO, "<!-- Gerado a partir do estudos.yml (campo agora). -->", "", *itens, AGORA_FIM])
+
+
+def substitui(readme, bloco, inicio=INICIO, fim=FIM):
+    padrao = re.compile(re.escape(inicio) + r".*?" + re.escape(fim), re.S)
     if not padrao.search(readme):
-        raise SystemExit(f"Marcadores {INICIO} / {FIM} não encontrados no README.md")
+        raise SystemExit(f"Marcadores {inicio} / {fim} não encontrados no README.md")
     return padrao.sub(lambda _: bloco, readme, count=1)
 
 
@@ -579,6 +605,20 @@ def teste():
         assert "'feito' em 'X'" in str(erro)
     else:
         raise AssertionError("status inválido em subtema deveria falhar")
+    assert "Atualizar progresso" not in md
+    com_link = painel({**dados, "painel": "https://x/issues/1"}, datetime.date(2026, 9, 24), svgs)
+    assert com_link.count('<a href="https://x/issues/1">Atualizar progresso · Update progress</a>') == 1
+    lista_agora = {"agora": [
+        {"pt": "📱 A partir de **26/10**", "en": "Starting **Oct 26**", "ate": "2026-10-25"},
+        {"pt": "📱 Dev na **ília**", "en": "Dev at **ília**", "desde": "2026-10-26"},
+        {"pt": "Só PT", "en": ""},
+    ]}
+    antes, depois = (agora(lista_agora, datetime.date(2026, 10, dia)) for dia in (25, 26))
+    assert "- 📱 A partir de **26/10**<br>\n  <em>Starting **Oct 26**</em>" in antes and "ília" not in antes
+    assert "Dev na **ília**" in depois and "A partir de" not in depois
+    assert "- Só PT\n" in antes and "<em></em>" not in antes
+    trocado = substitui(f"a\n{AGORA_INICIO}\nvelho\n{AGORA_FIM}\nb", depois, AGORA_INICIO, AGORA_FIM)
+    assert "velho" not in trocado and trocado.startswith("a\n") and trocado.endswith("\nb")
     readme = f"antes\n{INICIO}\nvelho\n{FIM}\ndepois"
     novo = substitui(readme, md)
     assert novo.startswith("antes\n") and novo.endswith("\ndepois") and "velho" not in novo
@@ -602,6 +642,8 @@ if __name__ == "__main__":
     # inválido, o README e as imagens ficam intactos em vez de serem apagados.
     svgs = imagens(dados)
     novo = substitui(readme, painel(dados, data_do_estudos(), svgs))
+    if "agora" in dados:
+        novo = substitui(novo, agora(dados, hoje_brasilia()), AGORA_INICIO, AGORA_FIM)
     os.makedirs(PASTA, exist_ok=True)
     for arquivo, svg in svgs.items():
         with open(arquivo, "w", encoding="utf-8", newline="\n") as f:
