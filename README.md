@@ -88,6 +88,8 @@ Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
   <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-claro.svg?v=7b279bcd" alt="Rumo ao Flutter · Road to Flutter. 1 Lógica: estudando, 3 de 45 subtemas; 2 POO: a começar, 0 de 21 subtemas; 3 Projeto: a começar, 0 de 5 subtemas; 4 Git: a começar, 0 de 23 subtemas; 5 Flutter: a começar, 0 de 31 subtemas; 6 Ágil: a começar, 0 de 18 subtemas; 7 Publicação: a começar, 0 de 16 subtemas; 8 Java + Ruby: a começar, 0 de 6 subtemas. / 1 Logic: studying, 3 of 45 subtopics; 2 OOP: up next, 0 of 21 subtopics; 3 Project: up next, 0 of 5 subtopics; 4 Git: up next, 0 of 23 subtopics; 5 Flutter: up next, 0 of 31 subtopics; 6 Agile: up next, 0 of 18 subtopics; 7 Release: up next, 0 of 16 subtopics; 8 Java + Ruby: up next, 0 of 6 subtopics.">
 </picture>
 
+<sub>✏️ <a href="https://github.com/IsaacGomes260653/IsaacGomes260653/issues/14">Atualizar progresso · Update progress</a></sub>
+
 <details open>
 <summary><b>1 · Lógica e sintaxe em Dart · Dart logic and syntax</b> — 🟢 Estudando / Studying · 3/45 ✅</summary>
 
