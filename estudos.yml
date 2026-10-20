@@ -348,12 +348,46 @@ trilhas:
           - { nome: "Java Programming MOOC", url: "https://java-programming.mooc.fi/" }
           - { nome: "Ruby em Vinte Minutos", url: "https://www.ruby-lang.org/pt/documentation/quickstart/" }
 
-  - id: dados
-    titulo: { pt: "Dados", en: "Data" }
+  - id: outros
+    titulo: { pt: "Outros estudos", en: "Other studies" }
     etapas:
+      - titulo: { pt: "AWS", en: "AWS" }
+        status: a_comecar
+        conteudo:
+          pt: "Fundamentos de nuvem na AWS: serviços, preços, segurança, monitoramento e arquitetura."
+          en: "AWS cloud fundamentals: services, pricing, security, monitoring, and architecture."
+        subtemas:
+          - nome: "AWS Cloud Practitioner Essentials"
+            url: "https://skillbuilder.aws/learn/94T2BEN85A/aws-cloud-practitioner-essentials/8D79F3AVR7"
+            itens:
+              - { nome: "1. Introduction to the Cloud" }
+              - { nome: "2. Compute in the Cloud" }
+              - { nome: "3. Exploring Compute Services" }
+              - { nome: "4. Going Global" }
+              - { nome: "5. Networking" }
+              - { nome: "6. Storage" }
+              - { nome: "7. Databases" }
+              - { nome: "8. AI/ML and Data Analytics" }
+              - { nome: "9. Security" }
+              - { nome: "10. Monitoring, Compliance, and Governance" }
+              - { nome: "11. Pricing and Support" }
+              - { nome: "12. Migrating to the AWS Cloud" }
+              - { nome: "13. Well-Architected Solutions" }
+          - { nome: { pt: "Certificação AWS Certified Cloud Practitioner (opcional)", en: "AWS Certified Cloud Practitioner certification (optional)" }, url: "https://aws.amazon.com/certification/certified-cloud-practitioner/" }
+        onde:
+          - { nome: "AWS Cloud Practitioner Essentials", url: "https://aws.amazon.com/training/learn-about/cloud-practitioner/", preco: "gratuito / free" }
+          - { nome: "AWS Certified Cloud Practitioner", url: "https://aws.amazon.com/certification/certified-cloud-practitioner/", preco: "US$ 100" }
+
       - titulo: { pt: "Databricks", en: "Databricks" }
         status: pausado
         nota:
           pt: "Comecei o curso, mas pausei para focar na preparação para o novo emprego. Volto em breve."
           en: "I started the course but paused it to focus on preparing for my new job. Coming back soon."
-        onde: []   # Opcional: coloque aqui o nome e o link do curso
+        subtemas:
+          - { nome: "Databricks Fundamentals", status: pausado, url: "https://www.databricks.com/training/catalog/databricks-fundamentals-2206" }
+          - { nome: { pt: "Prática na Free Edition", en: "Hands-on in the Free Edition" }, url: "https://www.databricks.com/learn/free-edition" }
+          - { nome: { pt: "Certificação Data Engineer Associate (opcional)", en: "Data Engineer Associate certification (optional)" }, url: "https://www.databricks.com/learn/certification/data-engineer-associate" }
+        onde:
+          - { nome: "Databricks Academy", url: "https://www.databricks.com/learn/training/home", preco: "gratuito / free" }
+          - { nome: "Databricks Free Edition", url: "https://www.databricks.com/learn/free-edition", preco: "gratuito / free" }
+          - { nome: "Data Engineer Associate", url: "https://www.databricks.com/learn/certification/data-engineer-associate", preco: "US$ 200 · 45 questões · 90 min" }
