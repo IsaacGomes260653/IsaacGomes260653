@@ -1,6 +1,11 @@
 # estudos.yml — Roadmap de estudos / Study roadmap
-# Para atualizar: mude o "status" de uma etapa e faça commit. O README se atualiza sozinho.
+# Para atualizar: no subtema que você estudou, mude o "status" (ou escreva um, se não tiver)
+# e faça commit — dá até para editar aqui pelo lápis do GitHub. O README se atualiza sozinho.
+#   Ex.: - { nome: "Final and const", status: concluido, estrela: true, url: "..." }
+# Quando a etapa inteira mudar de fase, mude também o "status" da etapa.
 # status aceitos: estudando | a_comecar | pausado | concluido
+# Subtema sem status = a_comecar. Grupo (subtema com "itens") não tem status: ele sai dos itens.
+# estrela: true = exigido no plano da empresa (⭐). "url" e "preco" são opcionais.
 # Campos vazios ou ausentes NÃO aparecem no README.
 
 trilhas:
@@ -15,9 +20,78 @@ trilhas:
         conteudo:
           pt: "Variáveis e tipos (int, double, String, bool, List, Map), operadores aritméticos, comparativos e lógicos, if/else, switch, for, while e funções com parâmetros posicionais e nomeados."
           en: "Variables and types (int, double, String, bool, List, Map), arithmetic, comparison and logical operators, if/else, switch, for, while, and functions with positional and named parameters."
+        subtemas:
+          - nome: "Variables"
+            url: "https://dart.dev/language/variables"
+            itens:
+              - { nome: "Null safety", status: concluido, estrela: true, url: "https://dart.dev/language/variables#null-safety" }
+              - { nome: "Default value", status: concluido, estrela: true, url: "https://dart.dev/language/variables#default-value" }
+              - { nome: "Late variables", status: concluido, estrela: true, url: "https://dart.dev/language/variables#late-variables" }
+              - { nome: "Final and const", status: estudando, estrela: true, url: "https://dart.dev/language/variables#final-and-const" }
+              - { nome: "Wildcard variables", url: "https://dart.dev/language/variables#wildcard-variables" }
+          - nome: "Built-in types"
+            url: "https://dart.dev/language/built-in-types"
+            itens:
+              - { nome: "Numbers", estrela: true, url: "https://dart.dev/language/built-in-types#numbers" }
+              - { nome: "Strings", estrela: true, url: "https://dart.dev/language/built-in-types#strings" }
+              - { nome: "Booleans", estrela: true, url: "https://dart.dev/language/built-in-types#booleans" }
+              - { nome: "Runes and grapheme clusters", url: "https://dart.dev/language/built-in-types#runes-and-grapheme-clusters" }
+              - { nome: "Symbols", url: "https://dart.dev/language/built-in-types#symbols" }
+          - nome: "Collections"
+            url: "https://dart.dev/language/collections"
+            itens:
+              - { nome: "Lists", estrela: true, url: "https://dart.dev/language/collections#lists" }
+              - { nome: "Sets", url: "https://dart.dev/language/collections#sets" }
+              - { nome: "Maps", estrela: true, url: "https://dart.dev/language/collections#maps" }
+              - { nome: "Collection elements", url: "https://dart.dev/language/collections#collection-elements" }
+          - nome: "Operators"
+            url: "https://dart.dev/language/operators"
+            itens:
+              - { nome: "Operator precedence", url: "https://dart.dev/language/operators#operator-precedence-example" }
+              - { nome: "Arithmetic operators", estrela: true, url: "https://dart.dev/language/operators#arithmetic-operators" }
+              - { nome: "Equality and relational operators", estrela: true, url: "https://dart.dev/language/operators#equality-and-relational-operators" }
+              - { nome: "Type test operators", url: "https://dart.dev/language/operators#type-test-operators" }
+              - { nome: "Assignment operators", url: "https://dart.dev/language/operators#assignment-operators" }
+              - { nome: "Logical operators", estrela: true, url: "https://dart.dev/language/operators#logical-operators" }
+              - { nome: "Bitwise and shift operators", url: "https://dart.dev/language/operators#bitwise-and-shift-operators" }
+              - { nome: "Conditional expressions", url: "https://dart.dev/language/operators#conditional-expressions" }
+              - { nome: "Cascade notation", url: "https://dart.dev/language/operators#cascade-notation" }
+              - { nome: "Spread operators", url: "https://dart.dev/language/operators#spread-operators" }
+              - { nome: "Other operators", url: "https://dart.dev/language/operators#other-operators" }
+          - nome: "Branches"
+            url: "https://dart.dev/language/branches"
+            itens:
+              - { nome: "If (if/else)", estrela: true, url: "https://dart.dev/language/branches#if" }
+              - { nome: "Switch statements", estrela: true, url: "https://dart.dev/language/branches#switch-statements" }
+              - { nome: "Guard clause", url: "https://dart.dev/language/branches#guard-clause" }
+          - nome: "Loops"
+            url: "https://dart.dev/language/loops"
+            itens:
+              - { nome: "For loops", estrela: true, url: "https://dart.dev/language/loops#for-loops" }
+              - { nome: "While and do-while", estrela: true, url: "https://dart.dev/language/loops#while-and-do-while" }
+              - { nome: "Break and continue", url: "https://dart.dev/language/loops#break-and-continue" }
+              - { nome: "Labels", url: "https://dart.dev/language/loops#labels" }
+          - nome: "Functions"
+            url: "https://dart.dev/language/functions"
+            itens:
+              - { nome: "Parameters (positional and named)", estrela: true, url: "https://dart.dev/language/functions#parameters" }
+              - { nome: "The main() function", url: "https://dart.dev/language/functions#main" }
+              - { nome: "Functions as first-class objects", url: "https://dart.dev/language/functions#functions-as-first-class-objects" }
+              - { nome: "Function types", url: "https://dart.dev/language/functions#function-types" }
+              - { nome: "Anonymous functions", url: "https://dart.dev/language/functions#anonymous-functions" }
+              - { nome: "Lexical scope", url: "https://dart.dev/language/functions#lexical-scope" }
+              - { nome: "Lexical closures", url: "https://dart.dev/language/functions#lexical-closures" }
+              - { nome: "Tear-offs", url: "https://dart.dev/language/functions#tear-offs" }
+              - { nome: "Testing functions for equality", url: "https://dart.dev/language/functions#testing-functions-for-equality" }
+              - { nome: "Return values", estrela: true, url: "https://dart.dev/language/functions#return-values" }
+              - { nome: "Getters and setters", url: "https://dart.dev/language/functions#getters-and-setters" }
+              - { nome: "Generators", url: "https://dart.dev/language/functions#generators" }
+              - { nome: "External functions", url: "https://dart.dev/language/functions#external" }
         onde:
+          - { nome: "Dart tutorial", url: "https://dart.dev/learn/tutorial" }
+          - { nome: "Dart language docs", url: "https://dart.dev/language" }
           - { nome: "DartPad", url: "https://dartpad.dev" }
-          - { nome: "Dart Language Tour", url: "https://dart.dev/language" }
+          - { nome: "Exercism · Dart track", url: "https://exercism.org/tracks/dart" }
 
       - numero: 2
         titulo: { pt: "Programação orientada a objetos", en: "Object-oriented programming" }
@@ -25,9 +99,48 @@ trilhas:
         conteudo:
           pt: "Classes e objetos, atributos e métodos, construtores padrão e nomeados, encapsulamento com _, herança com extends e sobrescrita com @override."
           en: "Classes and objects, fields and methods, default and named constructors, encapsulation with _, inheritance with extends, and overriding with @override."
+        subtemas:
+          - nome: "Classes"
+            url: "https://dart.dev/language/classes"
+            itens:
+              - { nome: { pt: "Classes e objetos (molde × instância)", en: "Classes and objects (blueprint × instance)" }, estrela: true, url: "https://dart.dev/language/classes#using-class-members" }
+              - { nome: { pt: "Atributos", en: "Fields" }, estrela: true, url: "https://dart.dev/language/classes#instance-variables" }
+              - { nome: { pt: "Métodos", en: "Methods" }, estrela: true, url: "https://dart.dev/language/methods#instance-methods" }
+              - { nome: { pt: "Getters e setters", en: "Getters and setters" }, estrela: true, url: "https://dart.dev/language/methods#getters-and-setters" }
+              - { nome: { pt: "Variáveis e métodos de classe (static)", en: "Class variables and methods (static)" }, url: "https://dart.dev/language/classes#class-variables-and-methods" }
+          - nome: "Constructors"
+            url: "https://dart.dev/language/constructors"
+            itens:
+              - { nome: { pt: "Construtor padrão", en: "Default constructors" }, estrela: true, url: "https://dart.dev/language/constructors#default-constructors" }
+              - { nome: { pt: "Construtores nomeados", en: "Named constructors" }, estrela: true, url: "https://dart.dev/language/constructors#named-constructors" }
+              - { nome: "Initializing formal parameters (this.x)", url: "https://dart.dev/language/constructors#use-initializing-formal-parameters" }
+              - { nome: "Initializer list", url: "https://dart.dev/language/constructors#use-an-initializer-list" }
+              - { nome: "Constant constructors", url: "https://dart.dev/language/constructors#constant-constructors" }
+              - { nome: "Redirecting constructors", url: "https://dart.dev/language/constructors#redirecting-constructors" }
+              - { nome: "Factory constructors", url: "https://dart.dev/language/constructors#factory-constructors" }
+              - { nome: "Super parameters", url: "https://dart.dev/language/constructors#super-parameters" }
+          - nome: "Libraries & imports"
+            url: "https://dart.dev/language/libraries"
+            itens:
+              - { nome: { pt: "Encapsulamento com `_`", en: "Encapsulation with `_`" }, estrela: true, url: "https://dart.dev/language/libraries" }
+              - { nome: "Using libraries", url: "https://dart.dev/language/libraries#using-libraries" }
+              - { nome: "Implementing libraries", url: "https://dart.dev/language/libraries#implementing-libraries" }
+          - nome: { pt: "Herança", en: "Inheritance" }
+            url: "https://dart.dev/language/extend"
+            itens:
+              - { nome: { pt: "Herança com `extends` e `super`", en: "Inheritance with `extends` and `super`" }, estrela: true, url: "https://dart.dev/language/extend" }
+              - { nome: { pt: "Sobrescrita com `@override`", en: "Overriding with `@override`" }, estrela: true, url: "https://dart.dev/language/extend#overriding-members" }
+          - nome: { pt: "Complementares", en: "Further topics" }
+            itens:
+              - { nome: { pt: "Classes abstratas", en: "Abstract classes" }, url: "https://dart.dev/language/class-modifiers#abstract" }
+              - { nome: "Interfaces", url: "https://dart.dev/language/classes#implicit-interfaces" }
+              - { nome: "Mixins", url: "https://dart.dev/language/mixins" }
         onde:
+          - { nome: "Constructors", url: "https://dart.dev/language/constructors" }
+          - { nome: "Libraries & imports", url: "https://dart.dev/language/libraries" }
+          - { nome: "Tutorial · Define classes and objects", url: "https://dart.dev/learn/tutorial/object-oriented" }
+          - { nome: "Tutorial · Structure apps with inheritance", url: "https://dart.dev/learn/tutorial/inheritance" }
           - { nome: "DartPad", url: "https://dartpad.dev" }
-          - { nome: "Dart Language Tour", url: "https://dart.dev/language" }
 
       - numero: 3
         titulo: { pt: "Projeto prático", en: "Hands-on project" }
@@ -35,6 +148,12 @@ trilhas:
         conteudo:
           pt: "Gerenciador de tarefas de console em POO: uma classe Tarefa com métodos para adicionar, listar e marcar como concluída."
           en: "Console to-do manager in OOP: a Task class with methods to add, list, and mark tasks as done."
+        subtemas:
+          - { nome: { pt: "Classe `Tarefa`", en: "`Task` class" }, estrela: true }
+          - { nome: { pt: "Adicionar tarefa", en: "Add a task" }, estrela: true }
+          - { nome: { pt: "Listar tarefas", en: "List tasks" }, estrela: true }
+          - { nome: { pt: "Marcar como concluída", en: "Mark as done" }, estrela: true }
+          - { nome: { pt: "`main` de demonstração (o DartPad não lê o teclado)", en: "Demo `main` (DartPad can't read keyboard input)" }, estrela: true }
         onde:
           - { nome: "DartPad", url: "https://dartpad.dev" }
 
@@ -44,9 +163,41 @@ trilhas:
         conteudo:
           pt: "git init, add, commit e push; levar o projeto da etapa 3 do DartPad para a minha máquina e publicá-lo em um repositório público."
           en: "git init, add, commit, and push; move the stage 3 project from DartPad to my machine and publish it in a public repository."
+        subtemas:
+          - nome: { pt: "Comandos essenciais", en: "Essential commands" }
+            itens:
+              - { nome: { pt: "Configuração inicial", en: "First-time setup" }, estrela: true, url: "https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup" }
+              - { nome: "git init", estrela: true, url: "https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository#_initializing_a_repository_in_an_existing_directory" }
+              - { nome: "git add", estrela: true, url: "https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_tracking_files" }
+              - { nome: "git commit", estrela: true, url: "https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_committing_changes" }
+              - { nome: ".gitignore", estrela: true, url: "https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring" }
+              - { nome: "git remote", estrela: true, url: "https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes#_adding_remote_repositories" }
+              - { nome: "git push", estrela: true, url: "https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes#_pushing_remotes" }
+          - nome: "Pro Git · 1. Getting Started"
+            url: "https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control"
+            itens:
+              - { nome: "1.1 About Version Control", estrela: true, url: "https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control" }
+              - { nome: "1.2 A Short History of Git", estrela: true, url: "https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git" }
+              - { nome: "1.3 What is Git?", estrela: true, url: "https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F" }
+              - { nome: "1.4 The Command Line", estrela: true, url: "https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line" }
+              - { nome: "1.5 Installing Git", estrela: true, url: "https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" }
+              - { nome: "1.6 First-Time Git Setup", estrela: true, url: "https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup" }
+              - { nome: "1.7 Getting Help", estrela: true, url: "https://git-scm.com/book/en/v2/Getting-Started-Getting-Help" }
+          - nome: "Pro Git · 2. Git Basics"
+            url: "https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository"
+            itens:
+              - { nome: "2.1 Getting a Git Repository", estrela: true, url: "https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository" }
+              - { nome: "2.2 Recording Changes to the Repository", estrela: true, url: "https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository" }
+              - { nome: "2.3 Viewing the Commit History", estrela: true, url: "https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History" }
+              - { nome: "2.4 Undoing Things", estrela: true, url: "https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things" }
+              - { nome: "2.5 Working with Remotes", estrela: true, url: "https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes" }
+              - { nome: "2.6 Tagging", estrela: true, url: "https://git-scm.com/book/en/v2/Git-Basics-Tagging" }
+              - { nome: "2.7 Git Aliases", estrela: true, url: "https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases" }
+          - { nome: "GitHub Skills · Introduction to GitHub", estrela: true, url: "https://github.com/skills/introduction-to-github" }
+          - { nome: { pt: "Desafio: publicar o projeto da Etapa 3", en: "Challenge: publish the stage 3 project" }, estrela: true }
         onde:
-          - { nome: "Pro Git", url: "https://git-scm.com/book" }
-          - { nome: "GitHub Docs", url: "https://docs.github.com" }
+          - { nome: "Pro Git (cap. 1 e 2 · ch. 1 and 2)", url: "https://git-scm.com/book" }
+          - { nome: "GitHub Skills", url: "https://skills.github.com" }
 
       - numero: 5
         titulo: { pt: "Flutter", en: "Flutter" }
