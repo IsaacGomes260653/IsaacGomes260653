@@ -7,13 +7,19 @@ on:
     paths:
       - estudos.yml
       - .github/scripts/estudos.py
+      - .github/scripts/painel.py
       - .github/workflows/painel-estudos.yml
   schedule:
-    - cron: "0 9 * * *" # 06:00 em Brasília
+    - cron: "0 9 * * *" # 06:00 em Brasília (também troca os itens do Agora que têm data)
   workflow_dispatch:
+  # Marcar uma caixinha na issue do painel é uma edição da issue. Comentários
+  # não disparam nada: não há gatilho de issue_comment.
+  issues:
+    types: [edited]
 
 permissions:
-  contents: write
+  contents: write # commit do estudos.yml, do README e das imagens
+  issues: write   # manter as caixinhas da issue iguais ao estudos.yml
 
 # Mesmo grupo do random-banner.yml: os dois reescrevem o README no main,
 # então um espera o outro terminar em vez de brigarem no push.
@@ -23,25 +29,65 @@ concurrency:
 
 jobs:
   painel:
+    # Na issue, só a do painel (etiqueta painel-estudos) e só edições minhas.
+    # Edições e commits feitos pelo próprio workflow (GITHUB_TOKEN) não
+    # disparam workflows de novo, então a sincronização não entra em loop.
+    if: >-
+      github.event_name != 'issues' ||
+      (github.event.sender.login == 'IsaacGomes260653' &&
+       contains(github.event.issue.labels.*.name, 'painel-estudos'))
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONDONTWRITEBYTECODE: "1"
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
         with:
           fetch-depth: 0 # precisa do histórico para achar a data do último commit no estudos.yml
 
-      - name: autoteste do gerador
-        run: python3 .github/scripts/estudos.py --teste
+      - name: autotestes
+        run: |
+          python3 .github/scripts/estudos.py --teste
+          python3 .github/scripts/painel.py --teste
+
+      # O corpo vem da API na hora (e não do evento), para pegar a versão mais
+      # nova se várias caixinhas forem marcadas em sequência. Ele só é lido
+      # pelo Python, nunca colado no script do shell.
+      - name: aplica as caixinhas da issue no estudos.yml
+        if: github.event_name == 'issues'
+        env:
+          NUMERO: ${{ github.event.issue.number }}
+        run: |
+          gh issue view "$NUMERO" --json body --jq .body > "$RUNNER_TEMP/issue.md"
+          yq -o=json estudos.yml | python3 .github/scripts/painel.py --aplica "$RUNNER_TEMP/issue.md"
+          git diff --stat -- estudos.yml
 
       - name: gera o painel a partir do estudos.yml
         run: yq -o=json estudos.yml | python3 .github/scripts/estudos.py
+
+      # Quando o estudos.yml muda por fora da issue, as caixinhas acompanham.
+      # Numa edição da própria issue isso não roda, para não sobrescrever uma
+      # caixinha marcada enquanto o workflow trabalhava.
+      - name: atualiza as caixinhas da issue a partir do estudos.yml
+        if: github.event_name != 'issues'
+        run: |
+          numero=$(gh issue list --label painel-estudos --state open --json number --jq '.[0].number')
+          [ -n "$numero" ] || exit 0
+          yq -o=json estudos.yml | python3 .github/scripts/painel.py --issue > "$RUNNER_TEMP/novo.md"
+          gh issue view "$numero" --json body --jq .body > "$RUNNER_TEMP/atual.md"
+          if [ "$(tr -d '\r' < "$RUNNER_TEMP/atual.md")" != "$(cat "$RUNNER_TEMP/novo.md")" ]; then
+            gh issue edit "$numero" --body-file "$RUNNER_TEMP/novo.md"
+          fi
 
       - name: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/estudos
+          git add estudos.yml README.md assets/estudos
           git diff --cached --quiet && exit 0
-          git commit -m "chore: atualiza painel de estudos"
+          mensagem="chore: atualiza painel de estudos"
+          [ "$GITHUB_EVENT_NAME" = issues ] && mensagem="chore: atualiza progresso de estudos"
+          git commit -m "$mensagem"
           git pull --rebase
           git push
