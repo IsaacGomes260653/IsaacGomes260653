@@ -39,7 +39,8 @@ FONTE = '-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial
 MONO = 'ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace'
 # Abaixo desta largura de tela a coluna do README fica estreita demais para a
 # versão larga (o texto passaria a ter menos de 12px), e entra a de celular,
-# que tem 340px e aparece praticamente em tamanho natural num celular.
+# que tem 280px: no celular a coluna do README tem ~260 a 300px, então ela
+# aparece em tamanho natural ou quase.
 QUEBRA = 1199
 
 # Por status: (cor, borda do cartão, fundo do cartão, fundo do selo, texto do selo).
@@ -265,11 +266,12 @@ def cartao(c, x, y, w, h, T):
                       f' stroke="{cor}" stroke-width="5" opacity=".6" filter="url(#brilho)"/>')
     partes.append(f'<rect x="{x:g}" y="{y:g}" width="{w:g}" height="{h:g}" rx="12" fill="{fundo}"'
                   f' stroke="{borda}" stroke-width="{2 if s == "estudando" else 1.2}"/>')
-    direita, topo = x + w - 14, y + 14
+    a = 12 if w < 130 else 14   # respiro interno: menor no cartão estreito do celular
+    direita, topo = x + w - a, y + a
     pct = f"{round(100 * c['feitos'] / c['total'])}%" if c["total"] and s == "estudando" else ""
     if c["numero"]:
-        partes.append(f'<circle cx="{x + 26:g}" cy="{topo + 12:g}" r="12" fill="{selo}"/>'
-                      f'<text class="m" x="{x + 26:g}" y="{topo + 16.5:g}" font-size="13" font-weight="700"'
+        partes.append(f'<circle cx="{x + a + 12:g}" cy="{topo + 12:g}" r="12" fill="{selo}"/>'
+                      f'<text class="m" x="{x + a + 12:g}" y="{topo + 16.5:g}" font-size="13" font-weight="700"'
                       f' text-anchor="middle" fill="{selo_txt}">{escape(c["numero"])}</text>')
         if pct:
             partes.append(f'<text class="m" x="{direita:g}" y="{topo + 16.5:g}" font-size="13" font-weight="700"'
@@ -279,15 +281,15 @@ def cartao(c, x, y, w, h, T):
     for i, (t, tam, tinta) in enumerate(c["linhas"]):
         topo += tam + 2
         peso = ' font-weight="600"' if i == 0 else ""
-        partes.append(f'<text x="{x + 14:g}" y="{topo:g}" font-size="{tam}"{peso} fill="{T[tinta]}">{escape(t)}</text>')
-        if i == 0 and not c["numero"]:
+        partes.append(f'<text x="{x + a:g}" y="{topo:g}" font-size="{tam}"{peso} fill="{T[tinta]}">{escape(t)}</text>')
+        if i == 1 and not c["numero"]:  # no cartão avulso, o ícone fica ao lado do status
             partes.append(simbolo(s, direita - 7, topo - tam * 0.35, cor))
         topo += 4
     if c["total"]:  # barra e contador sempre no pé do cartão, alinhados entre si
-        base, bw = y + h - 20, w - 28 - 46
-        partes.append(f'<rect x="{x + 14:g}" y="{base:g}" width="{bw:g}" height="6" rx="3" fill="{T["trilho"]}"/>')
+        base, bw = y + h - 20, w - 2 * a - 46
+        partes.append(f'<rect x="{x + a:g}" y="{base:g}" width="{bw:g}" height="6" rx="3" fill="{T["trilho"]}"/>')
         if c["feitos"]:
-            partes.append(f'<rect class="enche" x="{x + 14:g}" y="{base:g}" width="{bw * c["feitos"] / c["total"]:.1f}"'
+            partes.append(f'<rect class="enche" x="{x + a:g}" y="{base:g}" width="{bw * c["feitos"] / c["total"]:.1f}"'
                           f' height="6" rx="3" fill="{cor}"/>')
         partes.append(f'<text class="m" x="{direita:g}" y="{base + 6:g}" font-size="13" text-anchor="end"'
                       f' fill="{T["suave"]}">{c["feitos"]}/{c["total"]}</text>')
@@ -319,7 +321,7 @@ def desenha(titulo, cartoes, colunas, largura, tema, texto_alt, caminho):
     é em "S": a 2ª fileira volta da direita para a esquerda, e a linha que liga
     os cartões fica colorida até a etapa atual."""
     T = TEMAS[tema]
-    m, p = 12, (20 if largura > 400 else 16)   # m: folga para a sombra da caixa
+    m, p = (12, 20) if largura > 400 else (8, 12)   # m: folga para a sombra da caixa
     x0, y, iw = m + p, m + p, largura - 2 * (m + p)
     pt, en = titulo
     corpo = []
@@ -336,7 +338,7 @@ def desenha(titulo, cartoes, colunas, largura, tema, texto_alt, caminho):
         corpo.append(trecho)
         y += 14 + alto
     y += 20
-    gx, gy = (24 if colunas > 2 else 16), 22
+    gx, gy = (24 if colunas > 2 else 12), 22
     cw, ch = (iw - (colunas - 1) * gx) / colunas, max(map(altura_cartao, cartoes))
     pos = []
     for i in range(len(cartoes)):
@@ -398,7 +400,7 @@ def imagens(dados):
         par = trilha.get("curto") or trilha.get("titulo") or {}
         titulo = (texto(par.get("pt")), texto(par.get("en")))
         texto_alt = resumo(trilha)
-        versoes = (("", 4 if caminho else 2, 800 if caminho else 520), ("-celular", 2, 340))
+        versoes = (("", 4 if caminho else 2, 800 if caminho else 520), ("-celular", 2, 280))
         for tema in TEMAS:
             for sufixo, colunas, largura in versoes:
                 arquivo = f"{PASTA}/{texto(trilha.get('id')) or 'trilha'}{sufixo}-{tema}.svg"
@@ -532,7 +534,7 @@ def teste():
         assert "prefers-reduced-motion" in svg and "None" not in svg, arquivo
     t, cel = svgs[f"{PASTA}/t-claro.svg"], svgs[f"{PASTA}/t-celular-claro.svg"]
     avulsa = svgs[f"{PASTA}/dados-claro.svg"]
-    assert 'width="800"' in t and 'width="340"' in cel
+    assert 'width="800"' in t and 'width="280"' in cel
     assert t.count("<polyline") == 1                              # a etapa 1 é a atual: nada pintado
     assert t.count('class="pulso"') == 1 and ">50%</text>" in t and ">2/4</text>" in t
     assert "> / Studying</tspan>" in t and ">Studying</text>" in cel  # legenda: 1 linha × grade
