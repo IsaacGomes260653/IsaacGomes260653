@@ -60,12 +60,16 @@ Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
 <a id="agora"></a>
 ### Agora · Now
 
-- 📱 A partir de **26/10/2026**: desenvolvedor mobile (Flutter/Dart) na **ília**<br>
-  <em>Starting <b>Oct 26, 2026</b>: mobile developer (Flutter/Dart) at <b>ília</b></em>
+<!-- AGORA:INICIO -->
+<!-- Gerado a partir do estudos.yml (campo agora). -->
+
+- 🐾 Construindo o **[Íris Pet Spa](https://github.com/IsaacGomes260653/iris-pet-spa)**, um site imersivo de rolagem (Next.js, GSAP e WebGL)<br>
+  <em>Building **[Íris Pet Spa](https://github.com/IsaacGomes260653/iris-pet-spa)**, an immersive scroll-driven website (Next.js, GSAP, and WebGL)</em>
+- 📱 A partir de **26/10**: desenvolvedor mobile (Flutter/Dart) na **ília**<br>
+  <em>Starting **Oct 26**: mobile developer (Flutter/Dart) at **ília**</em>
 - 🛠️ Mantendo o **RanchoControl** em uso real na GONAR<br>
-  <em>Keeping <b>RanchoControl</b> in real use at GONAR</em>
-- 🎮 Construindo o **[PlayHub](https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/)**, um portal de mini-jogos para a Mostra de Ciências CEUB 2026, que já dá pra jogar<br>
-  <em>Building <b>PlayHub</b>, a mini-games portal for the CEUB 2026 Science Fair, already playable</em>
+  <em>Keeping **RanchoControl** in real use at GONAR</em>
+<!-- AGORA:FIM -->
 
 <a id="roadmap"></a>
 ### 🗺️ Roadmap de estudos · Study roadmap
