@@ -77,23 +77,12 @@ Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
 
 #### Rumo ao Flutter — preparação para o novo emprego · Road to Flutter — getting ready for my new job
 
-```mermaid
-%%{init: {"flowchart": {"rankSpacing": 15, "nodeSpacing": 20, "padding": 6, "diagramPadding": 8}}}%%
-flowchart LR
-  accTitle: Rumo ao Flutter — preparação para o novo emprego · Road to Flutter — getting ready for my new job
-  accDescr: Etapas em sequência, a cor mostra o status / Stages in sequence, the color shows the status
-  e1["1<br>Lógica<br>Logic<br>7%"]:::estudando
-  e2["2<br>POO<br>OOP"]:::a_comecar
-  e3["3<br>Projeto<br>Project"]:::a_comecar
-  e4["4<br>Git"]:::a_comecar
-  e5["5<br>Flutter"]:::a_comecar
-  e6["6<br>Ágil<br>Agile"]:::a_comecar
-  e7["7<br>Publicação<br>Release"]:::a_comecar
-  e8["8<br>Java + Ruby"]:::a_comecar
-  e1 --> e2 --> e3 --> e4 --> e5 --> e6 --> e7 --> e8
-  classDef estudando fill:#4f46e5,stroke:#818cf8,color:#fff
-  classDef a_comecar fill:#6b7280,stroke:#6b7280,color:#fff
-```
+<picture>
+  <source media="(max-width: 1199px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-celular-escuro.svg?v=c349b59a">
+  <source media="(max-width: 1199px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-celular-claro.svg?v=ab2409f2">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-escuro.svg?v=821be718">
+  <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-claro.svg?v=7b279bcd" alt="Rumo ao Flutter · Road to Flutter. 1 Lógica: estudando, 3 de 45 subtemas; 2 POO: a começar, 0 de 21 subtemas; 3 Projeto: a começar, 0 de 5 subtemas; 4 Git: a começar, 0 de 23 subtemas; 5 Flutter: a começar, 0 de 31 subtemas; 6 Ágil: a começar, 0 de 18 subtemas; 7 Publicação: a começar, 0 de 16 subtemas; 8 Java + Ruby: a começar, 0 de 6 subtemas. / 1 Logic: studying, 3 of 45 subtopics; 2 OOP: up next, 0 of 21 subtopics; 3 Project: up next, 0 of 5 subtopics; 4 Git: up next, 0 of 23 subtopics; 5 Flutter: up next, 0 of 31 subtopics; 6 Agile: up next, 0 of 18 subtopics; 7 Release: up next, 0 of 16 subtopics; 8 Java + Ruby: up next, 0 of 6 subtopics.">
+</picture>
 
 <details open>
 <summary><b>1 · Lógica e sintaxe em Dart · Dart logic and syntax</b> — 🟢 Estudando / Studying · 3/45 ✅</summary>
@@ -391,6 +380,13 @@ Java com orientação a objetos e Ruby.<br>
 </details>
 
 #### Outros estudos · Other studies
+
+<picture>
+  <source media="(max-width: 1199px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/outros-celular-escuro.svg?v=c39889cf">
+  <source media="(max-width: 1199px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/outros-celular-claro.svg?v=2a8dd89b">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/outros-escuro.svg?v=0d10df2b">
+  <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/outros-claro.svg?v=a5f9e80c" alt="Outros estudos · Other studies. AWS: a começar, 0 de 14 subtemas; Databricks: pausado, 0 de 3 subtemas. / AWS: up next, 0 of 14 subtopics; Databricks: paused, 0 of 3 subtopics.">
+</picture>
 
 <details>
 <summary><b>AWS</b> — ⚪ A começar / Up next · 0/14 ✅</summary>
