@@ -82,28 +82,28 @@ Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
 #### Rumo ao Flutter — preparação para o novo emprego · Road to Flutter — getting ready for my new job
 
 <picture>
-  <source media="(max-width: 1199px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-celular-escuro.svg?v=3a291491">
-  <source media="(max-width: 1199px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-celular-claro.svg?v=055c12d3">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-escuro.svg?v=821be718">
-  <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-claro.svg?v=7b279bcd" alt="Rumo ao Flutter · Road to Flutter. 1 Lógica: estudando, 3 de 45 subtemas; 2 POO: a começar, 0 de 21 subtemas; 3 Projeto: a começar, 0 de 5 subtemas; 4 Git: a começar, 0 de 23 subtemas; 5 Flutter: a começar, 0 de 31 subtemas; 6 Ágil: a começar, 0 de 18 subtemas; 7 Publicação: a começar, 0 de 16 subtemas; 8 Java + Ruby: a começar, 0 de 6 subtemas. / 1 Logic: studying, 3 of 45 subtopics; 2 OOP: up next, 0 of 21 subtopics; 3 Project: up next, 0 of 5 subtopics; 4 Git: up next, 0 of 23 subtopics; 5 Flutter: up next, 0 of 31 subtopics; 6 Agile: up next, 0 of 18 subtopics; 7 Release: up next, 0 of 16 subtopics; 8 Java + Ruby: up next, 0 of 6 subtopics.">
+  <source media="(max-width: 1199px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-celular-escuro.svg?v=bbc3d7dd">
+  <source media="(max-width: 1199px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-celular-claro.svg?v=5f71b88d">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-escuro.svg?v=5393333e">
+  <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-claro.svg?v=2f8d0b00" alt="Rumo ao Flutter · Road to Flutter. 1 Lógica: estudando, 4 de 45 subtemas; 2 POO: a começar, 0 de 21 subtemas; 3 Projeto: a começar, 0 de 5 subtemas; 4 Git: a começar, 0 de 23 subtemas; 5 Flutter: a começar, 0 de 31 subtemas; 6 Ágil: a começar, 0 de 18 subtemas; 7 Publicação: a começar, 0 de 16 subtemas; 8 Java + Ruby: a começar, 0 de 6 subtemas. / 1 Logic: studying, 4 of 45 subtopics; 2 OOP: up next, 0 of 21 subtopics; 3 Project: up next, 0 of 5 subtopics; 4 Git: up next, 0 of 23 subtopics; 5 Flutter: up next, 0 of 31 subtopics; 6 Agile: up next, 0 of 18 subtopics; 7 Release: up next, 0 of 16 subtopics; 8 Java + Ruby: up next, 0 of 6 subtopics.">
 </picture>
 
 <sub>✏️ <a href="https://github.com/IsaacGomes260653/IsaacGomes260653/issues/14">Atualizar progresso · Update progress</a></sub>
 
 <details open>
-<summary><b>1 · Lógica e sintaxe em Dart · Dart logic and syntax</b> — 🟢 Estudando / Studying · 3/45 ✅</summary>
+<summary><b>1 · Lógica e sintaxe em Dart · Dart logic and syntax</b> — 🟢 Estudando / Studying · 4/45 ✅</summary>
 
 Variáveis e tipos (int, double, String, bool, List, Map), operadores aritméticos, comparativos e lógicos, if/else, switch, for, while e funções com parâmetros posicionais e nomeados.<br>
 <em>Variables and types (int, double, String, bool, List, Map), arithmetic, comparison and logical operators, if/else, switch, for, while, and functions with positional and named parameters.</em>
 
-**Progresso / Progress:** `█░░░░░░░░░` 7% · 3/45 ✅ · ⭐ 3/18
+**Progresso / Progress:** `█░░░░░░░░░` 9% · 4/45 ✅ · ⭐ 4/18
 
-- 🟢 **[Variables](https://dart.dev/language/variables)** · 3/5
+- 🟢 **[Variables](https://dart.dev/language/variables)** · 4/5
   - ✅ ⭐ [Null safety](https://dart.dev/language/variables#null-safety)
   - ✅ ⭐ [Default value](https://dart.dev/language/variables#default-value)
   - ✅ ⭐ [Late variables](https://dart.dev/language/variables#late-variables)
-  - 🟢 ⭐ [Final and const](https://dart.dev/language/variables#final-and-const)
-  - ⚪ [Wildcard variables](https://dart.dev/language/variables#wildcard-variables)
+  - ✅ ⭐ [Final and const](https://dart.dev/language/variables#final-and-const)
+  - 🟢 [Wildcard variables](https://dart.dev/language/variables#wildcard-variables)
 - ⚪ **[Built-in types](https://dart.dev/language/built-in-types)** · 0/5
   - ⚪ ⭐ [Numbers](https://dart.dev/language/built-in-types#numbers)
   - ⚪ ⭐ [Strings](https://dart.dev/language/built-in-types#strings)
