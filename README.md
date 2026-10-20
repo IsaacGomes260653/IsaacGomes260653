@@ -498,7 +498,7 @@ Site imersivo de rolagem para um pet spa fictício, com 12 seções animadas e b
 
 <img alt="Next.js" src="https://img.shields.io/badge/Next.js-4f46e5?style=flat-square&logo=nextdotjs&logoColor=white"> <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-4f46e5?style=flat-square&logo=typescript&logoColor=white"> <img alt="GSAP" src="https://img.shields.io/badge/GSAP-4f46e5?style=flat-square&logo=greensock&logoColor=white"> <img alt="Three.js" src="https://img.shields.io/badge/Three.js-4f46e5?style=flat-square&logo=threedotjs&logoColor=white">
 
-Repositório / Repository [PREENCHER] · Demo [PREENCHER]
+[Repositório / Repository](https://github.com/IsaacGomes260653/iris-pet-spa) · <sub>demo em breve / demo coming soon</sub>
 
 </td>
 </tr>
