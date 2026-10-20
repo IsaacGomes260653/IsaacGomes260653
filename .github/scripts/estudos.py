@@ -506,6 +506,9 @@ def substitui(readme, bloco, inicio=INICIO, fim=FIM):
 
 
 def data_do_estudos():
+    # Mudança ainda não commitada (a issue do painel acabou de mexer no yml): é de hoje.
+    if subprocess.run(["git", "diff", "--quiet", "--", "estudos.yml"]).returncode:
+        return hoje_brasilia()
     saida = subprocess.run(
         ["git", "log", "-1", "--format=%cs", "--", "estudos.yml"],
         capture_output=True, text=True,
