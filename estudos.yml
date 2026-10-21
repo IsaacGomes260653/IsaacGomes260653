@@ -6,6 +6,7 @@
 # status aceitos: estudando | a_comecar | pausado | concluido
 # Subtema sem status = a_comecar. Grupo (subtema com "itens") não tem status: ele sai dos itens.
 # estrela: true = exigido no plano da empresa (⭐). "url" e "preco" são opcionais.
+# codigo: link para o código do estudo (opcional); aparece como "código / code" no README.
 # Campos vazios ou ausentes NÃO aparecem no README.
 # Atalho: marcar as caixinhas da issue do painel (link abaixo) atualiza este arquivo sozinho.
 
