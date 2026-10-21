@@ -30,7 +30,7 @@ trilhas:
             url: "https://dart.dev/language/variables"
             codigo: "https://github.com/IsaacGomes260653/estudos-dart/tree/main/Variaveis"
             itens:
-              - { nome: "Null safety", status: concluido, estrela: true, url: "https://dart.dev/language/variables#null-safety" }
+              - { nome: "Null safety", status: concluido, estrela: true, url: "https://dart.dev/language/variables#null-safety", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/NullSafety.dart" }
               - { nome: "Default value", status: concluido, estrela: true, url: "https://dart.dev/language/variables#default-value" }
               - { nome: "Late variables", status: concluido, estrela: true, url: "https://dart.dev/language/variables#late-variables" }
               - { nome: "Final and const", status: concluido, estrela: true, url: "https://dart.dev/language/variables#final-and-const" }
