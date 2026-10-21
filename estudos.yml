@@ -28,6 +28,7 @@ trilhas:
         subtemas:
           - nome: "Variables"
             url: "https://dart.dev/language/variables"
+            codigo: "https://github.com/IsaacGomes260653/estudos-dart/tree/main/Variaveis"
             itens:
               - { nome: "Null safety", status: concluido, estrela: true, url: "https://dart.dev/language/variables#null-safety" }
               - { nome: "Default value", status: concluido, estrela: true, url: "https://dart.dev/language/variables#default-value" }
