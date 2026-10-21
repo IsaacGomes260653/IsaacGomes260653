@@ -33,7 +33,7 @@ trilhas:
               - { nome: "Null safety", status: concluido, estrela: true, url: "https://dart.dev/language/variables#null-safety", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/NullSafety.dart" }
               - { nome: "Default value", status: concluido, estrela: true, url: "https://dart.dev/language/variables#default-value", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/DefaultValue.dart" }
               - { nome: "Late variables", status: concluido, estrela: true, url: "https://dart.dev/language/variables#late-variables", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/LateVariables.dart" }
-              - { nome: "Final and const", status: concluido, estrela: true, url: "https://dart.dev/language/variables#final-and-const" }
+              - { nome: "Final and const", status: concluido, estrela: true, url: "https://dart.dev/language/variables#final-and-const", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/FinalAndConst.dart" }
               - { nome: "Wildcard variables", status: concluido, url: "https://dart.dev/language/variables#wildcard-variables" }
           - nome: "Built-in types"
             url: "https://dart.dev/language/built-in-types"
