@@ -176,13 +176,15 @@ def lista(subtemas, recuo=""):
         rotulo = link(s)
         if not rotulo:
             continue
+        codigo = texto(s.get("codigo"))  # onde está o código do estudo, se já tiver
+        codigo = f" · [código / code]({codigo})" if codigo else ""
         if s.get("itens"):
             feitos, total = conta(s["itens"])
-            linhas.append(f"{recuo}- {icone(status_sub(s))} **{rotulo}** · {feitos}/{total}")
+            linhas.append(f"{recuo}- {icone(status_sub(s))} **{rotulo}** · {feitos}/{total}{codigo}")
             linhas.append(lista(s["itens"], recuo + "  "))
         else:
             estrela = "⭐ " if s.get("estrela") else ""
-            linhas.append(f"{recuo}- {icone(status_sub(s))} {estrela}{rotulo}")
+            linhas.append(f"{recuo}- {icone(status_sub(s))} {estrela}{rotulo}{codigo}")
     return "\n".join(filter(None, linhas))
 
 
@@ -529,7 +531,8 @@ def teste():
                      {"nome": "Final and const", "status": "estudando", "estrela": True},
                  ]},
                  {"nome": {"pt": "Ramos", "en": "Branches"}},
-                 {"nome": "Pronto", "itens": [{"nome": "A", "status": "concluido"}]},
+                 {"nome": "Pronto", "codigo": "https://g", "itens": [
+                     {"nome": "A", "status": "concluido", "codigo": "https://g/a"}]},
              ]},
             {"numero": 2, "titulo": {"pt": "Tópico novo", "en": "New topic"}, "status": "a_comecar",
              "conteudo": {"pt": "Só em português"}, "onde": []},
@@ -583,7 +586,8 @@ def teste():
     assert "Dart logic and syntax</b> — 🟢 Estudando / Studying · 2/4 ✅</summary>" in md
     assert "**Progresso / Progress:** `█████░░░░░` 50% · 2/4 ✅ · ⭐ 1/2" in md
     assert "- 🟢 **[Variables](https://v)** · 1/2\n  - ✅ ⭐ [Null safety](https://v#n)\n  - 🟢 ⭐ Final and const" in md
-    assert "- ⚪ Ramos · Branches\n- ✅ **Pronto** · 1/1\n  - ✅ A" in md
+    assert ("- ⚪ Ramos · Branches\n- ✅ **Pronto** · 1/1 · [código / code](https://g)\n"
+            "  - ✅ A · [código / code](https://g/a)") in md
     assert "[Curso](https://c) (US$ 99)" in md
     assert "<b>AWS</b> — ⚪ A começar / Up next · 0/1 ✅</summary>" in md and "- ⚪ M1" in md
     assert "⭐ 0/" not in md                                       # sem ⭐ na etapa: sem contador de ⭐
