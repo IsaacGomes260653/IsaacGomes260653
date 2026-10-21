@@ -67,6 +67,8 @@ Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
   <em>Building **[Íris Pet Spa](https://github.com/IsaacGomes260653/iris-pet-spa)**, an immersive scroll-driven website (Next.js, GSAP, and WebGL)</em>
 - 📱 A partir de **26/10**: desenvolvedor mobile (Flutter/Dart) na **ília**<br>
   <em>Starting **Oct 26**: mobile developer (Flutter/Dart) at **ília**</em>
+- 📘 Estudando Dart rumo ao Flutter, com código comentado no **[estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)**<br>
+  <em>Studying Dart on the road to Flutter, with commented code in **[estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)**</em>
 - 🛠️ Mantendo o **RanchoControl** em uso real na GONAR<br>
   <em>Keeping **RanchoControl** in real use at GONAR</em>
 <!-- AGORA:FIM -->
@@ -98,12 +100,12 @@ Variáveis e tipos (int, double, String, bool, List, Map), operadores aritmétic
 
 **Progresso / Progress:** `█░░░░░░░░░` 11% · 5/45 ✅ · ⭐ 4/18
 
-- ✅ **[Variables](https://dart.dev/language/variables)** · 5/5
-  - ✅ ⭐ [Null safety](https://dart.dev/language/variables#null-safety)
-  - ✅ ⭐ [Default value](https://dart.dev/language/variables#default-value)
-  - ✅ ⭐ [Late variables](https://dart.dev/language/variables#late-variables)
-  - ✅ ⭐ [Final and const](https://dart.dev/language/variables#final-and-const)
-  - ✅ [Wildcard variables](https://dart.dev/language/variables#wildcard-variables)
+- ✅ **[Variables](https://dart.dev/language/variables)** · 5/5 · [código / code](https://github.com/IsaacGomes260653/estudos-dart/tree/main/Variaveis)
+  - ✅ ⭐ [Null safety](https://dart.dev/language/variables#null-safety) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/NullSafety.dart)
+  - ✅ ⭐ [Default value](https://dart.dev/language/variables#default-value) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/DefaultValue.dart)
+  - ✅ ⭐ [Late variables](https://dart.dev/language/variables#late-variables) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/LateVariables.dart)
+  - ✅ ⭐ [Final and const](https://dart.dev/language/variables#final-and-const) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/FinalAndConst.dart)
+  - ✅ [Wildcard variables](https://dart.dev/language/variables#wildcard-variables) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/WildcardVariables.dart)
 - 🟢 **[Built-in types](https://dart.dev/language/built-in-types)** · 0/5
   - 🟢 ⭐ [Numbers](https://dart.dev/language/built-in-types#numbers)
   - ⚪ ⭐ [Strings](https://dart.dev/language/built-in-types#strings)
