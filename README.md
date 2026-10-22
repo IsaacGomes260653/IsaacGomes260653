@@ -656,14 +656,25 @@ Portal de mini-jogos para a Mostra de Ciências do CEUB 2026: 5 jogos clássicos
 ### 📬 Contato · Contact
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/isaac-gomes-de-moraes-107198365/"><img alt="LinkedIn de Isaac Gomes de Moraes / Isaac Gomes de Moraes on LinkedIn" src="https://img.shields.io/badge/LinkedIn-4f46e5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:isaacgm260653@gmail.com"><img alt="Enviar e-mail para Isaac / Send Isaac an e-mail" src="https://img.shields.io/badge/E--mail-4f46e5?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  Quer conversar sobre Flutter, um projeto ou os meus estudos? É só chamar.<br>
+  <em>Want to talk about Flutter, a project, or my studies? Just reach out.</em>
 </p>
 
 <p align="center">
-<!-- Rodape, mesma Action e mesmo estilo sorteado do banner do topo
-     (random-banner.yml), pra ficar sempre combinando. -->
+  <a href="https://www.linkedin.com/in/isaac-gomes-de-moraes-107198365/"><img alt="LinkedIn de Isaac Gomes de Moraes / Isaac Gomes de Moraes on LinkedIn" src="https://img.shields.io/badge/LinkedIn-0b1324?style=for-the-badge&logo=linkedin&logoColor=e8b84a"></a>
+  <a href="mailto:isaacgm260653@gmail.com"><img alt="Enviar e-mail para Isaac / Send Isaac an e-mail" src="https://img.shields.io/badge/E--mail-0b1324?style=for-the-badge&logo=gmail&logoColor=e8b84a"></a>
+  <a href="https://github.com/IsaacGomes260653/estudos-dart/discussions"><img alt="Dúvidas sobre os estudos de Dart nas Discussions / Questions about my Dart studies in Discussions" src="https://img.shields.io/badge/Discussions-0b1324?style=for-the-badge&logo=github&logoColor=e8b84a"></a>
+  <br>
+  <sub>isaacgm260653@gmail.com · <a href="https://github.com/IsaacGomes260653/estudos-dart/discussions">dúvidas sobre Dart nas Discussions do estudos-dart / Dart questions in the estudos-dart Discussions</a></sub>
+</p>
+
+<p align="center">
+<!-- Rodapé sorteado a cada 12h pela Action random-banner.yml, nos tons de
+     azul-marinho (escuro) e azulejo (claro) do banner do topo. -->
 <!--START_SECTION:footer-->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6d28d9,100:4f46e5&height=100&section=footer&animation=twinkling" alt="Rodapé decorativo em ondas / Decorative wave footer">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&animation=fadeIn&color=0:0b1324,100:111c33">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&animation=fadeIn&color=0:e6eaf2,100:f5f6f9" alt="Rodapé decorativo em ondas / Decorative wave footer">
+</picture>
 <!--END_SECTION:footer-->
 </p>
