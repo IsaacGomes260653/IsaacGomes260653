@@ -74,6 +74,18 @@ Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
   <em>Studying Dart on the road to Flutter, with commented code in **[estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)**</em>
 <!-- AGORA:FIM -->
 
+<details>
+<summary><b>Atividade recente · Recent activity</b> <sub>(atualizada a cada 12h / updated every 12h)</sub></summary>
+<br>
+<div align="center">
+
+<!-- Gerado pela Action metrics.yml (plugin activity do lowlighter/metrics),
+     no branch output-metrics, como os outros cards de estatísticas. -->
+<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.activity.svg" alt="Minha atividade pública recente no GitHub: commits, pull requests, revisões e issues dos últimos 30 dias / My recent public GitHub activity: commits, pull requests, reviews, and issues from the last 30 days">
+
+</div>
+</details>
+
 <a id="roadmap"></a>
 ### 🗺️ Roadmap de estudos · Study roadmap
 
