@@ -79,7 +79,7 @@ Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
 
 🟢 Estudando / Studying · ⚪ A começar / Up next · ⏸️ Pausado / Paused · ✅ Concluído / Done · ⭐ Exigido no plano da empresa / Required by the company plan
 
-#### Rumo ao Flutter — preparação para o novo emprego · Road to Flutter — getting ready for my new job
+#### Rumo ao Flutter — o que estudo para o trabalho na ília · Road to Flutter — what I study for my job at ília
 
 <picture>
   <source media="(max-width: 1199px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-celular-escuro.svg?v=5555240a">
@@ -425,8 +425,8 @@ Fundamentos de nuvem na AWS: serviços, preços, segurança, monitoramento e arq
 <details>
 <summary><b>Databricks</b> — ⏸️ Pausado / Paused · 0/3 ✅</summary>
 
-Comecei o curso, mas pausei para focar na preparação para o novo emprego. Volto em breve.<br>
-<em>I started the course but paused it to focus on preparing for my new job. Coming back soon.</em>
+Comecei o curso, mas pausei para focar no Flutter, que uso no trabalho. Volto em breve.<br>
+<em>I started the course but paused it to focus on Flutter, which I use at work. Coming back soon.</em>
 
 **Progresso / Progress:** `░░░░░░░░░░` 0% · 0/3 ✅
 
