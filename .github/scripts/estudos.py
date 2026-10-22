@@ -26,7 +26,7 @@ AGORA_FIM = "<!-- AGORA:FIM -->"
 
 # A ordem daqui é a ordem da legenda.
 STATUS = {
-    "estudando": "🟢 Estudando / Studying",
+    "estudando": "🟡 Estudando / Studying",
     "a_comecar": "⚪ A começar / Up next",
     "pausado": "⏸️ Pausado / Paused",
     "concluido": "✅ Concluído / Done",
@@ -46,25 +46,27 @@ MONO = 'ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",m
 QUEBRA = 1199
 
 # Por status: (cor, borda do cartão, fundo do cartão, fundo do selo, texto do selo).
-# Cores conferidas no validador de paleta (separação para daltonismo e
-# contraste); o cinza do "a começar" é neutro de propósito. Cada status também
-# tem um ícone próprio, para a cor nunca ser a única pista.
+# "Estudando" usa o dourado da identidade do perfil (o mesmo do banner).
+# Cores conferidas no validador de paleta (separação para daltonismo, visão
+# normal e contraste); o cinza do "a começar" é neutro de propósito e o verde
+# do "concluído" é escuro no tema claro para não se confundir com o dourado.
+# Cada status também tem um ícone próprio, para a cor nunca ser a única pista.
 TEMAS = {
     "claro": {
-        "caixa": ("#eef2ff", "#f5f3ff"), "contorno": "#c7d2fe", "sombra": ("#4f46e5", 0.14),
+        "caixa": ("#f5f6f9", "#ffffff"), "contorno": "#d9dee8", "sombra": ("#0b1324", 0.10),
         "texto": "#1f2328", "suave": "#59636e", "trilho": "#d0d7de",
-        "concluido": ("#1a7f37", "#1a7f37", "#f0fbf3", "#1a7f37", "#ffffff"),
-        "estudando": ("#4f46e5", "#4f46e5", "#ffffff", "#4f46e5", "#ffffff"),
-        "a_comecar": ("#6e7781", "#d0d7de", "#ffffff", "#6e7781", "#ffffff"),
-        "pausado": ("#9a6700", "#9a6700", "#fffbea", "#9a6700", "#ffffff"),
+        "concluido": ("#0f5323", "#0f5323", "#f0f7f2", "#0f5323", "#ffffff"),
+        "estudando": ("#8a6210", "#8a6210", "#ffffff", "#8a6210", "#ffffff"),
+        "a_comecar": ("#8c959f", "#d0d7de", "#ffffff", "#6e7781", "#ffffff"),
+        "pausado": ("#0969da", "#0969da", "#f1f6fe", "#0969da", "#ffffff"),
     },
     "escuro": {
-        "caixa": ("#151a33", "#1b1631"), "contorno": "#363b6e", "sombra": ("#000000", 0.45),
+        "caixa": ("#0f1a30", "#0b1324"), "contorno": "#22314f", "sombra": ("#000000", 0.45),
         "texto": "#e6edf3", "suave": "#9198a1", "trilho": "#30363d",
-        "concluido": ("#3fb950", "#3fb950", "#12261b", "#3fb950", "#0d1117"),
-        "estudando": ("#818cf8", "#818cf8", "#1e2142", "#818cf8", "#0d1117"),
+        "concluido": ("#2ea043", "#2ea043", "#12261b", "#2ea043", "#0d1117"),
+        "estudando": ("#e8b84a", "#e8b84a", "#2a2414", "#e8b84a", "#0d1117"),
         "a_comecar": ("#6e7681", "#30363d", "#161b22", "#484f58", "#e6edf3"),
-        "pausado": ("#d29922", "#d29922", "#2b2311", "#d29922", "#0d1117"),
+        "pausado": ("#58a6ff", "#58a6ff", "#0f2238", "#58a6ff", "#0d1117"),
     },
 }
 
@@ -568,7 +570,7 @@ def teste():
     tres = {"id": "u", "etapas": [{"numero": n, "status": s}
                                   for n, s in ((1, "concluido"), (2, "concluido"), (3, "estudando"))]}
     pintada = imagens({"trilhas": [tres]})[f"{PASTA}/u-claro.svg"]
-    assert pintada.count("<polyline") == 2 and 'stroke="#4f46e5" stroke-width="3"' in pintada
+    assert pintada.count("<polyline") == 2 and 'stroke="#8a6210" stroke-width="3"' in pintada
     try:
         imagens({"trilhas": [{"etapas": [{"numero": 1}]}, {"etapas": [{"numero": 1}]}]})
     except SystemExit as erro:
@@ -576,9 +578,9 @@ def teste():
     else:
         raise AssertionError("duas trilhas sem id deveriam falhar")
     assert md.count("<details open>") == 1 and md.count("<details>") == 3  # AWS: avulsa com subtemas
-    assert "Dart logic and syntax</b> — 🟢 Estudando / Studying · 2/4 ✅</summary>" in md
+    assert "Dart logic and syntax</b> — 🟡 Estudando / Studying · 2/4 ✅</summary>" in md
     assert "**Progresso / Progress:** `█████░░░░░` 50% · 2/4 ✅ · ⭐ 1/2" in md
-    assert "- 🟢 **[Variables](https://v)** · 1/2\n  - ✅ ⭐ [Null safety](https://v#n)\n  - 🟢 ⭐ Final and const" in md
+    assert "- 🟡 **[Variables](https://v)** · 1/2\n  - ✅ ⭐ [Null safety](https://v#n)\n  - 🟡 ⭐ Final and const" in md
     assert ("- ⚪ Ramos · Branches\n- ✅ **Pronto** · 1/1 · [código / code](https://g)\n"
             "  - ✅ A · [código / code](https://g/a)") in md
     assert "[Curso](https://c) (US$ 99)" in md
