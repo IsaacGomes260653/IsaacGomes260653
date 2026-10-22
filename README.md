@@ -1,10 +1,13 @@
+<!-- Banner próprio, com a identidade do banner do LinkedIn (azul-marinho,
+     dourado e azulejos à maneira de Athos Bulcão). Versões para celular e
+     desktop, nos temas claro e escuro. Fonte: linkedin-banner/github.html. -->
 <p align="center">
-<!-- Banner gerado via capsule-render. Uma Action (random-banner.yml) sorteia
-     uma combinacao de estilo/cor a cada 12h de uma lista curada e reescreve
-     a linha abaixo direto no README, mesmo padrao usado no fun corner. -->
-<!--START_SECTION:banner-->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6d28d9,100:4f46e5&height=170&section=header&text=Isaac%20Gomes%20de%20Moraes&fontColor=ffffff&fontSize=38&animation=twinkling" alt="Banner em ondas com o nome Isaac Gomes de Moraes / Wave banner with the name Isaac Gomes de Moraes">
-<!--END_SECTION:banner-->
+  <picture>
+    <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-escuro.png?v=1">
+    <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-claro.png?v=1">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-escuro.png?v=1">
+    <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-claro.png?v=1" alt="Isaac Gomes de Moraes. Desenvolvedor Mobile, Flutter e Dart. Ciência da Computação no UniCEUB, Brasília, DF / Mobile Developer, Flutter and Dart. Computer Science at UniCEUB, Brasília, Brazil">
+  </picture>
 </p>
 
 <p align="center">
