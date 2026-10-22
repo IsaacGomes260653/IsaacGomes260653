@@ -12,8 +12,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=818CF8&center=true&vCenter=true&width=560&lines=Dev+mobile+Flutter%2FDart+na+%C3%ADlia;Flutter%2FDart+mobile+dev+at+%C3%ADlia;Construo+ferramentas+para+problemas+reais;I+build+tools+for+real+problems;Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o+no+UniCEUB;Computer+Science+at+UniCEUB">
-    <img alt="Dev mobile Flutter/Dart na ília / Flutter/Dart mobile dev at ília · Construo ferramentas para problemas reais / I build tools for real problems · Ciência da Computação no UniCEUB / Computer Science at UniCEUB" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=4F46E5&center=true&vCenter=true&width=560&lines=Dev+mobile+Flutter%2FDart+na+%C3%ADlia;Flutter%2FDart+mobile+dev+at+%C3%ADlia;Construo+ferramentas+para+problemas+reais;I+build+tools+for+real+problems;Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o+no+UniCEUB;Computer+Science+at+UniCEUB">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=E8B84A&center=true&vCenter=true&width=560&lines=Dev+mobile+Flutter%2FDart+na+%C3%ADlia;Flutter%2FDart+mobile+dev+at+%C3%ADlia;Construo+ferramentas+para+problemas+reais;I+build+tools+for+real+problems;Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o+no+UniCEUB;Computer+Science+at+UniCEUB">
+    <img alt="Dev mobile Flutter/Dart na ília / Flutter/Dart mobile dev at ília · Construo ferramentas para problemas reais / I build tools for real problems · Ciência da Computação no UniCEUB / Computer Science at UniCEUB" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=8A6210&center=true&vCenter=true&width=560&lines=Dev+mobile+Flutter%2FDart+na+%C3%ADlia;Flutter%2FDart+mobile+dev+at+%C3%ADlia;Construo+ferramentas+para+problemas+reais;I+build+tools+for+real+problems;Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o+no+UniCEUB;Computer+Science+at+UniCEUB">
   </picture>
 </p>
 
@@ -24,12 +24,12 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/isaac-gomes-de-moraes-107198365/">
-    <img src="https://img.shields.io/badge/LinkedIn-4f46e5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn">
+    <img src="https://img.shields.io/badge/LinkedIn-122039?style=flat&logo=linkedin&logoColor=e8b84a" alt="LinkedIn">
   </a>
   <a href="mailto:isaacgm260653@gmail.com">
-    <img src="https://img.shields.io/badge/E--mail-4f46e5?style=flat&logo=gmail&logoColor=white" alt="E-mail">
+    <img src="https://img.shields.io/badge/E--mail-122039?style=flat&logo=gmail&logoColor=e8b84a" alt="E-mail">
   </a>
-  <img src="https://komarev.com/ghpvc/?username=IsaacGomes260653&color=4f46e5&style=flat&label=Perfil+visto+%2F+Profile+views" alt="Contador de visitas do perfil / Profile view counter">
+  <img src="https://komarev.com/ghpvc/?username=IsaacGomes260653&color=122039&style=flat&label=Perfil+visto+%2F+Profile+views" alt="Contador de visitas do perfil / Profile view counter">
 </p>
 
 <p align="center">
@@ -463,7 +463,7 @@ Comecei o curso, mas pausei para focar no Flutter, que uso no trabalho. Volto em
 Criado na GONAR para substituir as planilhas de controle de refeições e presença nas obras: funciona offline e exporta para Excel.<br>
 <em>Built at GONAR to replace the meal and attendance spreadsheets on its construction sites: works offline and exports to Excel.</em>
 
-<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-4f46e5?style=flat-square&logo=javascript&logoColor=white"> <img alt="IndexedDB" src="https://img.shields.io/badge/IndexedDB-4f46e5?style=flat-square">
+<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-122039?style=flat-square&logo=javascript&logoColor=white"> <img alt="IndexedDB" src="https://img.shields.io/badge/IndexedDB-122039?style=flat-square">
 
 [Repositório / Repository](https://github.com/IsaacGomes260653/Controle-de-Refeicao) · <sub>projeto interno, sem demo pública / internal project, no public demo</sub>
 
@@ -475,7 +475,7 @@ Criado na GONAR para substituir as planilhas de controle de refeições e presen
 Gerenciador de tarefas com integração a uma API pública, testes, CI/CD e deploy no Render.<br>
 <em>Task manager with public API integration, tests, CI/CD, and a deploy on Render.</em>
 
-<img alt="Python" src="https://img.shields.io/badge/Python-4f46e5?style=flat-square&logo=python&logoColor=white"> <img alt="Flask" src="https://img.shields.io/badge/Flask-4f46e5?style=flat-square&logo=flask&logoColor=white"> <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4f46e5?style=flat-square&logo=postgresql&logoColor=white"> <img alt="Supabase" src="https://img.shields.io/badge/Supabase-4f46e5?style=flat-square&logo=supabase&logoColor=white">
+<img alt="Python" src="https://img.shields.io/badge/Python-122039?style=flat-square&logo=python&logoColor=white"> <img alt="Flask" src="https://img.shields.io/badge/Flask-122039?style=flat-square&logo=flask&logoColor=white"> <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-122039?style=flat-square&logo=postgresql&logoColor=white"> <img alt="Supabase" src="https://img.shields.io/badge/Supabase-122039?style=flat-square&logo=supabase&logoColor=white">
 
 [Repositório / Repository](https://github.com/IsaacGomes260653/forget_me_not) · [Demo](https://forget-me-not-z9hy.onrender.com) <sub>(pode levar ~40s para acordar / may take ~40s to wake up)</sub>
 
@@ -489,7 +489,7 @@ Gerenciador de tarefas com integração a uma API pública, testes, CI/CD e depl
 CRUD de tarefas com login e controle de acesso por sessão.<br>
 <em>Task CRUD with login and session-based access control.</em>
 
-<img alt="PHP" src="https://img.shields.io/badge/PHP-4f46e5?style=flat-square&logo=php&logoColor=white"> <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4f46e5?style=flat-square&logo=mysql&logoColor=white">
+<img alt="PHP" src="https://img.shields.io/badge/PHP-122039?style=flat-square&logo=php&logoColor=white"> <img alt="MySQL" src="https://img.shields.io/badge/MySQL-122039?style=flat-square&logo=mysql&logoColor=white">
 
 [Repositório / Repository](https://github.com/IsaacGomes260653/Sistema-de-Gerenciamento-de-Tarefas)
 
@@ -501,7 +501,7 @@ CRUD de tarefas com login e controle de acesso por sessão.<br>
 Site de uma rede de petshop fictícia contado como um passeio em primeira pessoa, com rolagem cinematográfica e globo 3D das lojas. Lighthouse 98 no desktop.<br>
 <em>Website for a fictional pet shop chain told as a first-person walk, with cinematic scrolling and a 3D globe of the stores. Lighthouse 98 on desktop.</em>
 
-<img alt="Next.js" src="https://img.shields.io/badge/Next.js-4f46e5?style=flat-square&logo=nextdotjs&logoColor=white"> <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-4f46e5?style=flat-square&logo=typescript&logoColor=white"> <img alt="GSAP" src="https://img.shields.io/badge/GSAP-4f46e5?style=flat-square&logo=greensock&logoColor=white"> <img alt="Three.js" src="https://img.shields.io/badge/Three.js-4f46e5?style=flat-square&logo=threedotjs&logoColor=white">
+<img alt="Next.js" src="https://img.shields.io/badge/Next.js-122039?style=flat-square&logo=nextdotjs&logoColor=white"> <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-122039?style=flat-square&logo=typescript&logoColor=white"> <img alt="GSAP" src="https://img.shields.io/badge/GSAP-122039?style=flat-square&logo=greensock&logoColor=white"> <img alt="Three.js" src="https://img.shields.io/badge/Three.js-122039?style=flat-square&logo=threedotjs&logoColor=white">
 
 [Repositório / Repository](https://github.com/IsaacGomes260653/iris-pet-spa) · <sub>demo em breve / demo coming soon</sub>
 
@@ -515,7 +515,7 @@ Site de uma rede de petshop fictícia contado como um passeio em primeira pessoa
 Portal de mini-jogos para a Mostra de Ciências do CEUB 2026: 5 jogos clássicos direto no navegador.<br>
 <em>Mini-games portal for the CEUB 2026 Science Fair: 5 classic games right in the browser.</em>
 
-<img alt="HTML" src="https://img.shields.io/badge/HTML-4f46e5?style=flat-square&logo=html5&logoColor=white"> <img alt="CSS" src="https://img.shields.io/badge/CSS-4f46e5?style=flat-square&logo=css&logoColor=white"> <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-4f46e5?style=flat-square&logo=javascript&logoColor=white">
+<img alt="HTML" src="https://img.shields.io/badge/HTML-122039?style=flat-square&logo=html5&logoColor=white"> <img alt="CSS" src="https://img.shields.io/badge/CSS-122039?style=flat-square&logo=css&logoColor=white"> <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-122039?style=flat-square&logo=javascript&logoColor=white">
 
 [Repositório / Repository](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026) · [Jogar / Play](https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/)
 
@@ -541,13 +541,13 @@ Portal de mini-jogos para a Mostra de Ciências do CEUB 2026: 5 jogos clássicos
     <img alt="Dart, Flutter, Python, JavaScript, TypeScript, PHP, Java, C++, HTML, CSS, Flask, Next.js, PostgreSQL, Supabase, MySQL, Git, GitHub, VS Code" src="https://skillicons.dev/icons?i=dart,flutter,python,js,ts,php,java,cpp,html,css,flask,nextjs,postgres,supabase,mysql,git,github,vscode&theme=light&perline=9">
   </picture>
   <br>
-  <img alt="Claude Code" src="https://img.shields.io/badge/Claude_Code-4f46e5?style=flat-square&logo=claude&logoColor=white">
+  <img alt="Claude Code" src="https://img.shields.io/badge/Claude_Code-122039?style=flat-square&logo=claude&logoColor=white">
 </p>
 
 <p align="center"><b>Aprendendo / Learning</b></p>
 
 <p align="center">
-  <img alt="Databricks" src="https://img.shields.io/badge/Databricks-4f46e5?style=flat-square&logo=databricks&logoColor=white">
+  <img alt="Databricks" src="https://img.shields.io/badge/Databricks-122039?style=flat-square&logo=databricks&logoColor=white">
 </p>
 
 ---
@@ -556,8 +556,8 @@ Portal de mini-jogos para a Mostra de Ciências do CEUB 2026: 5 jogos clássicos
 ### 🎓 Certificados · Certificates
 
 <p align="center">
-  <a href="https://www.netacad.com/courses/networking-essentials"><img alt="Cisco Networking Academy: Networking Essentials" src="https://img.shields.io/badge/Cisco_NetAcad-Networking_Essentials-4f46e5?style=for-the-badge&logo=cisco&logoColor=white&labelColor=312e81"></a>
-  <a href="https://www.netacad.com/courses/introduction-to-modern-ai"><img alt="Cisco Networking Academy: Introduction to Modern AI" src="https://img.shields.io/badge/Cisco_NetAcad-Introduction_to_Modern_AI-4f46e5?style=for-the-badge&logo=cisco&logoColor=white&labelColor=312e81"></a>
+  <a href="https://www.netacad.com/courses/networking-essentials"><img alt="Cisco Networking Academy: Networking Essentials" src="https://img.shields.io/badge/Cisco_NetAcad-Networking_Essentials-122039?style=for-the-badge&logo=cisco&logoColor=e8b84a&labelColor=0b1324"></a>
+  <a href="https://www.netacad.com/courses/introduction-to-modern-ai"><img alt="Cisco Networking Academy: Introduction to Modern AI" src="https://img.shields.io/badge/Cisco_NetAcad-Introduction_to_Modern_AI-122039?style=for-the-badge&logo=cisco&logoColor=e8b84a&labelColor=0b1324"></a>
   <!-- Próximo certificado: copie uma das linhas acima, troque o texto do
        badge (Emissor-Nome_do_curso, com _ no lugar de espaço) e o link. -->
 </p>
@@ -576,8 +576,8 @@ Portal de mini-jogos para a Mostra de Ciências do CEUB 2026: 5 jogos clássicos
   <img alt="Estatísticas do GitHub: estrelas, commits, pull requests, issues e repositórios em que contribuí / GitHub stats: stars, commits, pull requests, issues and repositories contributed to" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats/github/3-stats.svg">
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=IsaacGomes260653&theme=dark&hide_border=true&background=00000000&ring=6366F1&fire=6366F1&currStreakLabel=818CF8">
-  <img alt="Sequência de contribuições: total, sequência atual e maior sequência / Contribution streak: total, current and longest streak" src="https://streak-stats.demolab.com?user=IsaacGomes260653&hide_border=true&background=FFFFFF00&ring=4F46E5&fire=4F46E5&currStreakLabel=4F46E5">
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=IsaacGomes260653&theme=dark&hide_border=true&background=00000000&ring=E8B84A&fire=E8B84A&currStreakLabel=E8B84A">
+  <img alt="Sequência de contribuições: total, sequência atual e maior sequência / Contribution streak: total, current and longest streak" src="https://streak-stats.demolab.com?user=IsaacGomes260653&hide_border=true&background=FFFFFF00&ring=8A6210&fire=8A6210&currStreakLabel=8A6210">
 </picture>
 
 <!-- Trocado pelo mesmo motivo do grafico de atividade: o card antigo
@@ -661,9 +661,9 @@ Portal de mini-jogos para a Mostra de Ciências do CEUB 2026: 5 jogos clássicos
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/isaac-gomes-de-moraes-107198365/"><img alt="LinkedIn de Isaac Gomes de Moraes / Isaac Gomes de Moraes on LinkedIn" src="https://img.shields.io/badge/LinkedIn-0b1324?style=for-the-badge&logo=linkedin&logoColor=e8b84a"></a>
-  <a href="mailto:isaacgm260653@gmail.com"><img alt="Enviar e-mail para Isaac / Send Isaac an e-mail" src="https://img.shields.io/badge/E--mail-0b1324?style=for-the-badge&logo=gmail&logoColor=e8b84a"></a>
-  <a href="https://github.com/IsaacGomes260653/estudos-dart/discussions"><img alt="Dúvidas sobre os estudos de Dart nas Discussions / Questions about my Dart studies in Discussions" src="https://img.shields.io/badge/Discussions-0b1324?style=for-the-badge&logo=github&logoColor=e8b84a"></a>
+  <a href="https://www.linkedin.com/in/isaac-gomes-de-moraes-107198365/"><img alt="LinkedIn de Isaac Gomes de Moraes / Isaac Gomes de Moraes on LinkedIn" src="https://img.shields.io/badge/LinkedIn-122039?style=for-the-badge&logo=linkedin&logoColor=e8b84a"></a>
+  <a href="mailto:isaacgm260653@gmail.com"><img alt="Enviar e-mail para Isaac / Send Isaac an e-mail" src="https://img.shields.io/badge/E--mail-122039?style=for-the-badge&logo=gmail&logoColor=e8b84a"></a>
+  <a href="https://github.com/IsaacGomes260653/estudos-dart/discussions"><img alt="Dúvidas sobre os estudos de Dart nas Discussions / Questions about my Dart studies in Discussions" src="https://img.shields.io/badge/Discussions-122039?style=for-the-badge&logo=github&logoColor=e8b84a"></a>
   <br>
   <sub>isaacgm260653@gmail.com · <a href="https://github.com/IsaacGomes260653/estudos-dart/discussions">dúvidas sobre Dart nas Discussions do estudos-dart / Dart questions in the estudos-dart Discussions</a></sub>
 </p>
