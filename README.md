@@ -524,6 +524,7 @@ Portal de mini-jogos para a Mostra de Ciências do CEUB 2026: 5 jogos clássicos
 
 - **[Álbum da Copa](https://github.com/IsaacGomes260653/Album-da-copa)**: álbum digital de figurinhas da Copa 2026 com as 992 figurinhas, multi-álbum e listas de repetidas e faltantes · [abrir / open](https://isaacgomes260653.github.io/Album-da-copa/)<br>
   <em>Digital sticker album for the 2026 World Cup with all 992 stickers, multi-album support, and duplicate and missing lists</em>
+
 ---
 
 <a id="tech-stack"></a>
