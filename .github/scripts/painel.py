@@ -19,7 +19,6 @@ linha da issue ao subtema do yml. Regras de status ao aplicar:
 - o resto fica a começar (sem status no yml).
 """
 
-import datetime
 import json
 import os
 import re
@@ -45,14 +44,12 @@ a minute. The first unticked subtopic of the current stage becomes "studying". T
 write `[pausado]` in its title. The **Now** section, at the end, is plain text: edit the issue and \
 write one item per line, `Portuguese | English`. Don't delete the hidden `<!-- ... -->` codes at \
 the end of the lines."""
-AJUDA_AGORA = ("<!-- Um item por linha: \"português | inglês\". Para um item com data, comece com "
-               "[até AAAA-MM-DD] ou [desde AAAA-MM-DD]. Apague a linha para tirar o item. -->")
+AJUDA_AGORA = "<!-- Um item por linha: \"português | inglês\". Apague a linha para tirar o item. -->"
 
 CODIGO = re.compile(r"<!--\s*([es]:[^\s>]+)\s*-->")
 CAIXA = re.compile(r"^\s*[-*+]\s+\[([ xX])\]")
 PAUSA = re.compile(r"\[(pausad[oa]|paused)\]", re.I)
 ITEM = re.compile(r"^\s*[-*+]\s+(.+?)\s*$")
-DATA = re.compile(r"^\[(até|ate|desde)\s+(\d{4}-\d{2}-\d{2})\]\s*", re.I)
 
 
 def trilhas(dados):
@@ -136,8 +133,7 @@ def caixas(subtemas, chaves, recuo=""):
 
 def linha_agora(item):
     item = normaliza(item)
-    data = (f"[até {item['ate']}] " if "ate" in item else "") + (f"[desde {item['desde']}] " if "desde" in item else "")
-    return f"- {data}{item['pt']}" + (f" | {item['en']}" if item["en"] else "")
+    return f"- {item['pt']}" + (f" | {item['en']}" if item["en"] else "")
 
 
 def corpo_issue(dados):
@@ -158,27 +154,13 @@ def corpo_issue(dados):
 # ---------------------------------------------------------------- issue -> yml
 
 def normaliza(item):
-    """Item do Agora com só os campos que importam, na ordem pt, en, ate, desde."""
-    saida = {"pt": texto(item.get("pt")), "en": texto(item.get("en"))}
-    for campo in ("ate", "desde"):
-        valor = texto(item.get(campo))
-        if valor:
-            try:
-                datetime.date.fromisoformat(valor)
-            except ValueError:
-                raise SystemExit(f"Data inválida {valor!r} no item do Agora {saida['pt']!r}: use AAAA-MM-DD")
-            saida[campo] = valor
-    return saida
+    """Item do Agora com só os campos que importam, na ordem pt, en."""
+    return {"pt": texto(item.get("pt")), "en": texto(item.get("en"))}
 
 
 def le_item(t):
-    item = {}
-    m = DATA.match(t)
-    if m:
-        item["desde" if m.group(1).lower() == "desde" else "ate"] = m.group(2)
-        t = t[m.end():]
     pt, _, en = t.partition(" | ")
-    return normaliza({"pt": pt, "en": en, **item})
+    return normaliza({"pt": pt, "en": en})
 
 
 def le(corpo):
@@ -344,7 +326,7 @@ trilhas:
 
 # Agora
 agora:
-  - { pt: "📱 A partir de 26/10", en: "Starting Oct 26", ate: "2026-10-25" }
+  - { pt: "📱 Dev na ília", en: "Dev at ília" }
   - { pt: "🛠️ Mantendo", en: "Keeping" }
 
 extras:
@@ -358,7 +340,7 @@ def teste():
     assert corpo.startswith(MARCA) and corpo.count("- [x]") == 1 and corpo.count("- [ ]") == 6
     assert "- **Grupo**\n  - [x] [A](https://a) <!-- s:t:1:1 -->\n  - [ ] ⭐ B <!-- s:t:1:2 -->\n- [ ] C <!-- s:t:1:3 -->" in corpo
     assert "### 1 · Um · One <!-- e:t:1 -->" in corpo and "### X [pausado] <!-- e:o:1 -->" in corpo
-    assert "- [até 2026-10-25] 📱 A partir de 26/10 | Starting Oct 26\n- 🛠️ Mantendo | Keeping\n" in corpo
+    assert "- 📱 Dev na ília | Dev at ília\n- 🛠️ Mantendo | Keeping\n" in corpo
 
     def edita(*trocas):
         c = corpo
@@ -390,18 +372,12 @@ def teste():
     diff, _ = edita(("- [ ] X2", "- [x] X2"), ("### X [pausado]", "### X"))  # avulsa com algo feito: estudando
     assert ('        status: pausado', '        status: estudando') in diff
     assert ('          - { nome: "X1", status: pausado }', '          - { nome: "X1", status: estudando }') in diff
-    _, novo = edita(("- 🛠️ Mantendo | Keeping\n", "- 🐾 Novo **x** | New \"y\"\n- [desde 2026-10-26] Dev | Dev\n"))
-    assert ('agora:\n  - { pt: "📱 A partir de 26/10", en: "Starting Oct 26", ate: "2026-10-25" }\n'
-            '  - { pt: "🐾 Novo **x**", en: "New \\"y\\"" }\n  - { pt: "Dev", en: "Dev", desde: "2026-10-26" }\n\nextras:') in novo
+    _, novo = edita(("- 🛠️ Mantendo | Keeping\n", "- 🐾 Novo **x** | New \"y\"\n- Só PT\n"))
+    assert ('agora:\n  - { pt: "📱 Dev na ília", en: "Dev at ília" }\n'
+            '  - { pt: "🐾 Novo **x**", en: "New \\"y\\"" }\n  - { pt: "Só PT", en: "" }\n\nextras:') in novo
     _, novo = edita(("<!-- s:t:1:3 -->", ""))                               # linha sem código: ignorada
     assert novo == EXEMPLO
     assert aplica(dados, corpo.split(MARCA_AGORA)[0], EXEMPLO) == EXEMPLO     # sem a seção Agora: Agora intacto
-    try:
-        edita(("[até 2026-10-25]", "[até 2026-13-40]"))
-    except SystemExit as erro:
-        assert "2026-13-40" in str(erro)
-    else:
-        raise AssertionError("data inválida deveria falhar")
     print("ok")
 
 

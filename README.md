@@ -9,14 +9,14 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=818CF8&center=true&vCenter=true&width=560&lines=Construo+ferramentas+para+problemas+reais;I+build+tools+for+real+problems;Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o+no+UniCEUB;Computer+Science+at+UniCEUB;Em+breve%3A+dev+mobile+Flutter+na+%C3%ADlia;Soon%3A+Flutter+mobile+dev+at+%C3%ADlia">
-    <img alt="Construo ferramentas para problemas reais / I build tools for real problems · Ciência da Computação no UniCEUB / Computer Science at UniCEUB · Em breve: dev mobile Flutter na ília / Soon: Flutter mobile dev at ília" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=4F46E5&center=true&vCenter=true&width=560&lines=Construo+ferramentas+para+problemas+reais;I+build+tools+for+real+problems;Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o+no+UniCEUB;Computer+Science+at+UniCEUB;Em+breve%3A+dev+mobile+Flutter+na+%C3%ADlia;Soon%3A+Flutter+mobile+dev+at+%C3%ADlia">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=818CF8&center=true&vCenter=true&width=560&lines=Dev+mobile+Flutter%2FDart+na+%C3%ADlia;Flutter%2FDart+mobile+dev+at+%C3%ADlia;Construo+ferramentas+para+problemas+reais;I+build+tools+for+real+problems;Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o+no+UniCEUB;Computer+Science+at+UniCEUB">
+    <img alt="Dev mobile Flutter/Dart na ília / Flutter/Dart mobile dev at ília · Construo ferramentas para problemas reais / I build tools for real problems · Ciência da Computação no UniCEUB / Computer Science at UniCEUB" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=4F46E5&center=true&vCenter=true&width=560&lines=Dev+mobile+Flutter%2FDart+na+%C3%ADlia;Flutter%2FDart+mobile+dev+at+%C3%ADlia;Construo+ferramentas+para+problemas+reais;I+build+tools+for+real+problems;Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o+no+UniCEUB;Computer+Science+at+UniCEUB">
   </picture>
 </p>
 
 <p align="center">
-  Estudante de Ciência da Computação (UniCEUB) · Desenvolvedor de Software · Brasília, DF<br>
-  <em>Computer Science student (UniCEUB) · Software Developer · Brasília, Brazil</em>
+  Desenvolvedor Mobile (Flutter/Dart) na ília · Ciência da Computação no UniCEUB · Brasília, DF<br>
+  <em>Mobile Developer (Flutter/Dart) at ília · Computer Science student at UniCEUB · Brasília, Brazil</em>
 </p>
 
 <p align="center">
@@ -45,13 +45,13 @@
 <a id="sobre-mim"></a>
 ### Sobre mim · About me
 
-Estudante de Ciência da Computação no **UniCEUB**, em Brasília, com formatura prevista para dez/2028.\
-Na **GONAR Engenharia Civil** sou assistente administrativo e crio as ferramentas de software que resolvem problemas reais da empresa, como o **RanchoControl**.\
+Desenvolvedor Mobile (Flutter/Dart) na **ília** e estudante de Ciência da Computação no **UniCEUB**, em Brasília, com formatura prevista para dez/2028.\
+Antes, na **GONAR Engenharia Civil**, criei o **RanchoControl**, um sistema offline que substituiu as planilhas de refeição e presença das obras.\
 Gosto de construir a aplicação inteira, do banco de dados à interface, com testes e deploy.\
 Português nativo · inglês avançado (Casa Thomas Jefferson).
 
-<em>Computer Science student at <b>UniCEUB</b> in Brasília, Brazil, graduating in Dec 2028.<br>
-At <b>GONAR Engenharia Civil</b> I'm an administrative assistant and I build the software tools that solve the company's real problems, like <b>RanchoControl</b>.<br>
+<em>Mobile Developer (Flutter/Dart) at <b>ília</b> and Computer Science student at <b>UniCEUB</b> in Brasília, Brazil, graduating in Dec 2028.<br>
+Before that, at <b>GONAR Engenharia Civil</b>, I built <b>RanchoControl</b>, an offline system that replaced the meal and attendance spreadsheets on the company's construction sites.<br>
 I like building the whole application, from the database to the interface, with tests and deploy.<br>
 Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
 
@@ -63,14 +63,12 @@ Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
 <!-- AGORA:INICIO -->
 <!-- Gerado a partir do estudos.yml (campo agora). -->
 
+- 📱 Desenvolvedor Mobile (Flutter/Dart) na **ília**<br>
+  <em>Mobile Developer (Flutter/Dart) at **ília**</em>
 - 🐾 Construindo o **[Íris Pet Spa](https://github.com/IsaacGomes260653/iris-pet-spa)**, um site imersivo de rolagem (Next.js, GSAP e WebGL)<br>
   <em>Building **[Íris Pet Spa](https://github.com/IsaacGomes260653/iris-pet-spa)**, an immersive scroll-driven website (Next.js, GSAP, and WebGL)</em>
-- 📱 A partir de **26/10**: desenvolvedor mobile (Flutter/Dart) na **ília**<br>
-  <em>Starting **Oct 26**: mobile developer (Flutter/Dart) at **ília**</em>
 - 📘 Estudando Dart rumo ao Flutter, com código comentado no **[estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)**<br>
   <em>Studying Dart on the road to Flutter, with commented code in **[estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)**</em>
-- 🛠️ Mantendo o **RanchoControl** em uso real na GONAR<br>
-  <em>Keeping **RanchoControl** in real use at GONAR</em>
 <!-- AGORA:FIM -->
 
 <a id="roadmap"></a>
@@ -81,7 +79,7 @@ Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
 
 🟢 Estudando / Studying · ⚪ A começar / Up next · ⏸️ Pausado / Paused · ✅ Concluído / Done · ⭐ Exigido no plano da empresa / Required by the company plan
 
-#### Rumo ao Flutter — preparação para o novo emprego · Road to Flutter — getting ready for my new job
+#### Rumo ao Flutter — o que estudo para o trabalho na ília · Road to Flutter — what I study for my job at ília
 
 <picture>
   <source media="(max-width: 1199px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-celular-escuro.svg?v=5555240a">
@@ -427,8 +425,8 @@ Fundamentos de nuvem na AWS: serviços, preços, segurança, monitoramento e arq
 <details>
 <summary><b>Databricks</b> — ⏸️ Pausado / Paused · 0/3 ✅</summary>
 
-Comecei o curso, mas pausei para focar na preparação para o novo emprego. Volto em breve.<br>
-<em>I started the course but paused it to focus on preparing for my new job. Coming back soon.</em>
+Comecei o curso, mas pausei para focar no Flutter, que uso no trabalho. Volto em breve.<br>
+<em>I started the course but paused it to focus on Flutter, which I use at work. Coming back soon.</em>
 
 **Progresso / Progress:** `░░░░░░░░░░` 0% · 0/3 ✅
 
@@ -445,7 +443,7 @@ Comecei o curso, mas pausei para focar na preparação para o novo emprego. Volt
 - [Flutter & Dart — The Complete Guide (Udemy)](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/) (pago / paid) — De Maximilian Schwarzmüller. Comprar só em promoção. · <em>By Maximilian Schwarzmüller. Buy only on sale.</em>
 - [Flutter Course for Beginners (freeCodeCamp)](https://www.freecodecamp.org/news/learn-flutter-full-course/) (gratuito / free) — De 2022: usar só como complemento. · <em>From 2022: use only as a supplement.</em>
 
-<sub>Atualizado em / Updated on 21/10/2026 · gerado automaticamente a partir do <a href="estudos.yml">estudos.yml</a> / auto-generated from <a href="estudos.yml">estudos.yml</a></sub>
+<sub>Atualizado em / Updated on 22/10/2026 · gerado automaticamente a partir do <a href="estudos.yml">estudos.yml</a> / auto-generated from <a href="estudos.yml">estudos.yml</a></sub>
 <!-- ESTUDOS:FIM -->
 
 ---
@@ -459,12 +457,12 @@ Comecei o curso, mas pausei para focar na preparação para o novo emprego. Volt
 
 #### 🍽️ RanchoControl
 
-Substitui as planilhas de controle de refeições e presença nas obras da GONAR: funciona offline e exporta para Excel.<br>
-<em>Replaces the meal and attendance spreadsheets on GONAR's construction sites: works offline and exports to Excel.</em>
+Criado na GONAR para substituir as planilhas de controle de refeições e presença nas obras: funciona offline e exporta para Excel.<br>
+<em>Built at GONAR to replace the meal and attendance spreadsheets on its construction sites: works offline and exports to Excel.</em>
 
 <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-4f46e5?style=flat-square&logo=javascript&logoColor=white"> <img alt="IndexedDB" src="https://img.shields.io/badge/IndexedDB-4f46e5?style=flat-square">
 
-[Repositório / Repository](https://github.com/IsaacGomes260653/Controle-de-Refeicao) · <sub>uso interno, sem demo pública / internal use, no public demo</sub>
+[Repositório / Repository](https://github.com/IsaacGomes260653/Controle-de-Refeicao) · <sub>projeto interno, sem demo pública / internal project, no public demo</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -497,8 +495,8 @@ CRUD de tarefas com login e controle de acesso por sessão.<br>
 
 #### 🐾 Íris Pet Spa
 
-Site imersivo de rolagem para um pet spa fictício, com 12 seções animadas e bolhas de sabão em WebGL.<br>
-<em>Immersive scroll site for a fictional pet spa, with 12 animated sections and WebGL soap bubbles.</em>
+Site de uma rede de petshop fictícia contado como um passeio em primeira pessoa, com rolagem cinematográfica e globo 3D das lojas. Lighthouse 98 no desktop.<br>
+<em>Website for a fictional pet shop chain told as a first-person walk, with cinematic scrolling and a 3D globe of the stores. Lighthouse 98 on desktop.</em>
 
 <img alt="Next.js" src="https://img.shields.io/badge/Next.js-4f46e5?style=flat-square&logo=nextdotjs&logoColor=white"> <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-4f46e5?style=flat-square&logo=typescript&logoColor=white"> <img alt="GSAP" src="https://img.shields.io/badge/GSAP-4f46e5?style=flat-square&logo=greensock&logoColor=white"> <img alt="Three.js" src="https://img.shields.io/badge/Three.js-4f46e5?style=flat-square&logo=threedotjs&logoColor=white">
 
@@ -526,6 +524,7 @@ Portal de mini-jogos para a Mostra de Ciências do CEUB 2026: 5 jogos clássicos
 
 - **[Álbum da Copa](https://github.com/IsaacGomes260653/Album-da-copa)**: álbum digital de figurinhas da Copa 2026 com as 992 figurinhas, multi-álbum e listas de repetidas e faltantes · [abrir / open](https://isaacgomes260653.github.io/Album-da-copa/)<br>
   <em>Digital sticker album for the 2026 World Cup with all 992 stickers, multi-album support, and duplicate and missing lists</em>
+
 ---
 
 <a id="tech-stack"></a>
@@ -535,8 +534,8 @@ Portal de mini-jogos para a Mostra de Ciências do CEUB 2026: 5 jogos clássicos
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python%2Cjs%2Cts%2Cphp%2Cjava%2Ccpp%2Chtml%2Ccss%2Cflask%2Cnextjs%2Cpostgres%2Csupabase%2Cmysql%2Cgit%2Cgithub%2Cvscode&theme=dark&perline=8">
-    <img alt="Python, JavaScript, TypeScript, PHP, Java, C++, HTML, CSS, Flask, Next.js, PostgreSQL, Supabase, MySQL, Git, GitHub, VS Code" src="https://skillicons.dev/icons?i=python,js,ts,php,java,cpp,html,css,flask,nextjs,postgres,supabase,mysql,git,github,vscode&theme=light&perline=8">
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=dart%2Cflutter%2Cpython%2Cjs%2Cts%2Cphp%2Cjava%2Ccpp%2Chtml%2Ccss%2Cflask%2Cnextjs%2Cpostgres%2Csupabase%2Cmysql%2Cgit%2Cgithub%2Cvscode&theme=dark&perline=9">
+    <img alt="Dart, Flutter, Python, JavaScript, TypeScript, PHP, Java, C++, HTML, CSS, Flask, Next.js, PostgreSQL, Supabase, MySQL, Git, GitHub, VS Code" src="https://skillicons.dev/icons?i=dart,flutter,python,js,ts,php,java,cpp,html,css,flask,nextjs,postgres,supabase,mysql,git,github,vscode&theme=light&perline=9">
   </picture>
   <br>
   <img alt="Claude Code" src="https://img.shields.io/badge/Claude_Code-4f46e5?style=flat-square&logo=claude&logoColor=white">
@@ -545,11 +544,6 @@ Portal de mini-jogos para a Mostra de Ciências do CEUB 2026: 5 jogos clássicos
 <p align="center"><b>Aprendendo / Learning</b></p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=dart%2Cflutter&theme=dark">
-    <img alt="Dart, Flutter" src="https://skillicons.dev/icons?i=dart,flutter&theme=light">
-  </picture>
-  <br>
   <img alt="Databricks" src="https://img.shields.io/badge/Databricks-4f46e5?style=flat-square&logo=databricks&logoColor=white">
 </p>
 
