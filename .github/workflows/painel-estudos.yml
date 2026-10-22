@@ -10,7 +10,7 @@ on:
       - .github/scripts/painel.py
       - .github/workflows/painel-estudos.yml
   schedule:
-    - cron: "0 9 * * *" # 06:00 em Brasília (também troca os itens do Agora que têm data)
+    - cron: "0 9 * * *" # 06:00 em Brasília
   workflow_dispatch:
   # Marcar uma caixinha na issue do painel é uma edição da issue. Comentários
   # não disparam nada: não há gatilho de issue_comment.

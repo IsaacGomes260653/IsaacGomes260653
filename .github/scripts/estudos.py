@@ -483,19 +483,12 @@ def hoje_brasilia():
     return datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=-3))).date()
 
 
-def vale(item, hoje):
-    """O item do Agora aparece hoje? "ate" e "desde" são opcionais (AAAA-MM-DD)."""
-    ate, desde = texto(item.get("ate")), texto(item.get("desde"))
-    return (not ate or hoje <= datetime.date.fromisoformat(ate)) and (
-        not desde or hoje >= datetime.date.fromisoformat(desde))
-
-
-def agora(dados, hoje):
+def agora(dados):
     """Seção Agora · Now: português e, logo abaixo, inglês em itálico."""
     itens = []
     for item in dados.get("agora") or []:
         pt, en = texto(item.get("pt")), texto(item.get("en"))
-        if pt and vale(item, hoje):
+        if pt:
             itens.append(f"- {pt}" + (f"<br>\n  <em>{en}</em>" if en else ""))
     return "\n".join([AGORA_INICIO, "<!-- Gerado a partir do estudos.yml (campo agora). -->", "", *itens, AGORA_FIM])
 
@@ -615,16 +608,14 @@ def teste():
     assert "Atualizar progresso" not in md
     com_link = painel({**dados, "painel": "https://x/issues/1"}, datetime.date(2026, 9, 24), svgs)
     assert com_link.count('<a href="https://x/issues/1">Atualizar progresso · Update progress</a>') == 1
-    lista_agora = {"agora": [
-        {"pt": "📱 A partir de **26/10**", "en": "Starting **Oct 26**", "ate": "2026-10-25"},
-        {"pt": "📱 Dev na **ília**", "en": "Dev at **ília**", "desde": "2026-10-26"},
+    lista_agora = agora({"agora": [
+        {"pt": "📱 Dev na **ília**", "en": "Dev at **ília**"},
         {"pt": "Só PT", "en": ""},
-    ]}
-    antes, depois = (agora(lista_agora, datetime.date(2026, 10, dia)) for dia in (25, 26))
-    assert "- 📱 A partir de **26/10**<br>\n  <em>Starting **Oct 26**</em>" in antes and "ília" not in antes
-    assert "Dev na **ília**" in depois and "A partir de" not in depois
-    assert "- Só PT\n" in antes and "<em></em>" not in antes
-    trocado = substitui(f"a\n{AGORA_INICIO}\nvelho\n{AGORA_FIM}\nb", depois, AGORA_INICIO, AGORA_FIM)
+        {"pt": "", "en": "Só EN"},
+    ]})
+    assert "- 📱 Dev na **ília**<br>\n  <em>Dev at **ília**</em>" in lista_agora
+    assert "- Só PT\n" in lista_agora and "<em></em>" not in lista_agora and "Só EN" not in lista_agora
+    trocado = substitui(f"a\n{AGORA_INICIO}\nvelho\n{AGORA_FIM}\nb", lista_agora, AGORA_INICIO, AGORA_FIM)
     assert "velho" not in trocado and trocado.startswith("a\n") and trocado.endswith("\nb")
     readme = f"antes\n{INICIO}\nvelho\n{FIM}\ndepois"
     novo = substitui(readme, md)
@@ -650,7 +641,7 @@ if __name__ == "__main__":
     svgs = imagens(dados)
     novo = substitui(readme, painel(dados, data_do_estudos(), svgs))
     if "agora" in dados:
-        novo = substitui(novo, agora(dados, hoje_brasilia()), AGORA_INICIO, AGORA_FIM)
+        novo = substitui(novo, agora(dados), AGORA_INICIO, AGORA_FIM)
     os.makedirs(PASTA, exist_ok=True)
     for arquivo, svg in svgs.items():
         with open(arquivo, "w", encoding="utf-8", newline="\n") as f:
