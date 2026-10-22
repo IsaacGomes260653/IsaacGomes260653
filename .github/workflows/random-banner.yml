@@ -1,4 +1,4 @@
-name: randomize banner
+name: randomize footer
 
 on:
   schedule:
@@ -23,48 +23,43 @@ jobs:
       - name: pick a random theme
         id: pick
         run: |
-          # cada linha: type|color-gradient|animation
+          # O cabeçalho agora é o banner próprio (assets/banner); só o rodapé
+          # é sorteado. Cada linha: type|gradiente escuro|gradiente claro|animation,
+          # nos tons de azul-marinho e azulejo do banner.
           # type fixo em "waving" (a de ondas) -- foi a forma que o usuario
           # gostou originalmente; "soft"/"cylinder"/"rounded" ficam mais
           # "retangulares" e foram descartadas por feedback dele.
           themes=(
-            "waving|0:4f46e5,100:9333ea|fadeIn"
-            "waving|0:3b82f6,100:6366f1|scaleIn"
-            "waving|0:6d28d9,100:4f46e5|twinkling"
-            "waving|0:06b6d4,100:4f46e5|fadeIn"
-            "waving|0:4338ca,100:7c3aed|twinkling"
-            "waving|0:1e3a8a,100:6366f1|fadeIn"
+            "waving|0:0b1324,100:111c33|0:e6eaf2,100:f5f6f9|fadeIn"
+            "waving|0:111c33,100:0b1324|0:f5f6f9,100:e6eaf2|twinkling"
+            "waving|0:0b1324,50:122039,100:0b1324|0:eceff5,50:e6eaf2,100:eceff5|scaleIn"
           )
           choice=${themes[$RANDOM % ${#themes[@]}]}
-          IFS='|' read -r type color animation <<< "$choice"
+          IFS='|' read -r type dark light animation <<< "$choice"
 
-          header_url="https://capsule-render.vercel.app/api?type=${type}&color=${color}&height=170&section=header&text=Isaac%20Gomes%20de%20Moraes&fontColor=ffffff&fontSize=38&animation=${animation}"
-          footer_url="https://capsule-render.vercel.app/api?type=${type}&color=${color}&height=100&section=footer&animation=${animation}"
+          base="https://capsule-render.vercel.app/api?type=${type}&height=100&section=footer&animation=${animation}"
+          echo "footer_dark=${base}&color=${dark}" >> "$GITHUB_OUTPUT"
+          echo "footer_light=${base}&color=${light}" >> "$GITHUB_OUTPUT"
+          echo "Picked: $type / $dark / $light / $animation"
 
-          echo "header_url=$header_url" >> "$GITHUB_OUTPUT"
-          echo "footer_url=$footer_url" >> "$GITHUB_OUTPUT"
-          echo "Picked: $type / $color / $animation"
-
-      - name: update README banner and footer
+      - name: update README footer
         env:
-          HEADER_URL: ${{ steps.pick.outputs.header_url }}
-          FOOTER_URL: ${{ steps.pick.outputs.footer_url }}
+          FOOTER_DARK: ${{ steps.pick.outputs.footer_dark }}
+          FOOTER_LIGHT: ${{ steps.pick.outputs.footer_light }}
         run: |
           python3 - <<'PYEOF'
           import os, re
 
-          header_tag = f'<img src="{os.environ["HEADER_URL"]}" alt="Banner em ondas com o nome Isaac Gomes de Moraes / Wave banner with the name Isaac Gomes de Moraes">'
-          footer_tag = f'<img src="{os.environ["FOOTER_URL"]}" alt="Rodapé decorativo em ondas / Decorative wave footer">'
+          footer_tag = (
+              "<picture>\n"
+              f'  <source media="(prefers-color-scheme: dark)" srcset="{os.environ["FOOTER_DARK"]}">\n'
+              f'  <img src="{os.environ["FOOTER_LIGHT"]}" alt="Rodapé decorativo em ondas / Decorative wave footer">\n'
+              "</picture>"
+          )
 
           with open("README.md", encoding="utf-8") as f:
               content = f.read()
 
-          content = re.sub(
-              r'(<!--START_SECTION:banner-->\n).*?(\n<!--END_SECTION:banner-->)',
-              lambda m: m.group(1) + header_tag + m.group(2),
-              content,
-              flags=re.S,
-          )
           content = re.sub(
               r'(<!--START_SECTION:footer-->\n).*?(\n<!--END_SECTION:footer-->)',
               lambda m: m.group(1) + footer_tag + m.group(2),
@@ -82,6 +77,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
           git diff --cached --quiet && exit 0
-          git commit -m "chore: rotate banner"
+          git commit -m "chore: rotate footer"
           git pull --rebase
           git push
