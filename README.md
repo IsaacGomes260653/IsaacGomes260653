@@ -495,8 +495,8 @@ CRUD de tarefas com login e controle de acesso por sessão.<br>
 
 #### 🐾 Íris Pet Spa
 
-Site imersivo de rolagem para um pet spa fictício, com 12 seções animadas e bolhas de sabão em WebGL.<br>
-<em>Immersive scroll site for a fictional pet spa, with 12 animated sections and WebGL soap bubbles.</em>
+Site de uma rede de petshop fictícia contado como um passeio em primeira pessoa, com rolagem cinematográfica e globo 3D das lojas. Lighthouse 98 no desktop.<br>
+<em>Website for a fictional pet shop chain told as a first-person walk, with cinematic scrolling and a 3D globe of the stores. Lighthouse 98 on desktop.</em>
 
 <img alt="Next.js" src="https://img.shields.io/badge/Next.js-4f46e5?style=flat-square&logo=nextdotjs&logoColor=white"> <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-4f46e5?style=flat-square&logo=typescript&logoColor=white"> <img alt="GSAP" src="https://img.shields.io/badge/GSAP-4f46e5?style=flat-square&logo=greensock&logoColor=white"> <img alt="Three.js" src="https://img.shields.io/badge/Three.js-4f46e5?style=flat-square&logo=threedotjs&logoColor=white">
 
