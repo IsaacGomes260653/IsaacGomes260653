@@ -80,21 +80,21 @@ Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
 <!-- ESTUDOS:INICIO -->
 <!-- Gerado a partir do estudos.yml pelo workflow painel-estudos.yml. Não edite aqui: edite o estudos.yml. -->
 
-🟢 Estudando / Studying · ⚪ A começar / Up next · ⏸️ Pausado / Paused · ✅ Concluído / Done · ⭐ Exigido no plano da empresa / Required by the company plan
+🟡 Estudando / Studying · ⚪ A começar / Up next · ⏸️ Pausado / Paused · ✅ Concluído / Done · ⭐ Exigido no plano da empresa / Required by the company plan
 
 #### Rumo ao Flutter — o que estudo para o trabalho na ília · Road to Flutter — what I study for my job at ília
 
 <picture>
-  <source media="(max-width: 1199px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-celular-escuro.svg?v=5555240a">
-  <source media="(max-width: 1199px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-celular-claro.svg?v=4a74526a">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-escuro.svg?v=0ca6bdd0">
-  <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-claro.svg?v=71435561" alt="Rumo ao Flutter · Road to Flutter. 1 Lógica: estudando, 5 de 45 subtemas; 2 POO: a começar, 0 de 21 subtemas; 3 Projeto: a começar, 0 de 5 subtemas; 4 Git: a começar, 0 de 23 subtemas; 5 Flutter: a começar, 0 de 31 subtemas; 6 Ágil: a começar, 0 de 18 subtemas; 7 Publicação: a começar, 0 de 16 subtemas; 8 Java + Ruby: a começar, 0 de 6 subtemas. / 1 Logic: studying, 5 of 45 subtopics; 2 OOP: up next, 0 of 21 subtopics; 3 Project: up next, 0 of 5 subtopics; 4 Git: up next, 0 of 23 subtopics; 5 Flutter: up next, 0 of 31 subtopics; 6 Agile: up next, 0 of 18 subtopics; 7 Release: up next, 0 of 16 subtopics; 8 Java + Ruby: up next, 0 of 6 subtopics.">
+  <source media="(max-width: 1199px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-celular-escuro.svg?v=706d895d">
+  <source media="(max-width: 1199px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-celular-claro.svg?v=edf6d7fb">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-escuro.svg?v=f8b148bf">
+  <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-claro.svg?v=5454cbb5" alt="Rumo ao Flutter · Road to Flutter. 1 Lógica: estudando, 5 de 45 subtemas; 2 POO: a começar, 0 de 21 subtemas; 3 Projeto: a começar, 0 de 5 subtemas; 4 Git: a começar, 0 de 23 subtemas; 5 Flutter: a começar, 0 de 31 subtemas; 6 Ágil: a começar, 0 de 18 subtemas; 7 Publicação: a começar, 0 de 16 subtemas; 8 Java + Ruby: a começar, 0 de 6 subtemas. / 1 Logic: studying, 5 of 45 subtopics; 2 OOP: up next, 0 of 21 subtopics; 3 Project: up next, 0 of 5 subtopics; 4 Git: up next, 0 of 23 subtopics; 5 Flutter: up next, 0 of 31 subtopics; 6 Agile: up next, 0 of 18 subtopics; 7 Release: up next, 0 of 16 subtopics; 8 Java + Ruby: up next, 0 of 6 subtopics.">
 </picture>
 
 <sub>✏️ <a href="https://github.com/IsaacGomes260653/IsaacGomes260653/issues/14">Atualizar progresso · Update progress</a></sub>
 
 <details open>
-<summary><b>1 · Lógica e sintaxe em Dart · Dart logic and syntax</b> — 🟢 Estudando / Studying · 5/45 ✅</summary>
+<summary><b>1 · Lógica e sintaxe em Dart · Dart logic and syntax</b> — 🟡 Estudando / Studying · 5/45 ✅</summary>
 
 Variáveis e tipos (int, double, String, bool, List, Map), operadores aritméticos, comparativos e lógicos, if/else, switch, for, while e funções com parâmetros posicionais e nomeados.<br>
 <em>Variables and types (int, double, String, bool, List, Map), arithmetic, comparison and logical operators, if/else, switch, for, while, and functions with positional and named parameters.</em>
@@ -107,8 +107,8 @@ Variáveis e tipos (int, double, String, bool, List, Map), operadores aritmétic
   - ✅ ⭐ [Late variables](https://dart.dev/language/variables#late-variables) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/LateVariables.dart)
   - ✅ ⭐ [Final and const](https://dart.dev/language/variables#final-and-const) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/FinalAndConst.dart)
   - ✅ [Wildcard variables](https://dart.dev/language/variables#wildcard-variables) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/WildcardVariables.dart)
-- 🟢 **[Built-in types](https://dart.dev/language/built-in-types)** · 0/5
-  - 🟢 ⭐ [Numbers](https://dart.dev/language/built-in-types#numbers)
+- 🟡 **[Built-in types](https://dart.dev/language/built-in-types)** · 0/5
+  - 🟡 ⭐ [Numbers](https://dart.dev/language/built-in-types#numbers)
   - ⚪ ⭐ [Strings](https://dart.dev/language/built-in-types#strings)
   - ⚪ ⭐ [Booleans](https://dart.dev/language/built-in-types#booleans)
   - ⚪ [Runes and grapheme clusters](https://dart.dev/language/built-in-types#runes-and-grapheme-clusters)
@@ -391,10 +391,10 @@ Java com orientação a objetos e Ruby.<br>
 #### Outros estudos · Other studies
 
 <picture>
-  <source media="(max-width: 1199px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/outros-celular-escuro.svg?v=fea9e60a">
-  <source media="(max-width: 1199px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/outros-celular-claro.svg?v=7db39617">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/outros-escuro.svg?v=a1f6a4a1">
-  <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/outros-claro.svg?v=a8f81fb0" alt="Outros estudos · Other studies. AWS: a começar, 0 de 14 subtemas; Databricks: pausado, 0 de 3 subtemas. / AWS: up next, 0 of 14 subtopics; Databricks: paused, 0 of 3 subtopics.">
+  <source media="(max-width: 1199px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/outros-celular-escuro.svg?v=99045b9c">
+  <source media="(max-width: 1199px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/outros-celular-claro.svg?v=1c3601b8">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/outros-escuro.svg?v=515fd3a4">
+  <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/outros-claro.svg?v=172ebe5b" alt="Outros estudos · Other studies. AWS: a começar, 0 de 14 subtemas; Databricks: pausado, 0 de 3 subtemas. / AWS: up next, 0 of 14 subtopics; Databricks: paused, 0 of 3 subtopics.">
 </picture>
 
 <details>
