@@ -9,14 +9,14 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=818CF8&center=true&vCenter=true&width=560&lines=Construo+ferramentas+para+problemas+reais;I+build+tools+for+real+problems;Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o+no+UniCEUB;Computer+Science+at+UniCEUB;Em+breve%3A+dev+mobile+Flutter+na+%C3%ADlia;Soon%3A+Flutter+mobile+dev+at+%C3%ADlia">
-    <img alt="Construo ferramentas para problemas reais / I build tools for real problems · Ciência da Computação no UniCEUB / Computer Science at UniCEUB · Em breve: dev mobile Flutter na ília / Soon: Flutter mobile dev at ília" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=4F46E5&center=true&vCenter=true&width=560&lines=Construo+ferramentas+para+problemas+reais;I+build+tools+for+real+problems;Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o+no+UniCEUB;Computer+Science+at+UniCEUB;Em+breve%3A+dev+mobile+Flutter+na+%C3%ADlia;Soon%3A+Flutter+mobile+dev+at+%C3%ADlia">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=818CF8&center=true&vCenter=true&width=560&lines=Dev+mobile+Flutter%2FDart+na+%C3%ADlia;Flutter%2FDart+mobile+dev+at+%C3%ADlia;Construo+ferramentas+para+problemas+reais;I+build+tools+for+real+problems;Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o+no+UniCEUB;Computer+Science+at+UniCEUB">
+    <img alt="Dev mobile Flutter/Dart na ília / Flutter/Dart mobile dev at ília · Construo ferramentas para problemas reais / I build tools for real problems · Ciência da Computação no UniCEUB / Computer Science at UniCEUB" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=4F46E5&center=true&vCenter=true&width=560&lines=Dev+mobile+Flutter%2FDart+na+%C3%ADlia;Flutter%2FDart+mobile+dev+at+%C3%ADlia;Construo+ferramentas+para+problemas+reais;I+build+tools+for+real+problems;Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o+no+UniCEUB;Computer+Science+at+UniCEUB">
   </picture>
 </p>
 
 <p align="center">
-  Estudante de Ciência da Computação (UniCEUB) · Desenvolvedor de Software · Brasília, DF<br>
-  <em>Computer Science student (UniCEUB) · Software Developer · Brasília, Brazil</em>
+  Desenvolvedor Mobile (Flutter/Dart) na ília · Ciência da Computação no UniCEUB · Brasília, DF<br>
+  <em>Mobile Developer (Flutter/Dart) at ília · Computer Science student at UniCEUB · Brasília, Brazil</em>
 </p>
 
 <p align="center">
@@ -45,13 +45,13 @@
 <a id="sobre-mim"></a>
 ### Sobre mim · About me
 
-Estudante de Ciência da Computação no **UniCEUB**, em Brasília, com formatura prevista para dez/2028.\
-Na **GONAR Engenharia Civil** sou assistente administrativo e crio as ferramentas de software que resolvem problemas reais da empresa, como o **RanchoControl**.\
+Desenvolvedor Mobile (Flutter/Dart) na **ília** e estudante de Ciência da Computação no **UniCEUB**, em Brasília, com formatura prevista para dez/2028.\
+Antes, na **GONAR Engenharia Civil**, criei o **RanchoControl**, um sistema offline que substituiu as planilhas de refeição e presença das obras.\
 Gosto de construir a aplicação inteira, do banco de dados à interface, com testes e deploy.\
 Português nativo · inglês avançado (Casa Thomas Jefferson).
 
-<em>Computer Science student at <b>UniCEUB</b> in Brasília, Brazil, graduating in Dec 2028.<br>
-At <b>GONAR Engenharia Civil</b> I'm an administrative assistant and I build the software tools that solve the company's real problems, like <b>RanchoControl</b>.<br>
+<em>Mobile Developer (Flutter/Dart) at <b>ília</b> and Computer Science student at <b>UniCEUB</b> in Brasília, Brazil, graduating in Dec 2028.<br>
+Before that, at <b>GONAR Engenharia Civil</b>, I built <b>RanchoControl</b>, an offline system that replaced the meal and attendance spreadsheets on the company's construction sites.<br>
 I like building the whole application, from the database to the interface, with tests and deploy.<br>
 Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
 
