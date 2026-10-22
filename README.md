@@ -457,12 +457,12 @@ Comecei o curso, mas pausei para focar no Flutter, que uso no trabalho. Volto em
 
 #### 🍽️ RanchoControl
 
-Substitui as planilhas de controle de refeições e presença nas obras da GONAR: funciona offline e exporta para Excel.<br>
-<em>Replaces the meal and attendance spreadsheets on GONAR's construction sites: works offline and exports to Excel.</em>
+Criado na GONAR para substituir as planilhas de controle de refeições e presença nas obras: funciona offline e exporta para Excel.<br>
+<em>Built at GONAR to replace the meal and attendance spreadsheets on its construction sites: works offline and exports to Excel.</em>
 
 <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-4f46e5?style=flat-square&logo=javascript&logoColor=white"> <img alt="IndexedDB" src="https://img.shields.io/badge/IndexedDB-4f46e5?style=flat-square">
 
-[Repositório / Repository](https://github.com/IsaacGomes260653/Controle-de-Refeicao) · <sub>uso interno, sem demo pública / internal use, no public demo</sub>
+[Repositório / Repository](https://github.com/IsaacGomes260653/Controle-de-Refeicao) · <sub>projeto interno, sem demo pública / internal project, no public demo</sub>
 
 </td>
 <td width="50%" valign="top">
