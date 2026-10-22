@@ -63,14 +63,12 @@ Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
 <!-- AGORA:INICIO -->
 <!-- Gerado a partir do estudos.yml (campo agora). -->
 
+- 📱 Desenvolvedor Mobile (Flutter/Dart) na **ília**<br>
+  <em>Mobile Developer (Flutter/Dart) at **ília**</em>
 - 🐾 Construindo o **[Íris Pet Spa](https://github.com/IsaacGomes260653/iris-pet-spa)**, um site imersivo de rolagem (Next.js, GSAP e WebGL)<br>
   <em>Building **[Íris Pet Spa](https://github.com/IsaacGomes260653/iris-pet-spa)**, an immersive scroll-driven website (Next.js, GSAP, and WebGL)</em>
-- 📱 A partir de **26/10**: desenvolvedor mobile (Flutter/Dart) na **ília**<br>
-  <em>Starting **Oct 26**: mobile developer (Flutter/Dart) at **ília**</em>
 - 📘 Estudando Dart rumo ao Flutter, com código comentado no **[estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)**<br>
   <em>Studying Dart on the road to Flutter, with commented code in **[estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)**</em>
-- 🛠️ Mantendo o **RanchoControl** em uso real na GONAR<br>
-  <em>Keeping **RanchoControl** in real use at GONAR</em>
 <!-- AGORA:FIM -->
 
 <a id="roadmap"></a>
@@ -445,7 +443,7 @@ Comecei o curso, mas pausei para focar na preparação para o novo emprego. Volt
 - [Flutter & Dart — The Complete Guide (Udemy)](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/) (pago / paid) — De Maximilian Schwarzmüller. Comprar só em promoção. · <em>By Maximilian Schwarzmüller. Buy only on sale.</em>
 - [Flutter Course for Beginners (freeCodeCamp)](https://www.freecodecamp.org/news/learn-flutter-full-course/) (gratuito / free) — De 2022: usar só como complemento. · <em>From 2022: use only as a supplement.</em>
 
-<sub>Atualizado em / Updated on 21/10/2026 · gerado automaticamente a partir do <a href="estudos.yml">estudos.yml</a> / auto-generated from <a href="estudos.yml">estudos.yml</a></sub>
+<sub>Atualizado em / Updated on 22/10/2026 · gerado automaticamente a partir do <a href="estudos.yml">estudos.yml</a> / auto-generated from <a href="estudos.yml">estudos.yml</a></sub>
 <!-- ESTUDOS:FIM -->
 
 ---
