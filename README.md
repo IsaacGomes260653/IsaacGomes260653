@@ -470,6 +470,18 @@ Comecei o curso, mas pausei para focar no Flutter, que uso no trabalho. Volto em
 <tr>
 <td width="50%" valign="top">
 
+#### 🐾 Íris Pet Spa
+
+Site de uma rede de petshop fictícia contado como um passeio em primeira pessoa, com rolagem cinematográfica e globo 3D das lojas. Lighthouse 98 no desktop.<br>
+<em>Website for a fictional pet shop chain told as a first-person walk, with cinematic scrolling and a 3D globe of the stores. Lighthouse 98 on desktop.</em>
+
+<img alt="Next.js" src="https://img.shields.io/badge/Next.js-122039?style=flat-square&logo=nextdotjs&logoColor=white"> <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-122039?style=flat-square&logo=typescript&logoColor=white"> <img alt="GSAP" src="https://img.shields.io/badge/GSAP-122039?style=flat-square&logo=greensock&logoColor=white"> <img alt="Three.js" src="https://img.shields.io/badge/Three.js-122039?style=flat-square&logo=threedotjs&logoColor=white">
+
+[Repositório / Repository](https://github.com/IsaacGomes260653/iris-pet-spa) · <sub>demo em breve / demo coming soon</sub>
+
+</td>
+<td width="50%" valign="top">
+
 #### 🍽️ RanchoControl
 
 Criado na GONAR para substituir as planilhas de controle de refeições e presença nas obras: funciona offline e exporta para Excel.<br>
@@ -480,6 +492,8 @@ Criado na GONAR para substituir as planilhas de controle de refeições e presen
 [Repositório / Repository](https://github.com/IsaacGomes260653/Controle-de-Refeicao) · <sub>projeto interno, sem demo pública / internal project, no public demo</sub>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 #### ✅ ForgetMeNot
@@ -492,8 +506,6 @@ Gerenciador de tarefas com integração a uma API pública, testes, CI/CD e depl
 [Repositório / Repository](https://github.com/IsaacGomes260653/forget_me_not) · [Demo](https://forget-me-not-z9hy.onrender.com) <sub>(pode levar ~40s para acordar / may take ~40s to wake up)</sub>
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 #### 🗂️ TaskFlow
@@ -504,18 +516,6 @@ CRUD de tarefas com login e controle de acesso por sessão.<br>
 <img alt="PHP" src="https://img.shields.io/badge/PHP-122039?style=flat-square&logo=php&logoColor=white"> <img alt="MySQL" src="https://img.shields.io/badge/MySQL-122039?style=flat-square&logo=mysql&logoColor=white">
 
 [Repositório / Repository](https://github.com/IsaacGomes260653/Sistema-de-Gerenciamento-de-Tarefas)
-
-</td>
-<td width="50%" valign="top">
-
-#### 🐾 Íris Pet Spa
-
-Site de uma rede de petshop fictícia contado como um passeio em primeira pessoa, com rolagem cinematográfica e globo 3D das lojas. Lighthouse 98 no desktop.<br>
-<em>Website for a fictional pet shop chain told as a first-person walk, with cinematic scrolling and a 3D globe of the stores. Lighthouse 98 on desktop.</em>
-
-<img alt="Next.js" src="https://img.shields.io/badge/Next.js-122039?style=flat-square&logo=nextdotjs&logoColor=white"> <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-122039?style=flat-square&logo=typescript&logoColor=white"> <img alt="GSAP" src="https://img.shields.io/badge/GSAP-122039?style=flat-square&logo=greensock&logoColor=white"> <img alt="Three.js" src="https://img.shields.io/badge/Three.js-122039?style=flat-square&logo=threedotjs&logoColor=white">
-
-[Repositório / Repository](https://github.com/IsaacGomes260653/iris-pet-spa) · <sub>demo em breve / demo coming soon</sub>
 
 </td>
 </tr>
