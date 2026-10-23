@@ -25,7 +25,6 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/isaacgomesmoraes/"><img src="https://img.shields.io/badge/LinkedIn-122039?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2U4Yjg0YSIgZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYy0xLjE0NCAwLTIuMDYzLS45MjYtMi4wNjMtMi4wNjUgMC0xLjEzOC45Mi0yLjA2MyAyLjA2My0yLjA2MyAxLjE0IDAgMi4wNjQuOTI1IDIuMDY0IDIuMDYzIDAgMS4xMzktLjkyNSAyLjA2NS0yLjA2NCAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyMiAwaC4wMDN6Ii8%2BPC9zdmc%2B" alt="LinkedIn"></a>
   <a href="mailto:isaacgm260653@gmail.com"><img src="https://img.shields.io/badge/E--mail-122039?style=flat-square&logo=gmail&logoColor=e8b84a" alt="E-mail"></a>
-  <img src="https://komarev.com/ghpvc/?username=IsaacGomes260653&color=122039&style=flat-square&label=Perfil+visto+%2F+Profile+views" alt="Contador de visitas do perfil / Profile view counter">
 </p>
 
 <p align="center">
@@ -548,7 +547,11 @@ Comecei o curso, mas pausei para focar no Flutter, que uso no trabalho. Volto em
     <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=dart%2Cflutter&theme=dark">
     <img alt="Dart, Flutter" src="https://skillicons.dev/icons?i=dart,flutter&theme=light">
   </picture>
-  <br>
+</p>
+
+<p align="center"><b>Estudo pausado / Paused studies</b></p>
+
+<p align="center">
   <img alt="Databricks: estudo pausado / Databricks: studies paused" src="https://img.shields.io/badge/Databricks-pausado_%2F_paused-122039?style=flat-square&logo=databricks&logoColor=white&labelColor=0b1324">
 </p>
 
@@ -670,6 +673,8 @@ Comecei o curso, mas pausei para focar no Flutter, que uso no trabalho. Volto em
   <a href="https://github.com/IsaacGomes260653/estudos-dart/discussions"><img alt="Dúvidas sobre os estudos de Dart nas Discussions / Questions about my Dart studies in Discussions" src="https://img.shields.io/badge/Discussions-122039?style=for-the-badge&logo=github&logoColor=e8b84a"></a>
   <br>
   <sub>isaacgm260653@gmail.com · <a href="https://github.com/IsaacGomes260653/estudos-dart/discussions">dúvidas sobre Dart nas Discussions do estudos-dart / Dart questions in the estudos-dart Discussions</a></sub>
+  <br><br>
+  <img src="https://komarev.com/ghpvc/?username=IsaacGomes260653&color=122039&style=flat-square&label=Perfil+visto+%2F+Profile+views" alt="Contador de visitas do perfil / Profile view counter">
 </p>
 
 <p align="center">
