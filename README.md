@@ -574,6 +574,13 @@ Comecei o curso, mas pausei para focar no Flutter, que uso no trabalho. Volto em
   <img alt="Sequência de contribuições: total, sequência atual e maior sequência / Contribution streak: total, current and longest streak" src="https://streak-stats.demolab.com?user=IsaacGomes260653&hide_border=true&background=FFFFFF00&ring=8A6210&fire=8A6210&currStreakLabel=8A6210">
 </picture>
 
+</div>
+
+<details>
+<summary><b>Mais estatísticas · More stats</b> <sub>(linguagens, linhas de código e calendário 3D / languages, lines of code, and 3D calendar)</sub></summary>
+<br>
+<div align="center">
+
 <!-- Trocado pelo mesmo motivo do grafico de atividade: o card antigo
      (servico compartilhado na Vercel) ficava com dados desatualizados
      por causa do cache dele. Este e gerado pela nossa propria Action
@@ -585,13 +592,7 @@ Comecei o curso, mas pausei para focar no Flutter, que uso no trabalho. Volto em
      e branch dos plugins acima. -->
 <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.lines.svg" alt="Histórico de linhas de código adicionadas e removidas por mês / Lines of code added and removed per month">
 
-</div>
-
 <a id="activity-graph"></a>
-### 📈 Gráfico de atividade · Activity graph
-
-<div align="center">
-
 <!-- Gráfico gerado por GitHub Action (lowlighter/metrics), sem depender de
      nenhum serviço externo hospedado (a instância antiga na Vercel exigia
      um token configurado manualmente lá e parou de funcionar). A Action
@@ -599,6 +600,7 @@ Comecei o curso, mas pausei para focar no Flutter, que uso no trabalho. Volto em
 <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.isocalendar.svg" alt="Calendário isométrico das contribuições no último ano / Isometric calendar of contributions over the last year">
 
 </div>
+</details>
 
 ---
 
