@@ -3,10 +3,10 @@
      desktop, nos temas claro e escuro. Fonte: linkedin-banner/github.html. -->
 <p align="center">
   <picture>
-    <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-escuro.png?v=1">
-    <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-claro.png?v=1">
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-escuro.png?v=1">
-    <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-claro.png?v=1" alt="Isaac Gomes de Moraes. Desenvolvedor Mobile, Flutter e Dart. Ciência da Computação no UniCEUB, Brasília, DF / Mobile Developer, Flutter and Dart. Computer Science at UniCEUB, Brasília, Brazil">
+    <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-escuro.png?v=2">
+    <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-claro.png?v=2">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-escuro.png?v=2">
+    <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-claro.png?v=2" alt="Isaac Gomes de Moraes. Estagiário na ília. Ciência da Computação no UniCEUB, Brasília, DF / Intern at ília. Computer Science at UniCEUB, Brasília, Brazil">
   </picture>
 </p>
 
