@@ -30,7 +30,7 @@ Também citados nas listas consultadas: [abhisheknaiidu](https://github.com/abhi
 | Atividade recente automática | Mostra que o perfil está vivo sem eu precisar lembrar de atualizar. |
 | Badges de contato do [shields.io](https://shields.io) numa cor só | Serviço estável, leve e legível no celular. |
 | Um card de estatísticas e, no máximo, a sequência de contribuições | Para quem está começando, um card preenche espaço com dado real. Mais que isso vira painel. |
-| Contador de visitas ([komarev](https://github.com/antonkomarev/github-profile-views-counter)) | Discreto e estável. Vale como curiosidade, não como argumento. |
+| Contador de visitas ([hits.sh](https://hits.sh)) | Discreto. Vale como curiosidade, não como argumento. O komarev, usado antes, saiu do ar em out/2026. |
 
 ### Poluem ou quebram
 
