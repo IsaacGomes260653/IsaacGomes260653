@@ -88,10 +88,23 @@ Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
 <a id="projetos"></a>
 ### 📌 Projetos em destaque · Featured projects
 
+#### 🎮 PlayHub · entregue / delivered
+
+Portal de mini-jogos para a Mostra de Ciências do CEUB 2026: 7 jogos direto no navegador, instaláveis como app (PWA).<br>
+<em>Mini-games portal for the CEUB 2026 Science Fair: 7 games right in the browser, installable as an app (PWA).</em>
+
+<a href="https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/projetos/playhub.webp" width="480" alt="Página inicial do PlayHub com a grade dos sete jogos / PlayHub home page with the grid of seven games"></a>
+
+<img alt="HTML" src="https://img.shields.io/badge/HTML-122039?style=flat-square&logo=html5&logoColor=white"> <img alt="CSS" src="https://img.shields.io/badge/CSS-122039?style=flat-square&logo=css&logoColor=white"> <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-122039?style=flat-square&logo=javascript&logoColor=white">
+
+[Repositório / Repository](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026) · [Jogar / Play](https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/)
+
 #### 🐾 Íris Pet Spa
 
 Site de uma rede de petshop fictícia contado como um passeio em primeira pessoa, com rolagem cinematográfica e globo 3D das lojas. [Lighthouse 98 no desktop](https://github.com/IsaacGomes260653/iris-pet-spa#acessibilidade-e-desempenho).<br>
-<em>Website for a fictional pet shop chain told as a first-person walk, with cinematic scrolling and a 3D globe of the stores. Lighthouse 98 on desktop.</em>
+<em>Website for a fictional pet shop chain told as a first-person walk, with cinematic scrolling and a 3D globe of the stores. <a href="https://github.com/IsaacGomes260653/iris-pet-spa#acessibilidade-e-desempenho">Lighthouse 98 on desktop</a>.</em>
+
+<a href="https://github.com/IsaacGomes260653/iris-pet-spa"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/projetos/iris-pet-spa.webp" width="480" alt="Seção das lojas do Íris Pet Spa: globo 3D com as unidades no Brasil / Íris Pet Spa stores section: 3D globe with the locations in Brazil"></a>
 
 <img alt="Next.js" src="https://img.shields.io/badge/Next.js-122039?style=flat-square&logo=nextdotjs&logoColor=white"> <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-122039?style=flat-square&logo=typescript&logoColor=white"> <img alt="GSAP" src="https://img.shields.io/badge/GSAP-122039?style=flat-square&logo=greensock&logoColor=white"> <img alt="Three.js" src="https://img.shields.io/badge/Three.js-122039?style=flat-square&logo=threedotjs&logoColor=white">
 
@@ -102,23 +115,18 @@ Site de uma rede de petshop fictícia contado como um passeio em primeira pessoa
 Criado na GONAR para substituir as planilhas de controle de refeições e presença nas obras: funciona offline e exporta para Excel.<br>
 <em>Built at GONAR to replace the meal and attendance spreadsheets on its construction sites: works offline and exports to Excel.</em>
 
+<a href="https://github.com/IsaacGomes260653/Controle-de-Refeicao"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/projetos/ranchocontrol.webp" width="480" alt="Módulo de refeições do RanchoControl com a obra ativa e o total a pagar / RanchoControl meals module with the active job site and the total to pay"></a>
+
 <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-122039?style=flat-square&logo=javascript&logoColor=white"> <img alt="localStorage" src="https://img.shields.io/badge/localStorage-122039?style=flat-square"> <img alt="ExcelJS" src="https://img.shields.io/badge/ExcelJS-122039?style=flat-square">
 
 [Repositório / Repository](https://github.com/IsaacGomes260653/Controle-de-Refeicao) · <sub>projeto interno, sem demo pública / internal project, no public demo</sub>
-
-#### 🎮 PlayHub · entregue / delivered
-
-Portal de mini-jogos para a Mostra de Ciências do CEUB 2026: 7 jogos direto no navegador, instaláveis como app (PWA).<br>
-<em>Mini-games portal for the CEUB 2026 Science Fair: 7 games right in the browser, installable as an app (PWA).</em>
-
-<img alt="HTML" src="https://img.shields.io/badge/HTML-122039?style=flat-square&logo=html5&logoColor=white"> <img alt="CSS" src="https://img.shields.io/badge/CSS-122039?style=flat-square&logo=css&logoColor=white"> <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-122039?style=flat-square&logo=javascript&logoColor=white">
-
-[Repositório / Repository](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026) · [Jogar / Play](https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/)
 
 #### ✅ ForgetMeNot
 
 Gerenciador de tarefas com integração a uma API pública, testes, CI/CD e deploy no Render.<br>
 <em>Task manager with public API integration, tests, CI/CD, and a deploy on Render.</em>
+
+<a href="https://forget-me-not-z9hy.onrender.com"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/projetos/forgetmenot.webp" width="480" alt="ForgetMeNot com barra de progresso, dica do dia e listas de tarefas / ForgetMeNot with progress bar, tip of the day, and task lists"></a>
 
 <img alt="Python" src="https://img.shields.io/badge/Python-122039?style=flat-square&logo=python&logoColor=white"> <img alt="Flask" src="https://img.shields.io/badge/Flask-122039?style=flat-square&logo=flask&logoColor=white"> <img alt="Pytest" src="https://img.shields.io/badge/Pytest-122039?style=flat-square&logo=pytest&logoColor=white"> <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-122039?style=flat-square&logo=githubactions&logoColor=white">
 
