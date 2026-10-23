@@ -95,7 +95,7 @@ CURTOS = {
     "Linguagens de apoio": ("Java + Ruby", "Java + Ruby"),
 }
 
-ESTRELA = "⭐ Exigido no plano da empresa / Required by the company plan"
+ESTRELA = "⭐ Prioridade / Priority"
 
 
 def texto(valor):

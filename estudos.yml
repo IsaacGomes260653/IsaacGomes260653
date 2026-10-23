@@ -5,7 +5,7 @@
 # Quando a etapa inteira mudar de fase, mude também o "status" da etapa.
 # status aceitos: estudando | a_comecar | pausado | concluido
 # Subtema sem status = a_comecar. Grupo (subtema com "itens") não tem status: ele sai dos itens.
-# estrela: true = exigido no plano da empresa (⭐). "url" e "preco" são opcionais.
+# estrela: true = prioridade (⭐). "url" e "preco" são opcionais.
 # codigo: link para o código do estudo (opcional); aparece como "código / code" no README.
 # Campos vazios ou ausentes NÃO aparecem no README.
 # Atalho: marcar as caixinhas da issue do painel (link abaixo) atualiza este arquivo sozinho.
@@ -15,8 +15,8 @@ painel: "https://github.com/IsaacGomes260653/IsaacGomes260653/issues/14"
 trilhas:
   - id: flutter
     titulo:
-      pt: "Rumo ao Flutter — o que estudo para o trabalho na ília"
-      en: "Road to Flutter — what I study for my job at ília"
+      pt: "Rumo ao Flutter"
+      en: "Road to Flutter"
     curto: { pt: "Rumo ao Flutter", en: "Road to Flutter" }   # título da imagem do roadmap
     etapas:
       - numero: 1
@@ -387,8 +387,8 @@ trilhas:
       - titulo: { pt: "Databricks", en: "Databricks" }
         status: pausado
         nota:
-          pt: "Comecei o curso, mas pausei para focar no Flutter, que uso no trabalho. Volto em breve."
-          en: "I started the course but paused it to focus on Flutter, which I use at work. Coming back soon."
+          pt: "Comecei o curso, mas pausei para focar no Flutter. Volto em breve."
+          en: "I started the course but paused it to focus on Flutter. Coming back soon."
         subtemas:
           - { nome: "Databricks Fundamentals", status: pausado, url: "https://www.databricks.com/training/catalog/databricks-fundamentals-2206" }
           - { nome: { pt: "Prática na Free Edition", en: "Hands-on in the Free Edition" }, url: "https://www.databricks.com/learn/free-edition" }
