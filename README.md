@@ -526,17 +526,22 @@ Comecei o curso, mas pausei para focar no Flutter, que uso no trabalho. Volto em
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=dart%2Cflutter%2Cpython%2Cjs%2Cts%2Cphp%2Cjava%2Ccpp%2Chtml%2Ccss%2Cflask%2Cnextjs%2Cpostgres%2Csupabase%2Cmysql%2Cgit%2Cgithub%2Cvscode&theme=dark&perline=9">
-    <img alt="Dart, Flutter, Python, JavaScript, TypeScript, PHP, Java, C++, HTML, CSS, Flask, Next.js, PostgreSQL, Supabase, MySQL, Git, GitHub, VS Code" src="https://skillicons.dev/icons?i=dart,flutter,python,js,ts,php,java,cpp,html,css,flask,nextjs,postgres,supabase,mysql,git,github,vscode&theme=light&perline=9">
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python%2Cjs%2Cts%2Cphp%2Cjava%2Ccpp%2Chtml%2Ccss%2Cflask%2Cnextjs%2Cpostgres%2Csupabase%2Cmysql%2Cgit%2Cgithub%2Cvscode&theme=dark&perline=8">
+    <img alt="Python, JavaScript, TypeScript, PHP, Java, C++, HTML, CSS, Flask, Next.js, PostgreSQL, Supabase, MySQL, Git, GitHub, VS Code" src="https://skillicons.dev/icons?i=python,js,ts,php,java,cpp,html,css,flask,nextjs,postgres,supabase,mysql,git,github,vscode&theme=light&perline=8">
   </picture>
   <br>
   <img alt="Claude Code" src="https://img.shields.io/badge/Claude_Code-122039?style=flat-square&logo=claude&logoColor=white">
 </p>
 
-<p align="center"><b>Aprendendo / Learning</b></p>
+<p align="center"><b>Aprendendo no trabalho / Learning on the job</b></p>
 
 <p align="center">
-  <img alt="Databricks" src="https://img.shields.io/badge/Databricks-122039?style=flat-square&logo=databricks&logoColor=white">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=dart%2Cflutter&theme=dark">
+    <img alt="Dart, Flutter" src="https://skillicons.dev/icons?i=dart,flutter&theme=light">
+  </picture>
+  <br>
+  <img alt="Databricks: estudo pausado / Databricks: studies paused" src="https://img.shields.io/badge/Databricks-pausado_%2F_paused-122039?style=flat-square&logo=databricks&logoColor=white&labelColor=0b1324">
 </p>
 
 ---
