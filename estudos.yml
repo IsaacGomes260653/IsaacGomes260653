@@ -400,7 +400,7 @@ trilhas:
 
 # Seção "Agora · Now" do README (também dá para editar pela issue do painel).
 agora:
-  - { pt: "📱 Desenvolvedor Mobile (Flutter/Dart) na **ília**", en: "Mobile Developer (Flutter/Dart) at **ília**" }
+  - { pt: "💼 Estagiário na **ília**", en: "Intern at **ília**" }
   - { pt: "🐾 Construindo o **[Íris Pet Spa](https://github.com/IsaacGomes260653/iris-pet-spa)**, um site imersivo de rolagem (Next.js, GSAP e WebGL)", en: "Building **[Íris Pet Spa](https://github.com/IsaacGomes260653/iris-pet-spa)**, an immersive scroll-driven website (Next.js, GSAP, and WebGL)" }
   - { pt: "📘 Estudando Dart rumo ao Flutter, com código comentado no **[estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)**", en: "Studying Dart on the road to Flutter, with commented code in **[estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)**" }
 
