@@ -524,8 +524,8 @@ CRUD de tarefas com login e controle de acesso por sessão.<br>
 
 #### 🎮 PlayHub · entregue / delivered
 
-Portal de mini-jogos para a Mostra de Ciências do CEUB 2026: 5 jogos clássicos direto no navegador.<br>
-<em>Mini-games portal for the CEUB 2026 Science Fair: 5 classic games right in the browser.</em>
+Portal de mini-jogos para a Mostra de Ciências do CEUB 2026: 7 jogos direto no navegador, instaláveis como app (PWA).<br>
+<em>Mini-games portal for the CEUB 2026 Science Fair: 7 games right in the browser, installable as an app (PWA).</em>
 
 <img alt="HTML" src="https://img.shields.io/badge/HTML-122039?style=flat-square&logo=html5&logoColor=white"> <img alt="CSS" src="https://img.shields.io/badge/CSS-122039?style=flat-square&logo=css&logoColor=white"> <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-122039?style=flat-square&logo=javascript&logoColor=white">
 
