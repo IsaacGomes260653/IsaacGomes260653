@@ -1,12 +1,12 @@
-<!-- Banner próprio, com a identidade do banner do LinkedIn (azul-marinho,
+<!-- Banner próprio em SVG animado, com a identidade do banner do LinkedIn (azul-marinho,
      dourado e azulejos à maneira de Athos Bulcão). Versões para celular e
      desktop, nos temas claro e escuro. Fonte: linkedin-banner/github.html. -->
 <p align="center">
   <picture>
-    <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-escuro.png?v=2">
-    <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-claro.png?v=2">
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-escuro.png?v=2">
-    <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-claro.png?v=2" alt="Isaac Gomes de Moraes. Estagiário na ília. Ciência da Computação no UniCEUB, Brasília, DF / Intern at ília. Computer Science at UniCEUB, Brasília, Brazil">
+    <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-escuro.svg?v=1">
+    <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-claro.svg?v=1">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-escuro.svg?v=1">
+    <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-claro.svg?v=1" alt="Isaac Gomes de Moraes. Estagiário na ília. Ciência da Computação no UniCEUB, Brasília, DF / Intern at ília. Computer Science at UniCEUB, Brasília, Brazil">
   </picture>
 </p>
 
@@ -674,16 +674,19 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
   <br>
   <sub>isaacgm260653@gmail.com · <a href="https://github.com/IsaacGomes260653/estudos-dart/discussions">dúvidas sobre Dart nas Discussions do estudos-dart / Dart questions in the estudos-dart Discussions</a></sub>
   <br><br>
-  <img src="https://komarev.com/ghpvc/?username=IsaacGomes260653&color=122039&style=flat-square&label=Perfil+visto+%2F+Profile+views" alt="Contador de visitas do perfil / Profile view counter">
+  <!-- hits.sh: o komarev.com saiu do ar em out/2026 (o GitHub responde "Cannot proxy the given URL"). -->
+  <img src="https://hits.sh/github.com/IsaacGomes260653.svg?style=flat-square&label=Perfil%20visto%20%2F%20Profile%20views&color=e8b84a&labelColor=122039" alt="Contador de visitas do perfil / Profile view counter">
 </p>
 
+<!-- Rodapé no mesmo estilo do banner do topo, em SVG animado e com link
+     para o LinkedIn. Fonte: linkedin-banner/github.html (layouts rodape-*). -->
 <p align="center">
-<!-- Rodapé sorteado a cada 12h pela Action random-banner.yml, nos tons de
-     azul-marinho (escuro) e azulejo (claro) do banner do topo. -->
-<!--START_SECTION:footer-->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&animation=scaleIn&color=0:16223d%2C50:22314f%2C100:16223d">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&animation=scaleIn&color=0:eceff5%2C50:e6eaf2%2C100:eceff5" alt="Rodapé decorativo em ondas / Decorative wave footer">
-</picture>
-<!--END_SECTION:footer-->
+  <a href="https://www.linkedin.com/in/isaacgomesmoraes/">
+    <picture>
+      <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-mobile-escuro.svg?v=1">
+      <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-mobile-claro.svg?v=1">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-desktop-escuro.svg?v=1">
+      <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-desktop-claro.svg?v=1" alt="Obrigado pela visita / Thanks for visiting. Vamos conversar? / Let’s talk? Abre o LinkedIn / Opens LinkedIn">
+    </picture>
+  </a>
 </p>
