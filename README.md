@@ -105,7 +105,7 @@ Site de uma rede de petshop fictícia contado como um passeio em primeira pessoa
 Criado na GONAR para substituir as planilhas de controle de refeições e presença nas obras: funciona offline e exporta para Excel.<br>
 <em>Built at GONAR to replace the meal and attendance spreadsheets on its construction sites: works offline and exports to Excel.</em>
 
-<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-122039?style=flat-square&logo=javascript&logoColor=white"> <img alt="IndexedDB" src="https://img.shields.io/badge/IndexedDB-122039?style=flat-square">
+<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-122039?style=flat-square&logo=javascript&logoColor=white"> <img alt="localStorage" src="https://img.shields.io/badge/localStorage-122039?style=flat-square"> <img alt="ExcelJS" src="https://img.shields.io/badge/ExcelJS-122039?style=flat-square">
 
 [Repositório / Repository](https://github.com/IsaacGomes260653/Controle-de-Refeicao) · <sub>projeto interno, sem demo pública / internal project, no public demo</sub>
 
