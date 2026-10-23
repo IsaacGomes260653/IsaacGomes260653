@@ -18,8 +18,8 @@
 </p>
 
 <p align="center">
-  Desenvolvedor Mobile (Flutter/Dart) na ília · Ciência da Computação no UniCEUB · Brasília, DF<br>
-  <em>Mobile Developer (Flutter/Dart) at ília · Computer Science student at UniCEUB · Brasília, Brazil</em>
+  Estagiário na ília · Ciência da Computação no UniCEUB · Brasília, DF<br>
+  <em>Intern at ília · Computer Science student at UniCEUB · Brasília, Brazil</em>
 </p>
 
 <p align="center">
@@ -44,12 +44,12 @@
 <a id="sobre-mim"></a>
 ### 👋 Sobre mim · About me
 
-Desenvolvedor Mobile (Flutter/Dart) na **ília** e estudante de Ciência da Computação no **UniCEUB**, em Brasília, com formatura prevista para dez/2028.\
+Estagiário na **ília** e estudante de Ciência da Computação no **UniCEUB**, em Brasília, com formatura prevista para dez/2028.\
 Antes, na **GONAR Engenharia Civil**, criei o **RanchoControl**, um sistema offline que substituiu as planilhas de refeição e presença das obras.\
 Gosto de construir a aplicação inteira, do banco de dados à interface, com testes e deploy.\
 Português nativo · inglês avançado (Casa Thomas Jefferson).
 
-<em>Mobile Developer (Flutter/Dart) at <b>ília</b> and Computer Science student at <b>UniCEUB</b> in Brasília, Brazil, graduating in Dec 2028.<br>
+<em>Intern at <b>ília</b> and Computer Science student at <b>UniCEUB</b> in Brasília, Brazil, graduating in Dec 2028.<br>
 Before that, at <b>GONAR Engenharia Civil</b>, I built <b>RanchoControl</b>, an offline system that replaced the meal and attendance spreadsheets on the company's construction sites.<br>
 I like building the whole application, from the database to the interface, with tests and deploy.<br>
 Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
