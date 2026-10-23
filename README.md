@@ -155,9 +155,9 @@ Meus estudos de Dart rumo ao Flutter: um arquivo por assunto, com casos curtos e
 <!-- ESTUDOS:INICIO -->
 <!-- Gerado a partir do estudos.yml pelo workflow painel-estudos.yml. Não edite aqui: edite o estudos.yml. -->
 
-🟡 Estudando / Studying · ⚪ A começar / Up next · ⏸️ Pausado / Paused · ✅ Concluído / Done · ⭐ Exigido no plano da empresa / Required by the company plan
+🟡 Estudando / Studying · ⚪ A começar / Up next · ⏸️ Pausado / Paused · ✅ Concluído / Done · ⭐ Prioridade / Priority
 
-#### Rumo ao Flutter — o que estudo para o trabalho na ília · Road to Flutter — what I study for my job at ília
+#### Rumo ao Flutter · Road to Flutter
 
 <picture>
   <source media="(max-width: 1199px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-celular-escuro.svg?v=706d895d">
@@ -503,8 +503,8 @@ Fundamentos de nuvem na AWS: serviços, preços, segurança, monitoramento e arq
 <details>
 <summary><b>Databricks</b> — ⏸️ Pausado / Paused · 0/3 ✅</summary>
 
-Comecei o curso, mas pausei para focar no Flutter, que uso no trabalho. Volto em breve.<br>
-<em>I started the course but paused it to focus on Flutter, which I use at work. Coming back soon.</em>
+Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
+<em>I started the course but paused it to focus on Flutter. Coming back soon.</em>
 
 **Progresso / Progress:** `░░░░░░░░░░` 0% · 0/3 ✅
 
@@ -540,7 +540,7 @@ Comecei o curso, mas pausei para focar no Flutter, que uso no trabalho. Volto em
   <img alt="Claude Code" src="https://img.shields.io/badge/Claude_Code-122039?style=flat-square&logo=claude&logoColor=white">
 </p>
 
-<p align="center"><b>Aprendendo no trabalho / Learning on the job</b></p>
+<p align="center"><b>Aprendendo / Learning</b></p>
 
 <p align="center">
   <picture>
