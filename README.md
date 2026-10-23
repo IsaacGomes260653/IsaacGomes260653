@@ -674,7 +674,8 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
   <br>
   <sub>isaacgm260653@gmail.com · <a href="https://github.com/IsaacGomes260653/estudos-dart/discussions">dúvidas sobre Dart nas Discussions do estudos-dart / Dart questions in the estudos-dart Discussions</a></sub>
   <br><br>
-  <img src="https://komarev.com/ghpvc/?username=IsaacGomes260653&color=122039&style=flat-square&label=Perfil+visto+%2F+Profile+views" alt="Contador de visitas do perfil / Profile view counter">
+  <!-- hits.sh: o komarev.com saiu do ar em out/2026 (o GitHub responde "Cannot proxy the given URL"). -->
+  <img src="https://hits.sh/github.com/IsaacGomes260653.svg?style=flat-square&label=Perfil%20visto%20%2F%20Profile%20views&color=e8b84a&labelColor=122039" alt="Contador de visitas do perfil / Profile view counter">
 </p>
 
 <!-- Rodapé no mesmo estilo do banner do topo, em SVG animado e com link
