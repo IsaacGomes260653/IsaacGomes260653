@@ -3,10 +3,10 @@
      desktop, nos temas claro e escuro. Fonte: linkedin-banner/github.html. -->
 <p align="center">
   <picture>
-    <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-escuro.png?v=1">
-    <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-claro.png?v=1">
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-escuro.png?v=1">
-    <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-claro.png?v=1" alt="Isaac Gomes de Moraes. Desenvolvedor Mobile, Flutter e Dart. Ciência da Computação no UniCEUB, Brasília, DF / Mobile Developer, Flutter and Dart. Computer Science at UniCEUB, Brasília, Brazil">
+    <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-escuro.png?v=2">
+    <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-claro.png?v=2">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-escuro.png?v=2">
+    <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-claro.png?v=2" alt="Isaac Gomes de Moraes. Estagiário na ília. Ciência da Computação no UniCEUB, Brasília, DF / Intern at ília. Computer Science at UniCEUB, Brasília, Brazil">
   </picture>
 </p>
 
@@ -18,8 +18,8 @@
 </p>
 
 <p align="center">
-  Desenvolvedor Mobile (Flutter/Dart) na ília · Ciência da Computação no UniCEUB · Brasília, DF<br>
-  <em>Mobile Developer (Flutter/Dart) at ília · Computer Science student at UniCEUB · Brasília, Brazil</em>
+  Estagiário na ília · Ciência da Computação no UniCEUB · Brasília, DF<br>
+  <em>Intern at ília · Computer Science student at UniCEUB · Brasília, Brazil</em>
 </p>
 
 <p align="center">
@@ -44,12 +44,12 @@
 <a id="sobre-mim"></a>
 ### 👋 Sobre mim · About me
 
-Desenvolvedor Mobile (Flutter/Dart) na **ília** e estudante de Ciência da Computação no **UniCEUB**, em Brasília, com formatura prevista para dez/2028.\
+Estagiário na **ília** e estudante de Ciência da Computação no **UniCEUB**, em Brasília, com formatura prevista para dez/2028.\
 Antes, na **GONAR Engenharia Civil**, criei o **RanchoControl**, um sistema offline que substituiu as planilhas de refeição e presença das obras.\
 Gosto de construir a aplicação inteira, do banco de dados à interface, com testes e deploy.\
 Português nativo · inglês avançado (Casa Thomas Jefferson).
 
-<em>Mobile Developer (Flutter/Dart) at <b>ília</b> and Computer Science student at <b>UniCEUB</b> in Brasília, Brazil, graduating in Dec 2028.<br>
+<em>Intern at <b>ília</b> and Computer Science student at <b>UniCEUB</b> in Brasília, Brazil, graduating in Dec 2028.<br>
 Before that, at <b>GONAR Engenharia Civil</b>, I built <b>RanchoControl</b>, an offline system that replaced the meal and attendance spreadsheets on the company's construction sites.<br>
 I like building the whole application, from the database to the interface, with tests and deploy.<br>
 Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
@@ -62,8 +62,8 @@ Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
 <!-- AGORA:INICIO -->
 <!-- Gerado a partir do estudos.yml (campo agora). -->
 
-- 📱 Desenvolvedor Mobile (Flutter/Dart) na **ília**<br>
-  <em>Mobile Developer (Flutter/Dart) at **ília**</em>
+- 💼 Estagiário na **ília**<br>
+  <em>Intern at **ília**</em>
 - 🐾 Construindo o **[Íris Pet Spa](https://github.com/IsaacGomes260653/iris-pet-spa)**, um site imersivo de rolagem (Next.js, GSAP e WebGL)<br>
   <em>Building **[Íris Pet Spa](https://github.com/IsaacGomes260653/iris-pet-spa)**, an immersive scroll-driven website (Next.js, GSAP, and WebGL)</em>
 - 📘 Estudando Dart rumo ao Flutter, com código comentado no **[estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)**<br>
@@ -155,9 +155,9 @@ Meus estudos de Dart rumo ao Flutter: um arquivo por assunto, com casos curtos e
 <!-- ESTUDOS:INICIO -->
 <!-- Gerado a partir do estudos.yml pelo workflow painel-estudos.yml. Não edite aqui: edite o estudos.yml. -->
 
-🟡 Estudando / Studying · ⚪ A começar / Up next · ⏸️ Pausado / Paused · ✅ Concluído / Done · ⭐ Exigido no plano da empresa / Required by the company plan
+🟡 Estudando / Studying · ⚪ A começar / Up next · ⏸️ Pausado / Paused · ✅ Concluído / Done · ⭐ Prioridade / Priority
 
-#### Rumo ao Flutter — o que estudo para o trabalho na ília · Road to Flutter — what I study for my job at ília
+#### Rumo ao Flutter · Road to Flutter
 
 <picture>
   <source media="(max-width: 1199px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-celular-escuro.svg?v=706d895d">
@@ -503,8 +503,8 @@ Fundamentos de nuvem na AWS: serviços, preços, segurança, monitoramento e arq
 <details>
 <summary><b>Databricks</b> — ⏸️ Pausado / Paused · 0/3 ✅</summary>
 
-Comecei o curso, mas pausei para focar no Flutter, que uso no trabalho. Volto em breve.<br>
-<em>I started the course but paused it to focus on Flutter, which I use at work. Coming back soon.</em>
+Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
+<em>I started the course but paused it to focus on Flutter. Coming back soon.</em>
 
 **Progresso / Progress:** `░░░░░░░░░░` 0% · 0/3 ✅
 
@@ -521,7 +521,7 @@ Comecei o curso, mas pausei para focar no Flutter, que uso no trabalho. Volto em
 - [Flutter & Dart — The Complete Guide (Udemy)](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/) (pago / paid) — De Maximilian Schwarzmüller. Comprar só em promoção. · <em>By Maximilian Schwarzmüller. Buy only on sale.</em>
 - [Flutter Course for Beginners (freeCodeCamp)](https://www.freecodecamp.org/news/learn-flutter-full-course/) (gratuito / free) — De 2022: usar só como complemento. · <em>From 2022: use only as a supplement.</em>
 
-<sub>Atualizado em / Updated on 22/10/2026 · gerado automaticamente a partir do <a href="estudos.yml">estudos.yml</a> / auto-generated from <a href="estudos.yml">estudos.yml</a></sub>
+<sub>Atualizado em / Updated on 23/10/2026 · gerado automaticamente a partir do <a href="estudos.yml">estudos.yml</a> / auto-generated from <a href="estudos.yml">estudos.yml</a></sub>
 <!-- ESTUDOS:FIM -->
 
 ---
@@ -540,7 +540,7 @@ Comecei o curso, mas pausei para focar no Flutter, que uso no trabalho. Volto em
   <img alt="Claude Code" src="https://img.shields.io/badge/Claude_Code-122039?style=flat-square&logo=claude&logoColor=white">
 </p>
 
-<p align="center"><b>Aprendendo no trabalho / Learning on the job</b></p>
+<p align="center"><b>Aprendendo / Learning</b></p>
 
 <p align="center">
   <picture>
