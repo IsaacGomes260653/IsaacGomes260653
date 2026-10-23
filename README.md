@@ -86,6 +86,87 @@ Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
 </div>
 </details>
 
+---
+
+<a id="projetos"></a>
+### 📌 Projetos em destaque · Featured projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🐾 Íris Pet Spa
+
+Site de uma rede de petshop fictícia contado como um passeio em primeira pessoa, com rolagem cinematográfica e globo 3D das lojas. Lighthouse 98 no desktop.<br>
+<em>Website for a fictional pet shop chain told as a first-person walk, with cinematic scrolling and a 3D globe of the stores. Lighthouse 98 on desktop.</em>
+
+<img alt="Next.js" src="https://img.shields.io/badge/Next.js-122039?style=flat-square&logo=nextdotjs&logoColor=white"> <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-122039?style=flat-square&logo=typescript&logoColor=white"> <img alt="GSAP" src="https://img.shields.io/badge/GSAP-122039?style=flat-square&logo=greensock&logoColor=white"> <img alt="Three.js" src="https://img.shields.io/badge/Three.js-122039?style=flat-square&logo=threedotjs&logoColor=white">
+
+[Repositório / Repository](https://github.com/IsaacGomes260653/iris-pet-spa) · <sub>demo em breve / demo coming soon</sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### 🍽️ RanchoControl
+
+Criado na GONAR para substituir as planilhas de controle de refeições e presença nas obras: funciona offline e exporta para Excel.<br>
+<em>Built at GONAR to replace the meal and attendance spreadsheets on its construction sites: works offline and exports to Excel.</em>
+
+<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-122039?style=flat-square&logo=javascript&logoColor=white"> <img alt="IndexedDB" src="https://img.shields.io/badge/IndexedDB-122039?style=flat-square">
+
+[Repositório / Repository](https://github.com/IsaacGomes260653/Controle-de-Refeicao) · <sub>projeto interno, sem demo pública / internal project, no public demo</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### ✅ ForgetMeNot
+
+Gerenciador de tarefas com integração a uma API pública, testes, CI/CD e deploy no Render.<br>
+<em>Task manager with public API integration, tests, CI/CD, and a deploy on Render.</em>
+
+<img alt="Python" src="https://img.shields.io/badge/Python-122039?style=flat-square&logo=python&logoColor=white"> <img alt="Flask" src="https://img.shields.io/badge/Flask-122039?style=flat-square&logo=flask&logoColor=white"> <img alt="Pytest" src="https://img.shields.io/badge/Pytest-122039?style=flat-square&logo=pytest&logoColor=white"> <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-122039?style=flat-square&logo=githubactions&logoColor=white">
+
+[Repositório / Repository](https://github.com/IsaacGomes260653/forget_me_not) · [Demo](https://forget-me-not-z9hy.onrender.com) <sub>(pode levar ~40s para acordar / may take ~40s to wake up)</sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### 🗂️ TaskFlow
+
+CRUD de tarefas com login e controle de acesso por sessão.<br>
+<em>Task CRUD with login and session-based access control.</em>
+
+<img alt="PHP" src="https://img.shields.io/badge/PHP-122039?style=flat-square&logo=php&logoColor=white"> <img alt="MySQL" src="https://img.shields.io/badge/MySQL-122039?style=flat-square&logo=mysql&logoColor=white">
+
+[Repositório / Repository](https://github.com/IsaacGomes260653/Sistema-de-Gerenciamento-de-Tarefas)
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+#### 🎮 PlayHub · entregue / delivered
+
+Portal de mini-jogos para a Mostra de Ciências do CEUB 2026: 7 jogos direto no navegador, instaláveis como app (PWA).<br>
+<em>Mini-games portal for the CEUB 2026 Science Fair: 7 games right in the browser, installable as an app (PWA).</em>
+
+<img alt="HTML" src="https://img.shields.io/badge/HTML-122039?style=flat-square&logo=html5&logoColor=white"> <img alt="CSS" src="https://img.shields.io/badge/CSS-122039?style=flat-square&logo=css&logoColor=white"> <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-122039?style=flat-square&logo=javascript&logoColor=white">
+
+[Repositório / Repository](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026) · [Jogar / Play](https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/)
+
+</td>
+</tr>
+</table>
+
+**Mais projetos · More projects**
+
+- **[Álbum da Copa](https://github.com/IsaacGomes260653/Album-da-copa)**: álbum digital de figurinhas da Copa 2026 com as 992 figurinhas, multi-álbum e listas de repetidas e faltantes · [abrir / open](https://isaacgomes260653.github.io/Album-da-copa/)<br>
+  <em>Digital sticker album for the 2026 World Cup with all 992 stickers, multi-album support, and duplicate and missing lists</em>
+
+---
+
 <a id="roadmap"></a>
 ### 🗺️ Roadmap de estudos · Study roadmap
 
@@ -460,85 +541,6 @@ Comecei o curso, mas pausei para focar no Flutter, que uso no trabalho. Volto em
 
 <sub>Atualizado em / Updated on 22/10/2026 · gerado automaticamente a partir do <a href="estudos.yml">estudos.yml</a> / auto-generated from <a href="estudos.yml">estudos.yml</a></sub>
 <!-- ESTUDOS:FIM -->
-
----
-
-<a id="projetos"></a>
-### 📌 Projetos em destaque · Featured projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### 🐾 Íris Pet Spa
-
-Site de uma rede de petshop fictícia contado como um passeio em primeira pessoa, com rolagem cinematográfica e globo 3D das lojas. Lighthouse 98 no desktop.<br>
-<em>Website for a fictional pet shop chain told as a first-person walk, with cinematic scrolling and a 3D globe of the stores. Lighthouse 98 on desktop.</em>
-
-<img alt="Next.js" src="https://img.shields.io/badge/Next.js-122039?style=flat-square&logo=nextdotjs&logoColor=white"> <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-122039?style=flat-square&logo=typescript&logoColor=white"> <img alt="GSAP" src="https://img.shields.io/badge/GSAP-122039?style=flat-square&logo=greensock&logoColor=white"> <img alt="Three.js" src="https://img.shields.io/badge/Three.js-122039?style=flat-square&logo=threedotjs&logoColor=white">
-
-[Repositório / Repository](https://github.com/IsaacGomes260653/iris-pet-spa) · <sub>demo em breve / demo coming soon</sub>
-
-</td>
-<td width="50%" valign="top">
-
-#### 🍽️ RanchoControl
-
-Criado na GONAR para substituir as planilhas de controle de refeições e presença nas obras: funciona offline e exporta para Excel.<br>
-<em>Built at GONAR to replace the meal and attendance spreadsheets on its construction sites: works offline and exports to Excel.</em>
-
-<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-122039?style=flat-square&logo=javascript&logoColor=white"> <img alt="IndexedDB" src="https://img.shields.io/badge/IndexedDB-122039?style=flat-square">
-
-[Repositório / Repository](https://github.com/IsaacGomes260653/Controle-de-Refeicao) · <sub>projeto interno, sem demo pública / internal project, no public demo</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### ✅ ForgetMeNot
-
-Gerenciador de tarefas com integração a uma API pública, testes, CI/CD e deploy no Render.<br>
-<em>Task manager with public API integration, tests, CI/CD, and a deploy on Render.</em>
-
-<img alt="Python" src="https://img.shields.io/badge/Python-122039?style=flat-square&logo=python&logoColor=white"> <img alt="Flask" src="https://img.shields.io/badge/Flask-122039?style=flat-square&logo=flask&logoColor=white"> <img alt="Pytest" src="https://img.shields.io/badge/Pytest-122039?style=flat-square&logo=pytest&logoColor=white"> <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-122039?style=flat-square&logo=githubactions&logoColor=white">
-
-[Repositório / Repository](https://github.com/IsaacGomes260653/forget_me_not) · [Demo](https://forget-me-not-z9hy.onrender.com) <sub>(pode levar ~40s para acordar / may take ~40s to wake up)</sub>
-
-</td>
-<td width="50%" valign="top">
-
-#### 🗂️ TaskFlow
-
-CRUD de tarefas com login e controle de acesso por sessão.<br>
-<em>Task CRUD with login and session-based access control.</em>
-
-<img alt="PHP" src="https://img.shields.io/badge/PHP-122039?style=flat-square&logo=php&logoColor=white"> <img alt="MySQL" src="https://img.shields.io/badge/MySQL-122039?style=flat-square&logo=mysql&logoColor=white">
-
-[Repositório / Repository](https://github.com/IsaacGomes260653/Sistema-de-Gerenciamento-de-Tarefas)
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-
-#### 🎮 PlayHub · entregue / delivered
-
-Portal de mini-jogos para a Mostra de Ciências do CEUB 2026: 7 jogos direto no navegador, instaláveis como app (PWA).<br>
-<em>Mini-games portal for the CEUB 2026 Science Fair: 7 games right in the browser, installable as an app (PWA).</em>
-
-<img alt="HTML" src="https://img.shields.io/badge/HTML-122039?style=flat-square&logo=html5&logoColor=white"> <img alt="CSS" src="https://img.shields.io/badge/CSS-122039?style=flat-square&logo=css&logoColor=white"> <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-122039?style=flat-square&logo=javascript&logoColor=white">
-
-[Repositório / Repository](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026) · [Jogar / Play](https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/)
-
-</td>
-</tr>
-</table>
-
-**Mais projetos · More projects**
-
-- **[Álbum da Copa](https://github.com/IsaacGomes260653/Album-da-copa)**: álbum digital de figurinhas da Copa 2026 com as 992 figurinhas, multi-álbum e listas de repetidas e faltantes · [abrir / open](https://isaacgomes260653.github.io/Album-da-copa/)<br>
-  <em>Digital sticker album for the 2026 World Cup with all 992 stickers, multi-album support, and duplicate and missing lists</em>
 
 ---
 
