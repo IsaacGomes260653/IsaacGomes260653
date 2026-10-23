@@ -677,13 +677,15 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
   <img src="https://komarev.com/ghpvc/?username=IsaacGomes260653&color=122039&style=flat-square&label=Perfil+visto+%2F+Profile+views" alt="Contador de visitas do perfil / Profile view counter">
 </p>
 
+<!-- Rodapé no mesmo estilo do banner do topo, em SVG animado e com link
+     para o LinkedIn. Fonte: linkedin-banner/github.html (layouts rodape-*). -->
 <p align="center">
-<!-- Rodapé sorteado a cada 12h pela Action random-banner.yml, nos tons de
-     azul-marinho (escuro) e azulejo (claro) do banner do topo. -->
-<!--START_SECTION:footer-->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&animation=scaleIn&color=0:16223d%2C50:22314f%2C100:16223d">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&animation=scaleIn&color=0:eceff5%2C50:e6eaf2%2C100:eceff5" alt="Rodapé decorativo em ondas / Decorative wave footer">
-</picture>
-<!--END_SECTION:footer-->
+  <a href="https://www.linkedin.com/in/isaacgomesmoraes/">
+    <picture>
+      <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-mobile-escuro.svg?v=1">
+      <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-mobile-claro.svg?v=1">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-desktop-escuro.svg?v=1">
+      <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-desktop-claro.svg?v=1" alt="Obrigado pela visita / Thanks for visiting. Vamos conversar? / Let’s talk? Abre o LinkedIn / Opens LinkedIn">
+    </picture>
+  </a>
 </p>
