@@ -501,7 +501,7 @@ Criado na GONAR para substituir as planilhas de controle de refeições e presen
 Gerenciador de tarefas com integração a uma API pública, testes, CI/CD e deploy no Render.<br>
 <em>Task manager with public API integration, tests, CI/CD, and a deploy on Render.</em>
 
-<img alt="Python" src="https://img.shields.io/badge/Python-122039?style=flat-square&logo=python&logoColor=white"> <img alt="Flask" src="https://img.shields.io/badge/Flask-122039?style=flat-square&logo=flask&logoColor=white"> <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-122039?style=flat-square&logo=postgresql&logoColor=white"> <img alt="Supabase" src="https://img.shields.io/badge/Supabase-122039?style=flat-square&logo=supabase&logoColor=white">
+<img alt="Python" src="https://img.shields.io/badge/Python-122039?style=flat-square&logo=python&logoColor=white"> <img alt="Flask" src="https://img.shields.io/badge/Flask-122039?style=flat-square&logo=flask&logoColor=white"> <img alt="Pytest" src="https://img.shields.io/badge/Pytest-122039?style=flat-square&logo=pytest&logoColor=white"> <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-122039?style=flat-square&logo=githubactions&logoColor=white">
 
 [Repositório / Repository](https://github.com/IsaacGomes260653/forget_me_not) · [Demo](https://forget-me-not-z9hy.onrender.com) <sub>(pode levar ~40s para acordar / may take ~40s to wake up)</sub>
 
