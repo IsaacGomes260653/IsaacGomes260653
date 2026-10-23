@@ -23,30 +23,27 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/isaac-gomes-de-moraes-107198365/">
-    <img src="https://img.shields.io/badge/LinkedIn-122039?style=flat&logo=linkedin&logoColor=e8b84a" alt="LinkedIn">
-  </a>
-  <a href="mailto:isaacgm260653@gmail.com">
-    <img src="https://img.shields.io/badge/E--mail-122039?style=flat&logo=gmail&logoColor=e8b84a" alt="E-mail">
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=IsaacGomes260653&color=122039&style=flat&label=Perfil+visto+%2F+Profile+views" alt="Contador de visitas do perfil / Profile view counter">
+  <a href="https://www.linkedin.com/in/isaacgomesmoraes/"><img src="https://img.shields.io/badge/LinkedIn-122039?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2U4Yjg0YSIgZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYy0xLjE0NCAwLTIuMDYzLS45MjYtMi4wNjMtMi4wNjUgMC0xLjEzOC45Mi0yLjA2MyAyLjA2My0yLjA2MyAxLjE0IDAgMi4wNjQuOTI1IDIuMDY0IDIuMDYzIDAgMS4xMzktLjkyNSAyLjA2NS0yLjA2NCAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyMiAwaC4wMDN6Ii8%2BPC9zdmc%2B" alt="LinkedIn"></a>
+  <a href="mailto:isaacgm260653@gmail.com"><img src="https://img.shields.io/badge/E--mail-122039?style=flat-square&logo=gmail&logoColor=e8b84a" alt="E-mail"></a>
+  <img src="https://komarev.com/ghpvc/?username=IsaacGomes260653&color=122039&style=flat-square&label=Perfil+visto+%2F+Profile+views" alt="Contador de visitas do perfil / Profile view counter">
 </p>
 
 <p align="center">
-  <a href="#sobre-mim">Sobre / About</a> ·
+  <a href="#sobre-mim">Sobre&nbsp;/&nbsp;About</a> ·
+  <a href="#agora">Agora&nbsp;/&nbsp;Now</a> ·
+  <a href="#projetos">Projetos&nbsp;/&nbsp;Projects</a> ·
   <a href="#roadmap">Roadmap</a> ·
-  <a href="#projetos">Projetos / Projects</a> ·
   <a href="#tech-stack">Stack</a> ·
-  <a href="#certificados">Certificados / Certificates</a> ·
+  <a href="#certificados">Certificados&nbsp;/&nbsp;Certificates</a> ·
   <a href="#stats">Stats</a> ·
-  <a href="#fun-corner">Fun corner</a> ·
-  <a href="#contato">Contato / Contact</a>
+  <a href="#fun-corner">Fun&nbsp;corner</a> ·
+  <a href="#contato">Contato&nbsp;/&nbsp;Contact</a>
 </p>
 
 ---
 
 <a id="sobre-mim"></a>
-### Sobre mim · About me
+### 👋 Sobre mim · About me
 
 Desenvolvedor Mobile (Flutter/Dart) na **ília** e estudante de Ciência da Computação no **UniCEUB**, em Brasília, com formatura prevista para dez/2028.\
 Antes, na **GONAR Engenharia Civil**, criei o **RanchoControl**, um sistema offline que substituiu as planilhas de refeição e presença das obras.\
@@ -61,7 +58,7 @@ Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
 ---
 
 <a id="agora"></a>
-### Agora · Now
+### 📍 Agora · Now
 
 <!-- AGORA:INICIO -->
 <!-- Gerado a partir do estudos.yml (campo agora). -->
@@ -653,7 +650,7 @@ Comecei o curso, mas pausei para focar no Flutter, que uso no trabalho. Volto em
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/isaac-gomes-de-moraes-107198365/"><img alt="LinkedIn de Isaac Gomes de Moraes / Isaac Gomes de Moraes on LinkedIn" src="https://img.shields.io/badge/LinkedIn-122039?style=for-the-badge&logo=linkedin&logoColor=e8b84a"></a>
+  <a href="https://www.linkedin.com/in/isaacgomesmoraes/"><img alt="LinkedIn de Isaac Gomes de Moraes / Isaac Gomes de Moraes on LinkedIn" src="https://img.shields.io/badge/LinkedIn-122039?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2U4Yjg0YSIgZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYy0xLjE0NCAwLTIuMDYzLS45MjYtMi4wNjMtMi4wNjUgMC0xLjEzOC45Mi0yLjA2MyAyLjA2My0yLjA2MyAxLjE0IDAgMi4wNjQuOTI1IDIuMDY0IDIuMDYzIDAgMS4xMzktLjkyNSAyLjA2NS0yLjA2NCAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyMiAwaC4wMDN6Ii8%2BPC9zdmc%2B"></a>
   <a href="mailto:isaacgm260653@gmail.com"><img alt="Enviar e-mail para Isaac / Send Isaac an e-mail" src="https://img.shields.io/badge/E--mail-122039?style=for-the-badge&logo=gmail&logoColor=e8b84a"></a>
   <a href="https://github.com/IsaacGomes260653/estudos-dart/discussions"><img alt="Dúvidas sobre os estudos de Dart nas Discussions / Questions about my Dart studies in Discussions" src="https://img.shields.io/badge/Discussions-122039?style=for-the-badge&logo=github&logoColor=e8b84a"></a>
   <br>
