@@ -1,12 +1,12 @@
-<!-- Banner próprio, com a identidade do banner do LinkedIn (azul-marinho,
+<!-- Banner próprio em SVG animado, com a identidade do banner do LinkedIn (azul-marinho,
      dourado e azulejos à maneira de Athos Bulcão). Versões para celular e
      desktop, nos temas claro e escuro. Fonte: linkedin-banner/github.html. -->
 <p align="center">
   <picture>
-    <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-escuro.png?v=2">
-    <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-claro.png?v=2">
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-escuro.png?v=2">
-    <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-claro.png?v=2" alt="Isaac Gomes de Moraes. Estagiário na ília. Ciência da Computação no UniCEUB, Brasília, DF / Intern at ília. Computer Science at UniCEUB, Brasília, Brazil">
+    <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-escuro.svg?v=1">
+    <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-claro.svg?v=1">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-escuro.svg?v=1">
+    <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-claro.svg?v=1" alt="Isaac Gomes de Moraes. Estagiário na ília. Ciência da Computação no UniCEUB, Brasília, DF / Intern at ília. Computer Science at UniCEUB, Brasília, Brazil">
   </picture>
 </p>
 
