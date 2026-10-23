@@ -30,9 +30,9 @@ jobs:
           # gostou originalmente; "soft"/"cylinder"/"rounded" ficam mais
           # "retangulares" e foram descartadas por feedback dele.
           themes=(
-            "waving|0:0b1324,100:111c33|0:e6eaf2,100:f5f6f9|fadeIn"
-            "waving|0:111c33,100:0b1324|0:f5f6f9,100:e6eaf2|twinkling"
-            "waving|0:0b1324,50:122039,100:0b1324|0:eceff5,50:e6eaf2,100:eceff5|scaleIn"
+            "waving|0:16223d,100:22314f|0:e6eaf2,100:f5f6f9|fadeIn"
+            "waving|0:22314f,100:16223d|0:f5f6f9,100:e6eaf2|twinkling"
+            "waving|0:16223d,50:22314f,100:16223d|0:eceff5,50:e6eaf2,100:eceff5|scaleIn"
           )
           choice=${themes[$RANDOM % ${#themes[@]}]}
           IFS='|' read -r type dark light animation <<< "$choice"
