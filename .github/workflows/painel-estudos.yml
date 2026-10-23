@@ -21,8 +21,9 @@ permissions:
   contents: write # commit do estudos.yml, do README e das imagens
   issues: write   # manter as caixinhas da issue iguais ao estudos.yml
 
-# Mesmo grupo do random-banner.yml: os dois reescrevem o README no main,
-# então um espera o outro terminar em vez de brigarem no push.
+# Este é o único workflow que reescreve o README no main. O grupo faz uma
+# execução esperar a outra (duas edições seguidas da issue, por exemplo) em
+# vez de brigarem no push.
 concurrency:
   group: readme-main
   cancel-in-progress: false
