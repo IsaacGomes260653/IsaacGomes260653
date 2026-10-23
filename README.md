@@ -25,7 +25,6 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/isaacgomesmoraes/"><img src="https://img.shields.io/badge/LinkedIn-122039?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2U4Yjg0YSIgZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYy0xLjE0NCAwLTIuMDYzLS45MjYtMi4wNjMtMi4wNjUgMC0xLjEzOC45Mi0yLjA2MyAyLjA2My0yLjA2MyAxLjE0IDAgMi4wNjQuOTI1IDIuMDY0IDIuMDYzIDAgMS4xMzktLjkyNSAyLjA2NS0yLjA2NCAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyMiAwaC4wMDN6Ii8%2BPC9zdmc%2B" alt="LinkedIn"></a>
   <a href="mailto:isaacgm260653@gmail.com"><img src="https://img.shields.io/badge/E--mail-122039?style=flat-square&logo=gmail&logoColor=e8b84a" alt="E-mail"></a>
-  <img src="https://komarev.com/ghpvc/?username=IsaacGomes260653&color=122039&style=flat-square&label=Perfil+visto+%2F+Profile+views" alt="Contador de visitas do perfil / Profile view counter">
 </p>
 
 <p align="center">
@@ -88,10 +87,23 @@ Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
 <a id="projetos"></a>
 ### 📌 Projetos em destaque · Featured projects
 
+#### 🎮 PlayHub · entregue / delivered
+
+Portal de mini-jogos para a Mostra de Ciências do CEUB 2026: 7 jogos direto no navegador, instaláveis como app (PWA).<br>
+<em>Mini-games portal for the CEUB 2026 Science Fair: 7 games right in the browser, installable as an app (PWA).</em>
+
+<a href="https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/projetos/playhub.webp" width="480" alt="Página inicial do PlayHub com a grade dos sete jogos / PlayHub home page with the grid of seven games"></a>
+
+<img alt="HTML" src="https://img.shields.io/badge/HTML-122039?style=flat-square&logo=html5&logoColor=white"> <img alt="CSS" src="https://img.shields.io/badge/CSS-122039?style=flat-square&logo=css&logoColor=white"> <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-122039?style=flat-square&logo=javascript&logoColor=white">
+
+[Repositório / Repository](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026) · [Jogar / Play](https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/)
+
 #### 🐾 Íris Pet Spa
 
 Site de uma rede de petshop fictícia contado como um passeio em primeira pessoa, com rolagem cinematográfica e globo 3D das lojas. [Lighthouse 98 no desktop](https://github.com/IsaacGomes260653/iris-pet-spa#acessibilidade-e-desempenho).<br>
-<em>Website for a fictional pet shop chain told as a first-person walk, with cinematic scrolling and a 3D globe of the stores. Lighthouse 98 on desktop.</em>
+<em>Website for a fictional pet shop chain told as a first-person walk, with cinematic scrolling and a 3D globe of the stores. <a href="https://github.com/IsaacGomes260653/iris-pet-spa#acessibilidade-e-desempenho">Lighthouse 98 on desktop</a>.</em>
+
+<a href="https://github.com/IsaacGomes260653/iris-pet-spa"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/projetos/iris-pet-spa.webp" width="480" alt="Seção das lojas do Íris Pet Spa: globo 3D com as unidades no Brasil / Íris Pet Spa stores section: 3D globe with the locations in Brazil"></a>
 
 <img alt="Next.js" src="https://img.shields.io/badge/Next.js-122039?style=flat-square&logo=nextdotjs&logoColor=white"> <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-122039?style=flat-square&logo=typescript&logoColor=white"> <img alt="GSAP" src="https://img.shields.io/badge/GSAP-122039?style=flat-square&logo=greensock&logoColor=white"> <img alt="Three.js" src="https://img.shields.io/badge/Three.js-122039?style=flat-square&logo=threedotjs&logoColor=white">
 
@@ -102,23 +114,18 @@ Site de uma rede de petshop fictícia contado como um passeio em primeira pessoa
 Criado na GONAR para substituir as planilhas de controle de refeições e presença nas obras: funciona offline e exporta para Excel.<br>
 <em>Built at GONAR to replace the meal and attendance spreadsheets on its construction sites: works offline and exports to Excel.</em>
 
+<a href="https://github.com/IsaacGomes260653/Controle-de-Refeicao"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/projetos/ranchocontrol.webp" width="480" alt="Módulo de refeições do RanchoControl com a obra ativa e o total a pagar / RanchoControl meals module with the active job site and the total to pay"></a>
+
 <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-122039?style=flat-square&logo=javascript&logoColor=white"> <img alt="localStorage" src="https://img.shields.io/badge/localStorage-122039?style=flat-square"> <img alt="ExcelJS" src="https://img.shields.io/badge/ExcelJS-122039?style=flat-square">
 
 [Repositório / Repository](https://github.com/IsaacGomes260653/Controle-de-Refeicao) · <sub>projeto interno, sem demo pública / internal project, no public demo</sub>
-
-#### 🎮 PlayHub · entregue / delivered
-
-Portal de mini-jogos para a Mostra de Ciências do CEUB 2026: 7 jogos direto no navegador, instaláveis como app (PWA).<br>
-<em>Mini-games portal for the CEUB 2026 Science Fair: 7 games right in the browser, installable as an app (PWA).</em>
-
-<img alt="HTML" src="https://img.shields.io/badge/HTML-122039?style=flat-square&logo=html5&logoColor=white"> <img alt="CSS" src="https://img.shields.io/badge/CSS-122039?style=flat-square&logo=css&logoColor=white"> <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-122039?style=flat-square&logo=javascript&logoColor=white">
-
-[Repositório / Repository](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026) · [Jogar / Play](https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/)
 
 #### ✅ ForgetMeNot
 
 Gerenciador de tarefas com integração a uma API pública, testes, CI/CD e deploy no Render.<br>
 <em>Task manager with public API integration, tests, CI/CD, and a deploy on Render.</em>
+
+<a href="https://forget-me-not-z9hy.onrender.com"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/projetos/forgetmenot.webp" width="480" alt="ForgetMeNot com barra de progresso, dica do dia e listas de tarefas / ForgetMeNot with progress bar, tip of the day, and task lists"></a>
 
 <img alt="Python" src="https://img.shields.io/badge/Python-122039?style=flat-square&logo=python&logoColor=white"> <img alt="Flask" src="https://img.shields.io/badge/Flask-122039?style=flat-square&logo=flask&logoColor=white"> <img alt="Pytest" src="https://img.shields.io/badge/Pytest-122039?style=flat-square&logo=pytest&logoColor=white"> <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-122039?style=flat-square&logo=githubactions&logoColor=white">
 
@@ -540,7 +547,11 @@ Comecei o curso, mas pausei para focar no Flutter, que uso no trabalho. Volto em
     <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=dart%2Cflutter&theme=dark">
     <img alt="Dart, Flutter" src="https://skillicons.dev/icons?i=dart,flutter&theme=light">
   </picture>
-  <br>
+</p>
+
+<p align="center"><b>Estudo pausado / Paused studies</b></p>
+
+<p align="center">
   <img alt="Databricks: estudo pausado / Databricks: studies paused" src="https://img.shields.io/badge/Databricks-pausado_%2F_paused-122039?style=flat-square&logo=databricks&logoColor=white&labelColor=0b1324">
 </p>
 
@@ -662,6 +673,8 @@ Comecei o curso, mas pausei para focar no Flutter, que uso no trabalho. Volto em
   <a href="https://github.com/IsaacGomes260653/estudos-dart/discussions"><img alt="Dúvidas sobre os estudos de Dart nas Discussions / Questions about my Dart studies in Discussions" src="https://img.shields.io/badge/Discussions-122039?style=for-the-badge&logo=github&logoColor=e8b84a"></a>
   <br>
   <sub>isaacgm260653@gmail.com · <a href="https://github.com/IsaacGomes260653/estudos-dart/discussions">dúvidas sobre Dart nas Discussions do estudos-dart / Dart questions in the estudos-dart Discussions</a></sub>
+  <br><br>
+  <img src="https://komarev.com/ghpvc/?username=IsaacGomes260653&color=122039&style=flat-square&label=Perfil+visto+%2F+Profile+views" alt="Contador de visitas do perfil / Profile view counter">
 </p>
 
 <p align="center">
@@ -669,8 +682,8 @@ Comecei o curso, mas pausei para focar no Flutter, que uso no trabalho. Volto em
      azul-marinho (escuro) e azulejo (claro) do banner do topo. -->
 <!--START_SECTION:footer-->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&animation=fadeIn&color=0:16223d,100:22314f">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&animation=fadeIn&color=0:e6eaf2,100:f5f6f9" alt="Rodapé decorativo em ondas / Decorative wave footer">
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&animation=fadeIn&color=0:16223d%2C100:22314f">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&animation=fadeIn&color=0:e6eaf2%2C100:f5f6f9" alt="Rodapé decorativo em ondas / Decorative wave footer">
 </picture>
 <!--END_SECTION:footer-->
 </p>
