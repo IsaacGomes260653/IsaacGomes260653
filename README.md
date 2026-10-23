@@ -669,7 +669,7 @@ Comecei o curso, mas pausei para focar no Flutter, que uso no trabalho. Volto em
      azul-marinho (escuro) e azulejo (claro) do banner do topo. -->
 <!--START_SECTION:footer-->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&animation=fadeIn&color=0:0b1324,100:111c33">
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&animation=fadeIn&color=0:16223d,100:22314f">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&animation=fadeIn&color=0:e6eaf2,100:f5f6f9" alt="Rodapé decorativo em ondas / Decorative wave footer">
 </picture>
 <!--END_SECTION:footer-->
