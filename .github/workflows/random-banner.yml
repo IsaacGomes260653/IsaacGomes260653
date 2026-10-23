@@ -37,9 +37,11 @@ jobs:
           choice=${themes[$RANDOM % ${#themes[@]}]}
           IFS='|' read -r type dark light animation <<< "$choice"
 
+          # Vírgula vira %2C: o GitHub corta o srcset do <source> nas vírgulas,
+          # e o gradiente do tema escuro chegava pela metade (cor inválida, preto).
           base="https://capsule-render.vercel.app/api?type=${type}&height=100&section=footer&animation=${animation}"
-          echo "footer_dark=${base}&color=${dark}" >> "$GITHUB_OUTPUT"
-          echo "footer_light=${base}&color=${light}" >> "$GITHUB_OUTPUT"
+          echo "footer_dark=${base}&color=${dark//,/%2C}" >> "$GITHUB_OUTPUT"
+          echo "footer_light=${base}&color=${light//,/%2C}" >> "$GITHUB_OUTPUT"
           echo "Picked: $type / $dark / $light / $animation"
 
       - name: update README footer
