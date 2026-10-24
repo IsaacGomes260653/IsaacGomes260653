@@ -234,12 +234,12 @@ Variáveis e tipos (int, double, String, bool, List, Map), operadores aritmétic
 </details>
 
 <details>
-<summary><b>2 · Programação orientada a objetos · Object-oriented programming</b> — ⚪ A começar / Up next · 0/21 ✅</summary>
+<summary><b>2 · Programação orientada a objetos · Object-oriented programming</b> — ⚪ A começar / Up next · 0/21</summary>
 
 Classes e objetos, atributos e métodos, construtores padrão e nomeados, encapsulamento com _, herança com extends e sobrescrita com @override.<br>
 <em>Classes and objects, fields and methods, default and named constructors, encapsulation with _, inheritance with extends, and overriding with @override.</em>
 
-**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/21 ✅ · ⭐ 0/9
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/21 · ⭐ 0/9
 
 - ⚪ **[Classes](https://dart.dev/language/classes)** · 0/5
   - ⚪ ⭐ [Classes e objetos (molde × instância) · Classes and objects (blueprint × instance)](https://dart.dev/language/classes#using-class-members)
@@ -273,12 +273,12 @@ Classes e objetos, atributos e métodos, construtores padrão e nomeados, encaps
 </details>
 
 <details>
-<summary><b>3 · Projeto prático · Hands-on project</b> — ⚪ A começar / Up next · 0/5 ✅</summary>
+<summary><b>3 · Projeto prático · Hands-on project</b> — ⚪ A começar / Up next · 0/5</summary>
 
 Gerenciador de tarefas de console em POO: uma classe Tarefa com métodos para adicionar, listar e marcar como concluída.<br>
 <em>Console to-do manager in OOP: a Task class with methods to add, list, and mark tasks as done.</em>
 
-**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/5 ✅ · ⭐ 0/5
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/5 · ⭐ 0/5
 
 - ⚪ ⭐ Classe `Tarefa` · `Task` class
 - ⚪ ⭐ Adicionar tarefa · Add a task
@@ -291,12 +291,12 @@ Gerenciador de tarefas de console em POO: uma classe Tarefa com métodos para ad
 </details>
 
 <details>
-<summary><b>4 · Git e GitHub · Git and GitHub</b> — ⚪ A começar / Up next · 0/23 ✅</summary>
+<summary><b>4 · Git e GitHub · Git and GitHub</b> — ⚪ A começar / Up next · 0/23</summary>
 
 git init, add, commit e push; levar o projeto da etapa 3 do DartPad para a minha máquina e publicá-lo em um repositório público.<br>
 <em>git init, add, commit, and push; move the stage 3 project from DartPad to my machine and publish it in a public repository.</em>
 
-**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/23 ✅ · ⭐ 0/23
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/23 · ⭐ 0/23
 
 - ⚪ **Comandos essenciais · Essential commands** · 0/7
   - ⚪ ⭐ [Configuração inicial · First-time setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
@@ -330,12 +330,12 @@ git init, add, commit e push; levar o projeto da etapa 3 do DartPad para a minha
 </details>
 
 <details>
-<summary><b>5 · Flutter</b> — ⚪ A começar / Up next · 0/31 ✅</summary>
+<summary><b>5 · Flutter</b> — ⚪ A começar / Up next · 0/31</summary>
 
 Widgets, layouts, navegação e o meu primeiro app.<br>
 <em>Widgets, layouts, navigation, and my first app.</em>
 
-**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/31 ✅ · ⭐ 0/18
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/31 · ⭐ 0/18
 
 - ⚪ ⭐ [Quick install · Install Flutter](https://docs.flutter.dev/learn/pathway/quick-install)
 - ⚪ **[Introduction to Flutter UI](https://docs.flutter.dev/learn/pathway/tutorial)** · 0/8
@@ -378,12 +378,12 @@ Widgets, layouts, navegação e o meu primeiro app.<br>
 </details>
 
 <details>
-<summary><b>6 · Métodos ágeis e ferramentas · Agile methods and tools</b> — ⚪ A começar / Up next · 0/18 ✅</summary>
+<summary><b>6 · Métodos ágeis e ferramentas · Agile methods and tools</b> — ⚪ A começar / Up next · 0/18</summary>
 
 Scrum, Kanban e Jira no dia a dia de um time de desenvolvimento.<br>
 <em>Scrum, Kanban, and Jira in a development team's daily work.</em>
 
-**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/18 ✅ · ⭐ 0/18
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/18 · ⭐ 0/18
 
 - ⚪ **[Scrum · papéis (Scrum Team) · Scrum · roles (Scrum Team)](https://scrumguides.org/scrum-guide.html#scrum-team)** · 0/3
   - ⚪ ⭐ [Developers](https://scrumguides.org/scrum-guide.html#developers)
@@ -414,12 +414,12 @@ Scrum, Kanban e Jira no dia a dia de um time de desenvolvimento.<br>
 </details>
 
 <details>
-<summary><b>7 · Do código à loja de apps · From code to the app store</b> — ⚪ A começar / Up next · 0/16 ✅</summary>
+<summary><b>7 · Do código à loja de apps · From code to the app store</b> — ⚪ A começar / Up next · 0/16</summary>
 
 Fluxo de desenvolvimento e esteira de release voltada para apps.<br>
 <em>Development workflow and app release pipeline.</em>
 
-**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/16 ✅
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/16
 
 - ⚪ Course Introduction
 - ⚪ Launcher Icons and Splash Screens
@@ -443,12 +443,12 @@ Fluxo de desenvolvimento e esteira de release voltada para apps.<br>
 </details>
 
 <details>
-<summary><b>8 · Linguagens de apoio · Supporting languages</b> — ⚪ A começar / Up next · 0/6 ✅</summary>
+<summary><b>8 · Linguagens de apoio · Supporting languages</b> — ⚪ A começar / Up next · 0/6</summary>
 
 Java com orientação a objetos e Ruby.<br>
 <em>Object-oriented Java and Ruby.</em>
 
-**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/6 ✅
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/6
 
 - ⚪ **[Java — MOOC de Helsinque · Java — University of Helsinki MOOC](https://java-programming.mooc.fi/)** · 0/2
   - ⚪ [Java Programming I (partes 1 a 7) · Java Programming I (parts 1–7)](https://java-programming.mooc.fi/part-1)
@@ -473,12 +473,12 @@ Java com orientação a objetos e Ruby.<br>
 </picture>
 
 <details>
-<summary><b>AWS</b> — ⚪ A começar / Up next · 0/14 ✅</summary>
+<summary><b>AWS</b> — ⚪ A começar / Up next · 0/14</summary>
 
 Fundamentos de nuvem na AWS: serviços, preços, segurança, monitoramento e arquitetura.<br>
 <em>AWS cloud fundamentals: services, pricing, security, monitoring, and architecture.</em>
 
-**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/14 ✅
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/14
 
 - ⚪ **[AWS Cloud Practitioner Essentials](https://skillbuilder.aws/learn/94T2BEN85A/aws-cloud-practitioner-essentials/8D79F3AVR7)** · 0/13
   - ⚪ 1. Introduction to the Cloud
@@ -501,12 +501,12 @@ Fundamentos de nuvem na AWS: serviços, preços, segurança, monitoramento e arq
 </details>
 
 <details>
-<summary><b>Databricks</b> — ⏸️ Pausado / Paused · 0/3 ✅</summary>
+<summary><b>Databricks</b> — ⏸️ Pausado / Paused · 0/3</summary>
 
 Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
 <em>I started the course but paused it to focus on Flutter. Coming back soon.</em>
 
-**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/3 ✅
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/3
 
 - ⏸️ [Databricks Fundamentals](https://www.databricks.com/training/catalog/databricks-fundamentals-2206)
 - ⚪ [Prática na Free Edition · Hands-on in the Free Edition](https://www.databricks.com/learn/free-edition)

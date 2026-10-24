@@ -195,7 +195,7 @@ def progresso(e):
     if not total:
         return ""
     cheio = round(10 * feitos / total)
-    linha = f"**Progresso / Progress:** `{'█' * cheio}{'░' * (10 - cheio)}` {round(100 * feitos / total)}% · {feitos}/{total} ✅"
+    linha = f"**Progresso / Progress:** `{'█' * cheio}{'░' * (10 - cheio)}` {round(100 * feitos / total)}% · {feitos}/{total}" + (" ✅" if feitos else "")
     feitos, total = conta(e.get("subtemas"), so_estrela=True)
     return linha + (f" · ⭐ {feitos}/{total}" if total else "")
 
@@ -442,7 +442,7 @@ def etapa(e):
     rotulo = " — ".join(filter(None, [titulo and f"<b>{titulo}</b>", STATUS.get(s)]))
     feitos, total = conta(e.get("subtemas"))
     if total:
-        rotulo += f" · {feitos}/{total} ✅"
+        rotulo += f" · {feitos}/{total}" + (" ✅" if feitos else "")
     corpo = [b for b in (
         bilingue(e.get("conteudo")), bilingue(e.get("nota")),
         progresso(e), lista(e.get("subtemas")), onde(e.get("onde")),
@@ -584,7 +584,7 @@ def teste():
     assert ("- ⚪ Ramos · Branches\n- ✅ **Pronto** · 1/1 · [código / code](https://g)\n"
             "  - ✅ A · [código / code](https://g/a)") in md
     assert "[Curso](https://c) (US$ 99)" in md
-    assert "<b>AWS</b> — ⚪ A começar / Up next · 0/1 ✅</summary>" in md and "- ⚪ M1" in md
+    assert "<b>AWS</b> — ⚪ A começar / Up next · 0/1</summary>" in md and "- ⚪ M1" in md
     assert "⭐ 0/" not in md                                       # sem ⭐ na etapa: sem contador de ⭐
     assert "#### Extras\n\n- [Udemy](https://u) (pago) — Só em promoção · <em>Only on sale</em>" in md
     assert "Conteúdo<br>\n<em>Content</em>" in md
