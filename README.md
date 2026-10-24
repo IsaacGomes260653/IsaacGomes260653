@@ -12,8 +12,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=E8B84A&center=true&vCenter=true&width=620&lines=Construo+ferramentas+para+problemas+reais;I+build+tools+for+real+problems;Troquei+planilhas+de+obra+por+um+app+offline;Swapped+job-site+sheets+for+an+offline+app;Estudando+Dart+rumo+ao+Flutter;Studying+Dart+on+the+road+to+Flutter">
-    <img alt="Construo ferramentas para problemas reais / I build tools for real problems · Troquei planilhas de obra por um app offline / Swapped job-site sheets for an offline app · Estudando Dart rumo ao Flutter / Studying Dart on the road to Flutter" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=8A6210&center=true&vCenter=true&width=620&lines=Construo+ferramentas+para+problemas+reais;I+build+tools+for+real+problems;Troquei+planilhas+de+obra+por+um+app+offline;Swapped+job-site+sheets+for+an+offline+app;Estudando+Dart+rumo+ao+Flutter;Studying+Dart+on+the+road+to+Flutter">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=E8B84A&center=true&vCenter=true&width=620&lines=Troquei+planilhas+de+obra+por+um+app+offline;Swapped+job-site+sheets+for+an+offline+app;Estudando+Dart+rumo+ao+Flutter;Studying+Dart+on+the+road+to+Flutter">
+    <img alt="Troquei planilhas de obra por um app offline / Swapped job-site sheets for an offline app · Estudando Dart rumo ao Flutter / Studying Dart on the road to Flutter" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=8A6210&center=true&vCenter=true&width=620&lines=Troquei+planilhas+de+obra+por+um+app+offline;Swapped+job-site+sheets+for+an+offline+app;Estudando+Dart+rumo+ao+Flutter;Studying+Dart+on+the+road+to+Flutter">
   </picture>
 </p>
 
@@ -234,12 +234,12 @@ Variáveis e tipos (int, double, String, bool, List, Map), operadores aritmétic
 </details>
 
 <details>
-<summary><b>2 · Programação orientada a objetos · Object-oriented programming</b> — ⚪ A começar / Up next · 0/21 ✅</summary>
+<summary><b>2 · Programação orientada a objetos · Object-oriented programming</b> — ⚪ A começar / Up next · 0/21</summary>
 
 Classes e objetos, atributos e métodos, construtores padrão e nomeados, encapsulamento com _, herança com extends e sobrescrita com @override.<br>
 <em>Classes and objects, fields and methods, default and named constructors, encapsulation with _, inheritance with extends, and overriding with @override.</em>
 
-**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/21 ✅ · ⭐ 0/9
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/21 · ⭐ 0/9
 
 - ⚪ **[Classes](https://dart.dev/language/classes)** · 0/5
   - ⚪ ⭐ [Classes e objetos (molde × instância) · Classes and objects (blueprint × instance)](https://dart.dev/language/classes#using-class-members)
@@ -273,12 +273,12 @@ Classes e objetos, atributos e métodos, construtores padrão e nomeados, encaps
 </details>
 
 <details>
-<summary><b>3 · Projeto prático · Hands-on project</b> — ⚪ A começar / Up next · 0/5 ✅</summary>
+<summary><b>3 · Projeto prático · Hands-on project</b> — ⚪ A começar / Up next · 0/5</summary>
 
 Gerenciador de tarefas de console em POO: uma classe Tarefa com métodos para adicionar, listar e marcar como concluída.<br>
 <em>Console to-do manager in OOP: a Task class with methods to add, list, and mark tasks as done.</em>
 
-**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/5 ✅ · ⭐ 0/5
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/5 · ⭐ 0/5
 
 - ⚪ ⭐ Classe `Tarefa` · `Task` class
 - ⚪ ⭐ Adicionar tarefa · Add a task
@@ -291,12 +291,12 @@ Gerenciador de tarefas de console em POO: uma classe Tarefa com métodos para ad
 </details>
 
 <details>
-<summary><b>4 · Git e GitHub · Git and GitHub</b> — ⚪ A começar / Up next · 0/23 ✅</summary>
+<summary><b>4 · Git e GitHub · Git and GitHub</b> — ⚪ A começar / Up next · 0/23</summary>
 
 git init, add, commit e push; levar o projeto da etapa 3 do DartPad para a minha máquina e publicá-lo em um repositório público.<br>
 <em>git init, add, commit, and push; move the stage 3 project from DartPad to my machine and publish it in a public repository.</em>
 
-**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/23 ✅ · ⭐ 0/23
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/23 · ⭐ 0/23
 
 - ⚪ **Comandos essenciais · Essential commands** · 0/7
   - ⚪ ⭐ [Configuração inicial · First-time setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
@@ -330,12 +330,12 @@ git init, add, commit e push; levar o projeto da etapa 3 do DartPad para a minha
 </details>
 
 <details>
-<summary><b>5 · Flutter</b> — ⚪ A começar / Up next · 0/31 ✅</summary>
+<summary><b>5 · Flutter</b> — ⚪ A começar / Up next · 0/31</summary>
 
 Widgets, layouts, navegação e o meu primeiro app.<br>
 <em>Widgets, layouts, navigation, and my first app.</em>
 
-**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/31 ✅ · ⭐ 0/18
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/31 · ⭐ 0/18
 
 - ⚪ ⭐ [Quick install · Install Flutter](https://docs.flutter.dev/learn/pathway/quick-install)
 - ⚪ **[Introduction to Flutter UI](https://docs.flutter.dev/learn/pathway/tutorial)** · 0/8
@@ -378,12 +378,12 @@ Widgets, layouts, navegação e o meu primeiro app.<br>
 </details>
 
 <details>
-<summary><b>6 · Métodos ágeis e ferramentas · Agile methods and tools</b> — ⚪ A começar / Up next · 0/18 ✅</summary>
+<summary><b>6 · Métodos ágeis e ferramentas · Agile methods and tools</b> — ⚪ A começar / Up next · 0/18</summary>
 
 Scrum, Kanban e Jira no dia a dia de um time de desenvolvimento.<br>
 <em>Scrum, Kanban, and Jira in a development team's daily work.</em>
 
-**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/18 ✅ · ⭐ 0/18
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/18 · ⭐ 0/18
 
 - ⚪ **[Scrum · papéis (Scrum Team) · Scrum · roles (Scrum Team)](https://scrumguides.org/scrum-guide.html#scrum-team)** · 0/3
   - ⚪ ⭐ [Developers](https://scrumguides.org/scrum-guide.html#developers)
@@ -414,12 +414,12 @@ Scrum, Kanban e Jira no dia a dia de um time de desenvolvimento.<br>
 </details>
 
 <details>
-<summary><b>7 · Do código à loja de apps · From code to the app store</b> — ⚪ A começar / Up next · 0/16 ✅</summary>
+<summary><b>7 · Do código à loja de apps · From code to the app store</b> — ⚪ A começar / Up next · 0/16</summary>
 
 Fluxo de desenvolvimento e esteira de release voltada para apps.<br>
 <em>Development workflow and app release pipeline.</em>
 
-**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/16 ✅
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/16
 
 - ⚪ Course Introduction
 - ⚪ Launcher Icons and Splash Screens
@@ -443,12 +443,12 @@ Fluxo de desenvolvimento e esteira de release voltada para apps.<br>
 </details>
 
 <details>
-<summary><b>8 · Linguagens de apoio · Supporting languages</b> — ⚪ A começar / Up next · 0/6 ✅</summary>
+<summary><b>8 · Linguagens de apoio · Supporting languages</b> — ⚪ A começar / Up next · 0/6</summary>
 
 Java com orientação a objetos e Ruby.<br>
 <em>Object-oriented Java and Ruby.</em>
 
-**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/6 ✅
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/6
 
 - ⚪ **[Java — MOOC de Helsinque · Java — University of Helsinki MOOC](https://java-programming.mooc.fi/)** · 0/2
   - ⚪ [Java Programming I (partes 1 a 7) · Java Programming I (parts 1–7)](https://java-programming.mooc.fi/part-1)
@@ -473,12 +473,12 @@ Java com orientação a objetos e Ruby.<br>
 </picture>
 
 <details>
-<summary><b>AWS</b> — ⚪ A começar / Up next · 0/14 ✅</summary>
+<summary><b>AWS</b> — ⚪ A começar / Up next · 0/14</summary>
 
 Fundamentos de nuvem na AWS: serviços, preços, segurança, monitoramento e arquitetura.<br>
 <em>AWS cloud fundamentals: services, pricing, security, monitoring, and architecture.</em>
 
-**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/14 ✅
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/14
 
 - ⚪ **[AWS Cloud Practitioner Essentials](https://skillbuilder.aws/learn/94T2BEN85A/aws-cloud-practitioner-essentials/8D79F3AVR7)** · 0/13
   - ⚪ 1. Introduction to the Cloud
@@ -501,12 +501,12 @@ Fundamentos de nuvem na AWS: serviços, preços, segurança, monitoramento e arq
 </details>
 
 <details>
-<summary><b>Databricks</b> — ⏸️ Pausado / Paused · 0/3 ✅</summary>
+<summary><b>Databricks</b> — ⏸️ Pausado / Paused · 0/3</summary>
 
 Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
 <em>I started the course but paused it to focus on Flutter. Coming back soon.</em>
 
-**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/3 ✅
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/3
 
 - ⏸️ [Databricks Fundamentals](https://www.databricks.com/training/catalog/databricks-fundamentals-2206)
 - ⚪ [Prática na Free Edition · Hands-on in the Free Edition](https://www.databricks.com/learn/free-edition)
@@ -533,8 +533,8 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python%2Cjs%2Cts%2Cphp%2Cjava%2Ccpp%2Chtml%2Ccss%2Cflask%2Cnextjs%2Cpostgres%2Csupabase%2Cmysql%2Cgit%2Cgithub%2Cvscode&theme=dark&perline=8">
-    <img alt="Python, JavaScript, TypeScript, PHP, Java, C++, HTML, CSS, Flask, Next.js, PostgreSQL, Supabase, MySQL, Git, GitHub, VS Code" src="https://skillicons.dev/icons?i=python,js,ts,php,java,cpp,html,css,flask,nextjs,postgres,supabase,mysql,git,github,vscode&theme=light&perline=8">
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python%2Cjs%2Cts%2Cphp%2Cjava%2Ccpp%2Chtml%2Ccss%2Cflask%2Cnextjs%2Cmysql%2Cgit%2Cgithub%2Cvscode&theme=dark&perline=7">
+    <img alt="Python, JavaScript, TypeScript, PHP, Java, C++, HTML, CSS, Flask, Next.js, MySQL, Git, GitHub, VS Code" src="https://skillicons.dev/icons?i=python,js,ts,php,java,cpp,html,css,flask,nextjs,mysql,git,github,vscode&theme=light&perline=7">
   </picture>
   <br>
   <img alt="Claude Code" src="https://img.shields.io/badge/Claude_Code-122039?style=flat-square&logo=claude&logoColor=white">
@@ -588,7 +588,7 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
 </div>
 
 <details>
-<summary><b>Mais estatísticas · More stats</b> <sub>(linguagens, linhas de código e calendário 3D / languages, lines of code, and 3D calendar)</sub></summary>
+<summary><b>Mais estatísticas · More stats</b> <sub>(linguagens e calendário 3D / languages and 3D calendar)</sub></summary>
 <br>
 <div align="center">
 
@@ -598,10 +598,6 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
      lowlighter/metrics a cada 12h, direto a partir do byte-size real
      das linguagens nos repositorios. -->
 <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.languages.svg" alt="Linguagens mais usadas nos meus repositórios, por tamanho de código / Most used languages in my repositories, by code size">
-
-<!-- Historico de linhas de codigo adicionadas/removidas, mesma Action
-     e branch dos plugins acima. -->
-<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.lines.svg" alt="Histórico de linhas de código adicionadas e removidas por mês / Lines of code added and removed per month">
 
 <a id="activity-graph"></a>
 <!-- Gráfico gerado por GitHub Action (lowlighter/metrics), sem depender de
@@ -615,19 +611,6 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
 
 ---
 
-<a id="inspiracoes"></a>
-### ⭐ Inspirações · Inspirations
-
-<div align="center">
-
-<!-- Repositorios que dei estrela recentemente -- mesma Action e branch
-     dos outros plugins de metrics, mostra interesses/inspiracoes atuais. -->
-<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.stars.svg" alt="Repositórios que marquei com estrela recentemente / Repositories I starred recently">
-
-</div>
-
----
-
 <a id="fun-corner"></a>
 ### 🕹️ Cantinho descontraído · Fun corner
 
@@ -636,8 +619,7 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
 <!-- Antes essa secao, o Pac-Man e o grafico 3D apareciam cada um numa
      secao fixa propria, junto com esta aqui - ai dava a impressao de
      "tudo ao mesmo tempo" na pagina. Agora só existe esta secao: uma
-     Action sorteia um widget diferente a cada ~4h (cobra, cobra tema
-     Flamengo, cobra dourada, 6 jogos de arcade sobre o grafico de contribuicoes ou
+     Action sorteia um widget diferente a cada ~4h (cobra, cobra dourada, 6 jogos de arcade sobre o grafico de contribuicoes ou
      grafico 3D) e atualiza o branch output-random. As Actions que
      geram cada widget continuam rodando nos bastidores (output,
      output-pacman, output-3d), só a exibicao no README foi unificada
@@ -652,8 +634,8 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
   <img alt="Widget sorteado do dia: animação sobre o gráfico de contribuições / Widget of the day: an animation over the contributions graph" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-random/random-widget.svg">
 </picture>
 
-<sub>Muda sozinho a cada ~4h entre 10 opções: cobra 🐍, cobra do Flamengo 🔴⚫, cobra dourada 💛, Pac-Man 👾, breakout, galaga, puzzle-bobble, bomberman, campo minado 💣 ou gráfico 3D 🧱<br>
-<em>Changes on its own every ~4h among 10 options: snake, Flamengo-themed snake, golden snake, Pac-Man, breakout, galaga, puzzle-bobble, bomberman, minesweeper, or 3D graph</em></sub>
+<sub>Muda sozinho a cada ~4h entre 9 opções: cobra 🐍, cobra dourada 💛, Pac-Man 👾, breakout, galaga, puzzle-bobble, bomberman, campo minado 💣 ou gráfico 3D 🧱<br>
+<em>Changes on its own every ~4h among 9 options: snake, golden snake, Pac-Man, breakout, galaga, puzzle-bobble, bomberman, minesweeper, or 3D graph</em></sub>
 
 </div>
 
