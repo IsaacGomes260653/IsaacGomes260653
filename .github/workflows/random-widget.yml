@@ -20,7 +20,7 @@ jobs:
       - name: pick a random widget
         id: pick
         run: |
-          widgets=("snake" "snake-flamengo" "snake-dourada" "pacman" "breakout" "galaga" "puzzle-bobble" "bomberman" "minesweeper" "3d")
+          widgets=("snake" "snake-dourada" "pacman" "breakout" "galaga" "puzzle-bobble" "bomberman" "minesweeper" "3d")
           choice=${widgets[$RANDOM % ${#widgets[@]}]}
           echo "choice=$choice" >> "$GITHUB_OUTPUT"
           echo "Picked: $choice"
@@ -36,10 +36,6 @@ jobs:
             snake-dourada)
               curl -fsSL --retry 3 -o out/random-widget.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/github-snake-dourada.svg"
               curl -fsSL --retry 3 -o out/random-widget-dark.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/github-snake-dourada-dark.svg"
-              ;;
-            snake-flamengo)
-              curl -fsSL --retry 3 -o out/random-widget.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/github-snake-flamengo.svg"
-              curl -fsSL --retry 3 -o out/random-widget-dark.svg "https://raw.githubusercontent.com/${{ github.repository }}/output/github-snake-flamengo.svg"
               ;;
             pacman|breakout|galaga|puzzle-bobble|bomberman|minesweeper)
               curl -fsSL --retry 3 -o out/random-widget.svg "https://raw.githubusercontent.com/${{ github.repository }}/output-pacman/${{ steps.pick.outputs.choice }}-contribution-graph.svg"

@@ -23,7 +23,6 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
-            dist/github-snake-flamengo.svg?color_snake=%23e30613&color_dots=%230d0d0d,%233a0000,%23750000,%23b30000,%23e30613
             dist/github-snake-dourada.svg?color_snake=%238a6210&color_dots=%23ebedf0,%23f3e2b3,%23e8c873,%23c99a2e,%238a6210
             dist/github-snake-dourada-dark.svg?palette=github-dark&color_snake=%23e8b84a&color_dots=%23161b22,%233a2f12,%236b5420,%23a8822f,%23e8b84a
 
