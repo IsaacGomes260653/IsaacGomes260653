@@ -12,8 +12,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=E8B84A&center=true&vCenter=true&width=620&lines=Construo+ferramentas+para+problemas+reais;I+build+tools+for+real+problems;Troquei+planilhas+de+obra+por+um+app+offline;Swapped+job-site+sheets+for+an+offline+app;Estudando+Dart+rumo+ao+Flutter;Studying+Dart+on+the+road+to+Flutter">
-    <img alt="Construo ferramentas para problemas reais / I build tools for real problems · Troquei planilhas de obra por um app offline / Swapped job-site sheets for an offline app · Estudando Dart rumo ao Flutter / Studying Dart on the road to Flutter" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=8A6210&center=true&vCenter=true&width=620&lines=Construo+ferramentas+para+problemas+reais;I+build+tools+for+real+problems;Troquei+planilhas+de+obra+por+um+app+offline;Swapped+job-site+sheets+for+an+offline+app;Estudando+Dart+rumo+ao+Flutter;Studying+Dart+on+the+road+to+Flutter">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=E8B84A&center=true&vCenter=true&width=620&lines=Troquei+planilhas+de+obra+por+um+app+offline;Swapped+job-site+sheets+for+an+offline+app;Estudando+Dart+rumo+ao+Flutter;Studying+Dart+on+the+road+to+Flutter">
+    <img alt="Troquei planilhas de obra por um app offline / Swapped job-site sheets for an offline app · Estudando Dart rumo ao Flutter / Studying Dart on the road to Flutter" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=8A6210&center=true&vCenter=true&width=620&lines=Troquei+planilhas+de+obra+por+um+app+offline;Swapped+job-site+sheets+for+an+offline+app;Estudando+Dart+rumo+ao+Flutter;Studying+Dart+on+the+road+to+Flutter">
   </picture>
 </p>
 
