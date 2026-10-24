@@ -588,7 +588,7 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
 </div>
 
 <details>
-<summary><b>Mais estatísticas · More stats</b> <sub>(linguagens, linhas de código e calendário 3D / languages, lines of code, and 3D calendar)</sub></summary>
+<summary><b>Mais estatísticas · More stats</b> <sub>(linguagens e calendário 3D / languages and 3D calendar)</sub></summary>
 <br>
 <div align="center">
 
@@ -599,10 +599,6 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
      das linguagens nos repositorios. -->
 <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.languages.svg" alt="Linguagens mais usadas nos meus repositórios, por tamanho de código / Most used languages in my repositories, by code size">
 
-<!-- Historico de linhas de codigo adicionadas/removidas, mesma Action
-     e branch dos plugins acima. -->
-<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.lines.svg" alt="Histórico de linhas de código adicionadas e removidas por mês / Lines of code added and removed per month">
-
 <a id="activity-graph"></a>
 <!-- Gráfico gerado por GitHub Action (lowlighter/metrics), sem depender de
      nenhum serviço externo hospedado (a instância antiga na Vercel exigia
@@ -612,19 +608,6 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
 
 </div>
 </details>
-
----
-
-<a id="inspiracoes"></a>
-### ⭐ Inspirações · Inspirations
-
-<div align="center">
-
-<!-- Repositorios que dei estrela recentemente -- mesma Action e branch
-     dos outros plugins de metrics, mostra interesses/inspiracoes atuais. -->
-<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.stars.svg" alt="Repositórios que marquei com estrela recentemente / Repositories I starred recently">
-
-</div>
 
 ---
 
