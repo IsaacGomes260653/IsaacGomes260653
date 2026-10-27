@@ -32,8 +32,13 @@ LETRAS = "".join(map(chr, [*range(0x20, 0x7F), *range(0xA0, 0x100)])) + "–—�
 LARGURA, MARGEM, RESPIRO = 264, 6, 16
 TEXTO = LARGURA - 2 * (MARGEM + RESPIRO)
 
-# Tokens do linkedin-banner/DESIGN.md.
+# Tokens do linkedin-banner/DESIGN.md. No tema claro, o dourado de texto e de
+# traço é o escuro (5:1 sobre o fundo), como no banner.
 TEMAS = {
+    "claro": {
+        "caixa": ("#f5f6f9", "#ffffff"), "contorno": "#d9dee8", "sombra": ("#0b1324", 0.10),
+        "azulejo": "#eceff5", "tinta": "#0b1324", "apoio": "#4a5670", "suave": "#5d6884", "ouro": "#8a6210",
+    },
     "escuro": {
         "caixa": ("#0f1a30", "#0b1324"), "contorno": "#22314f", "sombra": ("#000000", 0.45),
         "azulejo": "#122039", "tinta": "#f3efe6", "apoio": "#aab5c7", "suave": "#8a96ab", "ouro": "#e8b84a",
@@ -284,6 +289,7 @@ def teste():
         assert all(u.get("href")[1:] in ids for u in raiz.iter("{http://www.w3.org/2000/svg}use"))
         assert "None" not in svg and len(svg.encode()) < 60_000
         assert svg.count('class="pulso"') == 1 and "prefers-reduced-motion" in svg
+    assert 'stroke="#8a6210"' in svgs[(1, "claro")] and 'stroke="#e8b84a"' in svgs[(1, "escuro")]
     assert ('aria-label="Construindo o Íris: Site (Next.js, GSAP e WebGL) imersivo (Em construção) /'
             ' Building Íris: An immersive site (Building)"') in svgs[(1, "escuro")]
     try:
