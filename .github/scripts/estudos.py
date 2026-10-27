@@ -5,8 +5,9 @@ Autoteste local:  python3 .github/scripts/estudos.py --teste
 
 Lê o estudos.yml já convertido em JSON pela entrada padrão (o yq vem
 instalado nos runners do GitHub, então não precisa de pip) e troca só o
-trecho entre os marcadores ESTUDOS:INICIO e ESTUDOS:FIM do README.md.
-Campo vazio ou ausente simplesmente não aparece.
+trecho entre os marcadores ESTUDOS:INICIO e ESTUDOS:FIM do README.md, e
+os cards do campo agora entre AGORA:INICIO e AGORA:FIM (desenhados pelo
+agora.py). Campo vazio ou ausente simplesmente não aparece.
 """
 
 import datetime
@@ -18,6 +19,8 @@ import subprocess
 import sys
 from html import escape
 from xml.etree import ElementTree
+
+from agora import LARGURA as LARGURA_CARD, cartoes as cartoes_agora, texto_alt
 
 INICIO = "<!-- ESTUDOS:INICIO -->"
 FIM = "<!-- ESTUDOS:FIM -->"
@@ -35,6 +38,7 @@ STATUS = {
 # Imagens do roadmap: cada trilha vira um SVG desenhado aqui, em 4 versões
 # (tema claro/escuro × largo/celular), trocadas pelo <picture> do README.
 PASTA = "assets/estudos"
+PASTA_AGORA = "assets/agora"
 RAW = "https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/"
 # O GitHub não carrega fontes externas em imagens: pilha de fontes do sistema.
 FONTE = '-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif'
@@ -486,13 +490,24 @@ def hoje_brasilia():
 
 
 def agora(dados):
-    """Seção Agora · Now: português e, logo abaixo, inglês em itálico."""
-    itens = []
-    for item in dados.get("agora") or []:
-        pt, en = texto(item.get("pt")), texto(item.get("en"))
-        if pt:
-            itens.append(f"- {pt}" + (f"<br>\n  <em>{en}</em>" if en else ""))
-    return "\n".join([AGORA_INICIO, "<!-- Gerado a partir do estudos.yml (campo agora). -->", "", *itens, AGORA_FIM])
+    """Seção Agora · Now: um card por item, lado a lado, com as versões clara e
+    escura trocadas pelo <picture>. Devolve (bloco do README, {arquivo: svg})."""
+    itens = [{"pt": texto(i.get("pt")), "en": texto(i.get("en"))} for i in dados.get("agora") or []]
+    cards, svgs = cartoes_agora(itens)
+    arquivos = {f"{PASTA_AGORA}/card-{n}-{tema}.svg": svg for (n, tema), svg in svgs.items()}
+
+    def url(n, tema):
+        arquivo = f"{PASTA_AGORA}/card-{n}-{tema}.svg"
+        return f"{RAW}{arquivo}?v={hashlib.sha1(arquivos[arquivo].encode()).hexdigest()[:8]}"
+
+    figuras = []
+    for n, c in enumerate(cards, 1):
+        figura = (f'<picture><source media="(prefers-color-scheme: dark)" srcset="{url(n, "escuro")}">'
+                  f'<img src="{url(n, "claro")}" width="{LARGURA_CARD}" alt="{escape(texto_alt(c))}"></picture>')
+        figuras.append("  " + (f'<a href="{escape(c["link"])}">{figura}</a>' if c["link"] else figura))
+    corpo = ['<p align="center">', *figuras, "</p>"] if figuras else []
+    bloco = "\n".join([AGORA_INICIO, "<!-- Gerado a partir do estudos.yml (campo agora). -->", "", *corpo, AGORA_FIM])
+    return bloco, arquivos
 
 
 def substitui(readme, bloco, inicio=INICIO, fim=FIM):
@@ -610,13 +625,19 @@ def teste():
     assert "Atualizar progresso" not in md
     com_link = painel({**dados, "painel": "https://x/issues/1"}, datetime.date(2026, 9, 24), svgs)
     assert com_link.count('<a href="https://x/issues/1">Atualizar progresso · Update progress</a>') == 1
-    lista_agora = agora({"agora": [
-        {"pt": "📱 Dev na **ília**", "en": "Dev at **ília**"},
-        {"pt": "Só PT", "en": ""},
+    lista_agora, cards = agora({"agora": [
+        {"pt": "📱 Dev na **[ília](https://ilia.digital)**", "en": "Dev at **ília**"},
+        {"pt": "Só PT", "en": "PREENCHER"},
         {"pt": "", "en": "Só EN"},
     ]})
-    assert "- 📱 Dev na **ília**<br>\n  <em>Dev at **ília**</em>" in lista_agora
-    assert "- Só PT\n" in lista_agora and "<em></em>" not in lista_agora and "Só EN" not in lista_agora
+    assert sorted(cards) == sorted(f"{PASTA_AGORA}/card-{n}-{tema}.svg" for n in (1, 2) for tema in TEMAS)
+    assert lista_agora.count("<picture>") == 2 and "Só EN" not in lista_agora and "PREENCHER" not in lista_agora
+    assert (f'<source media="(prefers-color-scheme: dark)" srcset="{RAW}{PASTA_AGORA}/card-1-escuro.svg?v='
+            in lista_agora)
+    assert f'<img src="{RAW}{PASTA_AGORA}/card-2-claro.svg?v=' in lista_agora
+    assert 'alt="Dev na ília (Agora) / Dev at ília (Now)"' in lista_agora
+    assert lista_agora.count("<a href=") == 1 and '<a href="https://ilia.digital"><picture>' in lista_agora
+    assert agora({"agora": []})[0] == f"{AGORA_INICIO}\n<!-- Gerado a partir do estudos.yml (campo agora). -->\n\n{AGORA_FIM}"
     trocado = substitui(f"a\n{AGORA_INICIO}\nvelho\n{AGORA_FIM}\nb", lista_agora, AGORA_INICIO, AGORA_FIM)
     assert "velho" not in trocado and trocado.startswith("a\n") and trocado.endswith("\nb")
     readme = f"antes\n{INICIO}\nvelho\n{FIM}\ndepois"
@@ -643,9 +664,15 @@ if __name__ == "__main__":
     svgs = imagens(dados)
     novo = substitui(readme, painel(dados, data_do_estudos(), svgs))
     if "agora" in dados:
-        novo = substitui(novo, agora(dados), AGORA_INICIO, AGORA_FIM)
-    os.makedirs(PASTA, exist_ok=True)
+        bloco, cards = agora(dados)
+        novo = substitui(novo, bloco, AGORA_INICIO, AGORA_FIM)
+        # Item que saiu do Agora leva o card junto.
+        for velho in os.listdir(PASTA_AGORA) if os.path.isdir(PASTA_AGORA) else []:
+            if f"{PASTA_AGORA}/{velho}" not in cards:
+                os.remove(f"{PASTA_AGORA}/{velho}")
+        svgs.update(cards)
     for arquivo, svg in svgs.items():
+        os.makedirs(os.path.dirname(arquivo), exist_ok=True)
         with open(arquivo, "w", encoding="utf-8", newline="\n") as f:
             f.write(svg)
     with open("README.md", "w", encoding="utf-8", newline="\n") as f:
