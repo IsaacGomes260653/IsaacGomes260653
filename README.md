@@ -25,14 +25,28 @@
 
 <details>
 <summary><b>Atividade recente · Recent activity</b> <sub>(atualizada a cada 12h / updated every 12h)</sub></summary>
-<br>
-<div align="center">
 
-<!-- Gerado pela Action metrics.yml (plugin activity do lowlighter/metrics),
-     no branch output-metrics, como os outros cards de estatísticas. -->
-<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.activity.svg" alt="Minha atividade pública recente no GitHub: commits, pull requests, revisões e issues dos últimos 30 dias / My recent public GitHub activity: commits, pull requests, reviews, and issues from the last 30 days">
+<!-- ATIVIDADE:INICIO -->
+<!-- Gerado pelo workflow atividade.yml a partir dos eventos públicos do GitHub. Não edite aqui. -->
 
-</div>
+- 🔀 **[Projetos em destaque recolhíveis](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/25)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 27/10/2026</sub>
+- ⬆️ **[`passeio-animado`](https://github.com/IsaacGomes260653/iris-pet-spa/commit/d8adf277da71b2659fdfca75a914d859a0b21315)** · [iris-pet-spa](https://github.com/IsaacGomes260653/iris-pet-spa)<br>
+  <sub>Commits enviados · <em>Pushed commits</em> · 26/10/2026</sub>
+- 🔀 **[feat: loja modelada, ajustes de cena e importação do modelo comprado (abertura nova, flag desligada)](https://github.com/IsaacGomes260653/iris-pet-spa/pull/3)** · [iris-pet-spa](https://github.com/IsaacGomes260653/iris-pet-spa)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 26/10/2026</sub>
+- 🔀 **[feat: nova abertura renderizada (passeio pela alameda de jacarandás) atrás de flag desligada](https://github.com/IsaacGomes260653/iris-pet-spa/pull/2)** · [iris-pet-spa](https://github.com/IsaacGomes260653/iris-pet-spa)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 26/10/2026</sub>
+- ⬆️ **[`main`](https://github.com/IsaacGomes260653/iris-pet-spa/commit/98d416f80fa83917ae5533cde450caa6a635c675)** · [iris-pet-spa](https://github.com/IsaacGomes260653/iris-pet-spa)<br>
+  <sub>Commits enviados · <em>Pushed commits</em> · 25/10/2026</sub>
+- ⬆️ **[`main`](https://github.com/IsaacGomes260653/iris-pet-spa/commit/5e63f58a99390b05f2bb8698b032baca9bae698c)** · [iris-pet-spa](https://github.com/IsaacGomes260653/iris-pet-spa)<br>
+  <sub>Commits enviados · <em>Pushed commits</em> · 24/10/2026</sub>
+- 🔀 **[chore: tira o \_\_pycache\_\_ do repositório](https://github.com/IsaacGomes260653/forget_me_not/pull/5)** · [forget\_me\_not](https://github.com/IsaacGomes260653/forget_me_not)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 24/10/2026</sub>
+- 🔀 **[docs: licença MIT no código do PlayHub](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026/pull/14)** · [CEUB\_CIENCIA\_2026](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 24/10/2026</sub>
+<!-- ATIVIDADE:FIM -->
+
 </details>
 
 <p align="center">
