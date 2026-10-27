@@ -10,6 +10,45 @@
   </picture>
 </p>
 
+<a id="agora"></a>
+### 📍 Agora · Now
+
+<!-- AGORA:INICIO -->
+<!-- Gerado a partir do estudos.yml (campo agora). -->
+
+<p align="center">
+  <a href="https://ilia.digital"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-1-escuro.svg?v=8c012379"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-1-claro.svg?v=ded20641" width="264" alt="Estagiário na ília: Conciliado com a graduação (Agora) / Intern at ília: Alongside my degree (Now)"></picture></a>
+  <a href="https://github.com/IsaacGomes260653/iris-pet-spa"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-2-escuro.svg?v=f6fe8c27"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-2-claro.svg?v=1ab551f4" width="264" alt="Construindo o Íris Pet Spa: Site imersivo em Next.js e WebGL (Em construção) / Building Íris Pet Spa: Immersive Next.js and WebGL site (Building)"></picture></a>
+  <a href="https://github.com/IsaacGomes260653/estudos-dart"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-3-escuro.svg?v=ddc780e2"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-3-claro.svg?v=c92ff8f0" width="264" alt="Estudando Dart rumo ao Flutter: Código comentado no estudos-dart (Estudando) / Studying Dart on the road to Flutter: Commented code in estudos-dart (Studying)"></picture></a>
+</p>
+<!-- AGORA:FIM -->
+
+<details>
+<summary><b>Atividade recente · Recent activity</b> <sub>(atualizada a cada 12h / updated every 12h)</sub></summary>
+
+<!-- ATIVIDADE:INICIO -->
+<!-- Gerado pelo workflow atividade.yml a partir dos eventos públicos do GitHub. Não edite aqui. -->
+
+- 🔀 **[Projetos em destaque recolhíveis](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/25)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 27/10/2026</sub>
+- ⬆️ **[`passeio-animado`](https://github.com/IsaacGomes260653/iris-pet-spa/commit/d8adf277da71b2659fdfca75a914d859a0b21315)** · [iris-pet-spa](https://github.com/IsaacGomes260653/iris-pet-spa)<br>
+  <sub>Commits enviados · <em>Pushed commits</em> · 26/10/2026</sub>
+- 🔀 **[feat: loja modelada, ajustes de cena e importação do modelo comprado (abertura nova, flag desligada)](https://github.com/IsaacGomes260653/iris-pet-spa/pull/3)** · [iris-pet-spa](https://github.com/IsaacGomes260653/iris-pet-spa)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 26/10/2026</sub>
+- 🔀 **[feat: nova abertura renderizada (passeio pela alameda de jacarandás) atrás de flag desligada](https://github.com/IsaacGomes260653/iris-pet-spa/pull/2)** · [iris-pet-spa](https://github.com/IsaacGomes260653/iris-pet-spa)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 26/10/2026</sub>
+- ⬆️ **[`main`](https://github.com/IsaacGomes260653/iris-pet-spa/commit/98d416f80fa83917ae5533cde450caa6a635c675)** · [iris-pet-spa](https://github.com/IsaacGomes260653/iris-pet-spa)<br>
+  <sub>Commits enviados · <em>Pushed commits</em> · 25/10/2026</sub>
+- ⬆️ **[`main`](https://github.com/IsaacGomes260653/iris-pet-spa/commit/5e63f58a99390b05f2bb8698b032baca9bae698c)** · [iris-pet-spa](https://github.com/IsaacGomes260653/iris-pet-spa)<br>
+  <sub>Commits enviados · <em>Pushed commits</em> · 24/10/2026</sub>
+- 🔀 **[chore: tira o \_\_pycache\_\_ do repositório](https://github.com/IsaacGomes260653/forget_me_not/pull/5)** · [forget\_me\_not](https://github.com/IsaacGomes260653/forget_me_not)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 24/10/2026</sub>
+- 🔀 **[docs: licença MIT no código do PlayHub](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026/pull/14)** · [CEUB\_CIENCIA\_2026](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 24/10/2026</sub>
+<!-- ATIVIDADE:FIM -->
+
+</details>
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=E8B84A&center=true&vCenter=true&width=620&lines=Troquei+planilhas+de+obra+por+um+app+offline;Swapped+job-site+sheets+for+an+offline+app;Estudando+Dart+rumo+ao+Flutter;Studying+Dart+on+the+road+to+Flutter">
@@ -53,34 +92,6 @@ Português nativo · inglês avançado (Casa Thomas Jefferson).
 Before that, at <b>GONAR Engenharia Civil</b>, I built <b>RanchoControl</b>, an offline system that replaced the meal and attendance spreadsheets on the company's construction sites.<br>
 I like building the whole application, from the database to the interface, with tests and deploy.<br>
 Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
-
----
-
-<a id="agora"></a>
-### 📍 Agora · Now
-
-<!-- AGORA:INICIO -->
-<!-- Gerado a partir do estudos.yml (campo agora). -->
-
-- 💼 Estagiário na **ília**<br>
-  <em>Intern at **ília**</em>
-- 🐾 Construindo o **[Íris Pet Spa](https://github.com/IsaacGomes260653/iris-pet-spa)**, um site imersivo de rolagem (Next.js, GSAP e WebGL)<br>
-  <em>Building **[Íris Pet Spa](https://github.com/IsaacGomes260653/iris-pet-spa)**, an immersive scroll-driven website (Next.js, GSAP, and WebGL)</em>
-- 📘 Estudando Dart rumo ao Flutter, com código comentado no **[estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)**<br>
-  <em>Studying Dart on the road to Flutter, with commented code in **[estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)**</em>
-<!-- AGORA:FIM -->
-
-<details>
-<summary><b>Atividade recente · Recent activity</b> <sub>(atualizada a cada 12h / updated every 12h)</sub></summary>
-<br>
-<div align="center">
-
-<!-- Gerado pela Action metrics.yml (plugin activity do lowlighter/metrics),
-     no branch output-metrics, como os outros cards de estatísticas. -->
-<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.activity.svg" alt="Minha atividade pública recente no GitHub: commits, pull requests, revisões e issues dos últimos 30 dias / My recent public GitHub activity: commits, pull requests, reviews, and issues from the last 30 days">
-
-</div>
-</details>
 
 ---
 
@@ -526,7 +537,7 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
 - [Flutter & Dart — The Complete Guide (Udemy)](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/) (pago / paid) — De Maximilian Schwarzmüller. Comprar só em promoção. · <em>By Maximilian Schwarzmüller. Buy only on sale.</em>
 - [Flutter Course for Beginners (freeCodeCamp)](https://www.freecodecamp.org/news/learn-flutter-full-course/) (gratuito / free) — De 2022: usar só como complemento. · <em>From 2022: use only as a supplement.</em>
 
-<sub>Atualizado em / Updated on 23/10/2026 · gerado automaticamente a partir do <a href="estudos.yml">estudos.yml</a> / auto-generated from <a href="estudos.yml">estudos.yml</a></sub>
+<sub>Atualizado em / Updated on 27/10/2026 · gerado automaticamente a partir do <a href="estudos.yml">estudos.yml</a> / auto-generated from <a href="estudos.yml">estudos.yml</a></sub>
 <!-- ESTUDOS:FIM -->
 
 ---
