@@ -42,21 +42,3 @@ jobs:
           output_action: commit
           committer_branch: output-metrics
           committer_message: "chore: update top languages"
-
-      # Atividade recente (seção Agora do README). Só eventos públicos, para
-      # não expor repositórios privados, e sem criação/remoção de branch, que
-      # com o fluxo de branch + PR viraria ruído.
-      - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 30
-          plugin_activity_visibility: public
-          plugin_activity_timestamps: yes
-          plugin_activity_filter: push, pr, review, issue, release, public
-          filename: metrics.plugin.activity.svg
-          output_action: commit
-          committer_branch: output-metrics
-          committer_message: "chore: update recent activity"
