@@ -10,6 +10,31 @@
   </picture>
 </p>
 
+<a id="agora"></a>
+### 📍 Agora · Now
+
+<!-- AGORA:INICIO -->
+<!-- Gerado a partir do estudos.yml (campo agora). -->
+
+<p align="center">
+  <a href="https://ilia.digital"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-1-escuro.svg?v=8c012379"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-1-claro.svg?v=ded20641" width="264" alt="Estagiário na ília: Conciliado com a graduação (Agora) / Intern at ília: Alongside my degree (Now)"></picture></a>
+  <a href="https://github.com/IsaacGomes260653/iris-pet-spa"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-2-escuro.svg?v=f6fe8c27"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-2-claro.svg?v=1ab551f4" width="264" alt="Construindo o Íris Pet Spa: Site imersivo em Next.js e WebGL (Em construção) / Building Íris Pet Spa: Immersive Next.js and WebGL site (Building)"></picture></a>
+  <a href="https://github.com/IsaacGomes260653/estudos-dart"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-3-escuro.svg?v=ddc780e2"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-3-claro.svg?v=c92ff8f0" width="264" alt="Estudando Dart rumo ao Flutter: Código comentado no estudos-dart (Estudando) / Studying Dart on the road to Flutter: Commented code in estudos-dart (Studying)"></picture></a>
+</p>
+<!-- AGORA:FIM -->
+
+<details>
+<summary><b>Atividade recente · Recent activity</b> <sub>(atualizada a cada 12h / updated every 12h)</sub></summary>
+<br>
+<div align="center">
+
+<!-- Gerado pela Action metrics.yml (plugin activity do lowlighter/metrics),
+     no branch output-metrics, como os outros cards de estatísticas. -->
+<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.activity.svg" alt="Minha atividade pública recente no GitHub: commits, pull requests, revisões e issues dos últimos 30 dias / My recent public GitHub activity: commits, pull requests, reviews, and issues from the last 30 days">
+
+</div>
+</details>
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=E8B84A&center=true&vCenter=true&width=620&lines=Troquei+planilhas+de+obra+por+um+app+offline;Swapped+job-site+sheets+for+an+offline+app;Estudando+Dart+rumo+ao+Flutter;Studying+Dart+on+the+road+to+Flutter">
@@ -53,33 +78,6 @@ Português nativo · inglês avançado (Casa Thomas Jefferson).
 Before that, at <b>GONAR Engenharia Civil</b>, I built <b>RanchoControl</b>, an offline system that replaced the meal and attendance spreadsheets on the company's construction sites.<br>
 I like building the whole application, from the database to the interface, with tests and deploy.<br>
 Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
-
----
-
-<a id="agora"></a>
-### 📍 Agora · Now
-
-<!-- AGORA:INICIO -->
-<!-- Gerado a partir do estudos.yml (campo agora). -->
-
-<p align="center">
-  <a href="https://ilia.digital"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-1-escuro.svg?v=8c012379"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-1-claro.svg?v=ded20641" width="264" alt="Estagiário na ília: Conciliado com a graduação (Agora) / Intern at ília: Alongside my degree (Now)"></picture></a>
-  <a href="https://github.com/IsaacGomes260653/iris-pet-spa"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-2-escuro.svg?v=f6fe8c27"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-2-claro.svg?v=1ab551f4" width="264" alt="Construindo o Íris Pet Spa: Site imersivo em Next.js e WebGL (Em construção) / Building Íris Pet Spa: Immersive Next.js and WebGL site (Building)"></picture></a>
-  <a href="https://github.com/IsaacGomes260653/estudos-dart"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-3-escuro.svg?v=ddc780e2"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-3-claro.svg?v=c92ff8f0" width="264" alt="Estudando Dart rumo ao Flutter: Código comentado no estudos-dart (Estudando) / Studying Dart on the road to Flutter: Commented code in estudos-dart (Studying)"></picture></a>
-</p>
-<!-- AGORA:FIM -->
-
-<details>
-<summary><b>Atividade recente · Recent activity</b> <sub>(atualizada a cada 12h / updated every 12h)</sub></summary>
-<br>
-<div align="center">
-
-<!-- Gerado pela Action metrics.yml (plugin activity do lowlighter/metrics),
-     no branch output-metrics, como os outros cards de estatísticas. -->
-<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.activity.svg" alt="Minha atividade pública recente no GitHub: commits, pull requests, revisões e issues dos últimos 30 dias / My recent public GitHub activity: commits, pull requests, reviews, and issues from the last 30 days">
-
-</div>
-</details>
 
 ---
 
