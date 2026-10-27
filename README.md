@@ -85,7 +85,10 @@ Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
 ---
 
 <a id="projetos"></a>
-### 📌 Projetos em destaque · Featured projects
+<!-- Escrita à mão: nenhum workflow reescreve esta seção. Fica fechada por padrão;
+     ao incluir ou tirar um projeto, atualize o número entre parênteses do título. -->
+<details>
+<summary><b>📌 Projetos em destaque · Featured projects (7)</b></summary>
 
 #### 🎮 PlayHub · entregue / delivered
 
@@ -146,6 +149,8 @@ Meus estudos de Dart rumo ao Flutter: um arquivo por assunto, com casos curtos e
   <em>Digital sticker album for the 2026 World Cup with all 992 stickers, multi-album support, and duplicate and missing lists</em>
 - **[TaskFlow](https://github.com/IsaacGomes260653/Sistema-de-Gerenciamento-de-Tarefas)**: CRUD de tarefas com login e controle de acesso por sessão, em PHP e MySQL<br>
   <em>Task CRUD with login and session-based access control, in PHP and MySQL</em>
+
+</details>
 
 ---
 
