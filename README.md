@@ -63,7 +63,7 @@ Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
 <!-- Gerado a partir do estudos.yml (campo agora). -->
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-1-escuro.svg?v=552ad78e"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-1-claro.svg?v=9d78c8ad" width="264" alt="Estagiário na ília (Agora) / Intern at ília (Now)"></picture>
+  <a href="https://ilia.digital"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-1-escuro.svg?v=7b2c56fb"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-1-claro.svg?v=e6163a10" width="264" alt="Estagiário na ília: Conciliado com a graduação (Agora) / Intern at ília: Alongside my degree (Now)"></picture></a>
   <a href="https://github.com/IsaacGomes260653/iris-pet-spa"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-2-escuro.svg?v=6df22fda"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-2-claro.svg?v=bc22fa80" width="264" alt="Construindo o Íris Pet Spa: Um site imersivo de rolagem (Next.js, GSAP e WebGL) (Em construção) / Building Íris Pet Spa: An immersive scroll-driven website (Next.js, GSAP, and WebGL) (Building)"></picture></a>
   <a href="https://github.com/IsaacGomes260653/estudos-dart"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-3-escuro.svg?v=ba1fe0d8"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-3-claro.svg?v=3b768b18" width="264" alt="Estudando Dart rumo ao Flutter: Com código comentado no estudos-dart (Estudando) / Studying Dart on the road to Flutter: With commented code in estudos-dart (Studying)"></picture></a>
 </p>
@@ -525,7 +525,7 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
 - [Flutter & Dart — The Complete Guide (Udemy)](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/) (pago / paid) — De Maximilian Schwarzmüller. Comprar só em promoção. · <em>By Maximilian Schwarzmüller. Buy only on sale.</em>
 - [Flutter Course for Beginners (freeCodeCamp)](https://www.freecodecamp.org/news/learn-flutter-full-course/) (gratuito / free) — De 2022: usar só como complemento. · <em>From 2022: use only as a supplement.</em>
 
-<sub>Atualizado em / Updated on 23/10/2026 · gerado automaticamente a partir do <a href="estudos.yml">estudos.yml</a> / auto-generated from <a href="estudos.yml">estudos.yml</a></sub>
+<sub>Atualizado em / Updated on 27/10/2026 · gerado automaticamente a partir do <a href="estudos.yml">estudos.yml</a> / auto-generated from <a href="estudos.yml">estudos.yml</a></sub>
 <!-- ESTUDOS:FIM -->
 
 ---
