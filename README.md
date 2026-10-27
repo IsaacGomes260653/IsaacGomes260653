@@ -29,6 +29,8 @@
 <!-- ATIVIDADE:INICIO -->
 <!-- Gerado pelo workflow atividade.yml a partir dos eventos públicos do GitHub. Não edite aqui. -->
 
+- 🔀 **[Cards no Agora e atividade recente consertada](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/26)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 27/10/2026</sub>
 - 🔀 **[Projetos em destaque recolhíveis](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/25)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 27/10/2026</sub>
 - ⬆️ **[`passeio-animado`](https://github.com/IsaacGomes260653/iris-pet-spa/commit/d8adf277da71b2659fdfca75a914d859a0b21315)** · [iris-pet-spa](https://github.com/IsaacGomes260653/iris-pet-spa)<br>
@@ -42,8 +44,6 @@
 - ⬆️ **[`main`](https://github.com/IsaacGomes260653/iris-pet-spa/commit/5e63f58a99390b05f2bb8698b032baca9bae698c)** · [iris-pet-spa](https://github.com/IsaacGomes260653/iris-pet-spa)<br>
   <sub>Commits enviados · <em>Pushed commits</em> · 24/10/2026</sub>
 - 🔀 **[chore: tira o \_\_pycache\_\_ do repositório](https://github.com/IsaacGomes260653/forget_me_not/pull/5)** · [forget\_me\_not](https://github.com/IsaacGomes260653/forget_me_not)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 24/10/2026</sub>
-- 🔀 **[docs: licença MIT no código do PlayHub](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026/pull/14)** · [CEUB\_CIENCIA\_2026](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 24/10/2026</sub>
 <!-- ATIVIDADE:FIM -->
 
