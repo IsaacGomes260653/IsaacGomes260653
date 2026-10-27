@@ -58,6 +58,13 @@ SELOS = {"estudando": ("ESTUDANDO", "STUDYING"), "construindo": ("EM CONSTRUÇÃ
 VERBOS = {"estudando": "estudando", "aprendendo": "estudando", "cursando": "estudando",
           "construindo": "construindo", "criando": "construindo", "desenvolvendo": "construindo"}
 
+# Só CSS, que o GitHub deixa rodar dentro de imagens: um anel sai do ponto do
+# selo e some. Para quem pede menos movimento, fica só o ponto parado.
+CSS = (".pulso{transform-box:fill-box;transform-origin:center;"
+       "animation:pulso 2.4s cubic-bezier(.16,1,.3,1) infinite}"
+       "@keyframes pulso{from{transform:scale(1);opacity:.6}to{transform:scale(3);opacity:0}}"
+       "@media (prefers-reduced-motion:reduce){.pulso{animation:none;opacity:0}}")
+
 LINK = re.compile(r"\[([^\]]+)\]\(([^)\s]+)\)")
 
 
@@ -189,6 +196,7 @@ def desenha(c, tema, alto):
     partes.append(
         f'<rect x="{x0}" y="{sy}" width="{sw:.1f}" height="26" rx="13" fill="{T["ouro"]}" fill-opacity=".1"'
         f' stroke="{T["ouro"]}" stroke-opacity=".4"/>'
+        f'<circle class="pulso" cx="{x0 + 13}" cy="{sy + 13}" r="4" fill="{T["ouro"]}"/>'
         f'<circle cx="{x0 + 13}" cy="{sy + 13}" r="4" fill="{T["ouro"]}"/>'
         + escreve(rotulo, x0 + 25, sy + 17, 11, 620, T["ouro"], usados, 0.06)
     )
@@ -197,7 +205,7 @@ def desenha(c, tema, alto):
     defs = "".join(f'<path id="{n}" d="{d}"/>' for n, d in usados.items())
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{LARGURA}" height="{alto}" viewBox="0 0 {LARGURA} {alto}"'
-        f' role="img" aria-label="{escape(alt)}"><title>{escape(alt)}</title><defs>'
+        f' role="img" aria-label="{escape(alt)}"><title>{escape(alt)}</title><style>{CSS}</style><defs>'
         f'<linearGradient id="caixa" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{c1}"/>'
         f'<stop offset="1" stop-color="{c2}"/></linearGradient>'
         f'<filter id="sombra" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="1.5"'
@@ -275,6 +283,7 @@ def teste():
         ids = {e.get("id") for e in raiz.iter() if e.get("id")}
         assert all(u.get("href")[1:] in ids for u in raiz.iter("{http://www.w3.org/2000/svg}use"))
         assert "None" not in svg and len(svg.encode()) < 60_000
+        assert svg.count('class="pulso"') == 1 and "prefers-reduced-motion" in svg
     assert ('aria-label="Construindo o Íris: Site (Next.js, GSAP e WebGL) imersivo (Em construção) /'
             ' Building Íris: An immersive site (Building)"') in svgs[(1, "escuro")]
     try:
