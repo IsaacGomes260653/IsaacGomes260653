@@ -3,7 +3,9 @@
 Cada item do campo agora do estudos.yml (o mesmo da issue do painel, uma linha
 "português | inglês") vira um card:
 - o emoji do começo escolhe o ícone (💼 maleta, 🐾 pata, 📘 livro; outro: faísca);
-- o texto até a 1ª vírgula é o título, e o resto, a descrição.
+- o texto até a 1ª vírgula é o título, e o resto, a descrição;
+- a 1ª palavra escolhe o selo: Estudando → ESTUDANDO · STUDYING,
+  Construindo → EM CONSTRUÇÃO · BUILDING, qualquer outra → AGORA · NOW.
 
 O GitHub não carrega fontes em imagens, então o texto vira contorno da Mona
 Sans, lido do glifos.json. Ele é gerado uma vez a partir da fonte, com o
@@ -51,6 +53,11 @@ ICONES = {
 }
 EMOJIS = {"💼": "maleta", "🐾": "pata", **dict.fromkeys("📘📗📕📙📚📖📓📒", "livro")}
 
+SELOS = {"estudando": ("ESTUDANDO", "STUDYING"), "construindo": ("EM CONSTRUÇÃO", "BUILDING"),
+         "agora": ("AGORA", "NOW")}
+VERBOS = {"estudando": "estudando", "aprendendo": "estudando", "cursando": "estudando",
+          "construindo": "construindo", "criando": "construindo", "desenvolvendo": "construindo"}
+
 LINK = re.compile(r"\[([^\]]+)\]\(([^)\s]+)\)")
 
 
@@ -83,6 +90,7 @@ def card(item):
     return {
         "icone": EMOJIS.get(emoji.replace("️", ""), "faisca"),
         "titulo": (titulo, title), "descricao": (descricao, description),
+        "selo": SELOS[VERBOS.get(titulo.split(" ", 1)[0].lower(), "agora")],
     }
 
 
@@ -155,7 +163,7 @@ def linhas_do_card(c):
 def altura(cards):
     """A mesma altura para todos: lado a lado, eles ficam alinhados."""
     corpo = max(sum(l[4] for l in linhas_do_card(c)) for c in cards)
-    return MARGEM + RESPIRO + 40 + 16 + corpo + RESPIRO + MARGEM
+    return MARGEM + RESPIRO + 40 + 16 + corpo + 18 + 26 + RESPIRO + MARGEM
 
 
 def desenha(c, tema, alto):
@@ -163,6 +171,7 @@ def desenha(c, tema, alto):
     usados = {}
     x0, y = MARGEM + RESPIRO, MARGEM + RESPIRO
     w, h = LARGURA - 2 * MARGEM, alto - 2 * MARGEM
+    base = alto - MARGEM
     partes = [
         f'<rect x="{x0}" y="{y}" width="40" height="40" rx="10" fill="{T["azulejo"]}"/>',
         f'<g transform="translate({x0 + 9} {y + 9}) scale(.9167)" fill="none" stroke="{T["ouro"]}" stroke-width="2"'
@@ -173,6 +182,16 @@ def desenha(c, tema, alto):
         if t:
             partes.append(escreve(t, x0, y + round(tam * 0.8, 2), tam, peso, T[tinta], usados))
         y += alt
+    # Selo no pé do card: fica na mesma altura em todos.
+    rotulo = " · ".join(c["selo"])
+    sy = base - RESPIRO - 26
+    sw = 25 + mede(rotulo, 11, 620, 0.06) + 12
+    partes.append(
+        f'<rect x="{x0}" y="{sy}" width="{sw:.1f}" height="26" rx="13" fill="{T["ouro"]}" fill-opacity=".1"'
+        f' stroke="{T["ouro"]}" stroke-opacity=".4"/>'
+        f'<circle cx="{x0 + 13}" cy="{sy + 13}" r="4" fill="{T["ouro"]}"/>'
+        + escreve(rotulo, x0 + 25, sy + 17, 11, 620, T["ouro"], usados, 0.06)
+    )
     (c1, c2), (sombra, opacidade) = T["caixa"], T["sombra"]
     alt = texto_alt(c)
     defs = "".join(f'<path id="{n}" d="{d}"/>' for n, d in usados.items())
@@ -189,10 +208,10 @@ def desenha(c, tema, alto):
 
 
 def texto_alt(c):
-    """Título e descrição, em PT e EN, para o alt da imagem."""
-    (titulo, title), (descricao, description) = c["titulo"], c["descricao"]
-    lado = lambda t, d: t + (f": {d}" if d else "")
-    return f"{lado(titulo, descricao)} / {lado(title or titulo, description)}"
+    """Título, descrição e selo, em PT e EN, para o alt da imagem."""
+    (titulo, title), (descricao, description), (pt, en) = c["titulo"], c["descricao"], c["selo"]
+    lado = lambda t, d, s: t + (f": {d}" if d else "") + f" ({s.capitalize()})"
+    return f"{lado(titulo, descricao, pt)} / {lado(title or titulo, description, en)}"
 
 
 def cartoes(itens):
@@ -239,6 +258,10 @@ def teste():
     assert card({"pt": "Sem emoji, nem link"})["titulo"] == ("Sem emoji", "")
     assert c["icone"] == "maleta" and card({"pt": "📚 Lendo"})["icone"] == "livro"
     assert card({"pt": "🎓 Formando"})["icone"] == card({"pt": "Sem emoji"})["icone"] == "faisca"
+    assert c["selo"] == ("EM CONSTRUÇÃO", "BUILDING")
+    assert card({"pt": "📘 Estudando Dart"})["selo"] == ("ESTUDANDO", "STUDYING")
+    assert card({"pt": "💼 Estagiário na ília"})["selo"] == ("AGORA", "NOW")
+    assert mede("EM CONSTRUÇÃO · BUILDING", 11, 620, 0.06) + 37 <= TEXTO  # o selo mais longo cabe
     assert divide("Sem vírgula") == ("Sem vírgula", "")
     frase = "uma frase bem comprida que precisa quebrar em mais de uma linha dentro do card"
     linhas = quebra(frase, 13, 450)
@@ -252,8 +275,8 @@ def teste():
         ids = {e.get("id") for e in raiz.iter() if e.get("id")}
         assert all(u.get("href")[1:] in ids for u in raiz.iter("{http://www.w3.org/2000/svg}use"))
         assert "None" not in svg and len(svg.encode()) < 60_000
-    assert 'aria-label="Construindo o Íris: Site (Next.js, GSAP e WebGL) imersivo / Building Íris: An immersive site"' \
-        in svgs[(1, "escuro")]
+    assert ('aria-label="Construindo o Íris: Site (Next.js, GSAP e WebGL) imersivo (Em construção) /'
+            ' Building Íris: An immersive site (Building)"') in svgs[(1, "escuro")]
     try:
         cartoes([{"pt": "Estudando 漢字"}])
     except SystemExit as erro:
