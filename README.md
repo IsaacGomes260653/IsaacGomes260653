@@ -85,6 +85,8 @@ Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
 ---
 
 <a id="projetos"></a>
+<!-- Escrita à mão: nenhum workflow reescreve esta seção. Fica fechada por padrão;
+     ao incluir ou tirar um projeto, atualize o número entre parênteses do título. -->
 <details>
 <summary><b>📌 Projetos em destaque · Featured projects (7)</b></summary>
 
