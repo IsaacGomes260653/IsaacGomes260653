@@ -85,9 +85,8 @@ Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
 ---
 
 <a id="projetos"></a>
-### 📌 Projetos em destaque · Featured projects
-
 <details>
+<summary><h3>📌 Projetos em destaque · Featured projects</h3></summary>
 
 #### 🎮 PlayHub · entregue / delivered
 
