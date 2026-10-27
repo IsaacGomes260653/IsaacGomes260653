@@ -8,6 +8,8 @@ on:
       - estudos.yml
       - .github/scripts/estudos.py
       - .github/scripts/painel.py
+      - .github/scripts/agora.py
+      - .github/scripts/glifos.json
       - .github/workflows/painel-estudos.yml
   schedule:
     - cron: "0 9 * * *" # 06:00 em Brasília
@@ -18,7 +20,7 @@ on:
     types: [edited]
 
 permissions:
-  contents: write # commit do estudos.yml, do README e das imagens
+  contents: write # commit do estudos.yml, do README e das imagens (roadmap e cards do Agora)
   issues: write   # manter as caixinhas da issue iguais ao estudos.yml
 
 # Este é o único workflow que reescreve o README no main. O grupo faz uma
@@ -85,7 +87,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add estudos.yml README.md assets/estudos
+          git add -A estudos.yml README.md assets/estudos assets/agora # -A: card de item removido sai junto
           git diff --cached --quiet && exit 0
           mensagem="chore: atualiza painel de estudos"
           [ "$GITHUB_EVENT_NAME" = issues ] && mensagem="chore: atualiza progresso de estudos"
