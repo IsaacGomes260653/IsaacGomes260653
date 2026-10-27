@@ -4,6 +4,7 @@ Cada item do campo agora do estudos.yml (o mesmo da issue do painel, uma linha
 "português | inglês") vira um card:
 - o emoji do começo escolhe o ícone (💼 maleta, 🐾 pata, 📘 livro; outro: faísca);
 - o texto até a 1ª vírgula é o título, e o resto, a descrição;
+- o 1º link do item é o destino do card (com a seta ↗ no canto);
 - a 1ª palavra escolhe o selo: Estudando → ESTUDANDO · STUDYING,
   Construindo → EM CONSTRUÇÃO · BUILDING, qualquer outra → AGORA · NOW.
 
@@ -58,6 +59,7 @@ ICONES = {
                'l1.58-6.14a.5.5 0 0 1 .96 0L14.06 8.5A2 2 0 0 0 15.5 9.94l6.14 1.58a.5.5 0 0 1 0 .96L15.5 14.06'
                'a2 2 0 0 0-1.44 1.44l-1.58 6.14a.5.5 0 0 1-.96 0z"/>'),
 }
+SETA = '<path d="M7 7h10v10"/><path d="M7 17 17 7"/>'
 EMOJIS = {"💼": "maleta", "🐾": "pata", **dict.fromkeys("📘📗📕📙📚📖📓📒", "livro")}
 
 SELOS = {"estudando": ("ESTUDANDO", "STUDYING"), "construindo": ("EM CONSTRUÇÃO", "BUILDING"),
@@ -101,9 +103,11 @@ def card(item):
         emoji, resto = "", pt
     titulo, descricao = divide(limpa(resto))
     title, description = divide(limpa(en))
+    link = LINK.search(pt) or LINK.search(en)
     return {
         "icone": EMOJIS.get(emoji.replace("️", ""), "faisca"),
         "titulo": (titulo, title), "descricao": (descricao, description),
+        "link": link.group(2) if link else "",
         "selo": SELOS[VERBOS.get(titulo.split(" ", 1)[0].lower(), "agora")],
     }
 
@@ -194,6 +198,9 @@ def desenha(c, tema, alto):
         f'<g transform="translate({x0 + 9} {y + 9}) scale(.9167)" fill="none" stroke="{T["ouro"]}" stroke-width="2"'
         f' stroke-linecap="round" stroke-linejoin="round">{ICONES[c["icone"]]}</g>',
     ]
+    if c["link"]:  # seta de link no canto: o card inteiro é clicável
+        partes.append(f'<g transform="translate({direita - RESPIRO - 18} {y + 11}) scale(.75)" fill="none"'
+                      f' stroke="{T["apoio"]}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">{SETA}</g>')
     y += 40 + 16
     for t, tam, peso, tinta, alt in linhas_do_card(c):
         if t:
@@ -278,6 +285,7 @@ def teste():
     assert c["icone"] == "maleta" and card({"pt": "📚 Lendo"})["icone"] == "livro"
     assert card({"pt": "🎓 Formando"})["icone"] == card({"pt": "Sem emoji"})["icone"] == "faisca"
     assert c["selo"] == ("EM CONSTRUÇÃO", "BUILDING")
+    assert c["link"] == "https://x" and card({"pt": "Sem link", "en": "[en](https://e)"})["link"] == "https://e"
     assert card({"pt": "📘 Estudando Dart"})["selo"] == ("ESTUDANDO", "STUDYING")
     assert card({"pt": "💼 Estagiário na ília"})["selo"] == ("AGORA", "NOW")
     assert mede("EM CONSTRUÇÃO · BUILDING", 11, 620, 0.06) + 37 <= TEXTO  # o selo mais longo cabe
@@ -295,6 +303,7 @@ def teste():
         assert all(u.get("href")[1:] in ids for u in raiz.iter("{http://www.w3.org/2000/svg}use"))
         assert "None" not in svg and len(svg.encode()) < 60_000
         assert svg.count('class="pulso"') == 1 and "prefers-reduced-motion" in svg
+    assert SETA in svgs[(1, "claro")] and SETA not in svgs[(2, "claro")]  # só o 1º tem link
     assert 'stroke="#8a6210"' in svgs[(1, "claro")] and 'stroke="#e8b84a"' in svgs[(1, "escuro")]
     assert ('aria-label="Construindo o Íris: Site (Next.js, GSAP e WebGL) imersivo (Em construção) /'
             ' Building Íris: An immersive site (Building)"') in svgs[(1, "escuro")]
