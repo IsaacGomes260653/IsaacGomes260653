@@ -62,12 +62,11 @@ Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
 <!-- AGORA:INICIO -->
 <!-- Gerado a partir do estudos.yml (campo agora). -->
 
-- 💼 Estagiário na **ília**<br>
-  <em>Intern at **ília**</em>
-- 🐾 Construindo o **[Íris Pet Spa](https://github.com/IsaacGomes260653/iris-pet-spa)**, um site imersivo de rolagem (Next.js, GSAP e WebGL)<br>
-  <em>Building **[Íris Pet Spa](https://github.com/IsaacGomes260653/iris-pet-spa)**, an immersive scroll-driven website (Next.js, GSAP, and WebGL)</em>
-- 📘 Estudando Dart rumo ao Flutter, com código comentado no **[estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)**<br>
-  <em>Studying Dart on the road to Flutter, with commented code in **[estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)**</em>
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-1-escuro.svg?v=552ad78e"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-1-claro.svg?v=9d78c8ad" width="264" alt="Estagiário na ília (Agora) / Intern at ília (Now)"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-2-escuro.svg?v=6df22fda"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-2-claro.svg?v=bc22fa80" width="264" alt="Construindo o Íris Pet Spa: Um site imersivo de rolagem (Next.js, GSAP e WebGL) (Em construção) / Building Íris Pet Spa: An immersive scroll-driven website (Next.js, GSAP, and WebGL) (Building)"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-3-escuro.svg?v=ba1fe0d8"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-3-claro.svg?v=3b768b18" width="264" alt="Estudando Dart rumo ao Flutter: Com código comentado no estudos-dart (Estudando) / Studying Dart on the road to Flutter: With commented code in estudos-dart (Studying)"></picture>
+</p>
 <!-- AGORA:FIM -->
 
 <details>
