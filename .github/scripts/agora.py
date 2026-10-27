@@ -2,6 +2,7 @@
 
 Cada item do campo agora do estudos.yml (o mesmo da issue do painel, uma linha
 "português | inglês") vira um card:
+- o emoji do começo escolhe o ícone (💼 maleta, 🐾 pata, 📘 livro; outro: faísca);
 - o texto até a 1ª vírgula é o título, e o resto, a descrição.
 
 O GitHub não carrega fontes em imagens, então o texto vira contorno da Mona
@@ -33,9 +34,22 @@ TEXTO = LARGURA - 2 * (MARGEM + RESPIRO)
 TEMAS = {
     "escuro": {
         "caixa": ("#0f1a30", "#0b1324"), "contorno": "#22314f", "sombra": ("#000000", 0.45),
-        "tinta": "#f3efe6", "apoio": "#aab5c7", "suave": "#8a96ab",
+        "azulejo": "#122039", "tinta": "#f3efe6", "apoio": "#aab5c7", "suave": "#8a96ab", "ouro": "#e8b84a",
     },
 }
+
+# Ícones do Lucide (licença ISC), em traço, numa caixa de 24.
+ICONES = {
+    "maleta": '<path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/><rect width="20" height="14" x="2" y="6" rx="2"/>',
+    "pata": ('<circle cx="11" cy="4" r="2"/><circle cx="18" cy="8" r="2"/><circle cx="20" cy="16" r="2"/>'
+             '<path d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z"/>'),
+    "livro": ('<path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5'
+              'a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/>'),
+    "faisca": ('<path d="M9.94 15.5A2 2 0 0 0 8.5 14.06l-6.14-1.58a.5.5 0 0 1 0-.96L8.5 9.94A2 2 0 0 0 9.94 8.5'
+               'l1.58-6.14a.5.5 0 0 1 .96 0L14.06 8.5A2 2 0 0 0 15.5 9.94l6.14 1.58a.5.5 0 0 1 0 .96L15.5 14.06'
+               'a2 2 0 0 0-1.44 1.44l-1.58 6.14a.5.5 0 0 1-.96 0z"/>'),
+}
+EMOJIS = {"💼": "maleta", "🐾": "pata", **dict.fromkeys("📘📗📕📙📚📖📓📒", "livro")}
 
 LINK = re.compile(r"\[([^\]]+)\]\(([^)\s]+)\)")
 
@@ -66,7 +80,10 @@ def card(item):
         emoji, resto = "", pt
     titulo, descricao = divide(limpa(resto))
     title, description = divide(limpa(en))
-    return {"titulo": (titulo, title), "descricao": (descricao, description)}
+    return {
+        "icone": EMOJIS.get(emoji.replace("️", ""), "faisca"),
+        "titulo": (titulo, title), "descricao": (descricao, description),
+    }
 
 
 # ---------------------------------------------------------------- contornos
@@ -138,7 +155,7 @@ def linhas_do_card(c):
 def altura(cards):
     """A mesma altura para todos: lado a lado, eles ficam alinhados."""
     corpo = max(sum(l[4] for l in linhas_do_card(c)) for c in cards)
-    return MARGEM + RESPIRO + corpo + RESPIRO + MARGEM
+    return MARGEM + RESPIRO + 40 + 16 + corpo + RESPIRO + MARGEM
 
 
 def desenha(c, tema, alto):
@@ -146,7 +163,12 @@ def desenha(c, tema, alto):
     usados = {}
     x0, y = MARGEM + RESPIRO, MARGEM + RESPIRO
     w, h = LARGURA - 2 * MARGEM, alto - 2 * MARGEM
-    partes = []
+    partes = [
+        f'<rect x="{x0}" y="{y}" width="40" height="40" rx="10" fill="{T["azulejo"]}"/>',
+        f'<g transform="translate({x0 + 9} {y + 9}) scale(.9167)" fill="none" stroke="{T["ouro"]}" stroke-width="2"'
+        f' stroke-linecap="round" stroke-linejoin="round">{ICONES[c["icone"]]}</g>',
+    ]
+    y += 40 + 16
     for t, tam, peso, tinta, alt in linhas_do_card(c):
         if t:
             partes.append(escreve(t, x0, y + round(tam * 0.8, 2), tam, peso, T[tinta], usados))
@@ -215,6 +237,8 @@ def teste():
     assert c["titulo"] == ("Construindo o Íris", "Building Íris"), c
     assert c["descricao"] == ("Site (Next.js, GSAP e WebGL) imersivo", "An immersive site"), c
     assert card({"pt": "Sem emoji, nem link"})["titulo"] == ("Sem emoji", "")
+    assert c["icone"] == "maleta" and card({"pt": "📚 Lendo"})["icone"] == "livro"
+    assert card({"pt": "🎓 Formando"})["icone"] == card({"pt": "Sem emoji"})["icone"] == "faisca"
     assert divide("Sem vírgula") == ("Sem vírgula", "")
     frase = "uma frase bem comprida que precisa quebrar em mais de uma linha dentro do card"
     linhas = quebra(frase, 13, 450)
