@@ -51,6 +51,7 @@ jobs:
 
       - name: autotestes
         run: |
+          python3 .github/scripts/agora.py --teste
           python3 .github/scripts/estudos.py --teste
           python3 .github/scripts/painel.py --teste
 
