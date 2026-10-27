@@ -87,6 +87,8 @@ Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
 <a id="projetos"></a>
 ### 📌 Projetos em destaque · Featured projects
 
+<details>
+
 #### 🎮 PlayHub · entregue / delivered
 
 Portal de mini-jogos para a Mostra de Ciências do CEUB 2026: 7 jogos direto no navegador, instaláveis como app (PWA).<br>
@@ -146,6 +148,8 @@ Meus estudos de Dart rumo ao Flutter: um arquivo por assunto, com casos curtos e
   <em>Digital sticker album for the 2026 World Cup with all 992 stickers, multi-album support, and duplicate and missing lists</em>
 - **[TaskFlow](https://github.com/IsaacGomes260653/Sistema-de-Gerenciamento-de-Tarefas)**: CRUD de tarefas com login e controle de acesso por sessão, em PHP e MySQL<br>
   <em>Task CRUD with login and session-based access control, in PHP and MySQL</em>
+
+</details>
 
 ---
 
