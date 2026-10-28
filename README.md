@@ -29,6 +29,12 @@
 <!-- ATIVIDADE:INICIO -->
 <!-- Gerado pelo workflow atividade.yml a partir dos eventos públicos do GitHub. Não edite aqui. -->
 
+- 🔀 **[style: largura da captura do Fantasy World Cup](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026/pull/17)** · [CEUB\_CIENCIA\_2026](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 28/10/2026</sub>
+- 🔀 **[style: acabamento das capturas e dos badges no README](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026/pull/16)** · [CEUB\_CIENCIA\_2026](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 28/10/2026</sub>
+- 🔀 **[docs: README no padrão do portfólio, com banner e capturas](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026/pull/15)** · [CEUB\_CIENCIA\_2026](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 28/10/2026</sub>
 - 🔀 **[Cards no Agora e atividade recente consertada](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/26)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 27/10/2026</sub>
 - 🔀 **[Projetos em destaque recolhíveis](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/25)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
@@ -39,12 +45,6 @@
   <sub>Commits enviados · <em>Pushed commits</em> · 26/10/2026</sub>
 - 🔀 **[feat: loja modelada, ajustes de cena e importação do modelo comprado (abertura nova, flag desligada)](https://github.com/IsaacGomes260653/iris-pet-spa/pull/3)** · [iris-pet-spa](https://github.com/IsaacGomes260653/iris-pet-spa)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 26/10/2026</sub>
-- 🔀 **[feat: nova abertura renderizada (passeio pela alameda de jacarandás) atrás de flag desligada](https://github.com/IsaacGomes260653/iris-pet-spa/pull/2)** · [iris-pet-spa](https://github.com/IsaacGomes260653/iris-pet-spa)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 26/10/2026</sub>
-- ⬆️ **[`main`](https://github.com/IsaacGomes260653/iris-pet-spa/commit/98d416f80fa83917ae5533cde450caa6a635c675)** · [iris-pet-spa](https://github.com/IsaacGomes260653/iris-pet-spa)<br>
-  <sub>Commits enviados · <em>Pushed commits</em> · 25/10/2026</sub>
-- ⬆️ **[`main`](https://github.com/IsaacGomes260653/iris-pet-spa/commit/5e63f58a99390b05f2bb8698b032baca9bae698c)** · [iris-pet-spa](https://github.com/IsaacGomes260653/iris-pet-spa)<br>
-  <sub>Commits enviados · <em>Pushed commits</em> · 24/10/2026</sub>
 <!-- ATIVIDADE:FIM -->
 
 </details>
