@@ -33,6 +33,8 @@
   <sub>PR mesclado · <em>Merged pull request</em> · 27/10/2026</sub>
 - 🔀 **[Projetos em destaque recolhíveis](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/25)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 27/10/2026</sub>
+- ⬆️ **[`feat/projetos-recolhiveis`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/4d54b62e953a65360d9d2d8677bcdda375ad9ce2)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
+  <sub>Commits enviados · <em>Pushed commits</em> · 27/10/2026</sub>
 - ⬆️ **[`passeio-animado`](https://github.com/IsaacGomes260653/iris-pet-spa/commit/d8adf277da71b2659fdfca75a914d859a0b21315)** · [iris-pet-spa](https://github.com/IsaacGomes260653/iris-pet-spa)<br>
   <sub>Commits enviados · <em>Pushed commits</em> · 26/10/2026</sub>
 - 🔀 **[feat: loja modelada, ajustes de cena e importação do modelo comprado (abertura nova, flag desligada)](https://github.com/IsaacGomes260653/iris-pet-spa/pull/3)** · [iris-pet-spa](https://github.com/IsaacGomes260653/iris-pet-spa)<br>
@@ -43,8 +45,6 @@
   <sub>Commits enviados · <em>Pushed commits</em> · 25/10/2026</sub>
 - ⬆️ **[`main`](https://github.com/IsaacGomes260653/iris-pet-spa/commit/5e63f58a99390b05f2bb8698b032baca9bae698c)** · [iris-pet-spa](https://github.com/IsaacGomes260653/iris-pet-spa)<br>
   <sub>Commits enviados · <em>Pushed commits</em> · 24/10/2026</sub>
-- 🔀 **[chore: tira o \_\_pycache\_\_ do repositório](https://github.com/IsaacGomes260653/forget_me_not/pull/5)** · [forget\_me\_not](https://github.com/IsaacGomes260653/forget_me_not)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 24/10/2026</sub>
 <!-- ATIVIDADE:FIM -->
 
 </details>
