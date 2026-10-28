@@ -198,8 +198,8 @@ Variáveis e tipos (int, double, String, bool, List, Map), operadores aritmétic
   - ✅ ⭐ [Late variables](https://dart.dev/language/variables#late-variables) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/LateVariables.dart)
   - ✅ ⭐ [Final and const](https://dart.dev/language/variables#final-and-const) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/FinalAndConst.dart)
   - ✅ [Wildcard variables](https://dart.dev/language/variables#wildcard-variables) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/WildcardVariables.dart)
-- 🟡 **[Built-in types](https://dart.dev/language/built-in-types)** · 0/5
-  - 🟡 ⭐ [Numbers](https://dart.dev/language/built-in-types#numbers)
+- 🟡 **[Built-in types](https://dart.dev/language/built-in-types)** · 0/5 · [código / code](https://github.com/IsaacGomes260653/estudos-dart/tree/main/BuiltInTypes)
+  - 🟡 ⭐ [Numbers](https://dart.dev/language/built-in-types#numbers) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/BuiltInTypes/Numbers.dart)
   - ⚪ ⭐ [Strings](https://dart.dev/language/built-in-types#strings)
   - ⚪ ⭐ [Booleans](https://dart.dev/language/built-in-types#booleans)
   - ⚪ [Runes and grapheme clusters](https://dart.dev/language/built-in-types#runes-and-grapheme-clusters)
@@ -537,7 +537,7 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
 - [Flutter & Dart — The Complete Guide (Udemy)](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/) (pago / paid) — De Maximilian Schwarzmüller. Comprar só em promoção. · <em>By Maximilian Schwarzmüller. Buy only on sale.</em>
 - [Flutter Course for Beginners (freeCodeCamp)](https://www.freecodecamp.org/news/learn-flutter-full-course/) (gratuito / free) — De 2022: usar só como complemento. · <em>From 2022: use only as a supplement.</em>
 
-<sub>Atualizado em / Updated on 27/10/2026 · gerado automaticamente a partir do <a href="estudos.yml">estudos.yml</a> / auto-generated from <a href="estudos.yml">estudos.yml</a></sub>
+<sub>Atualizado em / Updated on 28/10/2026 · gerado automaticamente a partir do <a href="estudos.yml">estudos.yml</a> / auto-generated from <a href="estudos.yml">estudos.yml</a></sub>
 <!-- ESTUDOS:FIM -->
 
 ---
