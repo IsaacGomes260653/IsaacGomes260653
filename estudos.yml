@@ -37,8 +37,9 @@ trilhas:
               - { nome: "Wildcard variables", status: concluido, url: "https://dart.dev/language/variables#wildcard-variables", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/WildcardVariables.dart" }
           - nome: "Built-in types"
             url: "https://dart.dev/language/built-in-types"
+            codigo: "https://github.com/IsaacGomes260653/estudos-dart/tree/main/BuiltInTypes"
             itens:
-              - { nome: "Numbers", status: estudando, estrela: true, url: "https://dart.dev/language/built-in-types#numbers" }
+              - { nome: "Numbers", status: estudando, estrela: true, url: "https://dart.dev/language/built-in-types#numbers", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/BuiltInTypes/Numbers.dart" }
               - { nome: "Strings", estrela: true, url: "https://dart.dev/language/built-in-types#strings" }
               - { nome: "Booleans", estrela: true, url: "https://dart.dev/language/built-in-types#booleans" }
               - { nome: "Runes and grapheme clusters", url: "https://dart.dev/language/built-in-types#runes-and-grapheme-clusters" }
