@@ -552,8 +552,6 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
     <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python%2Cjs%2Cts%2Cphp%2Cjava%2Ccpp%2Chtml%2Ccss%2Cflask%2Cnextjs%2Cmysql%2Cgit%2Cgithub%2Cvscode&theme=dark&perline=7">
     <img alt="Python, JavaScript, TypeScript, PHP, Java, C++, HTML, CSS, Flask, Next.js, MySQL, Git, GitHub, VS Code" src="https://skillicons.dev/icons?i=python,js,ts,php,java,cpp,html,css,flask,nextjs,mysql,git,github,vscode&theme=light&perline=7">
   </picture>
-  <br>
-  <img alt="Claude Code" src="https://img.shields.io/badge/Claude_Code-122039?style=flat-square&logo=claude&logoColor=white">
 </p>
 
 <p align="center"><b>Aprendendo / Learning</b></p>
