@@ -2,7 +2,7 @@ name: generate activity graph
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 */6 * * *" # a cada 6h
   workflow_dispatch:
   push:
     branches:
@@ -24,21 +24,38 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
+          config_timezone: America/Sao_Paulo
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           filename: metrics.plugin.isocalendar.svg
-          output_action: commit
-          committer_branch: output-metrics
-          committer_message: "chore: update activity graph"
+          output_action: none
 
       - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
+          config_timezone: America/Sao_Paulo
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 6
           filename: metrics.plugin.languages.svg
-          output_action: commit
-          committer_branch: output-metrics
-          committer_message: "chore: update top languages"
+          output_action: none
+
+      # O plugin conta contribuições (não só commits) e para no dia anterior:
+      # os rótulos passam a dizer isso, para não brigarem com o card de
+      # sequência, que inclui o dia de hoje.
+      - name: clarify the calendar labels
+        run: |
+          mkdir out
+          cp /metrics_renders/metrics.plugin.isocalendar.svg /metrics_renders/metrics.plugin.languages.svg out/
+          sed -i -e 's/Commits streaks/Contribution streaks (through yesterday)/' \
+                 -e 's/Commits per day/Contributions per day/' out/metrics.plugin.isocalendar.svg
+          grep -c 'through yesterday' out/metrics.plugin.isocalendar.svg
+
+      - name: push to the output-metrics branch
+        uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4.1.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: out
+          publish_branch: output-metrics
+          force_orphan: true
