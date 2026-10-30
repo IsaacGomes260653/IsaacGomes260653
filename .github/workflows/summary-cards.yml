@@ -35,6 +35,21 @@ jobs:
           mkdir out
           cp -r profile-summary-card-output/github profile-summary-card-output/github_dark out/
 
+      # Sequência e total do último ano a partir do mesmo calendário do perfil
+      # (com as contribuições privadas, anônimas), no lugar do serviço externo
+      # streak-stats, que guardava a imagem por 24h.
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+        with:
+          path: perfil
+
+      - name: generate streak card
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: |
+          python3 perfil/.github/scripts/sequencia.py --teste
+          python3 perfil/.github/scripts/sequencia.py out
+
       - name: push to the output-stats branch
         uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4.1.0
         with:
