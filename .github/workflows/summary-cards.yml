@@ -27,6 +27,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
+          UTC_OFFSET: -3 # Brasília
           AUTO_PUSH: false
 
       # A action gera todos os ~30 temas; só os do GitHub claro e escuro são usados.
@@ -34,6 +35,14 @@ jobs:
         run: |
           mkdir out
           cp -r profile-summary-card-output/github profile-summary-card-output/github_dark out/
+
+      # "Total Commits" soma a conta inteira (desde 2025) e "Contributed to"
+      # conta só repositórios públicos: os rótulos passam a dizer isso, para
+      # não parecerem o mesmo período do "no último ano" do perfil.
+      - name: clarify the stats labels
+        run: |
+          sed -i -e 's/>Total Commits:</>Commits (all time):</' -e 's/>Contributed to:</>Public repos:</' out/github/3-stats.svg out/github_dark/3-stats.svg
+          grep -c 'Commits (all time):' out/github/3-stats.svg out/github_dark/3-stats.svg
 
       # Sequência e total do último ano a partir do mesmo calendário do perfil
       # (com as contribuições privadas, anônimas), no lugar do serviço externo
