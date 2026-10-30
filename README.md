@@ -29,6 +29,8 @@
 <!-- ATIVIDADE:INICIO -->
 <!-- Gerado pelo workflow atividade.yml a partir dos eventos públicos do GitHub. Não edite aqui. -->
 
+- 🔀 **[fix: cards de estatísticas pelo calendário do perfil](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/29)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 30/10/2026</sub>
 - 🔀 **[docs: tira uma ferramenta da stack do perfil](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/28)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 30/10/2026</sub>
 - 🔀 **[docs: README no padrão do portfólio, com banner e capturas](https://github.com/IsaacGomes260653/Controle-de-Refeicao/pull/2)** · [Controle-de-Refeicao](https://github.com/IsaacGomes260653/Controle-de-Refeicao)<br>
@@ -42,8 +44,6 @@
 - 🔀 **[style: largura da captura do Fantasy World Cup](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026/pull/17)** · [CEUB\_CIENCIA\_2026](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 28/10/2026</sub>
 - 🔀 **[style: acabamento das capturas e dos badges no README](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026/pull/16)** · [CEUB\_CIENCIA\_2026](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 28/10/2026</sub>
-- 🔀 **[docs: README no padrão do portfólio, com banner e capturas](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026/pull/15)** · [CEUB\_CIENCIA\_2026](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 28/10/2026</sub>
 <!-- ATIVIDADE:FIM -->
 
