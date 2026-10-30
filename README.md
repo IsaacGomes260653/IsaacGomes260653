@@ -29,7 +29,7 @@
 <!-- ATIVIDADE:INICIO -->
 <!-- Gerado pelo workflow atividade.yml a partir dos eventos públicos do GitHub. Não edite aqui. -->
 
-- 🔀 **[docs: tira o Claude Code da stack do perfil](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/28)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
+- 🔀 **[docs: tira uma ferramenta da stack do perfil](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/28)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 30/10/2026</sub>
 - 🔀 **[docs: README no padrão do portfólio, com banner e capturas](https://github.com/IsaacGomes260653/Controle-de-Refeicao/pull/2)** · [Controle-de-Refeicao](https://github.com/IsaacGomes260653/Controle-de-Refeicao)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 29/10/2026</sub>
