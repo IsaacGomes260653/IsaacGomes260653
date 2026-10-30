@@ -2,7 +2,7 @@ name: generate activity graph
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 */6 * * *" # a cada 6h
   workflow_dispatch:
   push:
     branches:

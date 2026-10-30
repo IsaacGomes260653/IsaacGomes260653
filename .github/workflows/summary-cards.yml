@@ -6,8 +6,11 @@ name: generate summary cards
 
 on:
   schedule:
-    - cron: "30 8 * * *"
+    - cron: "30 */6 * * *" # a cada 6h
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write
