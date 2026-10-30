@@ -588,16 +588,21 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
 
 <div align="center">
 
-<!-- Gerado pela Action summary-cards.yml (branch output-stats), sem
-     depender da instancia publica na Vercel. -->
+<!-- Os dois cards são gerados pela Action summary-cards.yml (branch
+     output-stats) a cada 6h e a cada push. A sequência sai do mesmo
+     calendário do perfil (.github/scripts/sequencia.py), e não de um
+     serviço externo com cache de 24h. -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats/github_dark/3-stats.svg">
   <img alt="Estatísticas do GitHub: estrelas, commits, pull requests, issues e repositórios em que contribuí / GitHub stats: stars, commits, pull requests, issues and repositories contributed to" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats/github/3-stats.svg">
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=IsaacGomes260653&theme=dark&hide_border=true&background=00000000&ring=E8B84A&fire=E8B84A&currStreakLabel=E8B84A">
-  <img alt="Sequência de contribuições: total, sequência atual e maior sequência / Contribution streak: total, current and longest streak" src="https://streak-stats.demolab.com?user=IsaacGomes260653&hide_border=true&background=FFFFFF00&ring=8A6210&fire=8A6210&currStreakLabel=8A6210">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats/github_dark/sequencia.svg">
+  <img alt="Contribuições no último ano, sequência atual e maior sequência, pelo calendário do perfil / Contributions in the last year, current and longest streak, from the profile calendar" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats/github/sequencia.svg">
 </picture>
+
+<sub>Contribuições e sequências: último ano, pelo mesmo calendário do perfil, no horário de Brasília · Commits: desde a criação da conta (2025) · Repositórios: só os públicos<br>
+<em>Contributions and streaks: last year, from the same calendar as the profile, in Brasília time · Commits: since the account was created (2025) · Repos: public only</em></sub>
 
 </div>
 
@@ -609,7 +614,7 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
 <!-- Trocado pelo mesmo motivo do grafico de atividade: o card antigo
      (servico compartilhado na Vercel) ficava com dados desatualizados
      por causa do cache dele. Este e gerado pela nossa propria Action
-     lowlighter/metrics a cada 12h, direto a partir do byte-size real
+     lowlighter/metrics a cada 6h, direto a partir do byte-size real
      das linguagens nos repositorios. -->
 <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.languages.svg" alt="Linguagens mais usadas nos meus repositórios, por tamanho de código / Most used languages in my repositories, by code size">
 
@@ -617,7 +622,8 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
 <!-- Gráfico gerado por GitHub Action (lowlighter/metrics), sem depender de
      nenhum serviço externo hospedado (a instância antiga na Vercel exigia
      um token configurado manualmente lá e parou de funcionar). A Action
-     roda a cada 12h e commita o SVG atualizado no branch output-metrics. -->
+     roda a cada 6h e publica o SVG no branch output-metrics. O calendário
+     conta contribuições até ontem; o card de sequência acima inclui hoje. -->
 <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.isocalendar.svg" alt="Calendário isométrico das contribuições no último ano / Isometric calendar of contributions over the last year">
 
 </div>
