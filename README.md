@@ -29,6 +29,8 @@
 <!-- ATIVIDADE:INICIO -->
 <!-- Gerado pelo workflow atividade.yml a partir dos eventos públicos do GitHub. Não edite aqui. -->
 
+- 🔀 **[docs: tira o Claude Code da stack do perfil](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/28)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 30/10/2026</sub>
 - 🔀 **[docs: README no padrão do portfólio, com banner e capturas](https://github.com/IsaacGomes260653/Controle-de-Refeicao/pull/2)** · [Controle-de-Refeicao](https://github.com/IsaacGomes260653/Controle-de-Refeicao)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 29/10/2026</sub>
 - 🔀 **[docs: explica o parse em Numbers](https://github.com/IsaacGomes260653/estudos-dart/pull/3)** · [estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)<br>
@@ -43,8 +45,6 @@
   <sub>PR mesclado · <em>Merged pull request</em> · 28/10/2026</sub>
 - 🔀 **[docs: README no padrão do portfólio, com banner e capturas](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026/pull/15)** · [CEUB\_CIENCIA\_2026](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 28/10/2026</sub>
-- 🔀 **[Cards no Agora e atividade recente consertada](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/26)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 27/10/2026</sub>
 <!-- ATIVIDADE:FIM -->
 
 </details>
