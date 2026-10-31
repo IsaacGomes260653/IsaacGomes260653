@@ -588,26 +588,23 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
 
 <div align="center">
 
-<!-- Os dois cards são gerados pela Action summary-cards.yml (branch
-     output-stats) a cada 6h e a cada push. A sequência sai do mesmo
-     calendário do perfil (.github/scripts/sequencia.py), e não de um
-     serviço externo com cache de 24h. -->
+<!-- Painel gerado pela Action summary-cards.yml (.github/scripts/estatisticas.py)
+     a cada 6h e a cada push, com as cores do brand/tokens.json. Versões para
+     celular e desktop, nos temas claro e escuro (branch output-stats). -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats/github_dark/3-stats.svg">
-  <img alt="Estatísticas do GitHub: estrelas, commits, pull requests, issues e repositórios em que contribuí / GitHub stats: stars, commits, pull requests, issues and repositories contributed to" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats/github/3-stats.svg">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats/github_dark/sequencia.svg">
-  <img alt="Contribuições no último ano, sequência atual e maior sequência, pelo calendário do perfil / Contributions in the last year, current and longest streak, from the profile calendar" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats/github/sequencia.svg">
+  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats/painel-celular-escuro.svg">
+  <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats/painel-celular-claro.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats/painel-escuro.svg">
+  <img alt="Atividade no GitHub: contribuições no último ano, sequência atual e maior sequência pelo calendário do perfil, commits desde 2025, pull requests e repositórios públicos com contribuição / GitHub activity: contributions in the last year, current and longest streak from the profile calendar, commits since 2025, pull requests and public repos contributed to" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats/painel-claro.svg">
 </picture>
 
-<sub>Contribuições e sequências: último ano, pelo mesmo calendário do perfil, no horário de Brasília · Commits: desde a criação da conta (2025) · Repositórios: só os públicos<br>
-<em>Contributions and streaks: last year, from the same calendar as the profile, in Brasília time · Commits: since the account was created (2025) · Repos: public only</em></sub>
+<sub>Contribuições e sequências: último ano, pelo mesmo calendário do perfil, no horário de Brasília · Commits e pull requests: desde a criação da conta (2025) · Repositórios: só os públicos<br>
+<em>Contributions and streaks: last year, from the same calendar as the profile, in Brasília time · Commits and pull requests: since the account was created (2025) · Repos: public only</em></sub>
 
 </div>
 
 <details>
-<summary><b>Mais estatísticas · More stats</b> <sub>(linguagens e calendário 3D / languages and 3D calendar)</sub></summary>
+<summary><b>Mais estatísticas · More stats</b> <sub>(linguagens e calendário / languages and calendar)</sub></summary>
 <br>
 <div align="center">
 
@@ -615,16 +612,23 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
      (servico compartilhado na Vercel) ficava com dados desatualizados
      por causa do cache dele. Este e gerado pela nossa propria Action
      lowlighter/metrics a cada 6h, direto a partir do byte-size real
-     das linguagens nos repositorios. -->
-<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.languages.svg" alt="Linguagens mais usadas nos meus repositórios, por tamanho de código / Most used languages in my repositories, by code size">
+     das linguagens nos repositorios, e vestido com as cores do
+     brand/tokens.json pelo recolore.py. -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.languages-escuro.svg">
+  <img alt="Linguagens mais usadas nos meus repositórios, por tamanho de código / Most used languages in my repositories, by code size" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.languages-claro.svg">
+</picture>
 
 <a id="activity-graph"></a>
 <!-- Gráfico gerado por GitHub Action (lowlighter/metrics), sem depender de
      nenhum serviço externo hospedado (a instância antiga na Vercel exigia
      um token configurado manualmente lá e parou de funcionar). A Action
      roda a cada 6h e publica o SVG no branch output-metrics. O calendário
-     conta contribuições até ontem; o card de sequência acima inclui hoje. -->
-<img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.isocalendar.svg" alt="Calendário isométrico das contribuições no último ano / Isometric calendar of contributions over the last year">
+     conta contribuições até ontem; o painel acima inclui hoje. -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.isocalendar-escuro.svg">
+  <img alt="Calendário isométrico das contribuições no último ano / Isometric calendar of contributions over the last year" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.isocalendar-claro.svg">
+</picture>
 
 </div>
 </details>
