@@ -1,8 +1,8 @@
 name: generate summary cards
 
-# Gera o card de estatísticas aqui mesmo, em vez de depender da instância
-# pública na Vercel (que cai por limite de requisições). Mesmo visual de
-# antes, agora nas versões clara e escura, publicadas no branch output-stats.
+# Gera o painel de estatísticas do README (contribuições, sequências, commits,
+# PRs e repositórios) pelo estatisticas.py, com as cores do brand/tokens.json,
+# nas versões desktop e celular, clara e escura, no branch output-stats.
 
 on:
   schedule:
@@ -24,43 +24,17 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: generate summary cards
-        uses: vn7n24fzkq/github-profile-summary-cards@d9632798b299e9ad6940449a859c30742eb5b549 # v0.12.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          USERNAME: ${{ github.repository_owner }}
-          UTC_OFFSET: -3 # Brasília
-          AUTO_PUSH: false
-
-      # A action gera todos os ~30 temas; só os do GitHub claro e escuro são usados.
-      - name: keep only the github themes
-        run: |
-          mkdir out
-          cp -r profile-summary-card-output/github profile-summary-card-output/github_dark out/
-
-      # "Total Commits" soma a conta inteira (desde 2025) e "Contributed to"
-      # conta só repositórios públicos: os rótulos passam a dizer isso, para
-      # não parecerem o mesmo período do "no último ano" do perfil.
-      - name: clarify the stats labels
-        run: |
-          sed -i -e 's/>Total Commits:</>Commits (all time):</' -e 's/>Contributed to:</>Public repos:</' out/github/3-stats.svg out/github_dark/3-stats.svg
-          grep -c 'Commits (all time):' out/github/3-stats.svg out/github_dark/3-stats.svg
-
-      # Sequência e total do último ano a partir do mesmo calendário do perfil
-      # (com as contribuições privadas, anônimas), no lugar do serviço externo
-      # streak-stats, que guardava a imagem por 24h.
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
-        with:
-          path: perfil
 
-      - name: generate streak card
+      # Os números vêm do mesmo calendário do perfil (com as contribuições
+      # privadas, anônimas) e das mesmas consultas do card antigo de estatísticas.
+      - name: generate the stats panel
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PYTHONDONTWRITEBYTECODE: "1"
         run: |
-          python3 perfil/.github/scripts/sequencia.py --teste
-          python3 perfil/.github/scripts/sequencia.py out
+          python3 .github/scripts/estatisticas.py --teste
+          python3 .github/scripts/estatisticas.py out
 
       - name: push to the output-stats branch
         uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4.1.0

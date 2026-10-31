@@ -33,20 +33,18 @@ LETRAS = "".join(map(chr, [*range(0x20, 0x7F), *range(0xA0, 0x100)])) + "–—�
 LARGURA, MARGEM, RESPIRO = 264, 6, 16
 TEXTO = LARGURA - 2 * (MARGEM + RESPIRO)
 
-# Tokens do linkedin-banner/DESIGN.md. No tema claro, o dourado de texto e de
-# traço é o escuro (5:1 sobre o fundo), como no banner.
-TEMAS = {
-    "claro": {
-        "caixa": ("#f5f6f9", "#ffffff"), "contorno": "#d9dee8", "sombra": ("#0b1324", 0.10),
-        "azulejo": "#eceff5", "tinta": "#0b1324", "apoio": "#4a5670", "suave": "#5d6884", "ouro": "#8a6210",
-        "forma": ("#e8b84a", 0.35),
-    },
-    "escuro": {
-        "caixa": ("#0f1a30", "#0b1324"), "contorno": "#22314f", "sombra": ("#000000", 0.45),
-        "azulejo": "#122039", "tinta": "#f3efe6", "apoio": "#aab5c7", "suave": "#8a96ab", "ouro": "#e8b84a",
-        "forma": ("#e8b84a", 0.24),
-    },
-}
+# Cores do brand/tokens.json, a fonte única da identidade do perfil. No tema
+# claro, o dourado de texto e de traço é o escuro (5:1 sobre o fundo), como no banner.
+TOKENS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "brand", "tokens.json")
+
+
+def tokens():
+    with open(TOKENS, encoding="utf-8") as f:
+        return json.load(f)
+
+
+TEMAS = tokens()["temas"]
+RAIO = tokens()["raio"]["card"]
 
 # Ícones do Lucide (licença ISC), em traço, numa caixa de 24.
 ICONES = {
@@ -192,8 +190,8 @@ def desenha(c, tema, alto):
     direita, base = LARGURA - MARGEM, alto - MARGEM
     partes = [
         # Quarto de círculo no canto, à maneira dos azulejos de Athos Bulcão.
-        f'<path d="M{direita - 60} {MARGEM}A60 60 0 0 0 {direita} {MARGEM + 60}V{MARGEM}Z" fill="{T["forma"][0]}"'
-        f' fill-opacity="{T["forma"][1]}" clip-path="url(#cartao)"/>',
+        f'<path d="M{direita - 60} {MARGEM}A60 60 0 0 0 {direita} {MARGEM + 60}V{MARGEM}Z" fill="{T["acento"][0]}"'
+        f' fill-opacity="{T["acento"][1]}" clip-path="url(#cartao)"/>',
         f'<rect x="{x0}" y="{y}" width="40" height="40" rx="10" fill="{T["azulejo"]}"/>',
         f'<g transform="translate({x0 + 9} {y + 9}) scale(.9167)" fill="none" stroke="{T["ouro"]}" stroke-width="2"'
         f' stroke-linecap="round" stroke-linejoin="round">{ICONES[c["icone"]]}</g>',
@@ -227,8 +225,8 @@ def desenha(c, tema, alto):
         f'<stop offset="1" stop-color="{c2}"/></linearGradient>'
         f'<filter id="sombra" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="1.5"'
         f' stdDeviation="2.5" flood-color="{sombra}" flood-opacity="{opacidade}"/></filter>'
-        f'<clipPath id="cartao"><rect x="{MARGEM}" y="{MARGEM}" width="{w}" height="{h}" rx="16"/></clipPath>'
-        f'{defs}</defs><rect x="{MARGEM}" y="{MARGEM}" width="{w}" height="{h}" rx="16" fill="url(#caixa)"'
+        f'<clipPath id="cartao"><rect x="{MARGEM}" y="{MARGEM}" width="{w}" height="{h}" rx="{RAIO}"/></clipPath>'
+        f'{defs}</defs><rect x="{MARGEM}" y="{MARGEM}" width="{w}" height="{h}" rx="{RAIO}" fill="url(#caixa)"'
         f' stroke="{T["contorno"]}" filter="url(#sombra)"/>{"".join(partes)}</svg>\n'
     )
 

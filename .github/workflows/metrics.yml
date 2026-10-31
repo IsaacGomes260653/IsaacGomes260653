@@ -52,6 +52,22 @@ jobs:
                  -e 's/Commits per day/Contributions per day/' out/metrics.plugin.isocalendar.svg
           grep -c 'through yesterday' out/metrics.plugin.isocalendar.svg
 
+      # Cores, quadro e raio do brand/tokens.json, nas versões clara e escura.
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+        with:
+          path: perfil
+
+      - name: dress the cards with the profile identity
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: |
+          python3 perfil/.github/scripts/recolore.py --teste
+          for nome in metrics.plugin.isocalendar metrics.plugin.languages; do
+            python3 perfil/.github/scripts/recolore.py "out/$nome.svg" "out/$nome"
+            rm "out/$nome.svg"
+          done
+          ls out
+
       - name: push to the output-metrics branch
         uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4.1.0
         with:
