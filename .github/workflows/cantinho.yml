@@ -1,9 +1,11 @@
 name: gera os jogos do cantinho
 
-# Os jogos do Cantinho descontraído, todos a partir do gráfico de contribuições
-# e nas cores do brand/tokens.json: cobrinha dourada (Platane/snk), Pac-Man
-# (abozanona/pacman-contribution-graph), Breakout (cyprieng/github-breakout) e
-# Tetris (JuhaP2/contribution-tetris). Cada um em versão clara e escura.
+# Os 8 jogos do Cantinho descontraído, todos a partir do gráfico de contribuições
+# e nas cores do brand/tokens.json: cobrinha dourada (Platane/snk), Pac-Man,
+# Galaga, Bomberman, Campo Minado e Puzzle Bobble (abozanona/pacman-contribution-graph),
+# Breakout (cyprieng/github-breakout) e Tetris (JuhaP2/contribution-tetris).
+# Cada um em versão clara e escura, uma vez por dia. Qual deles aparece no
+# README é o jogo-da-vez.yml que escolhe, a cada 4 h.
 
 on:
   schedule:
@@ -11,6 +13,7 @@ on:
   push:
     branches:
       - main
+      - previa-rotacao-cantinho
     paths:
       - .github/workflows/cantinho.yml
       - .github/scripts/jogos.py
@@ -41,11 +44,17 @@ jobs:
             snk/cobrinha-claro.svg?color_snake=%238a6210&color_dots=%23ebedf0,%23f3e2b3,%23e8c873,%23c99a2e,%238a6210
             snk/cobrinha-escuro.svg?palette=github-dark&color_snake=%23e8b84a&color_dots=%23161b22,%233a2f12,%236b5420,%23a8822f,%23e8b84a
 
-      - name: pac-man
+      # O gerador do Pac-Man manda o usuário e o placar para o placar online do autor.
+      # Aqui nada sai do runner além da consulta ao GitHub: o endereço é bloqueado e
+      # o gerador só avisa que não conseguiu enviar.
+      - name: bloqueia o envio de estatísticas
+        run: echo "0.0.0.0 elec.abozanona.me" | sudo tee -a /etc/hosts
+
+      - name: pac-man, galaga, bomberman, campo minado e puzzle bobble
         uses: abozanona/pacman-contribution-graph@7332e1de7903ab780c3692a4127a59cc13872daa # v5.3.2
         with:
           github_user_name: ${{ github.repository_owner }}
-          games: pacman
+          games: pacman,galaga,bomberman,minesweeper,puzzle-bobble
 
       - name: breakout
         uses: cyprieng/github-breakout@60c43dca3a1361fbc9fb9bb533b5193296345c4f # v1.2.4
@@ -64,13 +73,11 @@ jobs:
         run: |
           mkdir bruto
           sudo cp snk/*.svg bruto/
-          sudo cp dist/pacman-contribution-graph.svg bruto/pacman-claro.svg
-          sudo cp dist/pacman-contribution-graph-dark.svg bruto/pacman-escuro.svg
-          sudo cp -r breakout tetris bruto/
+          sudo cp -r dist breakout tetris bruto/
           sudo chown -R "$USER" bruto
           find bruto -type f -printf '%s %p\n'
 
-      # Rampa dourada nos dias e os tons da paleta nas peças, raquetes e fantasmas.
+      # Rampa dourada nos dias e os tons da paleta nas peças, bolhas, números e bonecos.
       - name: veste com a identidade do perfil
         env:
           PYTHONDONTWRITEBYTECODE: "1"
