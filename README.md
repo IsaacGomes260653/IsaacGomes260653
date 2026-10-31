@@ -604,7 +604,7 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
 </div>
 
 <details>
-<summary><b>Mais estatísticas · More stats</b> <sub>(linguagens e calendário / languages and calendar)</sub></summary>
+<summary><b>Mais estatísticas · More stats</b> <sub>(linguagens e calendários / languages and calendars)</sub></summary>
 <br>
 <div align="center">
 
@@ -628,6 +628,13 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.isocalendar-escuro.svg">
   <img alt="Calendário isométrico das contribuições no último ano / Isometric calendar of contributions over the last year" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-metrics/metrics.plugin.isocalendar-claro.svg">
+</picture>
+
+<!-- Calendário 3D gerado pela Action profile-3d.yml (yoshi389111/github-profile-3d-contrib)
+     a cada 6h, nas cores do brand/tokens.json pelo calendario3d.py (branch output-3d). -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-3d/calendario-3d-escuro.svg">
+  <img alt="Calendário 3D das contribuições no último ano, com as linguagens e o radar de commits, pull requests, issues, revisões e repositórios / 3D calendar of contributions over the last year, with languages and a radar of commits, pull requests, issues, reviews and repositories" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-3d/calendario-3d-claro.svg">
 </picture>
 
 </div>

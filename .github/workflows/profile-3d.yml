@@ -1,0 +1,62 @@
+name: generate 3d contribution graph
+
+# Calendário 3D das contribuições (yoshi389111/github-profile-3d-contrib), nas
+# cores do brand/tokens.json pelo calendario3d.py, nas versões clara e escura.
+
+on:
+  schedule:
+    - cron: "15 */6 * * *" # a cada 6h
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/profile-3d.yml
+      - .github/scripts/calendario3d.py
+      - brand/tokens.json
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+        with:
+          path: perfil
+
+      - name: cores do perfil para o gráfico
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: |
+          python3 perfil/.github/scripts/calendario3d.py --teste
+          python3 perfil/.github/scripts/calendario3d.py --config cores-3d.json
+
+      - name: generate profile 3d contrib
+        uses: yoshi389111/github-profile-3d-contrib@7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39 # v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: cores-3d.json
+
+      # Linguagens na paleta do perfil, fonte do sistema, raio e contorno dos cards.
+      - name: veste com a identidade do perfil
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: |
+          python3 perfil/.github/scripts/calendario3d.py profile-3d-contrib
+          ls -la profile-3d-contrib
+
+      - name: push to the output-3d branch
+        uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4.1.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: profile-3d-contrib
+          publish_branch: output-3d
+          force_orphan: true
