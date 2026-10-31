@@ -3,10 +3,10 @@
      desktop, nos temas claro e escuro. Fonte: linkedin-banner/github.html. -->
 <p align="center">
   <picture>
-    <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/previa-noite-estrelada/assets/banner/banner-mobile-escuro.svg?v=2">
-    <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/previa-noite-estrelada/assets/banner/banner-mobile-claro.svg?v=2">
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/previa-noite-estrelada/assets/banner/banner-desktop-escuro.svg?v=2">
-    <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/previa-noite-estrelada/assets/banner/banner-desktop-claro.svg?v=2" alt="Isaac Gomes de Moraes. Estagiário na ília. Ciência da Computação no UniCEUB, Brasília, DF / Intern at ília. Computer Science at UniCEUB, Brasília, Brazil">
+    <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-escuro.svg?v=2">
+    <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-claro.svg?v=2">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-escuro.svg?v=2">
+    <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-claro.svg?v=2" alt="Isaac Gomes de Moraes. Estagiário na ília. Ciência da Computação no UniCEUB, Brasília, DF / Intern at ília. Computer Science at UniCEUB, Brasília, Brazil">
   </picture>
 </p>
 
@@ -592,10 +592,10 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
      a cada 6h e a cada push, com as cores do brand/tokens.json. Versões para
      celular e desktop, nos temas claro e escuro (branch output-stats). -->
 <picture>
-  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats-previa/painel-celular-escuro.svg">
-  <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats-previa/painel-celular-claro.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats-previa/painel-escuro.svg">
-  <img alt="Atividade no GitHub: contribuições no último ano, sequência atual e maior sequência pelo calendário do perfil, commits desde 2025, pull requests e repositórios públicos com contribuição / GitHub activity: contributions in the last year, current and longest streak from the profile calendar, commits since 2025, pull requests and public repos contributed to" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats-previa/painel-claro.svg">
+  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats/painel-celular-escuro.svg">
+  <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats/painel-celular-claro.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats/painel-escuro.svg">
+  <img alt="Atividade no GitHub: contribuições no último ano, sequência atual e maior sequência pelo calendário do perfil, commits desde 2025, pull requests e repositórios públicos com contribuição / GitHub activity: contributions in the last year, current and longest streak from the profile calendar, commits since 2025, pull requests and public repos contributed to" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats/painel-claro.svg">
 </picture>
 
 <sub>Contribuições e sequências: último ano, pelo mesmo calendário do perfil, no horário de Brasília · Commits e pull requests: desde a criação da conta (2025) · Repositórios: só os públicos<br>
@@ -653,8 +653,8 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
 <summary><b>🐍 Cobrinha dourada · Golden snake</b></summary>
 <br>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-cantinho-previa/cobrinha-escuro.svg">
-  <img alt="A cobrinha dourada come as contribuições do último ano / The golden snake eats the last year's contributions" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-cantinho-previa/cobrinha-claro.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-cantinho/cobrinha-escuro.svg">
+  <img alt="A cobrinha dourada come as contribuições do último ano / The golden snake eats the last year's contributions" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-cantinho/cobrinha-claro.svg">
 </picture>
 </details>
 
@@ -662,8 +662,8 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
 <summary><b>👾 Pac-Man no gráfico · Pac-Man on the graph</b></summary>
 <br>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-cantinho-previa/pacman-escuro.svg">
-  <img alt="Pac-Man percorre o gráfico de contribuições comendo os dias com atividade / Pac-Man runs through the contribution graph eating the active days" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-cantinho-previa/pacman-claro.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-cantinho/pacman-escuro.svg">
+  <img alt="Pac-Man percorre o gráfico de contribuições comendo os dias com atividade / Pac-Man runs through the contribution graph eating the active days" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-cantinho/pacman-claro.svg">
 </picture>
 </details>
 
@@ -671,8 +671,8 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
 <summary><b>🧱 Quebra-tijolos das contribuições · Contribution Breakout</b></summary>
 <br>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-cantinho-previa/breakout-escuro.svg">
-  <img alt="Breakout: a bola quebra os tijolos, que são os dias do gráfico de contribuições / Breakout: the ball breaks the bricks, which are the days of the contribution graph" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-cantinho-previa/breakout-claro.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-cantinho/breakout-escuro.svg">
+  <img alt="Breakout: a bola quebra os tijolos, que são os dias do gráfico de contribuições / Breakout: the ball breaks the bricks, which are the days of the contribution graph" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-cantinho/breakout-claro.svg">
 </picture>
 </details>
 
@@ -680,8 +680,8 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
 <summary><b>🟨 Tetris do ano · Tetris of the year</b></summary>
 <br>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-cantinho-previa/tetris-escuro.svg">
-  <img alt="Tetris jogado sozinho, com o placar das contribuições do ano / Self-playing Tetris scored by the year's contributions" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-cantinho-previa/tetris-claro.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-cantinho/tetris-escuro.svg">
+  <img alt="Tetris jogado sozinho, com o placar das contribuições do ano / Self-playing Tetris scored by the year's contributions" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-cantinho/tetris-claro.svg">
 </picture>
 </details>
 
@@ -716,10 +716,10 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
 <p align="center">
   <a href="https://www.linkedin.com/in/isaacgomesmoraes/">
     <picture>
-      <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/previa-noite-estrelada/assets/banner/rodape-mobile-escuro.svg?v=2">
-      <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/previa-noite-estrelada/assets/banner/rodape-mobile-claro.svg?v=2">
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/previa-noite-estrelada/assets/banner/rodape-desktop-escuro.svg?v=2">
-      <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/previa-noite-estrelada/assets/banner/rodape-desktop-claro.svg?v=2" alt="Obrigado pela visita / Thanks for visiting. Vamos conversar? / Let’s talk? Abre o LinkedIn / Opens LinkedIn">
+      <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-mobile-escuro.svg?v=2">
+      <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-mobile-claro.svg?v=2">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-desktop-escuro.svg?v=2">
+      <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-desktop-claro.svg?v=2" alt="Obrigado pela visita / Thanks for visiting. Vamos conversar? / Let’s talk? Abre o LinkedIn / Opens LinkedIn">
     </picture>
   </a>
 </p>
