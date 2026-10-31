@@ -68,10 +68,18 @@ jobs:
           sudo chown -R "$USER" bruto
           find bruto -type f -printf '%s %p\n'
 
+      # Rampa dourada nos dias e os tons da paleta nas peças, raquetes e fantasmas.
+      - name: veste com a identidade do perfil
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: |
+          python3 perfil/.github/scripts/jogos.py --teste
+          python3 perfil/.github/scripts/jogos.py bruto saida
+
       - name: publica no branch output-cantinho-previa
         uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4.1.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: bruto
+          publish_dir: saida
           publish_branch: output-cantinho-previa
           force_orphan: true
