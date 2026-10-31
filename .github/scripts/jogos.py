@@ -36,8 +36,7 @@ HEX = re.compile(r"#[0-9a-fA-F]{6}\b")
 def paleta_do_jogo(T):
     """Tons para peças e detalhes: dourados e os azuis da Noite Estrelada."""
     r = T["calendario"]
-    return [T["ouro_forma"], NOITE.get("cobalto", T["apoio"]), NOITE.get("brilho", T["suave"]),
-            NOITE.get("estrela", r[2]), r[3], T["apoio"], NOITE.get("ultramar", T["tinta"])]
+    return [T["ouro_forma"], NOITE["cobalto"], NOITE["brilho"], NOITE["estrela"], r[3], T["apoio"], NOITE["ultramar"]]
 
 
 def mapa_do_jogo(jogo, tema):
@@ -64,7 +63,7 @@ def fantasmas(svg, tema):
     """Os fantasmas do Pac-Man são PNG: um filtro os deixa num tom só da paleta,
     guardando a claridade de cada pixel (os olhos continuam visíveis)."""
     T = TEMAS[tema]
-    cor = NOITE.get("brilho" if tema == "escuro" else "cobalto", T["ouro_forma"])
+    cor = NOITE["brilho" if tema == "escuro" else "cobalto"]
     r, g, b = (int(cor[i:i + 2], 16) / 255 for i in (1, 3, 5))
     luz = (0.2126, 0.7152, 0.0722)
     linhas = [" ".join(f"{k * l:.4f}" for l in luz) + " 0 0" for k in (r, g, b)] + ["0 0 0 1 0"]

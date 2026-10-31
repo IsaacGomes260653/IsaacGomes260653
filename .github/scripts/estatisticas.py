@@ -27,10 +27,8 @@ from zoneinfo import ZoneInfo
 
 from agora import RAIO, TEMAS, escreve, mede, tokens
 
-# Tons da Noite Estrelada (azul-claro, cobalto, amarelo das estrelas) para as
-# chamas fortes. Em prévia vêm da proposta; depois de aprovados, do tokens.json.
-_PROPOSTA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "brand", "proposta-noite-estrelada.json")
-NOITE = tokens().get("noite") or (json.load(open(_PROPOSTA, encoding="utf-8"))["cores"] if os.path.exists(_PROPOSTA) else {})
+# Tons da Noite Estrelada (azul-claro, cobalto, amarelo das estrelas) para as chamas fortes.
+NOITE = tokens()["noite"]
 
 USUARIO = "IsaacGomes260653"
 BRASILIA = ZoneInfo("America/Sao_Paulo")
@@ -93,11 +91,11 @@ def chama(T, nivel, x, base):
     altura = (0, 16, 22, 28, 34, 40)[nivel]
     largura = altura * 0.78
     caixa = f'transform="translate({x - largura / 2:.1f} {base - altura}) scale({largura:.1f} {altura})"'
-    externa, interna = T["ouro_forma"], NOITE.get("estrela", T["ouro_forma"])
+    externa, interna = T["ouro_forma"], NOITE["estrela"]
     if nivel >= 4:
-        interna = NOITE.get("brilho", interna)
+        interna = NOITE["brilho"]
     if nivel == 5:
-        externa = NOITE.get("cobalto", externa)
+        externa = NOITE["cobalto"]
     partes = []
     if nivel >= 3:  # brilho em volta
         partes.append(f'<circle class="pisca" style="animation-duration:3.4s" cx="{x}" cy="{base - altura * .45:.1f}" r="{altura * .62:.1f}"'
@@ -111,7 +109,7 @@ def chama(T, nivel, x, base):
             partes.append(f'<circle class="faisca" style="animation-delay:{atraso}s" cx="{x + dx}" cy="{base - altura * .8:.1f}" r="1.3" fill="{T["ouro_forma"]}"/>')
     if nivel == 5:  # estrelas em volta
         for dx, dy, atraso in ((-17, -30, 0), (16, -34, -1), (19, -12, -1.9), (-18, -8, -.6)):
-            partes.append(f'<circle class="pisca" style="animation-delay:{atraso}s" cx="{x + dx}" cy="{base + dy}" r="1.8" fill="{NOITE.get("estrela", T["ouro_forma"])}"/>')
+            partes.append(f'<circle class="pisca" style="animation-delay:{atraso}s" cx="{x + dx}" cy="{base + dy}" r="1.8" fill="{NOITE["estrela"]}"/>')
     return "".join(partes)
 
 
