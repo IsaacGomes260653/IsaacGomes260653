@@ -1,0 +1,61 @@
+name: troca o jogo da vez
+
+# A cada 4 h, o jogo_da_vez.py escolhe um dos 8 jogos que o cantinho.yml gera
+# por dia e publica o jogo e a legenda com nomes fixos no branch
+# output-jogo-da-vez, que é o que o README mostra.
+
+on:
+  schedule:
+    - cron: "5 */4 * * *" # logo depois do início de cada janela de 4 h
+  workflow_run:
+    workflows: ["gera os jogos do cantinho"]
+    types: [completed]
+  push:
+    branches:
+      - main
+      - previa-rotacao-cantinho
+    paths:
+      - .github/workflows/jogo-da-vez.yml
+      - .github/scripts/jogo_da_vez.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+jobs:
+  troca:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    # Na prévia, lê e publica nos branches de prévia, sem mexer no que está no ar.
+    env:
+      JOGOS: ${{ github.ref_name == 'main' && 'output-cantinho' || 'output-cantinho-previa' }}
+      SAIDA: ${{ github.ref_name == 'main' && 'output-jogo-da-vez' || 'output-jogo-da-vez-previa' }}
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+        with:
+          path: perfil
+
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+        with:
+          ref: ${{ env.JOGOS }}
+          path: jogos
+
+      - name: escolhe o jogo e escreve a legenda
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: |
+          python3 perfil/.github/scripts/jogo_da_vez.py --teste
+          python3 perfil/.github/scripts/jogo_da_vez.py jogos saida
+          ls -la saida
+
+      - name: publica no branch do jogo da vez
+        uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4.1.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: saida
+          publish_branch: ${{ env.SAIDA }}
+          force_orphan: true
