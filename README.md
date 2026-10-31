@@ -652,7 +652,7 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
 </details>
 
 <details>
-<summary><b>👾 Pac-Man · Pac-Man</b></summary>
+<summary><b>👾 Pac-Man no gráfico · Pac-Man on the graph</b></summary>
 <br>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-cantinho-previa/pacman-escuro.svg">
@@ -661,7 +661,7 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
 </details>
 
 <details>
-<summary><b>🧱 Breakout · Breakout</b></summary>
+<summary><b>🧱 Quebra-tijolos das contribuições · Contribution Breakout</b></summary>
 <br>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-cantinho-previa/breakout-escuro.svg">
@@ -670,7 +670,7 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
 </details>
 
 <details>
-<summary><b>🟨 Tetris · Tetris</b></summary>
+<summary><b>🟨 Tetris do ano · Tetris of the year</b></summary>
 <br>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-cantinho-previa/tetris-escuro.svg">
