@@ -6,8 +6,11 @@ name: gera os jogos do cantinho
 # Tetris (JuhaP2/contribution-tetris). Cada um em versão clara e escura.
 
 on:
+  schedule:
+    - cron: "40 3 * * *" # todo dia, 00:40 em Brasília
   push:
     branches:
+      - main
       - previa-noite-estrelada
     paths:
       - .github/workflows/cantinho.yml
@@ -76,10 +79,11 @@ jobs:
           python3 perfil/.github/scripts/jogos.py --teste
           python3 perfil/.github/scripts/jogos.py bruto saida
 
-      - name: publica no branch output-cantinho-previa
+      - name: publica no branch output-cantinho
         uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4.1.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: saida
-          publish_branch: output-cantinho-previa
+          # Na prévia, publica à parte, sem mexer no que está no ar.
+          publish_branch: ${{ github.ref_name == 'main' && 'output-cantinho' || 'output-cantinho-previa' }}
           force_orphan: true
