@@ -25,7 +25,10 @@ import urllib.request
 from html import escape
 from zoneinfo import ZoneInfo
 
-from agora import RAIO, TEMAS, escreve, mede
+from agora import RAIO, TEMAS, escreve, mede, tokens
+
+# Tons da Noite Estrelada (azul-claro, cobalto, amarelo das estrelas) para as chamas fortes.
+NOITE = tokens()["noite"]
 
 USUARIO = "IsaacGomes260653"
 BRASILIA = ZoneInfo("America/Sao_Paulo")
@@ -59,7 +62,56 @@ CSS = (".sobe{animation:sobe .9s cubic-bezier(.16,1,.3,1) both}"
        "@keyframes sobe{from{opacity:0;transform:translateY(8px)}}"
        ".anel{animation:enche 1.6s cubic-bezier(.16,1,.3,1) .25s both}"
        "@keyframes enche{from{stroke-dashoffset:var(--volta)}}"
-       "@media (prefers-reduced-motion:reduce){.sobe,.anel{animation:none}}")
+       # A chama tremula pela base, o núcleo num ritmo próprio, faíscas sobem e estrelas piscam.
+       ".tremula{transform-box:fill-box;transform-origin:50% 100%;animation:tremula 1.9s ease-in-out infinite}"
+       ".nucleo{transform-box:fill-box;transform-origin:50% 100%;animation:tremula 1.3s ease-in-out -.4s infinite}"
+       ".faisca{animation:faisca 2.4s ease-out infinite}.pisca{transform-box:fill-box;transform-origin:center;animation:pisca 2.8s ease-in-out infinite}"
+       "@keyframes tremula{0%,100%{transform:scale(1,1) skewX(0)}30%{transform:scale(.96,1.05) skewX(-2deg)}65%{transform:scale(1.03,.97) skewX(1.5deg)}}"
+       "@keyframes faisca{0%{transform:translateY(0);opacity:0}15%{opacity:1}100%{transform:translateY(-16px);opacity:0}}"
+       "@keyframes pisca{50%{transform:scale(.55);opacity:.4}}"
+       "@media (prefers-reduced-motion:reduce){.sobe,.anel,.tremula,.nucleo,.faisca,.pisca{animation:none}}")
+
+# Chama em caixa de 1×1 com a base em (0,5, 1): corpo com duas línguas e um núcleo em gota.
+CHAMA = ("M.5 1C.18 1 .06 .76 .14 .56C.2 .42 .32 .38 .34 .22C.42 .3 .46 .36 .48 .46C.56 .3 .6 .14 .52 0"
+         "C.8 .16 .94 .44 .88 .66C.84 .86 .7 1 .5 1Z")
+NUCLEO = "M.5 1C.34 1 .28 .86 .32 .76C.36 .66 .44 .62 .46 .5C.58 .6 .7 .72 .66 .84C.63 .94 .58 1 .5 1Z"
+NIVEIS = ["apagada", "pequena", "média", "grande", "intensa", "lendária"]
+
+
+def nivel_da_chama(dias):
+    """0 dias: brasa; 1–3: pequena; 4–7: média; 8–14: grande; 15–29: intensa; 30+: lendária."""
+    return next(i for i, limite in enumerate((0, 3, 7, 14, 29)) if dias <= limite) if dias < 30 else 5
+
+
+def chama(T, nivel, x, base):
+    """A chama da sequência, com a base em (x, base), nas cores do tema."""
+    if nivel == 0:  # brasa apagada: parada e cinza
+        return (f'<ellipse cx="{x}" cy="{base - 3}" rx="9" ry="3.5" fill="{T["suave"]}" fill-opacity=".55"/>'
+                f'<ellipse cx="{x}" cy="{base - 4}" rx="4" ry="1.6" fill="{T["apoio"]}" fill-opacity=".5"/>')
+    altura = (0, 16, 22, 28, 34, 40)[nivel]
+    largura = altura * 0.78
+    caixa = f'transform="translate({x - largura / 2:.1f} {base - altura}) scale({largura:.1f} {altura})"'
+    externa, interna = T["ouro_forma"], NOITE["estrela"]
+    if nivel >= 4:
+        interna = NOITE["brilho"]
+    if nivel == 5:
+        externa = NOITE["cobalto"]
+    partes = []
+    if nivel >= 3:  # brilho em volta
+        partes.append(f'<circle class="pisca" style="animation-duration:3.4s" cx="{x}" cy="{base - altura * .45:.1f}" r="{altura * .62:.1f}"'
+                      f' fill="{externa}" fill-opacity="{.10 if nivel < 5 else .16}"/>')
+    partes.append(f'<g class="tremula"><path d="{CHAMA}" {caixa} fill="{externa}" stroke="{T["ouro"]}"'
+                  f' stroke-width="{1.2 / altura:.3f}" stroke-opacity=".6"/></g>')
+    if nivel >= 2:
+        partes.append(f'<g class="nucleo"><path d="{NUCLEO}" {caixa} fill="{interna}"/></g>')
+    if nivel >= 2:  # faíscas
+        for i, (dx, atraso) in enumerate(((-6, 0), (5, -.9), (1, -1.7))[: 2 if nivel < 4 else 3]):
+            partes.append(f'<circle class="faisca" style="animation-delay:{atraso}s" cx="{x + dx}" cy="{base - altura * .8:.1f}" r="1.3" fill="{T["ouro_forma"]}"/>')
+    if nivel == 5:  # estrelas em volta
+        for dx, dy, atraso in ((-17, -30, 0), (16, -34, -1), (19, -12, -1.9), (-18, -8, -.6)):
+            partes.append(f'<circle class="pisca" style="animation-delay:{atraso}s" cx="{x + dx}" cy="{base + dy}" r="1.8" fill="{NOITE["estrela"]}"/>')
+    return "".join(partes)
+
 
 
 # ---------------------------------------------------------------- dados
@@ -191,6 +243,9 @@ class Tela:
             f' stroke-linecap="round" stroke-dasharray="{volta:.2f}" stroke-dashoffset="{volta * (1 - fracao):.2f}"'
             f' style="--volta:{volta:.2f}" transform="rotate(-90 {cx} {cy})"/>')
 
+    def chama(self, dias, x, base):
+        self.partes.append(chama(self.T, nivel_da_chama(dias), x, base))
+
     def linha(self, x1, y, x2):
         self.partes.append(f'<path d="M{x1} {y}H{x2}" stroke="{self.T["contorno"]}"/>')
 
@@ -243,6 +298,7 @@ def painel(tema, d, hoje, agora):
     t.texto("dias" if a[2] != 1 else "dia", 410, 166, 11, TEXTO, "apoio", 70, centro=True)
     xd = 484
     t.texto("Sequência atual", xd, 104, 16, TITULO, "tinta", 302)
+    t.chama(a[2], xd + mede("Sequência atual", 16, TITULO) + 22, 108)
     t.texto(f"current streak · {dias_en(a[2])}", xd, 121, 12, TEXTO, "suave", 302)
     t.texto(periodo(a[0], a[1], hoje), xd, 140, 12, TITULO, "ouro", 302)
     t.texto(f"Maior sequência: {dias_pt(m[2])}", xd, 170, 13, TEXTO, "apoio", 302)
@@ -271,6 +327,7 @@ def painel_celular(tema, d, hoje, agora):
     t.texto("dias" if a[2] != 1 else "dia", x0 + 44, 296, 11, TEXTO, "apoio", 60, centro=True)
     xd = x0 + 108
     t.texto("Sequência atual", xd, 254, 16, TITULO, "tinta", W - x0 - xd)
+    t.chama(a[2], xd + mede("Sequência atual", 16, TITULO) + 22, 258)
     t.texto(f"current streak · {dias_en(a[2])}", xd, 272, 12, TEXTO, "suave", W - x0 - xd)
     t.texto(periodo(a[0], a[1], hoje), xd, 292, 12, TITULO, "ouro", W - x0 - xd)
     t.texto(f"Maior sequência: {dias_pt(m[2])} · {periodo(m[0], m[1], hoje)}", x0, 346, 13, TEXTO, "apoio", larg)
@@ -321,12 +378,39 @@ def teste():
             svg = desenho(tema, dados, d(2026, 10, 30), agora)
             assert "12.345" in svg and "None" not in svg and "prefers-reduced-motion" in svg and len(svg.encode()) < 120_000
             assert TEMAS[tema]["ouro"] in svg and svg.count('class="anel"') == 1
+    # Faixas da chama e o que cada uma desenha.
+    assert [nivel_da_chama(n) for n in (0, 1, 3, 4, 7, 8, 14, 15, 29, 30, 400)] == [0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5]
+    T = TEMAS["escuro"]
+    assert "tremula" not in chama(T, 0, 10, 40) and chama(T, 1, 10, 40).count('class="faisca"') == 0
+    assert chama(T, 2, 10, 40).count('class="faisca"') == 2 and chama(T, 4, 10, 40).count('class="faisca"') == 3
+    if NOITE:
+        assert NOITE["brilho"] in chama(T, 4, 10, 40) and NOITE["cobalto"] in chama(T, 5, 10, 40)
+        assert chama(T, 5, 10, 40).count('class="pisca"') == 5  # brilho e quatro estrelas
     print("ok")
+
+
+def folha_de_chamas(tema):
+    """Os seis níveis lado a lado, com a faixa de dias de cada um (prévia)."""
+    t = Tela(tema)
+    faixas = ["0 dias", "1 a 3", "4 a 7", "8 a 14", "15 a 29", "30 ou mais"]
+    for i, (dias, faixa) in enumerate(zip((0, 2, 5, 10, 20, 40), faixas)):
+        x = 34 + 60 + i * 120
+        t.chama(dias, x, 96)
+        t.texto(NIVEIS[nivel_da_chama(dias)], x, 128, 13, TITULO, "tinta", 110, centro=True, sobe=False)
+        t.texto(faixa, x, 146, 12, TEXTO, "apoio", 110, centro=True, sobe=False)
+    return t.svg(820, 176, "Os seis níveis da chama da sequência")
 
 
 if __name__ == "__main__":
     if "--teste" in sys.argv:
         teste()
+        sys.exit()
+    if "--chamas" in sys.argv:
+        pasta = sys.argv[sys.argv.index("--chamas") + 1]
+        os.makedirs(pasta, exist_ok=True)
+        for tema in TEMAS:
+            with open(os.path.join(pasta, f"chamas-{tema}.svg"), "w", encoding="utf-8", newline="\n") as f:
+                f.write(folha_de_chamas(tema))
         sys.exit()
     agora = datetime.datetime.now(BRASILIA)
     hoje = agora.date()

@@ -1,0 +1,88 @@
+name: gera os jogos do cantinho
+
+# Os jogos do Cantinho descontraído, todos a partir do gráfico de contribuições
+# e nas cores do brand/tokens.json: cobrinha dourada (Platane/snk), Pac-Man
+# (abozanona/pacman-contribution-graph), Breakout (cyprieng/github-breakout) e
+# Tetris (JuhaP2/contribution-tetris). Cada um em versão clara e escura.
+
+on:
+  schedule:
+    - cron: "40 3 * * *" # todo dia, 00:40 em Brasília
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/cantinho.yml
+      - .github/scripts/jogos.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+jobs:
+  jogos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+        with:
+          path: perfil
+
+      # Cada ferramenta escreve na sua pasta: a do snk fica com o dono root, por causa do Docker.
+      - name: cobrinha
+        uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            snk/cobrinha-claro.svg?color_snake=%238a6210&color_dots=%23ebedf0,%23f3e2b3,%23e8c873,%23c99a2e,%238a6210
+            snk/cobrinha-escuro.svg?palette=github-dark&color_snake=%23e8b84a&color_dots=%23161b22,%233a2f12,%236b5420,%23a8822f,%23e8b84a
+
+      - name: pac-man
+        uses: abozanona/pacman-contribution-graph@7332e1de7903ab780c3692a4127a59cc13872daa # v5.3.2
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          games: pacman
+
+      - name: breakout
+        uses: cyprieng/github-breakout@60c43dca3a1361fbc9fb9bb533b5193296345c4f # v1.2.4
+        with:
+          github_username: ${{ github.repository_owner }}
+          output_path: breakout
+
+      - name: tetris
+        uses: JuhaP2/contribution-tetris@07b9e603cca91b2f1bbe1f5378238b386dfb127b # v1
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          output_dir: tetris
+          games: tetris
+
+      - name: junta as saídas
+        run: |
+          mkdir bruto
+          sudo cp snk/*.svg bruto/
+          sudo cp dist/pacman-contribution-graph.svg bruto/pacman-claro.svg
+          sudo cp dist/pacman-contribution-graph-dark.svg bruto/pacman-escuro.svg
+          sudo cp -r breakout tetris bruto/
+          sudo chown -R "$USER" bruto
+          find bruto -type f -printf '%s %p\n'
+
+      # Rampa dourada nos dias e os tons da paleta nas peças, raquetes e fantasmas.
+      - name: veste com a identidade do perfil
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: |
+          python3 perfil/.github/scripts/jogos.py --teste
+          python3 perfil/.github/scripts/jogos.py bruto saida
+
+      - name: publica no branch output-cantinho
+        uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4.1.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: saida
+          # Na prévia, publica à parte, sem mexer no que está no ar.
+          publish_branch: ${{ github.ref_name == 'main' && 'output-cantinho' || 'output-cantinho-previa' }}
+          force_orphan: true
