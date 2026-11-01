@@ -196,9 +196,9 @@ def desenha(c, tema, alto):
         f'<g transform="translate({x0 + 9} {y + 9}) scale(.9167)" fill="none" stroke="{T["ouro"]}" stroke-width="2"'
         f' stroke-linecap="round" stroke-linejoin="round">{ICONES[c["icone"]]}</g>',
     ]
-    if c["link"]:  # seta de link no canto: o card inteiro é clicável; azul-marinho sobre o azulejo dourado
+    if c["link"]:  # seta de link no canto: o card inteiro é clicável
         partes.append(f'<g transform="translate({direita - RESPIRO - 18} {y + 11}) scale(.75)" fill="none"'
-                      f' stroke="{TEMAS["escuro"]["fundo"]}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">{SETA}</g>')
+                      f' stroke="{T["apoio"]}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">{SETA}</g>')
     y += 40 + 16
     for t, tam, peso, tinta, alt in linhas_do_card(c):
         if t:
