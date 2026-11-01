@@ -3,10 +3,10 @@
      desktop, nos temas claro e escuro. Fonte: linkedin-banner/github.html. -->
 <p align="center">
   <picture>
-    <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-escuro.svg?v=2">
-    <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-claro.svg?v=2">
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-escuro.svg?v=2">
-    <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-claro.svg?v=2" alt="Isaac Gomes de Moraes. Estagiário na ília. Ciência da Computação no UniCEUB, Brasília, DF / Intern at ília. Computer Science at UniCEUB, Brasília, Brazil">
+    <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-escuro.svg?v=4">
+    <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-claro.svg?v=4">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-escuro.svg?v=4">
+    <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-claro.svg?v=4" alt="Isaac Gomes de Moraes. Estagiário na ília. Ciência da Computação no UniCEUB, Brasília, DF / Intern at ília. Computer Science at UniCEUB, Brasília, Brazil">
   </picture>
 </p>
 
@@ -17,9 +17,9 @@
 <!-- Gerado a partir do estudos.yml (campo agora). -->
 
 <p align="center">
-  <a href="https://ilia.digital"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-1-escuro.svg?v=8c012379"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-1-claro.svg?v=ded20641" width="264" alt="Estagiário na ília: Conciliado com a graduação (Agora) / Intern at ília: Alongside my degree (Now)"></picture></a>
-  <a href="https://github.com/IsaacGomes260653/iris-pet-spa"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-2-escuro.svg?v=f6fe8c27"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-2-claro.svg?v=1ab551f4" width="264" alt="Construindo o Íris Pet Spa: Site imersivo em Next.js e WebGL (Em construção) / Building Íris Pet Spa: Immersive Next.js and WebGL site (Building)"></picture></a>
-  <a href="https://github.com/IsaacGomes260653/estudos-dart"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-3-escuro.svg?v=ddc780e2"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-3-claro.svg?v=c92ff8f0" width="264" alt="Estudando Dart rumo ao Flutter: Código comentado no estudos-dart (Estudando) / Studying Dart on the road to Flutter: Commented code in estudos-dart (Studying)"></picture></a>
+  <a href="https://ilia.digital"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-1-escuro.svg?v=82329c8e"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-1-claro.svg?v=605cff04" width="264" alt="Estagiário na ília: Conciliado com a graduação (Agora) / Intern at ília: Alongside my degree (Now)"></picture></a>
+  <a href="https://github.com/IsaacGomes260653/iris-pet-spa"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-2-escuro.svg?v=7cf5f1a0"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-2-claro.svg?v=11fdc5a6" width="264" alt="Construindo o Íris Pet Spa: Site imersivo em Next.js e WebGL (Em construção) / Building Íris Pet Spa: Immersive Next.js and WebGL site (Building)"></picture></a>
+  <a href="https://github.com/IsaacGomes260653/estudos-dart"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-3-escuro.svg?v=364e37d6"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-3-claro.svg?v=2ac844ae" width="264" alt="Estudando Dart rumo ao Flutter: Código comentado no estudos-dart (Estudando) / Studying Dart on the road to Flutter: Commented code in estudos-dart (Studying)"></picture></a>
 </p>
 <!-- AGORA:FIM -->
 
@@ -695,10 +695,10 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
 <p align="center">
   <a href="https://www.linkedin.com/in/isaacgomesmoraes/">
     <picture>
-      <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-mobile-escuro.svg?v=2">
-      <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-mobile-claro.svg?v=2">
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-desktop-escuro.svg?v=2">
-      <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-desktop-claro.svg?v=2" alt="Obrigado pela visita / Thanks for visiting. Vamos conversar? / Let’s talk? Abre o LinkedIn / Opens LinkedIn">
+      <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-mobile-escuro.svg?v=4">
+      <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-mobile-claro.svg?v=4">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-desktop-escuro.svg?v=4">
+      <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-desktop-claro.svg?v=4" alt="Obrigado pela visita / Thanks for visiting. Vamos conversar? / Let’s talk? Abre o LinkedIn / Opens LinkedIn">
     </picture>
   </a>
 </p>
