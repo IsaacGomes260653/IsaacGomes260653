@@ -13,7 +13,6 @@ on:
   push:
     branches:
       - main
-      - previa-rotacao-cantinho
     paths:
       - .github/workflows/jogo-da-vez.yml
       - .github/scripts/jogo_da_vez.py
