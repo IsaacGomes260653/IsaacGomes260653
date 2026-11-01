@@ -653,15 +653,15 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
      (jogo_da_vez.py). Jogo e legenda saem sempre com o mesmo nome no branch
      output-jogo-da-vez, então este trecho não muda. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-jogo-da-vez-previa/jogo-escuro.svg">
-  <img alt="Jogo da vez sobre o gráfico de contribuições do último ano: cobrinha dourada, Pac-Man, Galaga, Bomberman, Campo Minado, Puzzle Bobble, Quebra-tijolos ou Tetris / Now playing on the last year's contribution graph: golden snake, Pac-Man, Galaga, Bomberman, Minesweeper, Puzzle Bobble, Breakout or Tetris" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-jogo-da-vez-previa/jogo-claro.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-jogo-da-vez/jogo-escuro.svg">
+  <img alt="Jogo da vez sobre o gráfico de contribuições do último ano: cobrinha dourada, Pac-Man, Galaga, Bomberman, Campo Minado, Puzzle Bobble, Quebra-tijolos ou Tetris / Now playing on the last year's contribution graph: golden snake, Pac-Man, Galaga, Bomberman, Minesweeper, Puzzle Bobble, Breakout or Tetris" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-jogo-da-vez/jogo-claro.svg">
 </picture>
 
 <picture>
-  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-jogo-da-vez-previa/legenda-celular-escuro.svg">
-  <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-jogo-da-vez-previa/legenda-celular-claro.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-jogo-da-vez-previa/legenda-escuro.svg">
-  <img alt="Jogo da vez · Now playing — troca a cada 4 h entre 8 jogos / changes every 4 h among 8 games" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-jogo-da-vez-previa/legenda-claro.svg">
+  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-jogo-da-vez/legenda-celular-escuro.svg">
+  <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-jogo-da-vez/legenda-celular-claro.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-jogo-da-vez/legenda-escuro.svg">
+  <img alt="Jogo da vez · Now playing — troca a cada 4 h entre 8 jogos / changes every 4 h among 8 games" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-jogo-da-vez/legenda-claro.svg">
 </picture>
 
 <sub>Jogos de <a href="https://github.com/Platane/snk">Platane/snk</a> (cobrinha), <a href="https://github.com/abozanona/pacman-contribution-graph">abozanona/pacman-contribution-graph</a> (Pac-Man, Galaga, Bomberman, Campo Minado e Puzzle Bobble), <a href="https://github.com/cyprieng/github-breakout">cyprieng/github-breakout</a> e <a href="https://github.com/JuhaP2/contribution-tetris">JuhaP2/contribution-tetris</a>, nas cores do perfil<br>
