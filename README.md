@@ -3,10 +3,10 @@
      desktop, nos temas claro e escuro. Fonte: linkedin-banner/github.html. -->
 <p align="center">
   <picture>
-    <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-escuro.svg?v=2">
-    <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-claro.svg?v=2">
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-escuro.svg?v=2">
-    <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-claro.svg?v=2" alt="Isaac Gomes de Moraes. Estagiário na ília. Ciência da Computação no UniCEUB, Brasília, DF / Intern at ília. Computer Science at UniCEUB, Brasília, Brazil">
+    <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/previa-noite-pintura/assets/banner/banner-mobile-escuro.svg?v=3">
+    <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/previa-noite-pintura/assets/banner/banner-mobile-claro.svg?v=3">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/previa-noite-pintura/assets/banner/banner-desktop-escuro.svg?v=3">
+    <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/previa-noite-pintura/assets/banner/banner-desktop-claro.svg?v=3" alt="Isaac Gomes de Moraes. Estagiário na ília. Ciência da Computação no UniCEUB, Brasília, DF / Intern at ília. Computer Science at UniCEUB, Brasília, Brazil">
   </picture>
 </p>
 
@@ -592,10 +592,10 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
      a cada 6h e a cada push, com as cores do brand/tokens.json. Versões para
      celular e desktop, nos temas claro e escuro (branch output-stats). -->
 <picture>
-  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats/painel-celular-escuro.svg">
-  <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats/painel-celular-claro.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats/painel-escuro.svg">
-  <img alt="Atividade no GitHub: contribuições no último ano, sequência atual e maior sequência pelo calendário do perfil, commits desde 2025, pull requests e repositórios públicos com contribuição / GitHub activity: contributions in the last year, current and longest streak from the profile calendar, commits since 2025, pull requests and public repos contributed to" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats/painel-claro.svg">
+  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats-previa/painel-celular-escuro.svg">
+  <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats-previa/painel-celular-claro.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats-previa/painel-escuro.svg">
+  <img alt="Atividade no GitHub: contribuições no último ano, sequência atual e maior sequência pelo calendário do perfil, commits desde 2025, pull requests e repositórios públicos com contribuição / GitHub activity: contributions in the last year, current and longest streak from the profile calendar, commits since 2025, pull requests and public repos contributed to" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-stats-previa/painel-claro.svg">
 </picture>
 
 <sub>Contribuições e sequências: último ano, pelo mesmo calendário do perfil, no horário de Brasília · Commits e pull requests: desde a criação da conta (2025) · Repositórios: só os públicos<br>
@@ -695,10 +695,10 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
 <p align="center">
   <a href="https://www.linkedin.com/in/isaacgomesmoraes/">
     <picture>
-      <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-mobile-escuro.svg?v=2">
-      <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-mobile-claro.svg?v=2">
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-desktop-escuro.svg?v=2">
-      <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-desktop-claro.svg?v=2" alt="Obrigado pela visita / Thanks for visiting. Vamos conversar? / Let’s talk? Abre o LinkedIn / Opens LinkedIn">
+      <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/previa-noite-pintura/assets/banner/rodape-mobile-escuro.svg?v=3">
+      <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/previa-noite-pintura/assets/banner/rodape-mobile-claro.svg?v=3">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/previa-noite-pintura/assets/banner/rodape-desktop-escuro.svg?v=3">
+      <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/previa-noite-pintura/assets/banner/rodape-desktop-claro.svg?v=3" alt="Obrigado pela visita / Thanks for visiting. Vamos conversar? / Let’s talk? Abre o LinkedIn / Opens LinkedIn">
     </picture>
   </a>
 </p>
