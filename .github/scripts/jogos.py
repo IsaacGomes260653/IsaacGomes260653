@@ -91,7 +91,7 @@ def bonecos(jogo, tema):
     return {
         "pacman": [("image", azul, 1)],                                  # fantasmas
         "galaga": [("image", T["ouro_forma"], 2.2)],                     # nave e tiros
-        "bomberman": [("image", azul, 1), (".heroi", T["ouro_forma"], 1.6)],  # bombas e itens; jogador
+        "bomberman": [("image", azul, 1), (".heroi", T["ouro_forma"], 1.6)],  # bombas, itens e adversário; o jogador 1
     }.get(jogo, [])
 
 
@@ -201,7 +201,7 @@ def veste(svg, jogo, tema):
     elif jogo == "galaga":  # estrelas do céu
         svg = svg.replace('"white"', f'"{NOITE["brilho"]}"')
     elif jogo == "bomberman":  # o jogador ganha uma classe: dentro de <use> o navegador não vê o <symbol>
-        svg = re.sub(r'(<symbol id="bm-player[^"]*"[^>]*>\s*<image)\b', r'\1 class="heroi"', svg)
+        svg = re.sub(r'(<symbol id="bm-player-1[^"]*"[^>]*>\s*<image)\b', r'\1 class="heroi"', svg)
     if jogo in ABOZANONA:
         svg = enxuga(svg)
     regras = bonecos(jogo, tema)
@@ -230,7 +230,8 @@ def teste():
     assert "red" not in veste('<svg><animate values="yellow;red"/></svg>', "pacman", "escuro").split("<filter")[0]
     # Galaga: céu do tema escuro também na versão clara; jogador do Bomberman num tom e o resto em outro.
     assert f'fill="{T["fundo"]}"' in veste('<svg><rect fill="#000000"/></svg>', "galaga", "claro")
-    bm = veste('<svg><symbol id="bm-player-1-down-0"><image href="x"/></symbol><symbol id="bm-bomb"><image href="y"/></symbol></svg>',
+    bm = veste('<svg><symbol id="bm-player-1-down-0"><image href="x"/></symbol><symbol id="bm-player-2-down-0"><image href="z"/></symbol>'
+               '<symbol id="bm-bomb"><image href="y"/></symbol></svg>',
                "bomberman", "claro")
     assert bm.count("<filter") == 2 and bm.count('class="heroi"') == 1
     mina = veste('<svg><text fill="#1f4acc"/><circle fill="#202124"/></svg>', "minesweeper", "escuro")
