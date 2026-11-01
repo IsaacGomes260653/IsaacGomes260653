@@ -647,46 +647,25 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
 
 <div align="center">
 
-<!-- Jogos gerados pela Action cantinho.yml a partir do gráfico de contribuições
-     e vestidos com o brand/tokens.json pelo jogos.py (branch output-cantinho). -->
-<details open>
-<summary><b>🐍 Cobrinha dourada · Golden snake</b></summary>
-<br>
+<!-- Jogo da vez: a Action cantinho.yml gera os 8 jogos por dia, a partir do
+     gráfico de contribuições e nas cores do brand/tokens.json (jogos.py), e a
+     jogo-da-vez.yml escolhe um a cada 4 h, sem repetir até passar por todos
+     (jogo_da_vez.py). Jogo e legenda saem sempre com o mesmo nome no branch
+     output-jogo-da-vez, então este trecho não muda. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-cantinho/cobrinha-escuro.svg">
-  <img alt="A cobrinha dourada come as contribuições do último ano / The golden snake eats the last year's contributions" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-cantinho/cobrinha-claro.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-jogo-da-vez/jogo-escuro.svg">
+  <img alt="Jogo da vez sobre o gráfico de contribuições do último ano: cobrinha dourada, Pac-Man, Galaga, Bomberman, Campo Minado, Puzzle Bobble, Quebra-tijolos ou Tetris / Now playing on the last year's contribution graph: golden snake, Pac-Man, Galaga, Bomberman, Minesweeper, Puzzle Bobble, Breakout or Tetris" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-jogo-da-vez/jogo-claro.svg">
 </picture>
-</details>
 
-<details>
-<summary><b>👾 Pac-Man no gráfico · Pac-Man on the graph</b></summary>
-<br>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-cantinho/pacman-escuro.svg">
-  <img alt="Pac-Man percorre o gráfico de contribuições comendo os dias com atividade / Pac-Man runs through the contribution graph eating the active days" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-cantinho/pacman-claro.svg">
+  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-jogo-da-vez/legenda-celular-escuro.svg">
+  <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-jogo-da-vez/legenda-celular-claro.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-jogo-da-vez/legenda-escuro.svg">
+  <img alt="Jogo da vez · Now playing — troca a cada 4 h entre 8 jogos / changes every 4 h among 8 games" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-jogo-da-vez/legenda-claro.svg">
 </picture>
-</details>
 
-<details>
-<summary><b>🧱 Quebra-tijolos das contribuições · Contribution Breakout</b></summary>
-<br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-cantinho/breakout-escuro.svg">
-  <img alt="Breakout: a bola quebra os tijolos, que são os dias do gráfico de contribuições / Breakout: the ball breaks the bricks, which are the days of the contribution graph" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-cantinho/breakout-claro.svg">
-</picture>
-</details>
-
-<details>
-<summary><b>🟨 Tetris do ano · Tetris of the year</b></summary>
-<br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-cantinho/tetris-escuro.svg">
-  <img alt="Tetris jogado sozinho, com o placar das contribuições do ano / Self-playing Tetris scored by the year's contributions" src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/output-cantinho/tetris-claro.svg">
-</picture>
-</details>
-
-<sub>Jogos de <a href="https://github.com/Platane/snk">Platane/snk</a>, <a href="https://github.com/abozanona/pacman-contribution-graph">abozanona/pacman-contribution-graph</a>, <a href="https://github.com/cyprieng/github-breakout">cyprieng/github-breakout</a> e <a href="https://github.com/JuhaP2/contribution-tetris">JuhaP2/contribution-tetris</a>, nas cores do perfil<br>
-<em>Games by Platane/snk, abozanona/pacman-contribution-graph, cyprieng/github-breakout and JuhaP2/contribution-tetris, in the profile colors</em></sub>
+<sub>Jogos de <a href="https://github.com/Platane/snk">Platane/snk</a> (cobrinha), <a href="https://github.com/abozanona/pacman-contribution-graph">abozanona/pacman-contribution-graph</a> (Pac-Man, Galaga, Bomberman, Campo Minado e Puzzle Bobble), <a href="https://github.com/cyprieng/github-breakout">cyprieng/github-breakout</a> e <a href="https://github.com/JuhaP2/contribution-tetris">JuhaP2/contribution-tetris</a>, nas cores do perfil<br>
+<em>Games by Platane/snk (snake), abozanona/pacman-contribution-graph (Pac-Man, Galaga, Bomberman, Minesweeper and Puzzle Bobble), cyprieng/github-breakout and JuhaP2/contribution-tetris, in the profile colors</em></sub>
 
 </div>
 
