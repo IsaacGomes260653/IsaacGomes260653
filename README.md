@@ -29,22 +29,22 @@
 <!-- ATIVIDADE:INICIO -->
 <!-- Gerado pelo workflow atividade.yml a partir dos eventos públicos do GitHub. Não edite aqui. -->
 
+- 🔀 **[feat: Noite Estrelada nos banners, chama da sequência e jogos do cantinho (prévia)](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/31)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 31/10/2026</sub>
 - 🔀 **[feat: estatísticas com a identidade visual do perfil](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/30)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 31/10/2026</sub>
 - 🔀 **[fix: cards de estatísticas pelo calendário do perfil](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/29)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 30/10/2026</sub>
+- ⬆️ **[`output-pacman`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/657c4f181d85c2f27b72378f3afa378211ee8f72)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
+  <sub>Commits enviados · <em>Pushed commits</em> · 30/10/2026</sub>
+- ⬆️ **[`output-metrics`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/e9c32a7dcb39e276966adbd4d916317514b32041)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
+  <sub>Commits enviados · <em>Pushed commits</em> · 30/10/2026</sub>
+- ⬆️ **[`main`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/ace5ed245e11fdbdd576ac57965d35b399720f30)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
+  <sub>Commits enviados · <em>Pushed commits</em> · 30/10/2026</sub>
+- ⬆️ **[`output-stats`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/7a55bf2aa020c0e5d24b71513307a8e3bdd467c9)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
+  <sub>Commits enviados · <em>Pushed commits</em> · 30/10/2026</sub>
 - 🔀 **[docs: tira uma ferramenta da stack do perfil](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/28)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 30/10/2026</sub>
-- 🔀 **[docs: README no padrão do portfólio, com banner e capturas](https://github.com/IsaacGomes260653/Controle-de-Refeicao/pull/2)** · [Controle-de-Refeicao](https://github.com/IsaacGomes260653/Controle-de-Refeicao)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 29/10/2026</sub>
-- 🔀 **[docs: explica o parse em Numbers](https://github.com/IsaacGomes260653/estudos-dart/pull/3)** · [estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 28/10/2026</sub>
-- 🔀 **[docs: link do código de numbers no roadmap](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/27)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 28/10/2026</sub>
-- 🔀 **[feat: estudo de numbers (built-in types)](https://github.com/IsaacGomes260653/estudos-dart/pull/2)** · [estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 28/10/2026</sub>
-- 🔀 **[style: largura da captura do Fantasy World Cup](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026/pull/17)** · [CEUB\_CIENCIA\_2026](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 28/10/2026</sub>
 <!-- ATIVIDADE:FIM -->
 
 </details>
