@@ -41,10 +41,10 @@
   <sub>PR mesclado · <em>Merged pull request</em> · 01/11/2026</sub>
 - 🔀 **[feat: Noite Estrelada nos banners, chama da sequência e jogos do cantinho (prévia)](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/31)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 31/10/2026</sub>
+- ⬆️ **[`previa-noite-estrelada`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/6dd38112efeb3d6d21833c3d4875fcecaf793db4)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
+  <sub>Commits enviados · <em>Pushed commits</em> · 31/10/2026</sub>
 - 🔀 **[feat: estatísticas com a identidade visual do perfil](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/30)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 31/10/2026</sub>
-- 🔀 **[fix: cards de estatísticas pelo calendário do perfil](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/29)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 30/10/2026</sub>
 <!-- ATIVIDADE:FIM -->
 
 </details>
