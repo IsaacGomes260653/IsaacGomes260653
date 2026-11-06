@@ -17,9 +17,9 @@
 <!-- Gerado a partir do estudos.yml (campo agora). -->
 
 <p align="center">
-  <a href="https://ilia.digital"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-1-escuro.svg?v=82329c8e"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-1-claro.svg?v=605cff04" width="264" alt="Estagiário na ília: Conciliado com a graduação (Agora) / Intern at ília: Alongside my degree (Now)"></picture></a>
-  <a href="https://github.com/IsaacGomes260653/iris-pet-spa"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-2-escuro.svg?v=7cf5f1a0"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-2-claro.svg?v=11fdc5a6" width="264" alt="Construindo o Íris Pet Spa: Site imersivo em Next.js e WebGL (Em construção) / Building Íris Pet Spa: Immersive Next.js and WebGL site (Building)"></picture></a>
-  <a href="https://github.com/IsaacGomes260653/estudos-dart"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-3-escuro.svg?v=364e37d6"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-3-claro.svg?v=2ac844ae" width="264" alt="Estudando Dart rumo ao Flutter: Código comentado no estudos-dart (Estudando) / Studying Dart on the road to Flutter: Commented code in estudos-dart (Studying)"></picture></a>
+  <a href="https://ilia.digital"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-1-escuro.svg?v=8c012379"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-1-claro.svg?v=ded20641" width="264" alt="Estagiário na ília: Conciliado com a graduação (Agora) / Intern at ília: Alongside my degree (Now)"></picture></a>
+  <a href="https://github.com/IsaacGomes260653/iris-pet-spa"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-2-escuro.svg?v=f6fe8c27"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-2-claro.svg?v=1ab551f4" width="264" alt="Construindo o Íris Pet Spa: Site imersivo em Next.js e WebGL (Em construção) / Building Íris Pet Spa: Immersive Next.js and WebGL site (Building)"></picture></a>
+  <a href="https://github.com/IsaacGomes260653/estudos-dart"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-3-escuro.svg?v=ddc780e2"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-3-claro.svg?v=c92ff8f0" width="264" alt="Estudando Dart rumo ao Flutter: Código comentado no estudos-dart (Estudando) / Studying Dart on the road to Flutter: Commented code in estudos-dart (Studying)"></picture></a>
 </p>
 <!-- AGORA:FIM -->
 
@@ -29,22 +29,22 @@
 <!-- ATIVIDADE:INICIO -->
 <!-- Gerado pelo workflow atividade.yml a partir dos eventos públicos do GitHub. Não edite aqui. -->
 
-- 🔀 **[feat: Noite Estrelada nos banners, chama da sequência e jogos do cantinho (prévia)](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/31)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 31/10/2026</sub>
-- 🔀 **[feat: estatísticas com a identidade visual do perfil](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/30)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 31/10/2026</sub>
-- 🔀 **[fix: cards de estatísticas pelo calendário do perfil](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/29)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 30/10/2026</sub>
-- ⬆️ **[`output-pacman`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/657c4f181d85c2f27b72378f3afa378211ee8f72)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
-  <sub>Commits enviados · <em>Pushed commits</em> · 30/10/2026</sub>
-- ⬆️ **[`output-metrics`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/e9c32a7dcb39e276966adbd4d916317514b32041)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
-  <sub>Commits enviados · <em>Pushed commits</em> · 30/10/2026</sub>
-- ⬆️ **[`main`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/ace5ed245e11fdbdd576ac57965d35b399720f30)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
-  <sub>Commits enviados · <em>Pushed commits</em> · 30/10/2026</sub>
-- ⬆️ **[`output-stats`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/7a55bf2aa020c0e5d24b71513307a8e3bdd467c9)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
-  <sub>Commits enviados · <em>Pushed commits</em> · 30/10/2026</sub>
-- 🔀 **[docs: tira uma ferramenta da stack do perfil](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/28)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 30/10/2026</sub>
+- ⬆️ **[`previa-noite-pintura`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/8fdccb269d067538466e0f3a2662ad48f04fbd6a)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
+  <sub>Commits enviados · <em>Pushed commits</em> · 01/11/2026</sub>
+- 🔀 **[style: banner do README com A Noite Estrelada em azulejos andando](https://github.com/IsaacGomes260653/Controle-de-Refeicao/pull/4)** · [Controle-de-Refeicao](https://github.com/IsaacGomes260653/Controle-de-Refeicao)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 01/11/2026</sub>
+- 🔀 **[style: banner do README com A Noite Estrelada em azulejos andando](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026/pull/19)** · [CEUB\_CIENCIA\_2026](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 01/11/2026</sub>
+- 🔀 **[style: banner do README no estilo A Noite Estrelada em azulejos](https://github.com/IsaacGomes260653/Controle-de-Refeicao/pull/3)** · [Controle-de-Refeicao](https://github.com/IsaacGomes260653/Controle-de-Refeicao)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 01/11/2026</sub>
+- 🔀 **[style: banner do README no estilo A Noite Estrelada em azulejos](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026/pull/18)** · [CEUB\_CIENCIA\_2026](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 01/11/2026</sub>
+- 🔀 **[feat: cantinho com o jogo da vez, trocando a cada 4 h entre 8 jogos](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/32)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 01/11/2026</sub>
+- ⬆️ **[`previa-rotacao-cantinho`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/fc4e405e1d2a1ea08aa9fce11adf118c01267a5d)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
+  <sub>Commits enviados · <em>Pushed commits</em> · 01/11/2026</sub>
+- ⬆️ **[`previa-rotacao-cantinho`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/205bb647537fdc6a08eb2cac102a4c50b365be2f)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
+  <sub>Commits enviados · <em>Pushed commits</em> · 31/10/2026</sub>
 <!-- ATIVIDADE:FIM -->
 
 </details>
