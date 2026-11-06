@@ -29,6 +29,10 @@
 <!-- ATIVIDADE:INICIO -->
 <!-- Gerado pelo workflow atividade.yml a partir dos eventos públicos do GitHub. Não edite aqui. -->
 
+- 🔀 **[feat: banner do topo e rodapé com a pintura virando azulejos](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/37)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 06/11/2026</sub>
+- 🔀 **[feat: A Noite Estrelada viva no banner do topo e no rodapé](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/33)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 06/11/2026</sub>
 - ⬆️ **[`previa-noite-pintura`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/8fdccb269d067538466e0f3a2662ad48f04fbd6a)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>Commits enviados · <em>Pushed commits</em> · 01/11/2026</sub>
 - 🔀 **[style: banner do README com A Noite Estrelada em azulejos andando](https://github.com/IsaacGomes260653/Controle-de-Refeicao/pull/4)** · [Controle-de-Refeicao](https://github.com/IsaacGomes260653/Controle-de-Refeicao)<br>
@@ -41,10 +45,6 @@
   <sub>PR mesclado · <em>Merged pull request</em> · 01/11/2026</sub>
 - 🔀 **[feat: cantinho com o jogo da vez, trocando a cada 4 h entre 8 jogos](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/32)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 01/11/2026</sub>
-- ⬆️ **[`previa-rotacao-cantinho`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/fc4e405e1d2a1ea08aa9fce11adf118c01267a5d)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
-  <sub>Commits enviados · <em>Pushed commits</em> · 01/11/2026</sub>
-- ⬆️ **[`previa-rotacao-cantinho`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/205bb647537fdc6a08eb2cac102a4c50b365be2f)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
-  <sub>Commits enviados · <em>Pushed commits</em> · 31/10/2026</sub>
 <!-- ATIVIDADE:FIM -->
 
 </details>
