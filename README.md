@@ -33,6 +33,8 @@
   <sub>PR mesclado · <em>Merged pull request</em> · 06/11/2026</sub>
 - 🔀 **[feat: A Noite Estrelada viva no banner do topo e no rodapé](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/33)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 06/11/2026</sub>
+- ⬆️ **[`previa-noite-pintura`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/6d71c6d93a7040f339eed66f455d06aeedb5e148)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
+  <sub>Commits enviados · <em>Pushed commits</em> · 06/11/2026</sub>
 - ⬆️ **[`previa-noite-pintura`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/8fdccb269d067538466e0f3a2662ad48f04fbd6a)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>Commits enviados · <em>Pushed commits</em> · 01/11/2026</sub>
 - 🔀 **[style: banner do README com A Noite Estrelada em azulejos andando](https://github.com/IsaacGomes260653/Controle-de-Refeicao/pull/4)** · [Controle-de-Refeicao](https://github.com/IsaacGomes260653/Controle-de-Refeicao)<br>
@@ -42,8 +44,6 @@
 - 🔀 **[style: banner do README no estilo A Noite Estrelada em azulejos](https://github.com/IsaacGomes260653/Controle-de-Refeicao/pull/3)** · [Controle-de-Refeicao](https://github.com/IsaacGomes260653/Controle-de-Refeicao)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 01/11/2026</sub>
 - 🔀 **[style: banner do README no estilo A Noite Estrelada em azulejos](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026/pull/18)** · [CEUB\_CIENCIA\_2026](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 01/11/2026</sub>
-- 🔀 **[feat: cantinho com o jogo da vez, trocando a cada 4 h entre 8 jogos](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/32)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 01/11/2026</sub>
 <!-- ATIVIDADE:FIM -->
 
