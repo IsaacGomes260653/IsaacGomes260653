@@ -29,22 +29,22 @@
 <!-- ATIVIDADE:INICIO -->
 <!-- Gerado pelo workflow atividade.yml a partir dos eventos públicos do GitHub. Não edite aqui. -->
 
+- 🔀 **[chore: imagem de compartilhamento no visual Painel do perfil](https://github.com/IsaacGomes260653/estudos-dart/pull/5)** · [estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 09/11/2026</sub>
+- 🔀 **[chore: imagem de compartilhamento no visual Painel do perfil](https://github.com/IsaacGomes260653/Controle-de-Refeicao/pull/7)** · [Controle-de-Refeicao](https://github.com/IsaacGomes260653/Controle-de-Refeicao)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 09/11/2026</sub>
+- 🔀 **[chore: imagem de compartilhamento no visual Painel do perfil](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026/pull/22)** · [CEUB\_CIENCIA\_2026](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 09/11/2026</sub>
+- 🔀 **[style: banner animado no topo do README, no visual Painel do perfil](https://github.com/IsaacGomes260653/estudos-dart/pull/4)** · [estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 09/11/2026</sub>
+- 🔀 **[style: banner do README no visual Painel do perfil](https://github.com/IsaacGomes260653/Controle-de-Refeicao/pull/6)** · [Controle-de-Refeicao](https://github.com/IsaacGomes260653/Controle-de-Refeicao)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 09/11/2026</sub>
+- 🔀 **[style: banner do README no visual Painel do perfil](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026/pull/21)** · [CEUB\_CIENCIA\_2026](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 09/11/2026</sub>
 - 🔀 **[feat: banner do topo e rodapé com a pintura virando azulejos](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/37)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 06/11/2026</sub>
 - 🔀 **[feat: A Noite Estrelada viva no banner do topo e no rodapé](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/33)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 06/11/2026</sub>
-- ⬆️ **[`previa-noite-pintura`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/6d71c6d93a7040f339eed66f455d06aeedb5e148)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
-  <sub>Commits enviados · <em>Pushed commits</em> · 06/11/2026</sub>
-- ⬆️ **[`previa-noite-pintura`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/8fdccb269d067538466e0f3a2662ad48f04fbd6a)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
-  <sub>Commits enviados · <em>Pushed commits</em> · 01/11/2026</sub>
-- 🔀 **[style: banner do README com A Noite Estrelada em azulejos andando](https://github.com/IsaacGomes260653/Controle-de-Refeicao/pull/4)** · [Controle-de-Refeicao](https://github.com/IsaacGomes260653/Controle-de-Refeicao)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 01/11/2026</sub>
-- 🔀 **[style: banner do README com A Noite Estrelada em azulejos andando](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026/pull/19)** · [CEUB\_CIENCIA\_2026](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 01/11/2026</sub>
-- 🔀 **[style: banner do README no estilo A Noite Estrelada em azulejos](https://github.com/IsaacGomes260653/Controle-de-Refeicao/pull/3)** · [Controle-de-Refeicao](https://github.com/IsaacGomes260653/Controle-de-Refeicao)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 01/11/2026</sub>
-- 🔀 **[style: banner do README no estilo A Noite Estrelada em azulejos](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026/pull/18)** · [CEUB\_CIENCIA\_2026](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 01/11/2026</sub>
 <!-- ATIVIDADE:FIM -->
 
 </details>
