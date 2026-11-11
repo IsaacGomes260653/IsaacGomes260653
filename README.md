@@ -29,6 +29,14 @@
 <!-- ATIVIDADE:INICIO -->
 <!-- Gerado pelo workflow atividade.yml a partir dos eventos públicos do GitHub. Não edite aqui. -->
 
+- 🔀 **[build: site estático publicado no GitHub Pages](https://github.com/IsaacGomes260653/iris-pet-spa/pull/5)** · [iris-pet-spa](https://github.com/IsaacGomes260653/iris-pet-spa)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 11/11/2026</sub>
+- 🔀 **[fix: bola visível no voo inteiro da brincadeira do rodapé](https://github.com/IsaacGomes260653/iris-pet-spa/pull/4)** · [iris-pet-spa](https://github.com/IsaacGomes260653/iris-pet-spa)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 11/11/2026</sub>
+- 🔀 **[fix: prazo no horário de Brasília em vez de UTC](https://github.com/IsaacGomes260653/forget_me_not/pull/7)** · [forget\_me\_not](https://github.com/IsaacGomes260653/forget_me_not)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 11/11/2026</sub>
+- 🔀 **[docs: README de portfólio com banner, demonstração e arquitetura](https://github.com/IsaacGomes260653/forget_me_not/pull/6)** · [forget\_me\_not](https://github.com/IsaacGomes260653/forget_me_not)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 11/11/2026</sub>
 - 🔀 **[chore: imagem de compartilhamento no visual Painel do perfil](https://github.com/IsaacGomes260653/estudos-dart/pull/5)** · [estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 09/11/2026</sub>
 - 🔀 **[chore: imagem de compartilhamento no visual Painel do perfil](https://github.com/IsaacGomes260653/Controle-de-Refeicao/pull/7)** · [Controle-de-Refeicao](https://github.com/IsaacGomes260653/Controle-de-Refeicao)<br>
@@ -37,14 +45,6 @@
   <sub>PR mesclado · <em>Merged pull request</em> · 09/11/2026</sub>
 - 🔀 **[style: banner animado no topo do README, no visual Painel do perfil](https://github.com/IsaacGomes260653/estudos-dart/pull/4)** · [estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 09/11/2026</sub>
-- 🔀 **[style: banner do README no visual Painel do perfil](https://github.com/IsaacGomes260653/Controle-de-Refeicao/pull/6)** · [Controle-de-Refeicao](https://github.com/IsaacGomes260653/Controle-de-Refeicao)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 09/11/2026</sub>
-- 🔀 **[style: banner do README no visual Painel do perfil](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026/pull/21)** · [CEUB\_CIENCIA\_2026](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 09/11/2026</sub>
-- 🔀 **[feat: banner do topo e rodapé com a pintura virando azulejos](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/37)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 06/11/2026</sub>
-- 🔀 **[feat: A Noite Estrelada viva no banner do topo e no rodapé](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/33)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 06/11/2026</sub>
 <!-- ATIVIDADE:FIM -->
 
 </details>
