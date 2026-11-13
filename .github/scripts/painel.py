@@ -39,7 +39,7 @@ Para pausar uma etapa, escreva `[pausado]` no título dela. A seção **Agora**,
 edite a issue e escreva um item por linha, `português | inglês`. Cada item vira um card: o emoji \
 do começo escolhe o ícone (💼, 🐾 ou 📘), o texto até a 1ª vírgula é o título e o resto, uma \
 descrição curta; o 1º link é o destino do card; e a 1ª palavra escolhe o selo (Estudando, \
-Construindo ou, para qualquer outra, Agora). Não apague os códigos `<!-- ... -->` escondidos no \
+Construindo, Construí para "no ar" ou, para qualquer outra, Agora). Não apague os códigos `<!-- ... -->` escondidos no \
 fim das linhas.
 >
 > **How to use:** tick each subtopic you finish and the profile roadmap updates itself in about \
@@ -48,7 +48,7 @@ write `[pausado]` in its title. The **Now** section, at the end, is plain text: 
 write one item per line, `Portuguese | English`. Each item becomes a card: the leading emoji picks \
 the icon (💼, 🐾 or 📘), the text up to the first comma is the title and the rest a short \
 description; the first link is where the card points; and the first Portuguese word picks the \
-badge (Estudando, Construindo or, for anything else, Agora). Don't delete the hidden \
+badge (Estudando, Construindo, Construí for "live" or, for anything else, Agora). Don't delete the hidden \
 `<!-- ... -->` codes at the end of the lines."""
 AJUDA_AGORA = ("<!-- Um item por linha: \"emoji Título, descrição curta | Title, short description\","
                " com o link no título. Apague a linha para tirar o item. -->")
