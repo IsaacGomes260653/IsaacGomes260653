@@ -11,8 +11,10 @@ on:
       - .github/scripts/agora.py
       - .github/scripts/glifos.json
       - .github/workflows/painel-estudos.yml
+  # Minuto quebrado de propósito: na virada da hora e nos quartos de hora o
+  # GitHub atrasa ou pula agendamentos, porque é quando quase todo mundo agenda.
   schedule:
-    - cron: "0 9 * * *" # 06:00 em Brasília
+    - cron: "7 9 * * *" # 06:07 em Brasília
   workflow_dispatch:
   # Marcar uma caixinha na issue do painel é uma edição da issue. Comentários
   # não disparam nada: não há gatilho de issue_comment.

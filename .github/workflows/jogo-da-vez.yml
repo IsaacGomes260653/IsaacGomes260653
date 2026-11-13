@@ -5,8 +5,10 @@ name: troca o jogo da vez
 # output-jogo-da-vez, que é o que o README mostra.
 
 on:
+  # Minuto quebrado de propósito: na virada da hora e nos quartos de hora o
+  # GitHub atrasa ou pula agendamentos, porque é quando quase todo mundo agenda.
   schedule:
-    - cron: "5 */4 * * *" # logo depois do início de cada janela de 4 h
+    - cron: "11 */4 * * *" # logo depois do início de cada janela de 4 h
   workflow_run:
     workflows: ["gera os jogos do cantinho"]
     types: [completed]

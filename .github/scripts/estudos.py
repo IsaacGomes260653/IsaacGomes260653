@@ -453,8 +453,10 @@ def etapa(e):
     ) if b]
     if not numero and not total:  # etapa avulsa e sem subtemas: bloco simples
         return "\n\n".join(filter(None, [rotulo, *corpo]))
-    abre = " open" if s == "estudando" else ""
-    return "\n\n".join([f"<details{abre}>\n<summary>{rotulo}</summary>", *corpo, "</details>"])
+    # Todas as etapas começam recolhidas, inclusive a que estou estudando: o
+    # título já mostra o status e o progresso, e o card do painel acima destaca
+    # a etapa atual. Aberta, ela empurrava os repositórios fixados para o fim.
+    return "\n\n".join([f"<details>\n<summary>{rotulo}</summary>", *corpo, "</details>"])
 
 
 def painel(dados, data, svgs):
@@ -592,7 +594,7 @@ def teste():
         assert "id" in str(erro)
     else:
         raise AssertionError("duas trilhas sem id deveriam falhar")
-    assert md.count("<details open>") == 1 and md.count("<details>") == 3  # AWS: avulsa com subtemas
+    assert "<details open>" not in md and md.count("<details>") == 4  # AWS: avulsa com subtemas
     assert "Dart logic and syntax</b> — 🟡 Estudando / Studying · 2/4 ✅</summary>" in md
     assert "**Progresso / Progress:** `█████░░░░░` 50% · 2/4 ✅ · ⭐ 1/2" in md
     assert "- 🟡 **[Variables](https://v)** · 1/2\n  - ✅ ⭐ [Null safety](https://v#n)\n  - 🟡 ⭐ Final and const" in md
