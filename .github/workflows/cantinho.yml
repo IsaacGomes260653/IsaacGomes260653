@@ -8,8 +8,10 @@ name: gera os jogos do cantinho
 # README é o jogo-da-vez.yml que escolhe, a cada 4 h.
 
 on:
+  # Minuto quebrado de propósito: na virada da hora e nos quartos de hora o
+  # GitHub atrasa ou pula agendamentos, porque é quando quase todo mundo agenda.
   schedule:
-    - cron: "40 3 * * *" # todo dia, 00:40 em Brasília
+    - cron: "17 3 * * *" # todo dia, 00:17 em Brasília
   push:
     branches:
       - main
