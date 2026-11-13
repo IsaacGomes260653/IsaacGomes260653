@@ -37,13 +37,13 @@
   <sub>PR mesclado · <em>Merged pull request</em> · 11/11/2026</sub>
 - 🔀 **[docs: README de portfólio com banner, demonstração e arquitetura](https://github.com/IsaacGomes260653/forget_me_not/pull/6)** · [forget\_me\_not](https://github.com/IsaacGomes260653/forget_me_not)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 11/11/2026</sub>
+- ⬆️ **[`docs/readme-portfolio`](https://github.com/IsaacGomes260653/forget_me_not/commit/ba463dabc167e4fcc591406b74e5db62a3dd7f66)** · [forget\_me\_not](https://github.com/IsaacGomes260653/forget_me_not)<br>
+  <sub>Commits enviados · <em>Pushed commits</em> · 11/11/2026</sub>
 - 🔀 **[chore: imagem de compartilhamento no visual Painel do perfil](https://github.com/IsaacGomes260653/estudos-dart/pull/5)** · [estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 09/11/2026</sub>
 - 🔀 **[chore: imagem de compartilhamento no visual Painel do perfil](https://github.com/IsaacGomes260653/Controle-de-Refeicao/pull/7)** · [Controle-de-Refeicao](https://github.com/IsaacGomes260653/Controle-de-Refeicao)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 09/11/2026</sub>
 - 🔀 **[chore: imagem de compartilhamento no visual Painel do perfil](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026/pull/22)** · [CEUB\_CIENCIA\_2026](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 09/11/2026</sub>
-- 🔀 **[style: banner animado no topo do README, no visual Painel do perfil](https://github.com/IsaacGomes260653/estudos-dart/pull/4)** · [estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 09/11/2026</sub>
 <!-- ATIVIDADE:FIM -->
 
