@@ -185,7 +185,7 @@ Meus estudos de Dart rumo ao Flutter: um arquivo por assunto, com casos curtos e
 
 <sub>✏️ <a href="https://github.com/IsaacGomes260653/IsaacGomes260653/issues/14">Atualizar progresso · Update progress</a></sub>
 
-<details open>
+<details>
 <summary><b>1 · Lógica e sintaxe em Dart · Dart logic and syntax</b> — 🟡 Estudando / Studying · 6/45 ✅</summary>
 
 Variáveis e tipos (int, double, String, bool, List, Map), operadores aritméticos, comparativos e lógicos, if/else, switch, for, while e funções com parâmetros posicionais e nomeados.<br>
