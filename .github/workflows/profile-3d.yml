@@ -4,8 +4,10 @@ name: generate 3d contribution graph
 # cores do brand/tokens.json pelo calendario3d.py, nas versões clara e escura.
 
 on:
+  # Minuto quebrado de propósito: na virada da hora e nos quartos de hora o
+  # GitHub atrasa ou pula agendamentos, porque é quando quase todo mundo agenda.
   schedule:
-    - cron: "15 */6 * * *" # a cada 6h
+    - cron: "41 */6 * * *" # a cada 6h
   workflow_dispatch:
   push:
     branches:
