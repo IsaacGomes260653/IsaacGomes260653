@@ -27,13 +27,16 @@ FIM = "<!-- ESTUDOS:FIM -->"
 AGORA_INICIO = "<!-- AGORA:INICIO -->"
 AGORA_FIM = "<!-- AGORA:FIM -->"
 
-# A ordem daqui é a ordem da legenda.
+# A ordem daqui é a ordem da legenda. O roadmap mostra só três estados
+# (✅ 🔄 ⬜): o "pausado" continua valendo, mas só entra na legenda quando
+# alguma etapa ou subtema estiver pausado.
 STATUS = {
-    "estudando": "🟡 Estudando / Studying",
-    "a_comecar": "⚪ A começar / Up next",
-    "pausado": "⏸️ Pausado / Paused",
     "concluido": "✅ Concluído / Done",
+    "estudando": "🔄 Em andamento / In progress",
+    "a_comecar": "⬜ Pendente / To do",
+    "pausado": "⏸️ Pausado / Paused",
 }
+OPCIONAIS = ("pausado",)
 
 # Imagens do roadmap: cada trilha vira um SVG desenhado aqui, em 4 versões
 # (tema claro/escuro × largo/celular), trocadas pelo <picture> do README.
@@ -89,14 +92,18 @@ CSS = (
 # nomes curtos. O estudos.yml só tem o título completo, então os apelidos
 # ficam aqui, pela chave do título em português. Se um título mudar ou entrar
 # uma etapa nova, o cartão mostra o título completo em vez de um apelido velho.
+# No cartão avulso (sem número) só cabe uma linha de nome: vale o português.
 CURTOS = {
-    "Lógica e sintaxe em Dart": ("Lógica", "Logic"),
+    "Lógica e sintaxe": ("Lógica", "Logic"),
     "Programação orientada a objetos": ("POO", "OOP"),
+    "Assincronismo e APIs": ("Assíncrono", "Async"),
     "Projeto prático": ("Projeto", "Project"),
-    "Git e GitHub": ("Git", "Git"),
-    "Métodos ágeis e ferramentas": ("Ágil", "Agile"),
-    "Do código à loja de apps": ("Publicação", "Release"),
-    "Linguagens de apoio": ("Java + Ruby", "Java + Ruby"),
+    "Jira Fundamentals": ("Jira", "Jira"),
+    "GitHub Foundations (GH-900)": ("GH-900", "GH-900"),
+    "Git a fundo": ("Git", "Git"),
+    "Scrum e Kanban": ("Ágil", "Agile"),
+    "Cibersegurança": ("Segurança", "Security"),
+    "Java e Ruby (apoio)": ("Java + Ruby", "Java + Ruby"),
 }
 
 ESTRELA = "⭐ Prioridade / Priority"
@@ -165,6 +172,30 @@ def icone(s):
     return STATUS[s].split()[0]
 
 
+def usados(dados):
+    """Status que aparecem em alguma etapa ou subtema, e se há alguma ⭐."""
+    achados, estrela = set(), False
+    for trilha in dados.get("trilhas") or []:
+        for e in trilha.get("etapas") or []:
+            achados.add(status(e, "a_comecar"))
+            for f in folhas(e.get("subtemas")):
+                achados.add(status_sub(f))
+                estrela = estrela or bool(f.get("estrela"))
+    return achados, estrela
+
+
+def chaves_legenda(dados):
+    """✅ 🔄 ⬜ sempre; os opcionais (pausado) só quando aparecem."""
+    achados, _ = usados(dados)
+    return [s for s in STATUS if s not in OPCIONAIS or s in achados]
+
+
+def html(t):
+    """Texto do yml dentro de HTML (o <summary> não lê markdown): escapa e
+    troca `código` por <code>."""
+    return re.sub(r"`([^`]+)`", r"<code>\1</code>", escape(t, quote=False))
+
+
 def link(item):
     """[nome](url), com o preço entre parênteses quando houver."""
     rotulo = nome(item)
@@ -192,6 +223,67 @@ def lista(subtemas, recuo=""):
             estrela = "⭐ " if s.get("estrela") else ""
             linhas.append(f"{recuo}- {icone(status_sub(s))} {estrela}{rotulo}{codigo}")
     return "\n".join(filter(None, linhas))
+
+
+def subtemas_recolhidos(subtemas):
+    """Os subtemas de uma etapa. Cada grupo (subtema com itens) vira um
+    <details> próprio, recolhido, com o contador no título; só fica aberto o
+    grupo do item em andamento. Assim a etapa aberta mostra uma linha por
+    grupo, e não dezenas de itens, o que importa no celular. Subtemas soltos
+    seguidos viram uma lista comum."""
+    partes, soltos = [], []
+
+    def fecha():
+        if soltos:
+            partes.append(lista(soltos))
+            soltos.clear()
+
+    for s in subtemas or []:
+        if not s.get("itens"):
+            soltos.append(s)
+            continue
+        rotulo = html(nome(s))
+        if not rotulo:
+            continue
+        fecha()
+        url, codigo = texto(s.get("url")), texto(s.get("codigo"))
+        if url:
+            rotulo = f'<a href="{escape(url)}">{rotulo}</a>'
+        codigo = f' · <a href="{escape(codigo)}">código / code</a>' if codigo else ""
+        feitos, total = conta(s["itens"])
+        abre = " open" if any(status_sub(f) == "estudando" for f in folhas(s["itens"])) else ""
+        partes.append(f"<details{abre}>\n<summary>{icone(status_sub(s))} <b>{rotulo}</b> · {feitos}/{total}{codigo}"
+                      f"</summary>\n\n{lista(s['itens'])}\n\n</details>")
+    fecha()
+    return "\n\n".join(partes)
+
+
+def lados(valor):
+    """(português, inglês) de um nome; o inglês cai no português quando falta."""
+    if isinstance(valor, dict):
+        pt, en = texto(valor.get("pt")), texto(valor.get("en"))
+        return pt or en, en or pt
+    return texto(valor), texto(valor)
+
+
+def onde_estou(trilha):
+    """📍 Agora / Now: o item em andamento, o grupo dele e a etapa, numa trilha
+    em sequência (a etapa atual é a que está em andamento)."""
+    for e in trilha.get("etapas") or []:
+        numero = texto(e.get("numero"))
+        if not numero or status(e) != "estudando":
+            continue
+        for s in e.get("subtemas") or []:
+            for f in folhas([s]):
+                if status_sub(f) != "estudando":
+                    continue
+                pt, en = lados(f.get("nome"))
+                url = texto(f.get("url"))
+                grupo = lados(s.get("nome")) if s is not f else ("", "")
+                pt = " · ".join(filter(None, [f"[{pt}]({url})" if url else pt, grupo[0], f"etapa {numero}"]))
+                en = " · ".join(filter(None, [en, grupo[1], f"stage {numero}"]))
+                return f"📍 **Agora / Now:** {pt}<br>\n<em>{en}</em>"
+    return ""
 
 
 def progresso(e):
@@ -256,9 +348,10 @@ def dados_cartao(e):
     if numero:
         pt, en = rotulo_curto(e)
         linhas = [(pt, 15, "texto"), (en, 13, "suave")]
-    else:  # cartão avulso (Outros estudos): o status vai escrito, em PT e EN
+    else:  # cartão avulso (Em paralelo, Trilhas futuras): o status vai escrito, em PT e EN
         st_pt, st_en = STATUS[s].split(" ", 1)[1].split(" / ")
-        linhas = [(nome(e), 15, "texto"), (st_pt, 13, "suave"), (st_en, 13, "suave")]
+        curto = CURTOS.get(lados(e.get("titulo"))[0])
+        linhas = [(curto[0] if curto else nome(e), 15, "texto"), (st_pt, 13, "suave"), (st_en, 13, "suave")]
     return {"numero": numero, "status": s, "feitos": feitos, "total": total,
             "linhas": [l for l in linhas if l[0]]}
 
@@ -306,9 +399,9 @@ def cartao(c, x, y, w, h, T):
     return "".join(partes)
 
 
-def legenda(x, y, largura, T):
+def legenda(x, y, largura, T, chaves=tuple(STATUS)):
     """Uma linha só quando cabe; senão, grade de 2 colunas com PT em cima e EN embaixo."""
-    itens = [(s, *STATUS[s].split(" ", 1)[1].split(" / ")) for s in STATUS]
+    itens = [(s, *STATUS[s].split(" ", 1)[1].split(" / ")) for s in chaves]
     larguras = [18 + mede(f"{pt} / {en}", 13) for _, pt, en in itens]
     partes = []
     if sum(larguras) + 20 * (len(itens) - 1) <= largura:
@@ -326,7 +419,7 @@ def legenda(x, y, largura, T):
     return "".join(partes), 38 * ((len(itens) + 1) // 2) - 4
 
 
-def desenha(titulo, cartoes, colunas, largura, tema, texto_alt, caminho):
+def desenha(titulo, cartoes, colunas, largura, tema, texto_alt, caminho, chaves=tuple(STATUS)):
     """Caixa com título, legenda (só no caminho) e cartões. No caminho, a ordem
     é em "S": a 2ª fileira volta da direita para a esquerda, e a linha que liga
     os cartões fica colorida até a etapa atual."""
@@ -344,7 +437,7 @@ def desenha(titulo, cartoes, colunas, largura, tema, texto_alt, caminho):
                      f'<text x="{x0}" y="{y + 40}" font-size="15" fill="{T["suave"]}">{escape(en)}</text>')
         y += 40
     if caminho:
-        trecho, alto = legenda(x0, y + 14, iw, T)
+        trecho, alto = legenda(x0, y + 14, iw, T, chaves)
         corpo.append(trecho)
         y += 14 + alto
     y += 20
@@ -400,7 +493,7 @@ def resumo(trilha):
 
 def imagens(dados):
     """{caminho do arquivo: svg} de todas as trilhas, nas 4 versões."""
-    saida = {}
+    saida, chaves = {}, chaves_legenda(dados)
     for trilha in dados.get("trilhas") or []:
         etapas = trilha.get("etapas") or []
         if not etapas:
@@ -416,7 +509,7 @@ def imagens(dados):
                 arquivo = f"{PASTA}/{texto(trilha.get('id')) or 'trilha'}{sufixo}-{tema}.svg"
                 if arquivo in saida:
                     raise SystemExit(f"Duas trilhas gerariam {arquivo}: dê um id diferente a cada trilha")
-                saida[arquivo] =desenha(titulo, cartoes, colunas, largura, tema, texto_alt, caminho)
+                saida[arquivo] = desenha(titulo, cartoes, colunas, largura, tema, texto_alt, caminho, chaves)
     return saida
 
 
@@ -449,7 +542,7 @@ def etapa(e):
         rotulo += f" · {feitos}/{total}" + (" ✅" if feitos else "")
     corpo = [b for b in (
         bilingue(e.get("conteudo")), bilingue(e.get("nota")),
-        progresso(e), lista(e.get("subtemas")), onde(e.get("onde")),
+        progresso(e), subtemas_recolhidos(e.get("subtemas")), onde(e.get("onde")),
     ) if b]
     if not numero and not total:  # etapa avulsa e sem subtemas: bloco simples
         return "\n\n".join(filter(None, [rotulo, *corpo]))
@@ -458,7 +551,8 @@ def etapa(e):
 
 
 def painel(dados, data, svgs):
-    blocos = [" · ".join([*STATUS.values(), ESTRELA])]
+    _, estrela = usados(dados)
+    blocos = [" · ".join([*(STATUS[s] for s in chaves_legenda(dados)), *([ESTRELA] if estrela else [])])]
     for trilha in dados.get("trilhas") or []:
         etapas = trilha.get("etapas") or []
         titulo = junta(trilha.get("titulo"), " · ")
@@ -466,6 +560,7 @@ def painel(dados, data, svgs):
             blocos.append(f"#### {titulo}")
         if etapas:
             blocos.append(figura(trilha, svgs))
+            blocos += list(filter(None, [onde_estou(trilha)]))
             if texto(dados.get("painel")) and trilha is dados["trilhas"][0]:
                 blocos.append(f'<sub>✏️ <a href="{escape(dados["painel"])}">Atualizar progresso · Update progress</a></sub>')
         blocos += [b for b in map(etapa, etapas) if b]
@@ -531,17 +626,18 @@ def data_do_estudos():
 def teste():
     dados = {"trilhas": [
         {"id": "t", "titulo": {"pt": "Trilha", "en": "Track"}, "etapas": [
-            {"numero": 1, "titulo": {"pt": "Lógica e sintaxe em Dart", "en": "Dart logic and syntax"},
+            {"numero": 1, "titulo": {"pt": "Lógica e sintaxe", "en": "Logic and syntax"},
              "status": "estudando", "conteudo": {"pt": "Conteúdo", "en": "Content"},
              "onde": [{"nome": "DartPad", "url": "https://dartpad.dev"},
                       {"nome": "Curso", "url": "https://c", "preco": "US$ 99"}],
              "subtemas": [
                  {"nome": "Variables", "url": "https://v", "itens": [
                      {"nome": "Null safety", "status": "concluido", "estrela": True, "url": "https://v#n"},
-                     {"nome": "Final and const", "status": "estudando", "estrela": True},
+                     {"nome": {"pt": "`final` × `const`", "en": "`final` vs `const`"}, "status": "estudando",
+                      "estrela": True, "url": "https://v#f"},
                  ]},
                  {"nome": {"pt": "Ramos", "en": "Branches"}},
-                 {"nome": "Pronto", "codigo": "https://g", "itens": [
+                 {"nome": "Pronto <T>", "codigo": "https://g", "itens": [
                      {"nome": "A", "status": "concluido", "codigo": "https://g/a"}]},
              ]},
             {"numero": 2, "titulo": {"pt": "Tópico novo", "en": "New topic"}, "status": "a_comecar",
@@ -552,6 +648,7 @@ def teste():
             {"titulo": {"pt": "Databricks", "en": "Databricks"}, "status": "pausado",
              "nota": {"pt": "Pausei.", "en": "Paused."}, "onde": []},
             {"titulo": {"pt": "AWS", "en": "AWS"}, "status": "a_comecar", "subtemas": [{"nome": "M1"}]},
+            {"titulo": {"pt": "Git a fundo", "en": "Git in depth"}, "subtemas": [{"nome": "G1"}]},
         ]},
     ], "extras": [
         {"nome": "Udemy", "url": "https://u", "preco": "pago",
@@ -565,8 +662,8 @@ def teste():
     assert (f'<source media="(max-width: {QUEBRA}px) and (prefers-color-scheme: dark)"'
             f' srcset="{RAW}{PASTA}/t-celular-escuro.svg?v=') in md
     assert f'<img src="{RAW}{PASTA}/t-claro.svg?v=' in md
-    assert 'alt="Trilha · Track. 1 Lógica: estudando, 2 de 4 subtemas; 2 Tópico novo: a começar;' in md
-    assert "/ 1 Logic: studying, 2 of 4 subtopics;" in md
+    assert 'alt="Trilha · Track. 1 Lógica: em andamento, 2 de 4 subtemas; 2 Tópico novo: pendente;' in md
+    assert "/ 1 Logic: in progress, 2 of 4 subtopics;" in md
     assert sorted(svgs) == sorted(f"{PASTA}/{t}{v}-{tema}.svg" for t in ("t", "dados")
                                   for v in ("", "-celular") for tema in TEMAS)
     for arquivo, svg in svgs.items():
@@ -579,9 +676,14 @@ def teste():
     assert 'width="800"' in t and 'width="280"' in cel
     assert t.count("<polyline") == 1                              # a etapa 1 é a atual: nada pintado
     assert t.count('class="pulso"') == 1 and ">50%</text>" in t and ">2/4</text>" in t
-    assert "> / Studying</tspan>" in t and ">Studying</text>" in cel  # legenda: 1 linha × grade
+    assert "> / In progress</tspan>" in t and ">In progress</text>" in cel  # legenda: 1 linha × grade
+    assert ">Pausado<" in t                                       # há uma etapa pausada: entra na legenda
     assert "<polyline" not in avulsa and 'class="pulso"' not in avulsa and "Concluído" not in avulsa
     assert ">Pausado</text>" in avulsa and ">Paused</text>" in avulsa and ">0/1</text>" in avulsa
+    assert ">Git</text>" in avulsa and "Git in depth" not in avulsa.split("</title>")[1]  # apelido no cartão
+    sem_pausa = {"trilhas": [{"id": "s", "etapas": [{"numero": n, "status": "a_comecar"} for n in (1, 2)]}]}
+    assert "Pausado" not in imagens(sem_pausa)[f"{PASTA}/s-claro.svg"]          # sem pausa: legenda de 3
+    assert painel(sem_pausa, datetime.date(2026, 9, 24), imagens(sem_pausa)).splitlines()[3] ==         "✅ Concluído / Done · 🔄 Em andamento / In progress · ⬜ Pendente / To do"  # e sem ⭐
     tres = {"id": "u", "etapas": [{"numero": n, "status": s}
                                   for n, s in ((1, "concluido"), (2, "concluido"), (3, "estudando"))]}
     pintada = imagens({"trilhas": [tres]})[f"{PASTA}/u-claro.svg"]
@@ -592,14 +694,18 @@ def teste():
         assert "id" in str(erro)
     else:
         raise AssertionError("duas trilhas sem id deveriam falhar")
-    assert md.count("<details open>") == 1 and md.count("<details>") == 3  # AWS: avulsa com subtemas
-    assert "Dart logic and syntax</b> — 🟡 Estudando / Studying · 2/4 ✅</summary>" in md
+    # Etapa atual e o grupo do item em andamento abertos; o resto recolhido (AWS e Git: avulsas com subtemas).
+    assert md.count("<details open>") == 2 and md.count("<details>") == 5
+    assert "Logic and syntax</b> — 🔄 Em andamento / In progress · 2/4 ✅</summary>" in md
     assert "**Progresso / Progress:** `█████░░░░░` 50% · 2/4 ✅ · ⭐ 1/2" in md
-    assert "- 🟡 **[Variables](https://v)** · 1/2\n  - ✅ ⭐ [Null safety](https://v#n)\n  - 🟡 ⭐ Final and const" in md
-    assert ("- ⚪ Ramos · Branches\n- ✅ **Pronto** · 1/1 · [código / code](https://g)\n"
-            "  - ✅ A · [código / code](https://g/a)") in md
+    assert ('<details open>\n<summary>🔄 <b><a href="https://v">Variables</a></b> · 1/2</summary>\n\n'
+            "- ✅ ⭐ [Null safety](https://v#n)\n- 🔄 ⭐ [`final` × `const` · `final` vs `const`](https://v#f)\n\n</details>") in md
+    assert ("</details>\n\n- ⬜ Ramos · Branches\n\n<details>\n<summary>✅ <b>Pronto &lt;T&gt;</b> · 1/1 · "
+            '<a href="https://g">código / code</a></summary>\n\n- ✅ A · [código / code](https://g/a)\n\n</details>') in md
+    assert ("📍 **Agora / Now:** [`final` × `const`](https://v#f) · Variables · etapa 1<br>\n"
+            "<em>`final` vs `const` · Variables · stage 1</em>") in md and md.count("📍") == 1
     assert "[Curso](https://c) (US$ 99)" in md
-    assert "<b>AWS</b> — ⚪ A começar / Up next · 0/1</summary>" in md and "- ⚪ M1" in md
+    assert "<b>AWS</b> — ⬜ Pendente / To do · 0/1</summary>" in md and "- ⬜ M1" in md
     assert "⭐ 0/" not in md                                       # sem ⭐ na etapa: sem contador de ⭐
     assert "#### Extras\n\n- [Udemy](https://u) (pago) — Só em promoção · <em>Only on sale</em>" in md
     assert "Conteúdo<br>\n<em>Content</em>" in md
