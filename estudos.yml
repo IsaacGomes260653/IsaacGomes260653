@@ -32,15 +32,15 @@ trilhas:
               - { nome: "Garbage collector", url: "https://dart.dev/overview#runtime" }
               - { nome: "Sound null safety", url: "https://dart.dev/null-safety" }
           - nome: { pt: "Variáveis e tipos", en: "Variables and types" }
-            codigo: "https://github.com/IsaacGomes260653/estudos-dart/tree/main/Variaveis"
+            codigo: "https://github.com/IsaacGomes260653/estudos-dart/tree/main/01-logica-e-sintaxe/variaveis-e-tipos"
             itens:
-              - { nome: { pt: "`var` e inferência de tipo", en: "`var` and type inference" }, url: "https://dart.dev/language/variables", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/CriandoVariaveis.dart" }
+              - { nome: { pt: "`var` e inferência de tipo", en: "`var` and type inference" }, url: "https://dart.dev/language/variables", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/01-logica-e-sintaxe/variaveis-e-tipos/CriandoVariaveis.dart" }
               - { nome: "`dynamic` × `Object?`", url: "https://dart.dev/language/type-system" }
-              - { nome: "Null safety", status: concluido, url: "https://dart.dev/language/variables#null-safety", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/NullSafety.dart" }
-              - { nome: { pt: "Valor padrão", en: "Default value" }, status: concluido, url: "https://dart.dev/language/variables#default-value", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/DefaultValue.dart" }
-              - { nome: "`late`", status: concluido, url: "https://dart.dev/language/variables#late-variables", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/LateVariables.dart" }
-              - { nome: { pt: "`final` × `const` (canonicalização)", en: "`final` × `const` (canonicalization)" }, status: estudando, url: "https://dart.dev/language/variables#final-and-const", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/FinalAndConst.dart" }
-              - { nome: { pt: "`int` e `double` (`/` × `~/`)", en: "`int` and `double` (`/` × `~/`)" }, status: concluido, url: "https://dart.dev/language/built-in-types#numbers", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/BuiltInTypes/Numbers.dart" }
+              - { nome: "Null safety", status: concluido, url: "https://dart.dev/language/variables#null-safety", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/01-logica-e-sintaxe/variaveis-e-tipos/NullSafety.dart" }
+              - { nome: { pt: "Valor padrão", en: "Default value" }, status: concluido, url: "https://dart.dev/language/variables#default-value", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/01-logica-e-sintaxe/variaveis-e-tipos/DefaultValue.dart" }
+              - { nome: "`late`", status: concluido, url: "https://dart.dev/language/variables#late-variables", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/01-logica-e-sintaxe/variaveis-e-tipos/LateVariables.dart" }
+              - { nome: { pt: "`final` × `const` (canonicalização)", en: "`final` × `const` (canonicalization)" }, status: estudando, url: "https://dart.dev/language/variables#final-and-const", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/01-logica-e-sintaxe/variaveis-e-tipos/FinalAndConst.dart" }
+              - { nome: { pt: "`int` e `double` (`/` × `~/`)", en: "`int` and `double` (`/` × `~/`)" }, status: concluido, url: "https://dart.dev/language/built-in-types#numbers", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/01-logica-e-sintaxe/variaveis-e-tipos/Numbers.dart" }
               - { nome: { pt: "`String`: interpolação, imutabilidade e `StringBuffer`", en: "`String`: interpolation, immutability, and `StringBuffer`" }, url: "https://dart.dev/language/built-in-types#strings" }
               - { nome: "`bool`", url: "https://dart.dev/language/built-in-types#booleans" }
               - { nome: { pt: "Igualdade: `==` × `identical`", en: "Equality: `==` × `identical`" }, url: "https://dart.dev/language/operators#equality-and-relational-operators" }

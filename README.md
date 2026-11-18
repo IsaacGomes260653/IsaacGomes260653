@@ -204,15 +204,15 @@ Como o Dart funciona por dentro, variáveis e tipos, operadores, controle de flu
 </details>
 
 <details open>
-<summary>🔄 <b>Variáveis e tipos · Variables and types</b> · 4/10 · <a href="https://github.com/IsaacGomes260653/estudos-dart/tree/main/Variaveis">código / code</a></summary>
+<summary>🔄 <b>Variáveis e tipos · Variables and types</b> · 4/10 · <a href="https://github.com/IsaacGomes260653/estudos-dart/tree/main/01-logica-e-sintaxe/variaveis-e-tipos">código / code</a></summary>
 
-- ⬜ [`var` e inferência de tipo · `var` and type inference](https://dart.dev/language/variables) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/CriandoVariaveis.dart)
+- ⬜ [`var` e inferência de tipo · `var` and type inference](https://dart.dev/language/variables) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/01-logica-e-sintaxe/variaveis-e-tipos/CriandoVariaveis.dart)
 - ⬜ [`dynamic` × `Object?`](https://dart.dev/language/type-system)
-- ✅ [Null safety](https://dart.dev/language/variables#null-safety) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/NullSafety.dart)
-- ✅ [Valor padrão · Default value](https://dart.dev/language/variables#default-value) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/DefaultValue.dart)
-- ✅ [`late`](https://dart.dev/language/variables#late-variables) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/LateVariables.dart)
-- 🔄 **[`final` × `const` (canonicalização) · `final` × `const` (canonicalization)](https://dart.dev/language/variables#final-and-const)** · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/FinalAndConst.dart)
-- ✅ [`int` e `double` (`/` × `~/`) · `int` and `double` (`/` × `~/`)](https://dart.dev/language/built-in-types#numbers) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/BuiltInTypes/Numbers.dart)
+- ✅ [Null safety](https://dart.dev/language/variables#null-safety) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/01-logica-e-sintaxe/variaveis-e-tipos/NullSafety.dart)
+- ✅ [Valor padrão · Default value](https://dart.dev/language/variables#default-value) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/01-logica-e-sintaxe/variaveis-e-tipos/DefaultValue.dart)
+- ✅ [`late`](https://dart.dev/language/variables#late-variables) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/01-logica-e-sintaxe/variaveis-e-tipos/LateVariables.dart)
+- 🔄 **[`final` × `const` (canonicalização) · `final` × `const` (canonicalization)](https://dart.dev/language/variables#final-and-const)** · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/01-logica-e-sintaxe/variaveis-e-tipos/FinalAndConst.dart)
+- ✅ [`int` e `double` (`/` × `~/`) · `int` and `double` (`/` × `~/`)](https://dart.dev/language/built-in-types#numbers) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/01-logica-e-sintaxe/variaveis-e-tipos/Numbers.dart)
 - ⬜ [`String`: interpolação, imutabilidade e `StringBuffer` · `String`: interpolation, immutability, and `StringBuffer`](https://dart.dev/language/built-in-types#strings)
 - ⬜ [`bool`](https://dart.dev/language/built-in-types#booleans)
 - ⬜ [Igualdade: `==` × `identical` · Equality: `==` × `identical`](https://dart.dev/language/operators#equality-and-relational-operators)
