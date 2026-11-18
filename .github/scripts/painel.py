@@ -11,11 +11,12 @@ Cada caixinha e cada título de etapa levam um código escondido, como
 <!-- s:flutter:1:4 --> (4º subtema da etapa 1 da trilha flutter), que liga a
 linha da issue ao subtema do yml. Regras de status ao aplicar:
 - caixinha marcada = concluído;
-- numa trilha em sequência, o 1º subtema não marcado da 1ª etapa incompleta
-  (e não pausada) fica estudando, e a etapa também;
-- numa trilha avulsa (Outros estudos), cada etapa está estudando quando já
-  tem algo marcado, e o 1º subtema não marcado dela fica estudando;
-- [pausado] no título da etapa pausa a etapa e o 1º subtema não marcado dela;
+- numa trilha em sequência, a 1ª etapa incompleta (e não pausada) fica
+  estudando, e um subtema não marcado dela também (veja atual(): o que já
+  estava em andamento continua; marcado ele, vale o próximo não marcado);
+- numa trilha avulsa (Em paralelo, Trilhas futuras), cada etapa está
+  estudando quando já tem algo marcado, e um subtema não marcado dela também;
+- [pausado] no título da etapa pausa a etapa e esse subtema não marcado dela;
 - o resto fica a começar (sem status no yml).
 """
 
@@ -34,7 +35,8 @@ YQ = os.environ.get("YQ", "yq")
 MARCA = "<!-- painel-estudos: gerado a partir do estudos.yml pelo workflow painel-estudos.yml -->"
 MARCA_AGORA = "<!-- agora -->"
 AJUDA = """> **Como usar:** marque a caixinha de cada subtema que você terminar e o roadmap do perfil se \
-atualiza sozinho em cerca de 1 minuto. O 1º subtema não marcado da etapa atual vira "estudando". \
+atualiza sozinho em cerca de 1 minuto. O 🔄 em andamento passa para o próximo subtema não marcado \
+da etapa atual. \
 Para pausar uma etapa, escreva `[pausado]` no título dela. A seção **Agora**, no fim, é texto: \
 edite a issue e escreva um item por linha, `português | inglês`. Cada item vira um card: o emoji \
 do começo escolhe o ícone (💼, 🐾 ou 📘), o texto até a 1ª vírgula é o título e o resto, uma \
@@ -43,7 +45,7 @@ Construindo ou, para qualquer outra, Agora). Não apague os códigos `<!-- ... -
 fim das linhas.
 >
 > **How to use:** tick each subtopic you finish and the profile roadmap updates itself in about \
-a minute. The first unticked subtopic of the current stage becomes "studying". To pause a stage, \
+a minute. The 🔄 in-progress mark moves to the next unticked subtopic of the current stage. To pause a stage, \
 write `[pausado]` in its title. The **Now** section, at the end, is plain text: edit the issue and \
 write one item per line, `Portuguese | English`. Each item becomes a card: the leading emoji picks \
 the icon (💼, 🐾 or 📘), the text up to the first comma is the title and the rest a short \
@@ -111,15 +113,35 @@ def novos_status(dados, marcado, pausada):
             else:
                 st = "estudando" if any(marcas) else "a_comecar"
             novo[caminho] = st
-            primeiro = st in ("estudando", "pausado")
-            for (k, p, s), feito in zip(fs, marcas):
+            alvo = atual(fs, marcas) if st in ("estudando", "pausado") else None
+            for i, ((k, p, s), feito) in enumerate(zip(fs, marcas)):
                 if feito:
                     novo[p] = "concluido"
-                elif primeiro:
-                    novo[p], primeiro = st, False
+                elif i == alvo:
+                    novo[p] = st
                 else:
                     novo[p] = None
     return novo
+
+
+def atual(fs, marcas):
+    """Posição do subtema que fica em andamento numa etapa incompleta:
+    1. um subtema que acabou de ser desmarcado (estava concluído): volto a ele;
+    2. senão, o que já estava em andamento, se continua sem marcar;
+    3. se ele acabou de ser marcado, o 1º não marcado depois dele (ou, se não
+       houver, o 1º não marcado da etapa): sigo de onde parei;
+    4. sem nada em andamento, o 1º não marcado da etapa."""
+    antes = [status(s, "a_comecar") for _, _, s in fs]
+    livres = [i for i, feito in enumerate(marcas) if not feito]
+    reabertos = [i for i in livres if antes[i] == "concluido"]
+    if reabertos:
+        return reabertos[0]
+    andando = [i for i, s in enumerate(antes) if s in ("estudando", "pausado")]
+    if andando and not marcas[andando[0]]:
+        return andando[0]
+    if andando:
+        return ([i for i in livres if i > andando[0]] or livres)[0]
+    return livres[0]
 
 
 # ---------------------------------------------------------------- yml -> issue
@@ -382,6 +404,17 @@ def teste():
     _, novo = edita(("- 🛠️ Mantendo | Keeping\n", "- 🐾 Novo **x** | New \"y\"\n- Só PT\n"))
     assert ('agora:\n  - { pt: "📱 Dev na ília", en: "Dev at ília" }\n'
             '  - { pt: "🐾 Novo **x**", en: "New \\"y\\"" }\n  - { pt: "Só PT", en: "" }\n\nextras:') in novo
+    # Em andamento depois de um pendente (A pendente, B em andamento): marcar C não mexe no B,
+    # e marcar o B passa o 🔄 para o próximo depois dele (C), e não para o A, que vem antes.
+    pulado = EXEMPLO.replace('{ nome: "A", status: concluido, url: "https://a" }', '{ nome: "A", url: "https://a" }')
+    dados_p = yq(".", pulado)
+    corpo_p = corpo_issue(dados_p)
+    assert aplica(dados_p, corpo_p, pulado) == pulado
+    novo = aplica(dados_p, corpo_p.replace("- [ ] C", "- [x] C"), pulado)
+    assert [b for a, b in zip(pulado.split("\n"), novo.split("\n")) if a != b] == ['          - { nome: "C", status: concluido }']
+    novo = aplica(dados_p, corpo_p.replace("- [ ] ⭐ B", "- [x] ⭐ B"), pulado)
+    assert [b for a, b in zip(pulado.split("\n"), novo.split("\n")) if a != b] == [
+        '              - { nome: "B", status: concluido, estrela: true }', '          - { nome: "C", status: estudando }']
     _, novo = edita(("<!-- s:t:1:3 -->", ""))                               # linha sem código: ignorada
     assert novo == EXEMPLO
     assert aplica(dados, corpo.split(MARCA_AGORA)[0], EXEMPLO) == EXEMPLO     # sem a seção Agora: Agora intacto
