@@ -1,10 +1,11 @@
 # estudos.yml — Roadmap de estudos / Study roadmap
 # Para atualizar: no subtema que você estudou, mude o "status" (ou escreva um, se não tiver)
 # e faça commit — dá até para editar aqui pelo lápis do GitHub. O README se atualiza sozinho.
-#   Ex.: - { nome: "Final and const", status: concluido, estrela: true, url: "..." }
+#   Ex.: - { nome: "Booleans", status: concluido, url: "..." }
 # Quando a etapa inteira mudar de fase, mude também o "status" da etapa.
-# status aceitos: estudando | a_comecar | pausado | concluido
+# status aceitos: concluido (✅) | estudando (🔄 em andamento) | a_comecar (⬜ pendente) | pausado (⏸️)
 # Subtema sem status = a_comecar. Grupo (subtema com "itens") não tem status: ele sai dos itens.
+# Sem prazos: o roadmap mostra só o estado de cada item e onde estou agora (o item 🔄).
 # estrela: true = prioridade (⭐). "url" e "preco" são opcionais.
 # codigo: link para o código do estudo (opcional); aparece como "código / code" no README.
 # Campos vazios ou ausentes NÃO aparecem no README.
@@ -14,355 +15,384 @@ painel: "https://github.com/IsaacGomes260653/IsaacGomes260653/issues/14"
 
 trilhas:
   - id: flutter
-    titulo:
-      pt: "Rumo ao Flutter"
-      en: "Road to Flutter"
+    titulo: { pt: "Rumo ao Flutter", en: "Road to Flutter" }
     curto: { pt: "Rumo ao Flutter", en: "Road to Flutter" }   # título da imagem do roadmap
     etapas:
       - numero: 1
-        titulo: { pt: "Lógica e sintaxe em Dart", en: "Dart logic and syntax" }
+        titulo: { pt: "Lógica e sintaxe", en: "Logic and syntax" }
         status: estudando
         conteudo:
-          pt: "Variáveis e tipos (int, double, String, bool, List, Map), operadores aritméticos, comparativos e lógicos, if/else, switch, for, while e funções com parâmetros posicionais e nomeados."
-          en: "Variables and types (int, double, String, bool, List, Map), arithmetic, comparison and logical operators, if/else, switch, for, while, and functions with positional and named parameters."
+          pt: "Como o Dart funciona por dentro, variáveis e tipos, operadores, controle de fluxo, funções, coleções, os recursos do Dart 3, erros, ferramentas e testes desde o começo."
+          en: "How Dart works under the hood, variables and types, operators, control flow, functions, collections, Dart 3 features, errors, tooling, and tests from day one."
         subtemas:
-          - nome: "Variables"
-            url: "https://dart.dev/language/variables"
+          - nome: { pt: "Como o Dart funciona", en: "How Dart works" }
+            itens:
+              - { nome: { pt: "JIT × AOT: debug com hot reload × release", en: "JIT × AOT: debug with hot reload × release" }, status: concluido, url: "https://dart.dev/overview#native-platform" }
+              - { nome: { pt: "O formato kernel e a Dart VM", en: "The kernel format and the Dart VM" }, url: "https://dart.dev/overview#platform" }
+              - { nome: "Garbage collector", url: "https://dart.dev/overview#runtime" }
+              - { nome: "Sound null safety", url: "https://dart.dev/null-safety" }
+          - nome: { pt: "Variáveis e tipos", en: "Variables and types" }
             codigo: "https://github.com/IsaacGomes260653/estudos-dart/tree/main/Variaveis"
             itens:
-              - { nome: "Null safety", status: concluido, estrela: true, url: "https://dart.dev/language/variables#null-safety", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/NullSafety.dart" }
-              - { nome: "Default value", status: concluido, estrela: true, url: "https://dart.dev/language/variables#default-value", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/DefaultValue.dart" }
-              - { nome: "Late variables", status: concluido, estrela: true, url: "https://dart.dev/language/variables#late-variables", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/LateVariables.dart" }
-              - { nome: "Final and const", status: concluido, estrela: true, url: "https://dart.dev/language/variables#final-and-const", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/FinalAndConst.dart" }
-              - { nome: "Wildcard variables", status: concluido, url: "https://dart.dev/language/variables#wildcard-variables", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/WildcardVariables.dart" }
-          - nome: "Built-in types"
-            url: "https://dart.dev/language/built-in-types"
-            codigo: "https://github.com/IsaacGomes260653/estudos-dart/tree/main/BuiltInTypes"
+              - { nome: { pt: "`var` e inferência de tipo", en: "`var` and type inference" }, url: "https://dart.dev/language/variables", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/CriandoVariaveis.dart" }
+              - { nome: "`dynamic` × `Object?`", url: "https://dart.dev/language/type-system" }
+              - { nome: "Null safety", status: concluido, url: "https://dart.dev/language/variables#null-safety", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/NullSafety.dart" }
+              - { nome: { pt: "Valor padrão", en: "Default value" }, status: concluido, url: "https://dart.dev/language/variables#default-value", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/DefaultValue.dart" }
+              - { nome: "`late`", status: concluido, url: "https://dart.dev/language/variables#late-variables", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/LateVariables.dart" }
+              - { nome: { pt: "`final` × `const` (canonicalização)", en: "`final` × `const` (canonicalization)" }, status: estudando, url: "https://dart.dev/language/variables#final-and-const", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/FinalAndConst.dart" }
+              - { nome: { pt: "`int` e `double` (`/` × `~/`)", en: "`int` and `double` (`/` × `~/`)" }, status: concluido, url: "https://dart.dev/language/built-in-types#numbers", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/BuiltInTypes/Numbers.dart" }
+              - { nome: { pt: "`String`: interpolação, imutabilidade e `StringBuffer`", en: "`String`: interpolation, immutability, and `StringBuffer`" }, url: "https://dart.dev/language/built-in-types#strings" }
+              - { nome: "`bool`", url: "https://dart.dev/language/built-in-types#booleans" }
+              - { nome: { pt: "Igualdade: `==` × `identical`", en: "Equality: `==` × `identical`" }, url: "https://dart.dev/language/operators#equality-and-relational-operators" }
+          - nome: { pt: "Operadores", en: "Operators" }
             itens:
-              - { nome: "Numbers", status: concluido, estrela: true, url: "https://dart.dev/language/built-in-types#numbers", codigo: "https://github.com/IsaacGomes260653/estudos-dart/blob/main/BuiltInTypes/Numbers.dart" }
-              - { nome: "Strings", status: estudando, estrela: true, url: "https://dart.dev/language/built-in-types#strings" }
-              - { nome: "Booleans", estrela: true, url: "https://dart.dev/language/built-in-types#booleans" }
-              - { nome: "Runes and grapheme clusters", url: "https://dart.dev/language/built-in-types#runes-and-grapheme-clusters" }
-              - { nome: "Symbols", url: "https://dart.dev/language/built-in-types#symbols" }
-          - nome: "Collections"
-            url: "https://dart.dev/language/collections"
+              - { nome: { pt: "Aritméticos", en: "Arithmetic" }, url: "https://dart.dev/language/operators#arithmetic-operators" }
+              - { nome: { pt: "De comparação", en: "Comparison" }, url: "https://dart.dev/language/operators#equality-and-relational-operators" }
+              - { nome: { pt: "Lógicos", en: "Logical" }, url: "https://dart.dev/language/operators#logical-operators" }
+              - { nome: { pt: "Null-aware: `?.`, `??`, `??=` e `!`", en: "Null-aware: `?.`, `??`, `??=`, and `!`" }, url: "https://dart.dev/language/operators#other-operators" }
+              - { nome: "Cascade (`..`)", url: "https://dart.dev/language/operators#cascade-notation" }
+              - { nome: { pt: "`is` e `as`", en: "`is` and `as`" }, url: "https://dart.dev/language/operators#type-test-operators" }
+          - nome: { pt: "Controle de fluxo", en: "Control flow" }
             itens:
-              - { nome: "Lists", estrela: true, url: "https://dart.dev/language/collections#lists" }
-              - { nome: "Sets", url: "https://dart.dev/language/collections#sets" }
-              - { nome: "Maps", estrela: true, url: "https://dart.dev/language/collections#maps" }
-              - { nome: "Collection elements", url: "https://dart.dev/language/collections#collection-elements" }
-          - nome: "Operators"
-            url: "https://dart.dev/language/operators"
+              - { nome: "`if`/`else`", url: "https://dart.dev/language/branches#if" }
+              - { nome: { pt: "`switch` statement e switch expression", en: "`switch` statements and expressions" }, url: "https://dart.dev/language/branches#switch-statements" }
+              - { nome: { pt: "`for` e `for-in`", en: "`for` and `for-in`" }, url: "https://dart.dev/language/loops#for-loops" }
+              - { nome: { pt: "`while` e `do-while`", en: "`while` and `do-while`" }, url: "https://dart.dev/language/loops#while-and-do-while" }
+              - { nome: { pt: "`break` e `continue`", en: "`break` and `continue`" }, url: "https://dart.dev/language/loops#break-and-continue" }
+          - nome: { pt: "Funções", en: "Functions" }
             itens:
-              - { nome: "Operator precedence", url: "https://dart.dev/language/operators#operator-precedence-example" }
-              - { nome: "Arithmetic operators", estrela: true, url: "https://dart.dev/language/operators#arithmetic-operators" }
-              - { nome: "Equality and relational operators", estrela: true, url: "https://dart.dev/language/operators#equality-and-relational-operators" }
-              - { nome: "Type test operators", url: "https://dart.dev/language/operators#type-test-operators" }
-              - { nome: "Assignment operators", url: "https://dart.dev/language/operators#assignment-operators" }
-              - { nome: "Logical operators", estrela: true, url: "https://dart.dev/language/operators#logical-operators" }
-              - { nome: "Bitwise and shift operators", url: "https://dart.dev/language/operators#bitwise-and-shift-operators" }
-              - { nome: "Conditional expressions", url: "https://dart.dev/language/operators#conditional-expressions" }
-              - { nome: "Cascade notation", url: "https://dart.dev/language/operators#cascade-notation" }
-              - { nome: "Spread operators", url: "https://dart.dev/language/operators#spread-operators" }
-              - { nome: "Other operators", url: "https://dart.dev/language/operators#other-operators" }
-          - nome: "Branches"
-            url: "https://dart.dev/language/branches"
+              - { nome: { pt: "Parâmetros posicionais, nomeados, opcionais e `required`", en: "Positional, named, optional, and `required` parameters" }, url: "https://dart.dev/language/functions#parameters" }
+              - { nome: "Arrow functions", url: "https://dart.dev/language/functions" }
+              - { nome: { pt: "Funções anônimas", en: "Anonymous functions" }, url: "https://dart.dev/language/functions#anonymous-functions" }
+              - { nome: { pt: "Funções como valores", en: "Functions as values" }, url: "https://dart.dev/language/functions#functions-as-first-class-objects" }
+              - { nome: "Closures", url: "https://dart.dev/language/functions#lexical-closures" }
+          - nome: { pt: "Coleções a fundo", en: "Collections in depth" }
             itens:
-              - { nome: "If (if/else)", estrela: true, url: "https://dart.dev/language/branches#if" }
-              - { nome: "Switch statements", estrela: true, url: "https://dart.dev/language/branches#switch-statements" }
-              - { nome: "Guard clause", url: "https://dart.dev/language/branches#guard-clause" }
-          - nome: "Loops"
-            url: "https://dart.dev/language/loops"
+              - { nome: { pt: "`List`, `Set` e `Map`: quando usar cada uma e o custo das operações", en: "`List`, `Set`, and `Map`: when to use each and what operations cost" }, url: "https://dart.dev/language/collections" }
+              - { nome: { pt: "`Iterable` lazy", en: "Lazy `Iterable`" }, url: "https://dart.dev/libraries/collections/iterables" }
+              - { nome: { pt: "`map`, `where`, `fold`, `reduce`, `expand`, `any`, `every` e `sort`", en: "`map`, `where`, `fold`, `reduce`, `expand`, `any`, `every`, and `sort`" }, url: "https://dart.dev/libraries/collections/iterables" }
+              - { nome: { pt: "Collection `if`/`for`, spread e null-aware elements", en: "Collection `if`/`for`, spread, and null-aware elements" }, url: "https://dart.dev/language/collections#collection-elements" }
+          - nome: "Dart 3"
             itens:
-              - { nome: "For loops", estrela: true, url: "https://dart.dev/language/loops#for-loops" }
-              - { nome: "While and do-while", estrela: true, url: "https://dart.dev/language/loops#while-and-do-while" }
-              - { nome: "Break and continue", url: "https://dart.dev/language/loops#break-and-continue" }
-              - { nome: "Labels", url: "https://dart.dev/language/loops#labels" }
-          - nome: "Functions"
-            url: "https://dart.dev/language/functions"
+              - { nome: "Records", url: "https://dart.dev/language/records" }
+              - { nome: { pt: "Patterns: desestruturação, `if-case` e `switch` exaustivo", en: "Patterns: destructuring, `if-case`, and exhaustive `switch`" }, url: "https://dart.dev/language/patterns" }
+              - { nome: { pt: "Enums com campos", en: "Enums with fields" }, url: "https://dart.dev/language/enums#declaring-enhanced-enums" }
+              - { nome: "Dot shorthands", url: "https://dart.dev/language/dot-shorthands" }
+          - nome: { pt: "Erros básicos", en: "Error basics" }
             itens:
-              - { nome: "Parameters (positional and named)", estrela: true, url: "https://dart.dev/language/functions#parameters" }
-              - { nome: "The main() function", url: "https://dart.dev/language/functions#main" }
-              - { nome: "Functions as first-class objects", url: "https://dart.dev/language/functions#functions-as-first-class-objects" }
-              - { nome: "Function types", url: "https://dart.dev/language/functions#function-types" }
-              - { nome: "Anonymous functions", url: "https://dart.dev/language/functions#anonymous-functions" }
-              - { nome: "Lexical scope", url: "https://dart.dev/language/functions#lexical-scope" }
-              - { nome: "Lexical closures", url: "https://dart.dev/language/functions#lexical-closures" }
-              - { nome: "Tear-offs", url: "https://dart.dev/language/functions#tear-offs" }
-              - { nome: "Testing functions for equality", url: "https://dart.dev/language/functions#testing-functions-for-equality" }
-              - { nome: "Return values", estrela: true, url: "https://dart.dev/language/functions#return-values" }
-              - { nome: "Getters and setters", url: "https://dart.dev/language/functions#getters-and-setters" }
-              - { nome: "Generators", url: "https://dart.dev/language/functions#generators" }
-              - { nome: "External functions", url: "https://dart.dev/language/functions#external" }
+              - { nome: { pt: "`try`, `catch`, `on`, `finally` e `rethrow`", en: "`try`, `catch`, `on`, `finally`, and `rethrow`" }, url: "https://dart.dev/language/error-handling" }
+              - { nome: "`Exception` × `Error`", url: "https://dart.dev/language/error-handling" }
+          - nome: { pt: "Ferramentas", en: "Tooling" }
+            itens:
+              - { nome: { pt: "`pubspec.yaml`, pub.dev e imports", en: "`pubspec.yaml`, pub.dev, and imports" }, url: "https://dart.dev/tools/pub/pubspec" }
+              - { nome: { pt: "`dart analyze` e `dart format`", en: "`dart analyze` and `dart format`" }, url: "https://dart.dev/tools/dart-analyze" }
+              - { nome: { pt: "Lints e Effective Dart", en: "Lints and Effective Dart" }, url: "https://dart.dev/effective-dart" }
+          - nome: { pt: "Testes desde já", en: "Tests from day one" }
+            itens:
+              - { nome: { pt: "`package:test`: `test`, `expect`, `group` e `setUp`", en: "`package:test`: `test`, `expect`, `group`, and `setUp`" }, url: "https://dart.dev/tools/testing" }
+          - nome: "🏁 Checkpoint"
+            itens:
+              - { nome: { pt: "Explicar JIT/AOT e `final`/`const` em 30 s", en: "Explain JIT/AOT and `final`/`const` in 30 s" } }
+              - { nome: { pt: "Prever a saída de 10 trechos de código", en: "Predict the output of 10 code snippets" } }
+              - { nome: { pt: "Escrever do zero uma calculadora de notas com records e testes", en: "Write a grade calculator from scratch, with records and tests" } }
         onde:
-          - { nome: "Dart tutorial", url: "https://dart.dev/learn/tutorial" }
-          - { nome: "Dart language docs", url: "https://dart.dev/language" }
+          - { nome: "Alura · Formação Dart", url: "https://www.alura.com.br/formacao-dart" }
+          - { nome: "Dart: trabalhando com a sintaxe e configuração de projeto", url: "https://www.alura.com.br/curso-online-dart-trabalhando-sintaxe-configuracao-projeto" }
+          - { nome: "Praticando Collections no Dart", url: "https://www.alura.com.br/curso-online-praticando-collections-dart-listas-sets-mapas" }
+          - { nome: "dart.dev · Language", url: "https://dart.dev/language" }
+          - { nome: "Effective Dart", url: "https://dart.dev/effective-dart" }
           - { nome: "DartPad", url: "https://dartpad.dev" }
-          - { nome: "Exercism · Dart track", url: "https://exercism.org/tracks/dart" }
 
       - numero: 2
         titulo: { pt: "Programação orientada a objetos", en: "Object-oriented programming" }
         status: a_comecar
         conteudo:
-          pt: "Classes e objetos, atributos e métodos, construtores padrão e nomeados, encapsulamento com _, herança com extends e sobrescrita com @override."
-          en: "Classes and objects, fields and methods, default and named constructors, encapsulation with _, inheritance with extends, and overriding with @override."
+          pt: "Classes e construtores, encapsulamento e imutabilidade, herança e composição, interfaces e mixins, class modifiers, generics e extensions, com SOLID por trás de tudo."
+          en: "Classes and constructors, encapsulation and immutability, inheritance and composition, interfaces and mixins, class modifiers, generics, and extensions, with SOLID behind it all."
         subtemas:
-          - nome: "Classes"
-            url: "https://dart.dev/language/classes"
+          - nome: { pt: "Classes e objetos", en: "Classes and objects" }
             itens:
-              - { nome: { pt: "Classes e objetos (molde × instância)", en: "Classes and objects (blueprint × instance)" }, estrela: true, url: "https://dart.dev/language/classes#using-class-members" }
-              - { nome: { pt: "Atributos", en: "Fields" }, estrela: true, url: "https://dart.dev/language/classes#instance-variables" }
-              - { nome: { pt: "Métodos", en: "Methods" }, estrela: true, url: "https://dart.dev/language/methods#instance-methods" }
-              - { nome: { pt: "Getters e setters", en: "Getters and setters" }, estrela: true, url: "https://dart.dev/language/methods#getters-and-setters" }
-              - { nome: { pt: "Variáveis e métodos de classe (static)", en: "Class variables and methods (static)" }, url: "https://dart.dev/language/classes#class-variables-and-methods" }
-          - nome: "Constructors"
-            url: "https://dart.dev/language/constructors"
+              - { nome: { pt: "Classes, objetos e `this`", en: "Classes, objects, and `this`" }, url: "https://dart.dev/language/classes" }
+              - { nome: { pt: "Membros `static`", en: "`static` members" }, url: "https://dart.dev/language/classes#class-variables-and-methods" }
+              - { nome: { pt: "O objeto na memória", en: "The object in memory" } }
+          - nome: { pt: "Construtores", en: "Constructors" }
             itens:
-              - { nome: { pt: "Construtor padrão", en: "Default constructors" }, estrela: true, url: "https://dart.dev/language/constructors#default-constructors" }
-              - { nome: { pt: "Construtores nomeados", en: "Named constructors" }, estrela: true, url: "https://dart.dev/language/constructors#named-constructors" }
-              - { nome: "Initializing formal parameters (this.x)", url: "https://dart.dev/language/constructors#use-initializing-formal-parameters" }
-              - { nome: "Initializer list", url: "https://dart.dev/language/constructors#use-an-initializer-list" }
-              - { nome: "Constant constructors", url: "https://dart.dev/language/constructors#constant-constructors" }
-              - { nome: "Redirecting constructors", url: "https://dart.dev/language/constructors#redirecting-constructors" }
-              - { nome: "Factory constructors", url: "https://dart.dev/language/constructors#factory-constructors" }
-              - { nome: "Super parameters", url: "https://dart.dev/language/constructors#super-parameters" }
-          - nome: "Libraries & imports"
-            url: "https://dart.dev/language/libraries"
+              - { nome: { pt: "Padrão e nomeados", en: "Default and named" }, url: "https://dart.dev/language/constructors#named-constructors" }
+              - { nome: { pt: "Lista de inicialização", en: "Initializer list" }, url: "https://dart.dev/language/constructors#use-an-initializer-list" }
+              - { nome: { pt: "Redirecionadores", en: "Redirecting" }, url: "https://dart.dev/language/constructors#redirecting-constructors" }
+              - { nome: "`factory`", url: "https://dart.dev/language/constructors#factory-constructors" }
+              - { nome: "`const`", url: "https://dart.dev/language/constructors#constant-constructors" }
+          - nome: { pt: "Encapsulamento e imutabilidade", en: "Encapsulation and immutability" }
             itens:
-              - { nome: { pt: "Encapsulamento com `_`", en: "Encapsulation with `_`" }, estrela: true, url: "https://dart.dev/language/libraries" }
-              - { nome: "Using libraries", url: "https://dart.dev/language/libraries#using-libraries" }
-              - { nome: "Implementing libraries", url: "https://dart.dev/language/libraries#implementing-libraries" }
+              - { nome: { pt: "Privacidade com `_`, getters e setters", en: "Privacy with `_`, getters, and setters" }, url: "https://dart.dev/language/methods#getters-and-setters" }
+              - { nome: { pt: "Imutabilidade e `copyWith`", en: "Immutability and `copyWith`" } }
+              - { nome: { pt: "`==` e `hashCode`, sempre juntos", en: "`==` and `hashCode`, always together" } }
           - nome: { pt: "Herança", en: "Inheritance" }
-            url: "https://dart.dev/language/extend"
             itens:
-              - { nome: { pt: "Herança com `extends` e `super`", en: "Inheritance with `extends` and `super`" }, estrela: true, url: "https://dart.dev/language/extend" }
-              - { nome: { pt: "Sobrescrita com `@override`", en: "Overriding with `@override`" }, estrela: true, url: "https://dart.dev/language/extend#overriding-members" }
-          - nome: { pt: "Complementares", en: "Further topics" }
+              - { nome: { pt: "`extends`, `super` e `@override`", en: "`extends`, `super`, and `@override`" }, url: "https://dart.dev/language/extend" }
+              - { nome: { pt: "Polimorfismo", en: "Polymorphism" } }
+              - { nome: { pt: "Composição × herança", en: "Composition × inheritance" } }
+          - nome: { pt: "Abstração", en: "Abstraction" }
             itens:
               - { nome: { pt: "Classes abstratas", en: "Abstract classes" }, url: "https://dart.dev/language/class-modifiers#abstract" }
-              - { nome: "Interfaces", url: "https://dart.dev/language/classes#implicit-interfaces" }
-              - { nome: "Mixins", url: "https://dart.dev/language/mixins" }
+              - { nome: { pt: "Interfaces com `implements`", en: "Interfaces with `implements`" }, url: "https://dart.dev/language/classes#implicit-interfaces" }
+              - { nome: { pt: "Mixins: `with`, `on` e a ordem de linearização", en: "Mixins: `with`, `on`, and linearization order" }, url: "https://dart.dev/language/mixins" }
+          - nome: "Class modifiers"
+            itens:
+              - { nome: { pt: "`sealed`, `final`, `base` e `interface`", en: "`sealed`, `final`, `base`, and `interface`" }, url: "https://dart.dev/language/class-modifiers" }
+              - { nome: { pt: "`sealed` com `switch` exaustivo para estados de tela", en: "`sealed` with exhaustive `switch` for screen states" }, url: "https://dart.dev/language/class-modifiers#sealed" }
+          - nome: { pt: "Tipos e extensões", en: "Types and extensions" }
+            itens:
+              - { nome: { pt: "Enums avançados", en: "Enhanced enums" }, url: "https://dart.dev/language/enums" }
+              - { nome: { pt: "Generics: `T extends` e um tipo `Result<T>`", en: "Generics: `T extends` and a `Result<T>` type" }, url: "https://dart.dev/language/generics" }
+              - { nome: "Extension methods", url: "https://dart.dev/language/extension-methods" }
+              - { nome: { pt: "Exceções personalizadas do domínio", en: "Custom domain exceptions" } }
+          - nome: "Design"
+            itens:
+              - { nome: "SOLID" }
+              - { nome: { pt: "Coesão e acoplamento", en: "Cohesion and coupling" } }
+          - nome: "🏁 Checkpoint"
+            itens:
+              - { nome: { pt: "Explicar `extends` × `implements` × `with`", en: "Explain `extends` × `implements` × `with`" } }
+              - { nome: { pt: "Modelar do zero `Conta`, `Transacao` e `StatusPagamento` (sealed), com testes", en: "Model `Conta`, `Transacao`, and `StatusPagamento` (sealed) from scratch, with tests" } }
         onde:
-          - { nome: "Constructors", url: "https://dart.dev/language/constructors" }
-          - { nome: "Libraries & imports", url: "https://dart.dev/language/libraries" }
-          - { nome: "Tutorial · Define classes and objects", url: "https://dart.dev/learn/tutorial/object-oriented" }
-          - { nome: "Tutorial · Structure apps with inheritance", url: "https://dart.dev/learn/tutorial/inheritance" }
-          - { nome: "DartPad", url: "https://dartpad.dev" }
+          - { nome: "Alura · Formação Dart", url: "https://www.alura.com.br/formacao-dart" }
+          - { nome: "Dart: trabalhando com orientação a objetos", url: "https://www.alura.com.br/curso-online-dart-trabalhando-orientacao-objetos" }
+          - { nome: "Praticando Collections no Dart", url: "https://www.alura.com.br/curso-online-praticando-collections-dart-listas-sets-mapas" }
+          - { nome: "dart.dev · Classes", url: "https://dart.dev/language/classes" }
+          - { nome: "dart.dev · Class modifiers", url: "https://dart.dev/language/class-modifiers" }
 
       - numero: 3
+        titulo: { pt: "Assincronismo e APIs", en: "Async and APIs" }
+        status: a_comecar
+        conteudo:
+          pt: "Event loop, Future e async/await, Stream, HTTP e JSON, isolates e testes assíncronos com mocks."
+          en: "Event loop, Future and async/await, Stream, HTTP and JSON, isolates, and async tests with mocks."
+        subtemas:
+          - nome: "Event loop"
+            itens:
+              - { nome: { pt: "Uma thread só", en: "A single thread" }, url: "https://dart.dev/language/concurrency#event-loop" }
+              - { nome: "Microtask queue × event queue", url: "https://dart.dev/language/concurrency" }
+          - nome: "Future"
+            itens:
+              - { nome: { pt: "Estados, `then` e `catchError`", en: "States, `then`, and `catchError`" }, url: "https://dart.dev/libraries/async/async-await" }
+              - { nome: { pt: "`Future.wait` e timeouts", en: "`Future.wait` and timeouts" } }
+              - { nome: { pt: "`async`/`await`: o que o compilador faz e os erros comuns", en: "`async`/`await`: what the compiler does and common mistakes" }, url: "https://dart.dev/libraries/async/async-await" }
+          - nome: "Stream"
+            itens:
+              - { nome: "Single-subscription × broadcast", url: "https://dart.dev/libraries/async/using-streams" }
+              - { nome: "`async*`/`yield`", url: "https://dart.dev/libraries/async/creating-streams" }
+              - { nome: { pt: "`StreamController` e transformações", en: "`StreamController` and transformations" }, url: "https://dart.dev/libraries/async/creating-streams" }
+              - { nome: { pt: "Erros assíncronos", en: "Async errors" }, url: "https://dart.dev/libraries/async/using-streams" }
+          - nome: { pt: "HTTP e JSON", en: "HTTP and JSON" }
+            itens:
+              - { nome: { pt: "`package:http`: GET, POST, headers, status codes e token", en: "`package:http`: GET, POST, headers, status codes, and tokens" }, url: "https://dart.dev/server/fetch-data" }
+              - { nome: { pt: "JSON: `jsonDecode`, `fromJson`/`toJson` e camada de modelo", en: "JSON: `jsonDecode`, `fromJson`/`toJson`, and a model layer" }, url: "https://dart.dev/libraries/serialization/json" }
+          - nome: { pt: "Isolates e testes", en: "Isolates and tests" }
+            itens:
+              - { nome: { pt: "Isolates: memória isolada e `Isolate.run`", en: "Isolates: isolated memory and `Isolate.run`" }, url: "https://dart.dev/language/isolates" }
+              - { nome: { pt: "Testes assíncronos com mocks", en: "Async tests with mocks" }, url: "https://dart.dev/tools/testing" }
+          - nome: "🏁 Checkpoint"
+            itens:
+              - { nome: { pt: "Prever a ordem dos prints com Future, microtask e Timer", en: "Predict the print order with Future, microtask, and Timer" } }
+              - { nome: { pt: "Criar um cliente de API com tratamento de erros e testes", en: "Build an API client with error handling and tests" } }
+        onde:
+          - { nome: "Dart: lidando com erros, exceções e null safety", url: "https://www.alura.com.br/curso-online-dart-lidando-erros-excecoes-null-safety" }
+          - { nome: "Dart: dominando assincronismo e criando comunicação com APIs", url: "https://www.alura.com.br/curso-online-dart-dominando-assincronismo-criando-comunicacao-apis" }
+          - { nome: "dart.dev · Asynchronous programming", url: "https://dart.dev/libraries/async/async-await" }
+          - { nome: "dart.dev · Concurrency", url: "https://dart.dev/language/concurrency" }
+
+      - numero: 4
         titulo: { pt: "Projeto prático", en: "Hands-on project" }
         status: a_comecar
         conteudo:
-          pt: "Gerenciador de tarefas de console em POO: uma classe Tarefa com métodos para adicionar, listar e marcar como concluída."
-          en: "Console to-do manager in OOP: a Task class with methods to add, list, and mark tasks as done."
+          pt: "Gerenciador de tarefas de console, publicado no GitHub."
+          en: "Console task manager, published on GitHub."
         subtemas:
-          - { nome: { pt: "Classe `Tarefa`", en: "`Task` class" }, estrela: true }
-          - { nome: { pt: "Adicionar tarefa", en: "Add a task" }, estrela: true }
-          - { nome: { pt: "Listar tarefas", en: "List tasks" }, estrela: true }
-          - { nome: { pt: "Marcar como concluída", en: "Mark as done" }, estrela: true }
-          - { nome: { pt: "`main` de demonstração (o DartPad não lê o teclado)", en: "Demo `main` (DartPad can't read keyboard input)" }, estrela: true }
+          - nome: { pt: "Modelo", en: "Model" }
+            itens:
+              - { nome: { pt: "Classe `Tarefa` imutável, com prioridade (enum) e status (sealed)", en: "Immutable `Tarefa` (task) class, with priority (enum) and status (sealed)" } }
+              - { nome: { pt: "Adicionar, listar, filtrar, concluir e remover", en: "Add, list, filter, complete, and remove" } }
+          - nome: { pt: "Camadas", en: "Layers" }
+            itens:
+              - { nome: { pt: "Modelo → repositório → serviço → console", en: "Model → repository → service → console" } }
+              - { nome: { pt: "Persistência em JSON assíncrona", en: "Async JSON persistence" } }
+              - { nome: { pt: "Exceções do domínio", en: "Domain exceptions" } }
+          - nome: { pt: "Qualidade e fluxo de trabalho", en: "Quality and workflow" }
+            itens:
+              - { nome: { pt: "TDD com mais de 80% de cobertura", en: "TDD with over 80% coverage" } }
+              - { nome: { pt: "`dart analyze` sem avisos", en: "`dart analyze` with no warnings" } }
+              - { nome: { pt: "README com prints", en: "README with screenshots" } }
+              - { nome: { pt: "Branch por funcionalidade, pull requests e issues", en: "Feature branches, pull requests, and issues" } }
+          - nome: "🏁 Checkpoint"
+            itens:
+              - { nome: { pt: "Apresentar o projeto em 2 minutos, explicando as decisões", en: "Present the project in 2 minutes, explaining the decisions" } }
         onde:
-          - { nome: "DartPad", url: "https://dartpad.dev" }
-
-      - numero: 4
-        titulo: { pt: "Git e GitHub", en: "Git and GitHub" }
-        status: a_comecar
-        conteudo:
-          pt: "git init, add, commit e push; levar o projeto da etapa 3 do DartPad para a minha máquina e publicá-lo em um repositório público."
-          en: "git init, add, commit, and push; move the stage 3 project from DartPad to my machine and publish it in a public repository."
-        subtemas:
-          - nome: { pt: "Comandos essenciais", en: "Essential commands" }
-            itens:
-              - { nome: { pt: "Configuração inicial", en: "First-time setup" }, estrela: true, url: "https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup" }
-              - { nome: "git init", estrela: true, url: "https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository#_initializing_a_repository_in_an_existing_directory" }
-              - { nome: "git add", estrela: true, url: "https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_tracking_files" }
-              - { nome: "git commit", estrela: true, url: "https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_committing_changes" }
-              - { nome: ".gitignore", estrela: true, url: "https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring" }
-              - { nome: "git remote", estrela: true, url: "https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes#_adding_remote_repositories" }
-              - { nome: "git push", estrela: true, url: "https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes#_pushing_remotes" }
-          - nome: "Pro Git · 1. Getting Started"
-            url: "https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control"
-            itens:
-              - { nome: "1.1 About Version Control", estrela: true, url: "https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control" }
-              - { nome: "1.2 A Short History of Git", estrela: true, url: "https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git" }
-              - { nome: "1.3 What is Git?", estrela: true, url: "https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F" }
-              - { nome: "1.4 The Command Line", estrela: true, url: "https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line" }
-              - { nome: "1.5 Installing Git", estrela: true, url: "https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" }
-              - { nome: "1.6 First-Time Git Setup", estrela: true, url: "https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup" }
-              - { nome: "1.7 Getting Help", estrela: true, url: "https://git-scm.com/book/en/v2/Getting-Started-Getting-Help" }
-          - nome: "Pro Git · 2. Git Basics"
-            url: "https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository"
-            itens:
-              - { nome: "2.1 Getting a Git Repository", estrela: true, url: "https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository" }
-              - { nome: "2.2 Recording Changes to the Repository", estrela: true, url: "https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository" }
-              - { nome: "2.3 Viewing the Commit History", estrela: true, url: "https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History" }
-              - { nome: "2.4 Undoing Things", estrela: true, url: "https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things" }
-              - { nome: "2.5 Working with Remotes", estrela: true, url: "https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes" }
-              - { nome: "2.6 Tagging", estrela: true, url: "https://git-scm.com/book/en/v2/Git-Basics-Tagging" }
-              - { nome: "2.7 Git Aliases", estrela: true, url: "https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases" }
-          - { nome: "GitHub Skills · Introduction to GitHub", estrela: true, url: "https://github.com/skills/introduction-to-github" }
-          - { nome: { pt: "Desafio: publicar o projeto da Etapa 3", en: "Challenge: publish the stage 3 project" }, estrela: true }
-        onde:
-          - { nome: "Pro Git (cap. 1 e 2 · ch. 1 and 2)", url: "https://git-scm.com/book" }
-          - { nome: "GitHub Skills", url: "https://skills.github.com" }
+          - { nome: "dart.dev · Testing", url: "https://dart.dev/tools/testing" }
 
       - numero: 5
         titulo: { pt: "Flutter", en: "Flutter" }
         status: a_comecar
         conteudo:
-          pt: "Widgets, layouts, navegação e o meu primeiro app."
-          en: "Widgets, layouts, navigation, and my first app."
+          pt: "As três árvores, layout, interface e navegação, estado e arquitetura, dados e testes, performance e release até as lojas."
+          en: "The three trees, layout, UI and navigation, state and architecture, data and tests, performance, and release to the stores."
         subtemas:
-          - { nome: "Quick install · Install Flutter", estrela: true, url: "https://docs.flutter.dev/learn/pathway/quick-install" }
-          - nome: "Introduction to Flutter UI"
-            url: "https://docs.flutter.dev/learn/pathway/tutorial"
+          - nome: { pt: "Fundamentos", en: "Fundamentals" }
             itens:
-              - { nome: "Tutorial introduction", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial" }
-              - { nome: "Create a Flutter app", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/create-an-app" }
-              - { nome: "Widget fundamentals", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/widget-fundamentals" }
-              - { nome: "Layout widgets on a screen", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/layout" }
-              - { nome: "DevTools", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/devtools" }
-              - { nome: "Handle user input", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/user-input" }
-              - { nome: "Learn about stateful widgets", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/stateful-widget" }
-              - { nome: "Add implicit animations", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/implicit-animations" }
-          - nome: "State in Flutter apps"
-            url: "https://docs.flutter.dev/learn/pathway/tutorial/set-up-state-project"
+              - { nome: { pt: "As três árvores: Widget, Element e RenderObject", en: "The three trees: Widget, Element, and RenderObject" } }
+              - { nome: { pt: "Stateless × Stateful e o ciclo de vida do State", en: "Stateless × Stateful and the State lifecycle" } }
+              - { nome: { pt: "`BuildContext` e Keys", en: "`BuildContext` and Keys" } }
+          - nome: "Layout"
             itens:
-              - { nome: "The state management project", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/set-up-state-project" }
-              - { nome: "Make HTTP requests", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/http-requests" }
-              - { nome: "Use ChangeNotifier to update app state", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/change-notifier" }
-              - { nome: "Use ListenableBuilder to update app UI", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/listenable-builder" }
-          - nome: "Flutter UI 102"
-            url: "https://docs.flutter.dev/learn/pathway/tutorial/advanced-ui"
+              - { nome: "Constraints go down, sizes go up" }
+              - { nome: { pt: "`Row`, `Column`, `Stack` e `Expanded`", en: "`Row`, `Column`, `Stack`, and `Expanded`" } }
+              - { nome: { pt: "Listas", en: "Lists" } }
+              - { nome: { pt: "Responsividade", en: "Responsiveness" } }
+          - nome: { pt: "Interface e navegação", en: "UI and navigation" }
             itens:
-              - { nome: "Advanced UI features", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/advanced-ui" }
-              - { nome: "Adaptive layouts", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/adaptive-layout" }
-              - { nome: "Scrolling and slivers", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/slivers" }
-              - { nome: "Stack based navigation", estrela: true, url: "https://docs.flutter.dev/learn/pathway/tutorial/navigation" }
-          - { nome: "How Flutter works", estrela: true, url: "https://docs.flutter.dev/learn/pathway/how-flutter-works" }
-          - nome: { pt: "Flutter Foundations (depois que eu começar)", en: "Flutter Foundations (after I start)" }
-            url: "https://codewithandrea.com/courses/flutter-foundations/"
+              - { nome: { pt: "Material 3 e temas", en: "Material 3 and themes" } }
+              - { nome: { pt: "Formulários com validação", en: "Forms with validation" } }
+              - { nome: { pt: "Acessibilidade", en: "Accessibility" } }
+              - { nome: { pt: "go_router e deep links", en: "go_router and deep links" } }
+          - nome: { pt: "Estado e arquitetura", en: "State and architecture" }
             itens:
-              - { nome: "Intro and Project Overview" }
-              - { nome: "Navigation with GoRouter" }
-              - { nome: "App Architecture" }
-              - { nome: "State Management with Riverpod (Part I)" }
-              - { nome: "State Management with Riverpod (Part II)" }
-              - { nome: "Automated Testing (Part I)" }
-              - { nome: "Automated Testing (Part II)" }
-              - { nome: "Feature: Shopping Cart (with local data persistence)" }
-              - { nome: "Feature: Checkout Flows" }
-              - { nome: "Error Handling" }
-              - { nome: "Feature: Product Reviews" }
-              - { nome: "Feature: Product Search" }
-              - { nome: "New Riverpod 2.0 APIs & Riverpod Generator" }
+              - { nome: { pt: "`setState`, `ValueNotifier` e `InheritedWidget`", en: "`setState`, `ValueNotifier`, and `InheritedWidget`" } }
+              - { nome: { pt: "O pacote de estado que a Koin usa", en: "The state package Koin uses" } }
+              - { nome: { pt: "Arquitetura oficial do Flutter: MVVM e camadas", en: "Flutter's official architecture: MVVM and layers" } }
+              - { nome: { pt: "Injeção de dependência", en: "Dependency injection" } }
+          - nome: { pt: "Dados e testes", en: "Data and tests" }
+            itens:
+              - { nome: { pt: "APIs, cache e persistência local", en: "APIs, caching, and local persistence" } }
+              - { nome: { pt: "Testes unitários e de widget", en: "Unit and widget tests" } }
+              - { nome: "Golden tests" }
+              - { nome: { pt: "`integration_test` e Maestro", en: "`integration_test` and Maestro" } }
+          - nome: { pt: "Performance e release", en: "Performance and release" }
+            itens:
+              - { nome: { pt: "DevTools, rebuilds e const widgets", en: "DevTools, rebuilds, and const widgets" } }
+              - { nome: { pt: "Flavors e assinatura", en: "Flavors and signing" } }
+              - { nome: "CI/CD" }
+              - { nome: { pt: "Monitoramento de erros", en: "Error monitoring" } }
+              - { nome: { pt: "Publicação nas lojas", en: "Publishing to the stores" } }
+          - nome: { pt: "🏁 Entregáveis", en: "🏁 Deliverables" }
+            itens:
+              - { nome: { pt: "O gerenciador de tarefas virando app Flutter", en: "The task manager as a Flutter app" } }
+              - { nome: { pt: "Um app consumindo uma API real", en: "An app consuming a real API" } }
+              - { nome: { pt: "Certificados da Alura", en: "Alura certificates" } }
+              - { nome: { pt: "Certificados do Code With Andrea", en: "Code With Andrea certificates" } }
         onde:
-          - { nome: "Flutter learning pathway", url: "https://docs.flutter.dev/learn/pathway" }
-          - { nome: "Flutter Foundations", url: "https://codewithandrea.com/courses/flutter-foundations/", preco: "US$ 99" }
+          - { nome: "Alura · Formação Flutter by Nubank", url: "https://www.alura.com.br/carreiras/desenvolvimento-mobile-com-flutter" }
+          - { nome: "Code With Andrea · Flutter Foundations", url: "https://codewithandrea.com/courses/flutter-foundations/", preco: "US$ 99" }
+          - { nome: "Code With Andrea · Flutter in Production", url: "https://codewithandrea.com/courses/flutter-in-production/", preco: "US$ 79 a US$ 119" }
 
-      - numero: 6
-        titulo: { pt: "Métodos ágeis e ferramentas", en: "Agile methods and tools" }
+  - id: paralelo
+    titulo: { pt: "Em paralelo: credenciais e ferramentas do trabalho", en: "In parallel: work credentials and tools" }
+    etapas:
+      - titulo: { pt: "Jira Fundamentals", en: "Jira Fundamentals" }
         status: a_comecar
         conteudo:
-          pt: "Scrum, Kanban e Jira no dia a dia de um time de desenvolvimento."
-          en: "Scrum, Kanban, and Jira in a development team's daily work."
+          pt: "Selo da Atlassian University, grátis."
+          en: "Atlassian University badge, free."
         subtemas:
-          - nome: { pt: "Scrum · papéis (Scrum Team)", en: "Scrum · roles (Scrum Team)" }
-            url: "https://scrumguides.org/scrum-guide.html#scrum-team"
-            itens:
-              - { nome: "Developers", estrela: true, url: "https://scrumguides.org/scrum-guide.html#developers" }
-              - { nome: "Product Owner", estrela: true, url: "https://scrumguides.org/scrum-guide.html#product-owner" }
-              - { nome: "Scrum Master", estrela: true, url: "https://scrumguides.org/scrum-guide.html#scrum-master" }
-          - nome: { pt: "Scrum · eventos", en: "Scrum · events" }
-            url: "https://scrumguides.org/scrum-guide.html#scrum-events"
-            itens:
-              - { nome: "The Sprint", estrela: true, url: "https://scrumguides.org/scrum-guide.html#the-sprint" }
-              - { nome: "Sprint Planning", estrela: true, url: "https://scrumguides.org/scrum-guide.html#sprint-planning" }
-              - { nome: "Daily Scrum", estrela: true, url: "https://scrumguides.org/scrum-guide.html#daily-scrum" }
-              - { nome: "Sprint Review", estrela: true, url: "https://scrumguides.org/scrum-guide.html#sprint-review" }
-              - { nome: "Sprint Retrospective", estrela: true, url: "https://scrumguides.org/scrum-guide.html#sprint-retrospective" }
-          - nome: { pt: "Scrum · artefatos", en: "Scrum · artifacts" }
-            url: "https://scrumguides.org/scrum-guide.html#scrum-artifacts"
-            itens:
-              - { nome: "Product Backlog", estrela: true, url: "https://scrumguides.org/scrum-guide.html#product-backlog" }
-              - { nome: "Sprint Backlog", estrela: true, url: "https://scrumguides.org/scrum-guide.html#sprint-backlog" }
-              - { nome: "Increment", estrela: true, url: "https://scrumguides.org/scrum-guide.html#increment" }
-          - { nome: { pt: "Simulado Scrum Open", en: "Scrum Open assessment" }, estrela: true, url: "https://www.scrum.org/open-assessments/scrum-open" }
-          - nome: "Kanban"
-            url: "https://www.atlassian.com/agile/kanban"
-            itens:
-              - { nome: { pt: "Quadro", en: "Board" }, estrela: true, url: "https://www.atlassian.com/agile/kanban/boards" }
-              - { nome: { pt: "Limite de WIP", en: "WIP limits" }, estrela: true, url: "https://www.atlassian.com/agile/kanban/wip-limits" }
-              - { nome: { pt: "Fluxo", en: "Flow" }, estrela: true, url: "https://www.atlassian.com/agile/kanban" }
-          - nome: { pt: "Jira — projetos, issues, quadros e sprints", en: "Jira — projects, issues, boards, and sprints" }
-            url: "https://community-link.atlassian.com/learning/path/get-the-most-out-of-jira"
-            itens:
-              - { nome: "Get started quickly with Jira", estrela: true, url: "https://community-link.atlassian.com/learning/path/get-the-most-out-of-jira/course/get-started-with-jira" }
-              - { nome: "Track your work effectively in Jira", estrela: true, url: "https://community-link.atlassian.com/learning/path/get-the-most-out-of-jira/course/track-your-work-effectively-in-jira" }
-              - { nome: "Personalize how you work in Jira", estrela: true, url: "https://community-link.atlassian.com/learning/path/get-the-most-out-of-jira/course/jira-dashboard-training" }
+          - { nome: "Get started quickly with Jira", url: "https://community.atlassian.com/learning/path/get-the-most-out-of-jira/course/get-started-with-jira" }
+          - { nome: "Track your work effectively in Jira", url: "https://community.atlassian.com/learning/path/get-the-most-out-of-jira/course/track-your-work-effectively-in-jira" }
+          - { nome: "Personalize how you work in Jira", url: "https://community.atlassian.com/learning/path/get-the-most-out-of-jira/course/jira-dashboard-training" }
+          - { nome: { pt: "Selo Jira Fundamentals", en: "Jira Fundamentals badge" } }
+        onde:
+          - { nome: "Atlassian University · Jira", url: "https://community.atlassian.com/learning/path/get-the-most-out-of-jira", preco: "gratuito / free" }
+
+      - titulo: { pt: "GitHub Foundations (GH-900)", en: "GitHub Foundations (GH-900)" }
+        status: a_comecar
+        conteudo:
+          pt: "Certificação oficial do GitHub, estudada pelo Microsoft Learn."
+          en: "Official GitHub certification, studied on Microsoft Learn."
+        subtemas:
+          - { nome: "GitHub Foundations Part 1", url: "https://learn.microsoft.com/en-us/training/paths/github-foundations/" }
+          - { nome: "GitHub Foundations Part 2", url: "https://learn.microsoft.com/en-us/training/paths/github-foundations-2/" }
+          - { nome: { pt: "Exame GH-900", en: "GH-900 exam" }, url: "https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/" }
+        onde:
+          - { nome: "Microsoft Learn · GitHub", url: "https://learn.microsoft.com/en-us/training/github/" }
+          - { nome: "GitHub Foundations", url: "https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/", preco: "grátis para estudante / free for students" }
+
+      - titulo: { pt: "PSM I", en: "PSM I" }
+        status: a_comecar
+        conteudo:
+          pt: "Certificação oficial da Scrum.org."
+          en: "Official Scrum.org certification."
+        subtemas:
+          - { nome: "Scrum Guide 2020", url: "https://scrumguides.org/scrum-guide.html" }
+          - { nome: { pt: "Scrum Open até acertar 100%", en: "Scrum Open until I score 100%" }, url: "https://www.scrum.org/open-assessments/scrum-open" }
+          - { nome: { pt: "Exame PSM I", en: "PSM I exam" }, url: "https://www.scrum.org/assessments/professional-scrum-master-i-certification" }
         onde:
           - { nome: "Scrum Guide", url: "https://scrumguides.org/scrum-guide.html" }
-          - { nome: "Scrum Open", url: "https://www.scrum.org/open-assessments/scrum-open" }
+          - { nome: "Scrum Open", url: "https://www.scrum.org/open-assessments/scrum-open", preco: "gratuito / free" }
+          - { nome: "PSM I", url: "https://www.scrum.org/assessments/professional-scrum-master-i-certification" }
+
+      - titulo: { pt: "Git a fundo", en: "Git in depth" }
+        status: a_comecar
+        conteudo:
+          pt: "Como o Git funciona por dentro e o fluxo de trabalho no GitHub."
+          en: "How Git works inside, and the GitHub workflow."
+        subtemas:
+          - { nome: { pt: "Objetos: blob, tree e commit", en: "Objects: blob, tree, and commit" }, url: "https://git-scm.com/book/en/v2/Git-Internals-Git-Objects" }
+          - { nome: "Merge × rebase", url: "https://git-scm.com/book/en/v2/Git-Branching-Rebasing" }
+          - { nome: { pt: "Conflitos", en: "Conflicts" }, url: "https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging" }
+          - { nome: "Reset × revert", url: "https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified" }
+          - { nome: { pt: "Cherry-pick e stash", en: "Cherry-pick and stash" } }
+          - { nome: { pt: "Tags e Conventional Commits", en: "Tags and Conventional Commits" }, url: "https://www.conventionalcommits.org/pt-br/v1.0.0/" }
+          - { nome: { pt: "GitHub: pull requests e Projects", en: "GitHub: pull requests and Projects" } }
+          - { nome: "GitHub Actions" }
+          - { nome: { pt: "Dependabot e Copilot", en: "Dependabot and Copilot" } }
+        onde:
+          - { nome: "Pro Git", url: "https://git-scm.com/book/en/v2" }
+          - { nome: "Conventional Commits", url: "https://www.conventionalcommits.org/pt-br/v1.0.0/" }
+
+      - titulo: { pt: "Scrum e Kanban", en: "Scrum and Kanban" }
+        status: a_comecar
+        conteudo:
+          pt: "Os fundamentos dos dois e como tudo isso aparece no Jira."
+          en: "The basics of both, and how it all shows up in Jira."
+        subtemas:
+          - { nome: { pt: "Empirismo e valores", en: "Empiricism and values" }, url: "https://scrumguides.org/scrum-guide.html#scrum-theory" }
+          - { nome: { pt: "Responsabilidades", en: "Accountabilities" }, url: "https://scrumguides.org/scrum-guide.html#scrum-team" }
+          - { nome: { pt: "Eventos", en: "Events" }, url: "https://scrumguides.org/scrum-guide.html#scrum-events" }
+          - { nome: { pt: "Artefatos", en: "Artifacts" }, url: "https://scrumguides.org/scrum-guide.html#scrum-artifacts" }
+          - { nome: "WIP limits", url: "https://www.atlassian.com/agile/kanban/wip-limits" }
+          - { nome: { pt: "Lead time e cycle time", en: "Lead time and cycle time" } }
+          - { nome: { pt: "Tudo isso no Jira", en: "All of it in Jira" } }
+        onde:
+          - { nome: "Scrum Guide", url: "https://scrumguides.org/scrum-guide.html" }
           - { nome: "Atlassian Agile Coach · Kanban", url: "https://www.atlassian.com/agile/kanban" }
-          - { nome: "Jira · Get the most out of Jira", url: "https://community-link.atlassian.com/learning/path/get-the-most-out-of-jira" }
-
-      - numero: 7
-        titulo: { pt: "Do código à loja de apps", en: "From code to the app store" }
-        status: a_comecar
-        conteudo:
-          pt: "Fluxo de desenvolvimento e esteira de release voltada para apps."
-          en: "Development workflow and app release pipeline."
-        subtemas:
-          - { nome: "Course Introduction" }
-          - { nome: "Launcher Icons and Splash Screens" }
-          - { nome: "Adding Flavors to a Flutter App" }
-          - { nome: "Error Monitoring with Sentry and Crashlytics" }
-          - { nome: "Analytics with Mixpanel and Firebase Analytics" }
-          - { nome: "Force Update Strategies" }
-          - { nome: "In-App Reviews" }
-          - { nome: "Creating a Landing Page for your Mobile app" }
-          - { nome: "Releasing Your iOS App on the App Store" }
-          - { nome: "Releasing Your Android App on the Google Play Store" }
-          - { nome: "Release Automation with Codemagic" }
-          - { nome: "Release Automation with GitHub Actions" }
-          - { nome: "Code Push with Shorebird" }
-          - { nome: "Automated Screenshot Generation Strategies" }
-          - { nome: "Feature Toggles and A/B Testing" }
-          - { nome: "Appendix 1: A Riverpod Primer" }
-        onde:
-          - { nome: "Flutter in Production", url: "https://codewithandrea.com/courses/flutter-in-production/", preco: "US$ 79 a US$ 119" }
-
-      - numero: 8
-        titulo: { pt: "Linguagens de apoio", en: "Supporting languages" }
-        status: a_comecar
-        conteudo:
-          pt: "Java com orientação a objetos e Ruby."
-          en: "Object-oriented Java and Ruby."
-        subtemas:
-          - nome: { pt: "Java — MOOC de Helsinque", en: "Java — University of Helsinki MOOC" }
-            url: "https://java-programming.mooc.fi/"
-            itens:
-              - { nome: { pt: "Java Programming I (partes 1 a 7)", en: "Java Programming I (parts 1–7)" }, url: "https://java-programming.mooc.fi/part-1" }
-              - { nome: { pt: "Java Programming II (partes 8 a 14)", en: "Java Programming II (parts 8–14)" }, url: "https://java-programming.mooc.fi/part-8" }
-          - nome: { pt: "Ruby em Vinte Minutos", en: "Ruby in Twenty Minutes" }
-            url: "https://www.ruby-lang.org/pt/documentation/quickstart/"
-            itens:
-              - { nome: { pt: "Parte 1", en: "Part 1" }, url: "https://www.ruby-lang.org/pt/documentation/quickstart/" }
-              - { nome: { pt: "Parte 2", en: "Part 2" }, url: "https://www.ruby-lang.org/pt/documentation/quickstart/2/" }
-              - { nome: { pt: "Parte 3", en: "Part 3" }, url: "https://www.ruby-lang.org/pt/documentation/quickstart/3/" }
-              - { nome: { pt: "Parte 4", en: "Part 4" }, url: "https://www.ruby-lang.org/pt/documentation/quickstart/4/" }
-        onde:
-          - { nome: "Java Programming MOOC", url: "https://java-programming.mooc.fi/" }
-          - { nome: "Ruby em Vinte Minutos", url: "https://www.ruby-lang.org/pt/documentation/quickstart/" }
 
   - id: outros
-    titulo: { pt: "Outros estudos", en: "Other studies" }
+    titulo: { pt: "Trilhas futuras", en: "Future tracks" }
     etapas:
+      - titulo: { pt: "IA", en: "AI" }
+        status: a_comecar
+        conteudo:
+          pt: "Com a certificação oficial."
+          en: "With the official certification."
+        subtemas:
+          - { nome: { pt: "Certificação oficial", en: "Official certification" } }
+
+      - titulo: { pt: "Databricks", en: "Databricks" }
+        status: a_comecar
+        conteudo:
+          pt: "Retomar o curso que comecei e fazer a certificação oficial."
+          en: "Pick back up the course I started and take the official certification."
+        subtemas:
+          - { nome: "Databricks Fundamentals", url: "https://www.databricks.com/training/catalog/databricks-fundamentals-2206" }
+          - { nome: { pt: "Prática na Free Edition", en: "Hands-on in the Free Edition" }, url: "https://www.databricks.com/learn/free-edition" }
+          - { nome: { pt: "Certificação Data Engineer Associate", en: "Data Engineer Associate certification" }, url: "https://www.databricks.com/learn/certification/data-engineer-associate" }
+        onde:
+          - { nome: "Databricks Academy", url: "https://www.databricks.com/learn/training/home", preco: "gratuito / free" }
+          - { nome: "Databricks Free Edition", url: "https://www.databricks.com/learn/free-edition", preco: "gratuito / free" }
+          - { nome: "Data Engineer Associate", url: "https://www.databricks.com/learn/certification/data-engineer-associate", preco: "US$ 200" }
+
       - titulo: { pt: "AWS", en: "AWS" }
         status: a_comecar
         conteudo:
-          pt: "Fundamentos de nuvem na AWS: serviços, preços, segurança, monitoramento e arquitetura."
-          en: "AWS cloud fundamentals: services, pricing, security, monitoring, and architecture."
+          pt: "Fundamentos de nuvem na AWS, com a certificação oficial."
+          en: "AWS cloud fundamentals, with the official certification."
         subtemas:
           - nome: "AWS Cloud Practitioner Essentials"
             url: "https://skillbuilder.aws/learn/94T2BEN85A/aws-cloud-practitioner-essentials/8D79F3AVR7"
@@ -380,30 +410,46 @@ trilhas:
               - { nome: "11. Pricing and Support" }
               - { nome: "12. Migrating to the AWS Cloud" }
               - { nome: "13. Well-Architected Solutions" }
-          - { nome: { pt: "Certificação AWS Certified Cloud Practitioner (opcional)", en: "AWS Certified Cloud Practitioner certification (optional)" }, url: "https://aws.amazon.com/certification/certified-cloud-practitioner/" }
+          - { nome: { pt: "Certificação AWS Certified Cloud Practitioner", en: "AWS Certified Cloud Practitioner certification" }, url: "https://aws.amazon.com/certification/certified-cloud-practitioner/" }
         onde:
           - { nome: "AWS Cloud Practitioner Essentials", url: "https://aws.amazon.com/training/learn-about/cloud-practitioner/", preco: "gratuito / free" }
           - { nome: "AWS Certified Cloud Practitioner", url: "https://aws.amazon.com/certification/certified-cloud-practitioner/", preco: "US$ 100" }
 
-      - titulo: { pt: "Databricks", en: "Databricks" }
-        status: pausado
-        nota:
-          pt: "Comecei o curso, mas pausei para focar no Flutter. Volto em breve."
-          en: "I started the course but paused it to focus on Flutter. Coming back soon."
+      - titulo: { pt: "Cibersegurança", en: "Cybersecurity" }
+        status: a_comecar
+        conteudo:
+          pt: "Com a certificação oficial."
+          en: "With the official certification."
         subtemas:
-          - { nome: "Databricks Fundamentals", status: pausado, url: "https://www.databricks.com/training/catalog/databricks-fundamentals-2206" }
-          - { nome: { pt: "Prática na Free Edition", en: "Hands-on in the Free Edition" }, url: "https://www.databricks.com/learn/free-edition" }
-          - { nome: { pt: "Certificação Data Engineer Associate (opcional)", en: "Data Engineer Associate certification (optional)" }, url: "https://www.databricks.com/learn/certification/data-engineer-associate" }
+          - { nome: { pt: "Certificação oficial", en: "Official certification" } }
+
+      - titulo: { pt: "Java e Ruby (apoio)", en: "Java and Ruby (support)" }
+        status: a_comecar
+        conteudo:
+          pt: "Java com orientação a objetos e Ruby, como linguagens de apoio."
+          en: "Object-oriented Java and Ruby, as supporting languages."
+        subtemas:
+          - nome: { pt: "Java — MOOC de Helsinque", en: "Java — University of Helsinki MOOC" }
+            url: "https://java-programming.mooc.fi/"
+            itens:
+              - { nome: { pt: "Java Programming I (partes 1 a 7)", en: "Java Programming I (parts 1–7)" }, url: "https://java-programming.mooc.fi/part-1" }
+              - { nome: { pt: "Java Programming II (partes 8 a 14)", en: "Java Programming II (parts 8–14)" }, url: "https://java-programming.mooc.fi/part-8" }
+          - nome: { pt: "Ruby em Vinte Minutos", en: "Ruby in Twenty Minutes" }
+            url: "https://www.ruby-lang.org/pt/documentation/quickstart/"
+            itens:
+              - { nome: { pt: "Parte 1", en: "Part 1" }, url: "https://www.ruby-lang.org/pt/documentation/quickstart/" }
+              - { nome: { pt: "Parte 2", en: "Part 2" }, url: "https://www.ruby-lang.org/pt/documentation/quickstart/2/" }
+              - { nome: { pt: "Parte 3", en: "Part 3" }, url: "https://www.ruby-lang.org/pt/documentation/quickstart/3/" }
+              - { nome: { pt: "Parte 4", en: "Part 4" }, url: "https://www.ruby-lang.org/pt/documentation/quickstart/4/" }
         onde:
-          - { nome: "Databricks Academy", url: "https://www.databricks.com/learn/training/home", preco: "gratuito / free" }
-          - { nome: "Databricks Free Edition", url: "https://www.databricks.com/learn/free-edition", preco: "gratuito / free" }
-          - { nome: "Data Engineer Associate", url: "https://www.databricks.com/learn/certification/data-engineer-associate", preco: "US$ 200 · 45 questões · 90 min" }
+          - { nome: "Java Programming MOOC", url: "https://java-programming.mooc.fi/" }
+          - { nome: "Ruby em Vinte Minutos", url: "https://www.ruby-lang.org/pt/documentation/quickstart/" }
 
 # Seção "Agora · Now" do README (também dá para editar pela issue do painel).
 agora:
   - { pt: "💼 Estagiário na **[ília](https://ilia.digital)**, conciliado com a graduação", en: "Intern at **[ília](https://ilia.digital)**, alongside my degree" }
   - { pt: "🐾 Construindo o **[Íris Pet Spa](https://github.com/IsaacGomes260653/iris-pet-spa)**, site imersivo em Next.js e WebGL", en: "Building **[Íris Pet Spa](https://github.com/IsaacGomes260653/iris-pet-spa)**, immersive Next.js and WebGL site" }
-  - { pt: "📘 Estudando Dart rumo ao Flutter, código comentado no **[estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)**", en: "Studying Dart on the road to Flutter, commented code in **[estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)**" }
+  - { pt: "📘 Estudando **[Dart](https://github.com/IsaacGomes260653/estudos-dart)** rumo ao Flutter, na Alura e na documentação oficial", en: "Studying **[Dart](https://github.com/IsaacGomes260653/estudos-dart)** on the road to Flutter, on Alura and the official docs" }
 
 # Cursos complementares, fora das trilhas: aparecem em "Extras", sem status.
 extras:

@@ -19,7 +19,7 @@
 <p align="center">
   <a href="https://ilia.digital"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-1-escuro.svg?v=8c012379"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-1-claro.svg?v=ded20641" width="264" alt="Estagiário na ília: Conciliado com a graduação (Agora) / Intern at ília: Alongside my degree (Now)"></picture></a>
   <a href="https://github.com/IsaacGomes260653/iris-pet-spa"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-2-escuro.svg?v=f6fe8c27"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-2-claro.svg?v=1ab551f4" width="264" alt="Construindo o Íris Pet Spa: Site imersivo em Next.js e WebGL (Em construção) / Building Íris Pet Spa: Immersive Next.js and WebGL site (Building)"></picture></a>
-  <a href="https://github.com/IsaacGomes260653/estudos-dart"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-3-escuro.svg?v=ddc780e2"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-3-claro.svg?v=c92ff8f0" width="264" alt="Estudando Dart rumo ao Flutter: Código comentado no estudos-dart (Estudando) / Studying Dart on the road to Flutter: Commented code in estudos-dart (Studying)"></picture></a>
+  <a href="https://github.com/IsaacGomes260653/estudos-dart"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-3-escuro.svg?v=b11797c8"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-3-claro.svg?v=9f3ea0b7" width="264" alt="Estudando Dart rumo ao Flutter: Na Alura e na documentação oficial (Estudando) / Studying Dart on the road to Flutter: On Alura and the official docs (Studying)"></picture></a>
 </p>
 <!-- AGORA:FIM -->
 
@@ -171,364 +171,624 @@ Meus estudos de Dart rumo ao Flutter: um arquivo por assunto, com casos curtos e
 <!-- ESTUDOS:INICIO -->
 <!-- Gerado a partir do estudos.yml pelo workflow painel-estudos.yml. Não edite aqui: edite o estudos.yml. -->
 
-🟡 Estudando / Studying · ⚪ A começar / Up next · ⏸️ Pausado / Paused · ✅ Concluído / Done · ⭐ Prioridade / Priority
-
-#### Rumo ao Flutter · Road to Flutter
+✅ Concluído / Done · 🔄 Em andamento / In progress · ⬜ Pendente / To do
 
 <picture>
-  <source media="(max-width: 1199px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-celular-escuro.svg?v=9d0809e1">
-  <source media="(max-width: 1199px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-celular-claro.svg?v=3043d361">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-escuro.svg?v=347411f6">
-  <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-claro.svg?v=eb2560f7" alt="Rumo ao Flutter · Road to Flutter. 1 Lógica: estudando, 6 de 45 subtemas; 2 POO: a começar, 0 de 21 subtemas; 3 Projeto: a começar, 0 de 5 subtemas; 4 Git: a começar, 0 de 23 subtemas; 5 Flutter: a começar, 0 de 31 subtemas; 6 Ágil: a começar, 0 de 18 subtemas; 7 Publicação: a começar, 0 de 16 subtemas; 8 Java + Ruby: a começar, 0 de 6 subtemas. / 1 Logic: studying, 6 of 45 subtopics; 2 OOP: up next, 0 of 21 subtopics; 3 Project: up next, 0 of 5 subtopics; 4 Git: up next, 0 of 23 subtopics; 5 Flutter: up next, 0 of 31 subtopics; 6 Agile: up next, 0 of 18 subtopics; 7 Release: up next, 0 of 16 subtopics; 8 Java + Ruby: up next, 0 of 6 subtopics.">
+  <source media="(max-width: 1199px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-celular-escuro.svg?v=43ba6b7a">
+  <source media="(max-width: 1199px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-celular-claro.svg?v=46725e37">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-escuro.svg?v=093d2f57">
+  <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-claro.svg?v=89e491b1" alt="Rumo ao Flutter · Road to Flutter. 1 Lógica: em andamento, 5 de 47 subtemas; 2 POO: pendente, 0 de 27 subtemas; 3 Assíncrono: pendente, 0 de 15 subtemas; 4 Projeto: pendente, 0 de 10 subtemas; 5 Flutter: pendente, 0 de 28 subtemas. / 1 Logic: in progress, 5 of 47 subtopics; 2 OOP: to do, 0 of 27 subtopics; 3 Async: to do, 0 of 15 subtopics; 4 Project: to do, 0 of 10 subtopics; 5 Flutter: to do, 0 of 28 subtopics.">
 </picture>
+
+📍 **Agora / Now:** [`final` × `const` (canonicalização)](https://dart.dev/language/variables#final-and-const) · Variáveis e tipos · etapa 1<br>
+<em>`final` × `const` (canonicalization) · Variables and types · stage 1</em>
 
 <sub>✏️ <a href="https://github.com/IsaacGomes260653/IsaacGomes260653/issues/14">Atualizar progresso · Update progress</a></sub>
 
 <details open>
-<summary><b>1 · Lógica e sintaxe em Dart · Dart logic and syntax</b> — 🟡 Estudando / Studying · 6/45 ✅</summary>
+<summary><b>1 · Lógica e sintaxe · Logic and syntax</b> — 🔄 Em andamento / In progress · 5/47 ✅</summary>
 
-Variáveis e tipos (int, double, String, bool, List, Map), operadores aritméticos, comparativos e lógicos, if/else, switch, for, while e funções com parâmetros posicionais e nomeados.<br>
-<em>Variables and types (int, double, String, bool, List, Map), arithmetic, comparison and logical operators, if/else, switch, for, while, and functions with positional and named parameters.</em>
+Como o Dart funciona por dentro, variáveis e tipos, operadores, controle de fluxo, funções, coleções, os recursos do Dart 3, erros, ferramentas e testes desde o começo.<br>
+<em>How Dart works under the hood, variables and types, operators, control flow, functions, collections, Dart 3 features, errors, tooling, and tests from day one.</em>
 
-**Progresso / Progress:** `█░░░░░░░░░` 13% · 6/45 ✅ · ⭐ 5/18
+**Progresso / Progress:** `█░░░░░░░░░` 11% · 5/47 ✅
 
-- ✅ **[Variables](https://dart.dev/language/variables)** · 5/5 · [código / code](https://github.com/IsaacGomes260653/estudos-dart/tree/main/Variaveis)
-  - ✅ ⭐ [Null safety](https://dart.dev/language/variables#null-safety) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/NullSafety.dart)
-  - ✅ ⭐ [Default value](https://dart.dev/language/variables#default-value) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/DefaultValue.dart)
-  - ✅ ⭐ [Late variables](https://dart.dev/language/variables#late-variables) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/LateVariables.dart)
-  - ✅ ⭐ [Final and const](https://dart.dev/language/variables#final-and-const) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/FinalAndConst.dart)
-  - ✅ [Wildcard variables](https://dart.dev/language/variables#wildcard-variables) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/WildcardVariables.dart)
-- 🟡 **[Built-in types](https://dart.dev/language/built-in-types)** · 1/5 · [código / code](https://github.com/IsaacGomes260653/estudos-dart/tree/main/BuiltInTypes)
-  - ✅ ⭐ [Numbers](https://dart.dev/language/built-in-types#numbers) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/BuiltInTypes/Numbers.dart)
-  - 🟡 ⭐ [Strings](https://dart.dev/language/built-in-types#strings)
-  - ⚪ ⭐ [Booleans](https://dart.dev/language/built-in-types#booleans)
-  - ⚪ [Runes and grapheme clusters](https://dart.dev/language/built-in-types#runes-and-grapheme-clusters)
-  - ⚪ [Symbols](https://dart.dev/language/built-in-types#symbols)
-- ⚪ **[Collections](https://dart.dev/language/collections)** · 0/4
-  - ⚪ ⭐ [Lists](https://dart.dev/language/collections#lists)
-  - ⚪ [Sets](https://dart.dev/language/collections#sets)
-  - ⚪ ⭐ [Maps](https://dart.dev/language/collections#maps)
-  - ⚪ [Collection elements](https://dart.dev/language/collections#collection-elements)
-- ⚪ **[Operators](https://dart.dev/language/operators)** · 0/11
-  - ⚪ [Operator precedence](https://dart.dev/language/operators#operator-precedence-example)
-  - ⚪ ⭐ [Arithmetic operators](https://dart.dev/language/operators#arithmetic-operators)
-  - ⚪ ⭐ [Equality and relational operators](https://dart.dev/language/operators#equality-and-relational-operators)
-  - ⚪ [Type test operators](https://dart.dev/language/operators#type-test-operators)
-  - ⚪ [Assignment operators](https://dart.dev/language/operators#assignment-operators)
-  - ⚪ ⭐ [Logical operators](https://dart.dev/language/operators#logical-operators)
-  - ⚪ [Bitwise and shift operators](https://dart.dev/language/operators#bitwise-and-shift-operators)
-  - ⚪ [Conditional expressions](https://dart.dev/language/operators#conditional-expressions)
-  - ⚪ [Cascade notation](https://dart.dev/language/operators#cascade-notation)
-  - ⚪ [Spread operators](https://dart.dev/language/operators#spread-operators)
-  - ⚪ [Other operators](https://dart.dev/language/operators#other-operators)
-- ⚪ **[Branches](https://dart.dev/language/branches)** · 0/3
-  - ⚪ ⭐ [If (if/else)](https://dart.dev/language/branches#if)
-  - ⚪ ⭐ [Switch statements](https://dart.dev/language/branches#switch-statements)
-  - ⚪ [Guard clause](https://dart.dev/language/branches#guard-clause)
-- ⚪ **[Loops](https://dart.dev/language/loops)** · 0/4
-  - ⚪ ⭐ [For loops](https://dart.dev/language/loops#for-loops)
-  - ⚪ ⭐ [While and do-while](https://dart.dev/language/loops#while-and-do-while)
-  - ⚪ [Break and continue](https://dart.dev/language/loops#break-and-continue)
-  - ⚪ [Labels](https://dart.dev/language/loops#labels)
-- ⚪ **[Functions](https://dart.dev/language/functions)** · 0/13
-  - ⚪ ⭐ [Parameters (positional and named)](https://dart.dev/language/functions#parameters)
-  - ⚪ [The main() function](https://dart.dev/language/functions#main)
-  - ⚪ [Functions as first-class objects](https://dart.dev/language/functions#functions-as-first-class-objects)
-  - ⚪ [Function types](https://dart.dev/language/functions#function-types)
-  - ⚪ [Anonymous functions](https://dart.dev/language/functions#anonymous-functions)
-  - ⚪ [Lexical scope](https://dart.dev/language/functions#lexical-scope)
-  - ⚪ [Lexical closures](https://dart.dev/language/functions#lexical-closures)
-  - ⚪ [Tear-offs](https://dart.dev/language/functions#tear-offs)
-  - ⚪ [Testing functions for equality](https://dart.dev/language/functions#testing-functions-for-equality)
-  - ⚪ ⭐ [Return values](https://dart.dev/language/functions#return-values)
-  - ⚪ [Getters and setters](https://dart.dev/language/functions#getters-and-setters)
-  - ⚪ [Generators](https://dart.dev/language/functions#generators)
-  - ⚪ [External functions](https://dart.dev/language/functions#external)
+<details>
+<summary>🔄 <b>Como o Dart funciona · How Dart works</b> · 1/4</summary>
 
-**Onde / Where:** [Dart tutorial](https://dart.dev/learn/tutorial) · [Dart language docs](https://dart.dev/language) · [DartPad](https://dartpad.dev) · [Exercism · Dart track](https://exercism.org/tracks/dart)
+- ✅ [JIT × AOT: debug com hot reload × release · JIT × AOT: debug with hot reload × release](https://dart.dev/overview#native-platform)
+- ⬜ [O formato kernel e a Dart VM · The kernel format and the Dart VM](https://dart.dev/overview#platform)
+- ⬜ [Garbage collector](https://dart.dev/overview#runtime)
+- ⬜ [Sound null safety](https://dart.dev/null-safety)
+
+</details>
+
+<details open>
+<summary>🔄 <b>Variáveis e tipos · Variables and types</b> · 4/10 · <a href="https://github.com/IsaacGomes260653/estudos-dart/tree/main/Variaveis">código / code</a></summary>
+
+- ⬜ [`var` e inferência de tipo · `var` and type inference](https://dart.dev/language/variables) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/CriandoVariaveis.dart)
+- ⬜ [`dynamic` × `Object?`](https://dart.dev/language/type-system)
+- ✅ [Null safety](https://dart.dev/language/variables#null-safety) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/NullSafety.dart)
+- ✅ [Valor padrão · Default value](https://dart.dev/language/variables#default-value) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/DefaultValue.dart)
+- ✅ [`late`](https://dart.dev/language/variables#late-variables) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/LateVariables.dart)
+- 🔄 **[`final` × `const` (canonicalização) · `final` × `const` (canonicalization)](https://dart.dev/language/variables#final-and-const)** · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/FinalAndConst.dart)
+- ✅ [`int` e `double` (`/` × `~/`) · `int` and `double` (`/` × `~/`)](https://dart.dev/language/built-in-types#numbers) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/BuiltInTypes/Numbers.dart)
+- ⬜ [`String`: interpolação, imutabilidade e `StringBuffer` · `String`: interpolation, immutability, and `StringBuffer`](https://dart.dev/language/built-in-types#strings)
+- ⬜ [`bool`](https://dart.dev/language/built-in-types#booleans)
+- ⬜ [Igualdade: `==` × `identical` · Equality: `==` × `identical`](https://dart.dev/language/operators#equality-and-relational-operators)
 
 </details>
 
 <details>
-<summary><b>2 · Programação orientada a objetos · Object-oriented programming</b> — ⚪ A começar / Up next · 0/21</summary>
+<summary>⬜ <b>Operadores · Operators</b> · 0/6</summary>
 
-Classes e objetos, atributos e métodos, construtores padrão e nomeados, encapsulamento com _, herança com extends e sobrescrita com @override.<br>
-<em>Classes and objects, fields and methods, default and named constructors, encapsulation with _, inheritance with extends, and overriding with @override.</em>
-
-**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/21 · ⭐ 0/9
-
-- ⚪ **[Classes](https://dart.dev/language/classes)** · 0/5
-  - ⚪ ⭐ [Classes e objetos (molde × instância) · Classes and objects (blueprint × instance)](https://dart.dev/language/classes#using-class-members)
-  - ⚪ ⭐ [Atributos · Fields](https://dart.dev/language/classes#instance-variables)
-  - ⚪ ⭐ [Métodos · Methods](https://dart.dev/language/methods#instance-methods)
-  - ⚪ ⭐ [Getters e setters · Getters and setters](https://dart.dev/language/methods#getters-and-setters)
-  - ⚪ [Variáveis e métodos de classe (static) · Class variables and methods (static)](https://dart.dev/language/classes#class-variables-and-methods)
-- ⚪ **[Constructors](https://dart.dev/language/constructors)** · 0/8
-  - ⚪ ⭐ [Construtor padrão · Default constructors](https://dart.dev/language/constructors#default-constructors)
-  - ⚪ ⭐ [Construtores nomeados · Named constructors](https://dart.dev/language/constructors#named-constructors)
-  - ⚪ [Initializing formal parameters (this.x)](https://dart.dev/language/constructors#use-initializing-formal-parameters)
-  - ⚪ [Initializer list](https://dart.dev/language/constructors#use-an-initializer-list)
-  - ⚪ [Constant constructors](https://dart.dev/language/constructors#constant-constructors)
-  - ⚪ [Redirecting constructors](https://dart.dev/language/constructors#redirecting-constructors)
-  - ⚪ [Factory constructors](https://dart.dev/language/constructors#factory-constructors)
-  - ⚪ [Super parameters](https://dart.dev/language/constructors#super-parameters)
-- ⚪ **[Libraries & imports](https://dart.dev/language/libraries)** · 0/3
-  - ⚪ ⭐ [Encapsulamento com `_` · Encapsulation with `_`](https://dart.dev/language/libraries)
-  - ⚪ [Using libraries](https://dart.dev/language/libraries#using-libraries)
-  - ⚪ [Implementing libraries](https://dart.dev/language/libraries#implementing-libraries)
-- ⚪ **[Herança · Inheritance](https://dart.dev/language/extend)** · 0/2
-  - ⚪ ⭐ [Herança com `extends` e `super` · Inheritance with `extends` and `super`](https://dart.dev/language/extend)
-  - ⚪ ⭐ [Sobrescrita com `@override` · Overriding with `@override`](https://dart.dev/language/extend#overriding-members)
-- ⚪ **Complementares · Further topics** · 0/3
-  - ⚪ [Classes abstratas · Abstract classes](https://dart.dev/language/class-modifiers#abstract)
-  - ⚪ [Interfaces](https://dart.dev/language/classes#implicit-interfaces)
-  - ⚪ [Mixins](https://dart.dev/language/mixins)
-
-**Onde / Where:** [Constructors](https://dart.dev/language/constructors) · [Libraries & imports](https://dart.dev/language/libraries) · [Tutorial · Define classes and objects](https://dart.dev/learn/tutorial/object-oriented) · [Tutorial · Structure apps with inheritance](https://dart.dev/learn/tutorial/inheritance) · [DartPad](https://dartpad.dev)
+- ⬜ [Aritméticos · Arithmetic](https://dart.dev/language/operators#arithmetic-operators)
+- ⬜ [De comparação · Comparison](https://dart.dev/language/operators#equality-and-relational-operators)
+- ⬜ [Lógicos · Logical](https://dart.dev/language/operators#logical-operators)
+- ⬜ [Null-aware: `?.`, `??`, `??=` e `!` · Null-aware: `?.`, `??`, `??=`, and `!`](https://dart.dev/language/operators#other-operators)
+- ⬜ [Cascade (`..`)](https://dart.dev/language/operators#cascade-notation)
+- ⬜ [`is` e `as` · `is` and `as`](https://dart.dev/language/operators#type-test-operators)
 
 </details>
 
 <details>
-<summary><b>3 · Projeto prático · Hands-on project</b> — ⚪ A começar / Up next · 0/5</summary>
+<summary>⬜ <b>Controle de fluxo · Control flow</b> · 0/5</summary>
 
-Gerenciador de tarefas de console em POO: uma classe Tarefa com métodos para adicionar, listar e marcar como concluída.<br>
-<em>Console to-do manager in OOP: a Task class with methods to add, list, and mark tasks as done.</em>
-
-**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/5 · ⭐ 0/5
-
-- ⚪ ⭐ Classe `Tarefa` · `Task` class
-- ⚪ ⭐ Adicionar tarefa · Add a task
-- ⚪ ⭐ Listar tarefas · List tasks
-- ⚪ ⭐ Marcar como concluída · Mark as done
-- ⚪ ⭐ `main` de demonstração (o DartPad não lê o teclado) · Demo `main` (DartPad can't read keyboard input)
-
-**Onde / Where:** [DartPad](https://dartpad.dev)
+- ⬜ [`if`/`else`](https://dart.dev/language/branches#if)
+- ⬜ [`switch` statement e switch expression · `switch` statements and expressions](https://dart.dev/language/branches#switch-statements)
+- ⬜ [`for` e `for-in` · `for` and `for-in`](https://dart.dev/language/loops#for-loops)
+- ⬜ [`while` e `do-while` · `while` and `do-while`](https://dart.dev/language/loops#while-and-do-while)
+- ⬜ [`break` e `continue` · `break` and `continue`](https://dart.dev/language/loops#break-and-continue)
 
 </details>
 
 <details>
-<summary><b>4 · Git e GitHub · Git and GitHub</b> — ⚪ A começar / Up next · 0/23</summary>
+<summary>⬜ <b>Funções · Functions</b> · 0/5</summary>
 
-git init, add, commit e push; levar o projeto da etapa 3 do DartPad para a minha máquina e publicá-lo em um repositório público.<br>
-<em>git init, add, commit, and push; move the stage 3 project from DartPad to my machine and publish it in a public repository.</em>
-
-**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/23 · ⭐ 0/23
-
-- ⚪ **Comandos essenciais · Essential commands** · 0/7
-  - ⚪ ⭐ [Configuração inicial · First-time setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
-  - ⚪ ⭐ [git init](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository#_initializing_a_repository_in_an_existing_directory)
-  - ⚪ ⭐ [git add](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_tracking_files)
-  - ⚪ ⭐ [git commit](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_committing_changes)
-  - ⚪ ⭐ [.gitignore](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring)
-  - ⚪ ⭐ [git remote](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes#_adding_remote_repositories)
-  - ⚪ ⭐ [git push](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes#_pushing_remotes)
-- ⚪ **[Pro Git · 1. Getting Started](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)** · 0/7
-  - ⚪ ⭐ [1.1 About Version Control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
-  - ⚪ ⭐ [1.2 A Short History of Git](https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git)
-  - ⚪ ⭐ [1.3 What is Git?](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F)
-  - ⚪ ⭐ [1.4 The Command Line](https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line)
-  - ⚪ ⭐ [1.5 Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-  - ⚪ ⭐ [1.6 First-Time Git Setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
-  - ⚪ ⭐ [1.7 Getting Help](https://git-scm.com/book/en/v2/Getting-Started-Getting-Help)
-- ⚪ **[Pro Git · 2. Git Basics](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)** · 0/7
-  - ⚪ ⭐ [2.1 Getting a Git Repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
-  - ⚪ ⭐ [2.2 Recording Changes to the Repository](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
-  - ⚪ ⭐ [2.3 Viewing the Commit History](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History)
-  - ⚪ ⭐ [2.4 Undoing Things](https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things)
-  - ⚪ ⭐ [2.5 Working with Remotes](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
-  - ⚪ ⭐ [2.6 Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
-  - ⚪ ⭐ [2.7 Git Aliases](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases)
-- ⚪ ⭐ [GitHub Skills · Introduction to GitHub](https://github.com/skills/introduction-to-github)
-- ⚪ ⭐ Desafio: publicar o projeto da Etapa 3 · Challenge: publish the stage 3 project
-
-**Onde / Where:** [Pro Git (cap. 1 e 2 · ch. 1 and 2)](https://git-scm.com/book) · [GitHub Skills](https://skills.github.com)
+- ⬜ [Parâmetros posicionais, nomeados, opcionais e `required` · Positional, named, optional, and `required` parameters](https://dart.dev/language/functions#parameters)
+- ⬜ [Arrow functions](https://dart.dev/language/functions)
+- ⬜ [Funções anônimas · Anonymous functions](https://dart.dev/language/functions#anonymous-functions)
+- ⬜ [Funções como valores · Functions as values](https://dart.dev/language/functions#functions-as-first-class-objects)
+- ⬜ [Closures](https://dart.dev/language/functions#lexical-closures)
 
 </details>
 
 <details>
-<summary><b>5 · Flutter</b> — ⚪ A começar / Up next · 0/31</summary>
+<summary>⬜ <b>Coleções a fundo · Collections in depth</b> · 0/4</summary>
 
-Widgets, layouts, navegação e o meu primeiro app.<br>
-<em>Widgets, layouts, navigation, and my first app.</em>
-
-**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/31 · ⭐ 0/18
-
-- ⚪ ⭐ [Quick install · Install Flutter](https://docs.flutter.dev/learn/pathway/quick-install)
-- ⚪ **[Introduction to Flutter UI](https://docs.flutter.dev/learn/pathway/tutorial)** · 0/8
-  - ⚪ ⭐ [Tutorial introduction](https://docs.flutter.dev/learn/pathway/tutorial)
-  - ⚪ ⭐ [Create a Flutter app](https://docs.flutter.dev/learn/pathway/tutorial/create-an-app)
-  - ⚪ ⭐ [Widget fundamentals](https://docs.flutter.dev/learn/pathway/tutorial/widget-fundamentals)
-  - ⚪ ⭐ [Layout widgets on a screen](https://docs.flutter.dev/learn/pathway/tutorial/layout)
-  - ⚪ ⭐ [DevTools](https://docs.flutter.dev/learn/pathway/tutorial/devtools)
-  - ⚪ ⭐ [Handle user input](https://docs.flutter.dev/learn/pathway/tutorial/user-input)
-  - ⚪ ⭐ [Learn about stateful widgets](https://docs.flutter.dev/learn/pathway/tutorial/stateful-widget)
-  - ⚪ ⭐ [Add implicit animations](https://docs.flutter.dev/learn/pathway/tutorial/implicit-animations)
-- ⚪ **[State in Flutter apps](https://docs.flutter.dev/learn/pathway/tutorial/set-up-state-project)** · 0/4
-  - ⚪ ⭐ [The state management project](https://docs.flutter.dev/learn/pathway/tutorial/set-up-state-project)
-  - ⚪ ⭐ [Make HTTP requests](https://docs.flutter.dev/learn/pathway/tutorial/http-requests)
-  - ⚪ ⭐ [Use ChangeNotifier to update app state](https://docs.flutter.dev/learn/pathway/tutorial/change-notifier)
-  - ⚪ ⭐ [Use ListenableBuilder to update app UI](https://docs.flutter.dev/learn/pathway/tutorial/listenable-builder)
-- ⚪ **[Flutter UI 102](https://docs.flutter.dev/learn/pathway/tutorial/advanced-ui)** · 0/4
-  - ⚪ ⭐ [Advanced UI features](https://docs.flutter.dev/learn/pathway/tutorial/advanced-ui)
-  - ⚪ ⭐ [Adaptive layouts](https://docs.flutter.dev/learn/pathway/tutorial/adaptive-layout)
-  - ⚪ ⭐ [Scrolling and slivers](https://docs.flutter.dev/learn/pathway/tutorial/slivers)
-  - ⚪ ⭐ [Stack based navigation](https://docs.flutter.dev/learn/pathway/tutorial/navigation)
-- ⚪ ⭐ [How Flutter works](https://docs.flutter.dev/learn/pathway/how-flutter-works)
-- ⚪ **[Flutter Foundations (depois que eu começar) · Flutter Foundations (after I start)](https://codewithandrea.com/courses/flutter-foundations/)** · 0/13
-  - ⚪ Intro and Project Overview
-  - ⚪ Navigation with GoRouter
-  - ⚪ App Architecture
-  - ⚪ State Management with Riverpod (Part I)
-  - ⚪ State Management with Riverpod (Part II)
-  - ⚪ Automated Testing (Part I)
-  - ⚪ Automated Testing (Part II)
-  - ⚪ Feature: Shopping Cart (with local data persistence)
-  - ⚪ Feature: Checkout Flows
-  - ⚪ Error Handling
-  - ⚪ Feature: Product Reviews
-  - ⚪ Feature: Product Search
-  - ⚪ New Riverpod 2.0 APIs & Riverpod Generator
-
-**Onde / Where:** [Flutter learning pathway](https://docs.flutter.dev/learn/pathway) · [Flutter Foundations](https://codewithandrea.com/courses/flutter-foundations/) (US$ 99)
+- ⬜ [`List`, `Set` e `Map`: quando usar cada uma e o custo das operações · `List`, `Set`, and `Map`: when to use each and what operations cost](https://dart.dev/language/collections)
+- ⬜ [`Iterable` lazy · Lazy `Iterable`](https://dart.dev/libraries/collections/iterables)
+- ⬜ [`map`, `where`, `fold`, `reduce`, `expand`, `any`, `every` e `sort` · `map`, `where`, `fold`, `reduce`, `expand`, `any`, `every`, and `sort`](https://dart.dev/libraries/collections/iterables)
+- ⬜ [Collection `if`/`for`, spread e null-aware elements · Collection `if`/`for`, spread, and null-aware elements](https://dart.dev/language/collections#collection-elements)
 
 </details>
 
 <details>
-<summary><b>6 · Métodos ágeis e ferramentas · Agile methods and tools</b> — ⚪ A começar / Up next · 0/18</summary>
+<summary>⬜ <b>Dart 3</b> · 0/4</summary>
 
-Scrum, Kanban e Jira no dia a dia de um time de desenvolvimento.<br>
-<em>Scrum, Kanban, and Jira in a development team's daily work.</em>
-
-**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/18 · ⭐ 0/18
-
-- ⚪ **[Scrum · papéis (Scrum Team) · Scrum · roles (Scrum Team)](https://scrumguides.org/scrum-guide.html#scrum-team)** · 0/3
-  - ⚪ ⭐ [Developers](https://scrumguides.org/scrum-guide.html#developers)
-  - ⚪ ⭐ [Product Owner](https://scrumguides.org/scrum-guide.html#product-owner)
-  - ⚪ ⭐ [Scrum Master](https://scrumguides.org/scrum-guide.html#scrum-master)
-- ⚪ **[Scrum · eventos · Scrum · events](https://scrumguides.org/scrum-guide.html#scrum-events)** · 0/5
-  - ⚪ ⭐ [The Sprint](https://scrumguides.org/scrum-guide.html#the-sprint)
-  - ⚪ ⭐ [Sprint Planning](https://scrumguides.org/scrum-guide.html#sprint-planning)
-  - ⚪ ⭐ [Daily Scrum](https://scrumguides.org/scrum-guide.html#daily-scrum)
-  - ⚪ ⭐ [Sprint Review](https://scrumguides.org/scrum-guide.html#sprint-review)
-  - ⚪ ⭐ [Sprint Retrospective](https://scrumguides.org/scrum-guide.html#sprint-retrospective)
-- ⚪ **[Scrum · artefatos · Scrum · artifacts](https://scrumguides.org/scrum-guide.html#scrum-artifacts)** · 0/3
-  - ⚪ ⭐ [Product Backlog](https://scrumguides.org/scrum-guide.html#product-backlog)
-  - ⚪ ⭐ [Sprint Backlog](https://scrumguides.org/scrum-guide.html#sprint-backlog)
-  - ⚪ ⭐ [Increment](https://scrumguides.org/scrum-guide.html#increment)
-- ⚪ ⭐ [Simulado Scrum Open · Scrum Open assessment](https://www.scrum.org/open-assessments/scrum-open)
-- ⚪ **[Kanban](https://www.atlassian.com/agile/kanban)** · 0/3
-  - ⚪ ⭐ [Quadro · Board](https://www.atlassian.com/agile/kanban/boards)
-  - ⚪ ⭐ [Limite de WIP · WIP limits](https://www.atlassian.com/agile/kanban/wip-limits)
-  - ⚪ ⭐ [Fluxo · Flow](https://www.atlassian.com/agile/kanban)
-- ⚪ **[Jira — projetos, issues, quadros e sprints · Jira — projects, issues, boards, and sprints](https://community-link.atlassian.com/learning/path/get-the-most-out-of-jira)** · 0/3
-  - ⚪ ⭐ [Get started quickly with Jira](https://community-link.atlassian.com/learning/path/get-the-most-out-of-jira/course/get-started-with-jira)
-  - ⚪ ⭐ [Track your work effectively in Jira](https://community-link.atlassian.com/learning/path/get-the-most-out-of-jira/course/track-your-work-effectively-in-jira)
-  - ⚪ ⭐ [Personalize how you work in Jira](https://community-link.atlassian.com/learning/path/get-the-most-out-of-jira/course/jira-dashboard-training)
-
-**Onde / Where:** [Scrum Guide](https://scrumguides.org/scrum-guide.html) · [Scrum Open](https://www.scrum.org/open-assessments/scrum-open) · [Atlassian Agile Coach · Kanban](https://www.atlassian.com/agile/kanban) · [Jira · Get the most out of Jira](https://community-link.atlassian.com/learning/path/get-the-most-out-of-jira)
+- ⬜ [Records](https://dart.dev/language/records)
+- ⬜ [Patterns: desestruturação, `if-case` e `switch` exaustivo · Patterns: destructuring, `if-case`, and exhaustive `switch`](https://dart.dev/language/patterns)
+- ⬜ [Enums com campos · Enums with fields](https://dart.dev/language/enums#declaring-enhanced-enums)
+- ⬜ [Dot shorthands](https://dart.dev/language/dot-shorthands)
 
 </details>
 
 <details>
-<summary><b>7 · Do código à loja de apps · From code to the app store</b> — ⚪ A começar / Up next · 0/16</summary>
+<summary>⬜ <b>Erros básicos · Error basics</b> · 0/2</summary>
 
-Fluxo de desenvolvimento e esteira de release voltada para apps.<br>
-<em>Development workflow and app release pipeline.</em>
-
-**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/16
-
-- ⚪ Course Introduction
-- ⚪ Launcher Icons and Splash Screens
-- ⚪ Adding Flavors to a Flutter App
-- ⚪ Error Monitoring with Sentry and Crashlytics
-- ⚪ Analytics with Mixpanel and Firebase Analytics
-- ⚪ Force Update Strategies
-- ⚪ In-App Reviews
-- ⚪ Creating a Landing Page for your Mobile app
-- ⚪ Releasing Your iOS App on the App Store
-- ⚪ Releasing Your Android App on the Google Play Store
-- ⚪ Release Automation with Codemagic
-- ⚪ Release Automation with GitHub Actions
-- ⚪ Code Push with Shorebird
-- ⚪ Automated Screenshot Generation Strategies
-- ⚪ Feature Toggles and A/B Testing
-- ⚪ Appendix 1: A Riverpod Primer
-
-**Onde / Where:** [Flutter in Production](https://codewithandrea.com/courses/flutter-in-production/) (US$ 79 a US$ 119)
+- ⬜ [`try`, `catch`, `on`, `finally` e `rethrow` · `try`, `catch`, `on`, `finally`, and `rethrow`](https://dart.dev/language/error-handling)
+- ⬜ [`Exception` × `Error`](https://dart.dev/language/error-handling)
 
 </details>
 
 <details>
-<summary><b>8 · Linguagens de apoio · Supporting languages</b> — ⚪ A começar / Up next · 0/6</summary>
+<summary>⬜ <b>Ferramentas · Tooling</b> · 0/3</summary>
 
-Java com orientação a objetos e Ruby.<br>
-<em>Object-oriented Java and Ruby.</em>
-
-**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/6
-
-- ⚪ **[Java — MOOC de Helsinque · Java — University of Helsinki MOOC](https://java-programming.mooc.fi/)** · 0/2
-  - ⚪ [Java Programming I (partes 1 a 7) · Java Programming I (parts 1–7)](https://java-programming.mooc.fi/part-1)
-  - ⚪ [Java Programming II (partes 8 a 14) · Java Programming II (parts 8–14)](https://java-programming.mooc.fi/part-8)
-- ⚪ **[Ruby em Vinte Minutos · Ruby in Twenty Minutes](https://www.ruby-lang.org/pt/documentation/quickstart/)** · 0/4
-  - ⚪ [Parte 1 · Part 1](https://www.ruby-lang.org/pt/documentation/quickstart/)
-  - ⚪ [Parte 2 · Part 2](https://www.ruby-lang.org/pt/documentation/quickstart/2/)
-  - ⚪ [Parte 3 · Part 3](https://www.ruby-lang.org/pt/documentation/quickstart/3/)
-  - ⚪ [Parte 4 · Part 4](https://www.ruby-lang.org/pt/documentation/quickstart/4/)
-
-**Onde / Where:** [Java Programming MOOC](https://java-programming.mooc.fi/) · [Ruby em Vinte Minutos](https://www.ruby-lang.org/pt/documentation/quickstart/)
+- ⬜ [`pubspec.yaml`, pub.dev e imports · `pubspec.yaml`, pub.dev, and imports](https://dart.dev/tools/pub/pubspec)
+- ⬜ [`dart analyze` e `dart format` · `dart analyze` and `dart format`](https://dart.dev/tools/dart-analyze)
+- ⬜ [Lints e Effective Dart · Lints and Effective Dart](https://dart.dev/effective-dart)
 
 </details>
 
-#### Outros estudos · Other studies
+<details>
+<summary>⬜ <b>Testes desde já · Tests from day one</b> · 0/1</summary>
 
-<picture>
-  <source media="(max-width: 1199px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/outros-celular-escuro.svg?v=99045b9c">
-  <source media="(max-width: 1199px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/outros-celular-claro.svg?v=1c3601b8">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/outros-escuro.svg?v=515fd3a4">
-  <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/outros-claro.svg?v=172ebe5b" alt="Outros estudos · Other studies. AWS: a começar, 0 de 14 subtemas; Databricks: pausado, 0 de 3 subtemas. / AWS: up next, 0 of 14 subtopics; Databricks: paused, 0 of 3 subtopics.">
-</picture>
+- ⬜ [`package:test`: `test`, `expect`, `group` e `setUp` · `package:test`: `test`, `expect`, `group`, and `setUp`](https://dart.dev/tools/testing)
+
+</details>
 
 <details>
-<summary><b>AWS</b> — ⚪ A começar / Up next · 0/14</summary>
+<summary>⬜ <b>🏁 Checkpoint</b> · 0/3</summary>
 
-Fundamentos de nuvem na AWS: serviços, preços, segurança, monitoramento e arquitetura.<br>
-<em>AWS cloud fundamentals: services, pricing, security, monitoring, and architecture.</em>
+- ⬜ Explicar JIT/AOT e `final`/`const` em 30 s · Explain JIT/AOT and `final`/`const` in 30 s
+- ⬜ Prever a saída de 10 trechos de código · Predict the output of 10 code snippets
+- ⬜ Escrever do zero uma calculadora de notas com records e testes · Write a grade calculator from scratch, with records and tests
+
+</details>
+
+**Onde / Where:** [Alura · Formação Dart](https://www.alura.com.br/formacao-dart) · [Dart: trabalhando com a sintaxe e configuração de projeto](https://www.alura.com.br/curso-online-dart-trabalhando-sintaxe-configuracao-projeto) · [Praticando Collections no Dart](https://www.alura.com.br/curso-online-praticando-collections-dart-listas-sets-mapas) · [dart.dev · Language](https://dart.dev/language) · [Effective Dart](https://dart.dev/effective-dart) · [DartPad](https://dartpad.dev)
+
+</details>
+
+<details>
+<summary><b>2 · Programação orientada a objetos · Object-oriented programming</b> — ⬜ Pendente / To do · 0/27</summary>
+
+Classes e construtores, encapsulamento e imutabilidade, herança e composição, interfaces e mixins, class modifiers, generics e extensions, com SOLID por trás de tudo.<br>
+<em>Classes and constructors, encapsulation and immutability, inheritance and composition, interfaces and mixins, class modifiers, generics, and extensions, with SOLID behind it all.</em>
+
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/27
+
+<details>
+<summary>⬜ <b>Classes e objetos · Classes and objects</b> · 0/3</summary>
+
+- ⬜ [Classes, objetos e `this` · Classes, objects, and `this`](https://dart.dev/language/classes)
+- ⬜ [Membros `static` · `static` members](https://dart.dev/language/classes#class-variables-and-methods)
+- ⬜ O objeto na memória · The object in memory
+
+</details>
+
+<details>
+<summary>⬜ <b>Construtores · Constructors</b> · 0/5</summary>
+
+- ⬜ [Padrão e nomeados · Default and named](https://dart.dev/language/constructors#named-constructors)
+- ⬜ [Lista de inicialização · Initializer list](https://dart.dev/language/constructors#use-an-initializer-list)
+- ⬜ [Redirecionadores · Redirecting](https://dart.dev/language/constructors#redirecting-constructors)
+- ⬜ [`factory`](https://dart.dev/language/constructors#factory-constructors)
+- ⬜ [`const`](https://dart.dev/language/constructors#constant-constructors)
+
+</details>
+
+<details>
+<summary>⬜ <b>Encapsulamento e imutabilidade · Encapsulation and immutability</b> · 0/3</summary>
+
+- ⬜ [Privacidade com `_`, getters e setters · Privacy with `_`, getters, and setters](https://dart.dev/language/methods#getters-and-setters)
+- ⬜ Imutabilidade e `copyWith` · Immutability and `copyWith`
+- ⬜ `==` e `hashCode`, sempre juntos · `==` and `hashCode`, always together
+
+</details>
+
+<details>
+<summary>⬜ <b>Herança · Inheritance</b> · 0/3</summary>
+
+- ⬜ [`extends`, `super` e `@override` · `extends`, `super`, and `@override`](https://dart.dev/language/extend)
+- ⬜ Polimorfismo · Polymorphism
+- ⬜ Composição × herança · Composition × inheritance
+
+</details>
+
+<details>
+<summary>⬜ <b>Abstração · Abstraction</b> · 0/3</summary>
+
+- ⬜ [Classes abstratas · Abstract classes](https://dart.dev/language/class-modifiers#abstract)
+- ⬜ [Interfaces com `implements` · Interfaces with `implements`](https://dart.dev/language/classes#implicit-interfaces)
+- ⬜ [Mixins: `with`, `on` e a ordem de linearização · Mixins: `with`, `on`, and linearization order](https://dart.dev/language/mixins)
+
+</details>
+
+<details>
+<summary>⬜ <b>Class modifiers</b> · 0/2</summary>
+
+- ⬜ [`sealed`, `final`, `base` e `interface` · `sealed`, `final`, `base`, and `interface`](https://dart.dev/language/class-modifiers)
+- ⬜ [`sealed` com `switch` exaustivo para estados de tela · `sealed` with exhaustive `switch` for screen states](https://dart.dev/language/class-modifiers#sealed)
+
+</details>
+
+<details>
+<summary>⬜ <b>Tipos e extensões · Types and extensions</b> · 0/4</summary>
+
+- ⬜ [Enums avançados · Enhanced enums](https://dart.dev/language/enums)
+- ⬜ [Generics: `T extends` e um tipo `Result<T>` · Generics: `T extends` and a `Result<T>` type](https://dart.dev/language/generics)
+- ⬜ [Extension methods](https://dart.dev/language/extension-methods)
+- ⬜ Exceções personalizadas do domínio · Custom domain exceptions
+
+</details>
+
+<details>
+<summary>⬜ <b>Design</b> · 0/2</summary>
+
+- ⬜ SOLID
+- ⬜ Coesão e acoplamento · Cohesion and coupling
+
+</details>
+
+<details>
+<summary>⬜ <b>🏁 Checkpoint</b> · 0/2</summary>
+
+- ⬜ Explicar `extends` × `implements` × `with` · Explain `extends` × `implements` × `with`
+- ⬜ Modelar do zero `Conta`, `Transacao` e `StatusPagamento` (sealed), com testes · Model `Conta`, `Transacao`, and `StatusPagamento` (sealed) from scratch, with tests
+
+</details>
+
+**Onde / Where:** [Alura · Formação Dart](https://www.alura.com.br/formacao-dart) · [Dart: trabalhando com orientação a objetos](https://www.alura.com.br/curso-online-dart-trabalhando-orientacao-objetos) · [Praticando Collections no Dart](https://www.alura.com.br/curso-online-praticando-collections-dart-listas-sets-mapas) · [dart.dev · Classes](https://dart.dev/language/classes) · [dart.dev · Class modifiers](https://dart.dev/language/class-modifiers)
+
+</details>
+
+<details>
+<summary><b>3 · Assincronismo e APIs · Async and APIs</b> — ⬜ Pendente / To do · 0/15</summary>
+
+Event loop, Future e async/await, Stream, HTTP e JSON, isolates e testes assíncronos com mocks.<br>
+<em>Event loop, Future and async/await, Stream, HTTP and JSON, isolates, and async tests with mocks.</em>
+
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/15
+
+<details>
+<summary>⬜ <b>Event loop</b> · 0/2</summary>
+
+- ⬜ [Uma thread só · A single thread](https://dart.dev/language/concurrency#event-loop)
+- ⬜ [Microtask queue × event queue](https://dart.dev/language/concurrency)
+
+</details>
+
+<details>
+<summary>⬜ <b>Future</b> · 0/3</summary>
+
+- ⬜ [Estados, `then` e `catchError` · States, `then`, and `catchError`](https://dart.dev/libraries/async/async-await)
+- ⬜ `Future.wait` e timeouts · `Future.wait` and timeouts
+- ⬜ [`async`/`await`: o que o compilador faz e os erros comuns · `async`/`await`: what the compiler does and common mistakes](https://dart.dev/libraries/async/async-await)
+
+</details>
+
+<details>
+<summary>⬜ <b>Stream</b> · 0/4</summary>
+
+- ⬜ [Single-subscription × broadcast](https://dart.dev/libraries/async/using-streams)
+- ⬜ [`async*`/`yield`](https://dart.dev/libraries/async/creating-streams)
+- ⬜ [`StreamController` e transformações · `StreamController` and transformations](https://dart.dev/libraries/async/creating-streams)
+- ⬜ [Erros assíncronos · Async errors](https://dart.dev/libraries/async/using-streams)
+
+</details>
+
+<details>
+<summary>⬜ <b>HTTP e JSON · HTTP and JSON</b> · 0/2</summary>
+
+- ⬜ [`package:http`: GET, POST, headers, status codes e token · `package:http`: GET, POST, headers, status codes, and tokens](https://dart.dev/server/fetch-data)
+- ⬜ [JSON: `jsonDecode`, `fromJson`/`toJson` e camada de modelo · JSON: `jsonDecode`, `fromJson`/`toJson`, and a model layer](https://dart.dev/libraries/serialization/json)
+
+</details>
+
+<details>
+<summary>⬜ <b>Isolates e testes · Isolates and tests</b> · 0/2</summary>
+
+- ⬜ [Isolates: memória isolada e `Isolate.run` · Isolates: isolated memory and `Isolate.run`](https://dart.dev/language/isolates)
+- ⬜ [Testes assíncronos com mocks · Async tests with mocks](https://dart.dev/tools/testing)
+
+</details>
+
+<details>
+<summary>⬜ <b>🏁 Checkpoint</b> · 0/2</summary>
+
+- ⬜ Prever a ordem dos prints com Future, microtask e Timer · Predict the print order with Future, microtask, and Timer
+- ⬜ Criar um cliente de API com tratamento de erros e testes · Build an API client with error handling and tests
+
+</details>
+
+**Onde / Where:** [Dart: lidando com erros, exceções e null safety](https://www.alura.com.br/curso-online-dart-lidando-erros-excecoes-null-safety) · [Dart: dominando assincronismo e criando comunicação com APIs](https://www.alura.com.br/curso-online-dart-dominando-assincronismo-criando-comunicacao-apis) · [dart.dev · Asynchronous programming](https://dart.dev/libraries/async/async-await) · [dart.dev · Concurrency](https://dart.dev/language/concurrency)
+
+</details>
+
+<details>
+<summary><b>4 · Projeto prático · Hands-on project</b> — ⬜ Pendente / To do · 0/10</summary>
+
+Gerenciador de tarefas de console, publicado no GitHub.<br>
+<em>Console task manager, published on GitHub.</em>
+
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/10
+
+<details>
+<summary>⬜ <b>Modelo · Model</b> · 0/2</summary>
+
+- ⬜ Classe `Tarefa` imutável, com prioridade (enum) e status (sealed) · Immutable `Tarefa` (task) class, with priority (enum) and status (sealed)
+- ⬜ Adicionar, listar, filtrar, concluir e remover · Add, list, filter, complete, and remove
+
+</details>
+
+<details>
+<summary>⬜ <b>Camadas · Layers</b> · 0/3</summary>
+
+- ⬜ Modelo → repositório → serviço → console · Model → repository → service → console
+- ⬜ Persistência em JSON assíncrona · Async JSON persistence
+- ⬜ Exceções do domínio · Domain exceptions
+
+</details>
+
+<details>
+<summary>⬜ <b>Qualidade e fluxo de trabalho · Quality and workflow</b> · 0/4</summary>
+
+- ⬜ TDD com mais de 80% de cobertura · TDD with over 80% coverage
+- ⬜ `dart analyze` sem avisos · `dart analyze` with no warnings
+- ⬜ README com prints · README with screenshots
+- ⬜ Branch por funcionalidade, pull requests e issues · Feature branches, pull requests, and issues
+
+</details>
+
+<details>
+<summary>⬜ <b>🏁 Checkpoint</b> · 0/1</summary>
+
+- ⬜ Apresentar o projeto em 2 minutos, explicando as decisões · Present the project in 2 minutes, explaining the decisions
+
+</details>
+
+**Onde / Where:** [dart.dev · Testing](https://dart.dev/tools/testing)
+
+</details>
+
+<details>
+<summary><b>5 · Flutter</b> — ⬜ Pendente / To do · 0/28</summary>
+
+As três árvores, layout, interface e navegação, estado e arquitetura, dados e testes, performance e release até as lojas.<br>
+<em>The three trees, layout, UI and navigation, state and architecture, data and tests, performance, and release to the stores.</em>
+
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/28
+
+<details>
+<summary>⬜ <b>Fundamentos · Fundamentals</b> · 0/3</summary>
+
+- ⬜ As três árvores: Widget, Element e RenderObject · The three trees: Widget, Element, and RenderObject
+- ⬜ Stateless × Stateful e o ciclo de vida do State · Stateless × Stateful and the State lifecycle
+- ⬜ `BuildContext` e Keys · `BuildContext` and Keys
+
+</details>
+
+<details>
+<summary>⬜ <b>Layout</b> · 0/4</summary>
+
+- ⬜ Constraints go down, sizes go up
+- ⬜ `Row`, `Column`, `Stack` e `Expanded` · `Row`, `Column`, `Stack`, and `Expanded`
+- ⬜ Listas · Lists
+- ⬜ Responsividade · Responsiveness
+
+</details>
+
+<details>
+<summary>⬜ <b>Interface e navegação · UI and navigation</b> · 0/4</summary>
+
+- ⬜ Material 3 e temas · Material 3 and themes
+- ⬜ Formulários com validação · Forms with validation
+- ⬜ Acessibilidade · Accessibility
+- ⬜ go_router e deep links · go_router and deep links
+
+</details>
+
+<details>
+<summary>⬜ <b>Estado e arquitetura · State and architecture</b> · 0/4</summary>
+
+- ⬜ `setState`, `ValueNotifier` e `InheritedWidget` · `setState`, `ValueNotifier`, and `InheritedWidget`
+- ⬜ O pacote de estado que a Koin usa · The state package Koin uses
+- ⬜ Arquitetura oficial do Flutter: MVVM e camadas · Flutter's official architecture: MVVM and layers
+- ⬜ Injeção de dependência · Dependency injection
+
+</details>
+
+<details>
+<summary>⬜ <b>Dados e testes · Data and tests</b> · 0/4</summary>
+
+- ⬜ APIs, cache e persistência local · APIs, caching, and local persistence
+- ⬜ Testes unitários e de widget · Unit and widget tests
+- ⬜ Golden tests
+- ⬜ `integration_test` e Maestro · `integration_test` and Maestro
+
+</details>
+
+<details>
+<summary>⬜ <b>Performance e release · Performance and release</b> · 0/5</summary>
+
+- ⬜ DevTools, rebuilds e const widgets · DevTools, rebuilds, and const widgets
+- ⬜ Flavors e assinatura · Flavors and signing
+- ⬜ CI/CD
+- ⬜ Monitoramento de erros · Error monitoring
+- ⬜ Publicação nas lojas · Publishing to the stores
+
+</details>
+
+<details>
+<summary>⬜ <b>🏁 Entregáveis · 🏁 Deliverables</b> · 0/4</summary>
+
+- ⬜ O gerenciador de tarefas virando app Flutter · The task manager as a Flutter app
+- ⬜ Um app consumindo uma API real · An app consuming a real API
+- ⬜ Certificados da Alura · Alura certificates
+- ⬜ Certificados do Code With Andrea · Code With Andrea certificates
+
+</details>
+
+**Onde / Where:** [Alura · Formação Flutter by Nubank](https://www.alura.com.br/carreiras/desenvolvimento-mobile-com-flutter) · [Code With Andrea · Flutter Foundations](https://codewithandrea.com/courses/flutter-foundations/) (US$ 99) · [Code With Andrea · Flutter in Production](https://codewithandrea.com/courses/flutter-in-production/) (US$ 79 a US$ 119)
+
+</details>
+
+#### Em paralelo: credenciais e ferramentas do trabalho · In parallel: work credentials and tools
+
+<details>
+<summary><b>Jira Fundamentals</b> — ⬜ Pendente / To do · 0/4</summary>
+
+Selo da Atlassian University, grátis.<br>
+<em>Atlassian University badge, free.</em>
+
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/4
+
+- ⬜ [Get started quickly with Jira](https://community.atlassian.com/learning/path/get-the-most-out-of-jira/course/get-started-with-jira)
+- ⬜ [Track your work effectively in Jira](https://community.atlassian.com/learning/path/get-the-most-out-of-jira/course/track-your-work-effectively-in-jira)
+- ⬜ [Personalize how you work in Jira](https://community.atlassian.com/learning/path/get-the-most-out-of-jira/course/jira-dashboard-training)
+- ⬜ Selo Jira Fundamentals · Jira Fundamentals badge
+
+**Onde / Where:** [Atlassian University · Jira](https://community.atlassian.com/learning/path/get-the-most-out-of-jira) (gratuito / free)
+
+</details>
+
+<details>
+<summary><b>GitHub Foundations (GH-900)</b> — ⬜ Pendente / To do · 0/3</summary>
+
+Certificação oficial do GitHub, estudada pelo Microsoft Learn.<br>
+<em>Official GitHub certification, studied on Microsoft Learn.</em>
+
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/3
+
+- ⬜ [GitHub Foundations Part 1](https://learn.microsoft.com/en-us/training/paths/github-foundations/)
+- ⬜ [GitHub Foundations Part 2](https://learn.microsoft.com/en-us/training/paths/github-foundations-2/)
+- ⬜ [Exame GH-900 · GH-900 exam](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/)
+
+**Onde / Where:** [Microsoft Learn · GitHub](https://learn.microsoft.com/en-us/training/github/) · [GitHub Foundations](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/) (grátis para estudante / free for students)
+
+</details>
+
+<details>
+<summary><b>PSM I</b> — ⬜ Pendente / To do · 0/3</summary>
+
+Certificação oficial da Scrum.org.<br>
+<em>Official Scrum.org certification.</em>
+
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/3
+
+- ⬜ [Scrum Guide 2020](https://scrumguides.org/scrum-guide.html)
+- ⬜ [Scrum Open até acertar 100% · Scrum Open until I score 100%](https://www.scrum.org/open-assessments/scrum-open)
+- ⬜ [Exame PSM I · PSM I exam](https://www.scrum.org/assessments/professional-scrum-master-i-certification)
+
+**Onde / Where:** [Scrum Guide](https://scrumguides.org/scrum-guide.html) · [Scrum Open](https://www.scrum.org/open-assessments/scrum-open) (gratuito / free) · [PSM I](https://www.scrum.org/assessments/professional-scrum-master-i-certification)
+
+</details>
+
+<details>
+<summary><b>Git a fundo · Git in depth</b> — ⬜ Pendente / To do · 0/9</summary>
+
+Como o Git funciona por dentro e o fluxo de trabalho no GitHub.<br>
+<em>How Git works inside, and the GitHub workflow.</em>
+
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/9
+
+- ⬜ [Objetos: blob, tree e commit · Objects: blob, tree, and commit](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects)
+- ⬜ [Merge × rebase](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
+- ⬜ [Conflitos · Conflicts](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+- ⬜ [Reset × revert](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified)
+- ⬜ Cherry-pick e stash · Cherry-pick and stash
+- ⬜ [Tags e Conventional Commits · Tags and Conventional Commits](https://www.conventionalcommits.org/pt-br/v1.0.0/)
+- ⬜ GitHub: pull requests e Projects · GitHub: pull requests and Projects
+- ⬜ GitHub Actions
+- ⬜ Dependabot e Copilot · Dependabot and Copilot
+
+**Onde / Where:** [Pro Git](https://git-scm.com/book/en/v2) · [Conventional Commits](https://www.conventionalcommits.org/pt-br/v1.0.0/)
+
+</details>
+
+<details>
+<summary><b>Scrum e Kanban · Scrum and Kanban</b> — ⬜ Pendente / To do · 0/7</summary>
+
+Os fundamentos dos dois e como tudo isso aparece no Jira.<br>
+<em>The basics of both, and how it all shows up in Jira.</em>
+
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/7
+
+- ⬜ [Empirismo e valores · Empiricism and values](https://scrumguides.org/scrum-guide.html#scrum-theory)
+- ⬜ [Responsabilidades · Accountabilities](https://scrumguides.org/scrum-guide.html#scrum-team)
+- ⬜ [Eventos · Events](https://scrumguides.org/scrum-guide.html#scrum-events)
+- ⬜ [Artefatos · Artifacts](https://scrumguides.org/scrum-guide.html#scrum-artifacts)
+- ⬜ [WIP limits](https://www.atlassian.com/agile/kanban/wip-limits)
+- ⬜ Lead time e cycle time · Lead time and cycle time
+- ⬜ Tudo isso no Jira · All of it in Jira
+
+**Onde / Where:** [Scrum Guide](https://scrumguides.org/scrum-guide.html) · [Atlassian Agile Coach · Kanban](https://www.atlassian.com/agile/kanban)
+
+</details>
+
+#### Trilhas futuras · Future tracks
+
+<details>
+<summary><b>IA · AI</b> — ⬜ Pendente / To do · 0/1</summary>
+
+Com a certificação oficial.<br>
+<em>With the official certification.</em>
+
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/1
+
+- ⬜ Certificação oficial · Official certification
+
+</details>
+
+<details>
+<summary><b>Databricks</b> — ⬜ Pendente / To do · 0/3</summary>
+
+Retomar o curso que comecei e fazer a certificação oficial.<br>
+<em>Pick back up the course I started and take the official certification.</em>
+
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/3
+
+- ⬜ [Databricks Fundamentals](https://www.databricks.com/training/catalog/databricks-fundamentals-2206)
+- ⬜ [Prática na Free Edition · Hands-on in the Free Edition](https://www.databricks.com/learn/free-edition)
+- ⬜ [Certificação Data Engineer Associate · Data Engineer Associate certification](https://www.databricks.com/learn/certification/data-engineer-associate)
+
+**Onde / Where:** [Databricks Academy](https://www.databricks.com/learn/training/home) (gratuito / free) · [Databricks Free Edition](https://www.databricks.com/learn/free-edition) (gratuito / free) · [Data Engineer Associate](https://www.databricks.com/learn/certification/data-engineer-associate) (US$ 200)
+
+</details>
+
+<details>
+<summary><b>AWS</b> — ⬜ Pendente / To do · 0/14</summary>
+
+Fundamentos de nuvem na AWS, com a certificação oficial.<br>
+<em>AWS cloud fundamentals, with the official certification.</em>
 
 **Progresso / Progress:** `░░░░░░░░░░` 0% · 0/14
 
-- ⚪ **[AWS Cloud Practitioner Essentials](https://skillbuilder.aws/learn/94T2BEN85A/aws-cloud-practitioner-essentials/8D79F3AVR7)** · 0/13
-  - ⚪ 1. Introduction to the Cloud
-  - ⚪ 2. Compute in the Cloud
-  - ⚪ 3. Exploring Compute Services
-  - ⚪ 4. Going Global
-  - ⚪ 5. Networking
-  - ⚪ 6. Storage
-  - ⚪ 7. Databases
-  - ⚪ 8. AI/ML and Data Analytics
-  - ⚪ 9. Security
-  - ⚪ 10. Monitoring, Compliance, and Governance
-  - ⚪ 11. Pricing and Support
-  - ⚪ 12. Migrating to the AWS Cloud
-  - ⚪ 13. Well-Architected Solutions
-- ⚪ [Certificação AWS Certified Cloud Practitioner (opcional) · AWS Certified Cloud Practitioner certification (optional)](https://aws.amazon.com/certification/certified-cloud-practitioner/)
+<details>
+<summary>⬜ <b><a href="https://skillbuilder.aws/learn/94T2BEN85A/aws-cloud-practitioner-essentials/8D79F3AVR7">AWS Cloud Practitioner Essentials</a></b> · 0/13</summary>
+
+- ⬜ 1. Introduction to the Cloud
+- ⬜ 2. Compute in the Cloud
+- ⬜ 3. Exploring Compute Services
+- ⬜ 4. Going Global
+- ⬜ 5. Networking
+- ⬜ 6. Storage
+- ⬜ 7. Databases
+- ⬜ 8. AI/ML and Data Analytics
+- ⬜ 9. Security
+- ⬜ 10. Monitoring, Compliance, and Governance
+- ⬜ 11. Pricing and Support
+- ⬜ 12. Migrating to the AWS Cloud
+- ⬜ 13. Well-Architected Solutions
+
+</details>
+
+- ⬜ [Certificação AWS Certified Cloud Practitioner · AWS Certified Cloud Practitioner certification](https://aws.amazon.com/certification/certified-cloud-practitioner/)
 
 **Onde / Where:** [AWS Cloud Practitioner Essentials](https://aws.amazon.com/training/learn-about/cloud-practitioner/) (gratuito / free) · [AWS Certified Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) (US$ 100)
 
 </details>
 
 <details>
-<summary><b>Databricks</b> — ⏸️ Pausado / Paused · 0/3</summary>
+<summary><b>Cibersegurança · Cybersecurity</b> — ⬜ Pendente / To do · 0/1</summary>
 
-Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
-<em>I started the course but paused it to focus on Flutter. Coming back soon.</em>
+Com a certificação oficial.<br>
+<em>With the official certification.</em>
 
-**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/3
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/1
 
-- ⏸️ [Databricks Fundamentals](https://www.databricks.com/training/catalog/databricks-fundamentals-2206)
-- ⚪ [Prática na Free Edition · Hands-on in the Free Edition](https://www.databricks.com/learn/free-edition)
-- ⚪ [Certificação Data Engineer Associate (opcional) · Data Engineer Associate certification (optional)](https://www.databricks.com/learn/certification/data-engineer-associate)
+- ⬜ Certificação oficial · Official certification
 
-**Onde / Where:** [Databricks Academy](https://www.databricks.com/learn/training/home) (gratuito / free) · [Databricks Free Edition](https://www.databricks.com/learn/free-edition) (gratuito / free) · [Data Engineer Associate](https://www.databricks.com/learn/certification/data-engineer-associate) (US$ 200 · 45 questões · 90 min)
+</details>
+
+<details>
+<summary><b>Java e Ruby (apoio) · Java and Ruby (support)</b> — ⬜ Pendente / To do · 0/6</summary>
+
+Java com orientação a objetos e Ruby, como linguagens de apoio.<br>
+<em>Object-oriented Java and Ruby, as supporting languages.</em>
+
+**Progresso / Progress:** `░░░░░░░░░░` 0% · 0/6
+
+<details>
+<summary>⬜ <b><a href="https://java-programming.mooc.fi/">Java — MOOC de Helsinque · Java — University of Helsinki MOOC</a></b> · 0/2</summary>
+
+- ⬜ [Java Programming I (partes 1 a 7) · Java Programming I (parts 1–7)](https://java-programming.mooc.fi/part-1)
+- ⬜ [Java Programming II (partes 8 a 14) · Java Programming II (parts 8–14)](https://java-programming.mooc.fi/part-8)
+
+</details>
+
+<details>
+<summary>⬜ <b><a href="https://www.ruby-lang.org/pt/documentation/quickstart/">Ruby em Vinte Minutos · Ruby in Twenty Minutes</a></b> · 0/4</summary>
+
+- ⬜ [Parte 1 · Part 1](https://www.ruby-lang.org/pt/documentation/quickstart/)
+- ⬜ [Parte 2 · Part 2](https://www.ruby-lang.org/pt/documentation/quickstart/2/)
+- ⬜ [Parte 3 · Part 3](https://www.ruby-lang.org/pt/documentation/quickstart/3/)
+- ⬜ [Parte 4 · Part 4](https://www.ruby-lang.org/pt/documentation/quickstart/4/)
+
+</details>
+
+**Onde / Where:** [Java Programming MOOC](https://java-programming.mooc.fi/) · [Ruby em Vinte Minutos](https://www.ruby-lang.org/pt/documentation/quickstart/)
 
 </details>
 
@@ -537,7 +797,7 @@ Comecei o curso, mas pausei para focar no Flutter. Volto em breve.<br>
 - [Flutter & Dart — The Complete Guide (Udemy)](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/) (pago / paid) — De Maximilian Schwarzmüller. Comprar só em promoção. · <em>By Maximilian Schwarzmüller. Buy only on sale.</em>
 - [Flutter Course for Beginners (freeCodeCamp)](https://www.freecodecamp.org/news/learn-flutter-full-course/) (gratuito / free) — De 2022: usar só como complemento. · <em>From 2022: use only as a supplement.</em>
 
-<sub>Atualizado em / Updated on 28/10/2026 · gerado automaticamente a partir do <a href="estudos.yml">estudos.yml</a> / auto-generated from <a href="estudos.yml">estudos.yml</a></sub>
+<sub>Atualizado em / Updated on 18/11/2026 · gerado automaticamente a partir do <a href="estudos.yml">estudos.yml</a> / auto-generated from <a href="estudos.yml">estudos.yml</a></sub>
 <!-- ESTUDOS:FIM -->
 
 ---
