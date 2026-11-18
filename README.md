@@ -29,22 +29,22 @@
 <!-- ATIVIDADE:INICIO -->
 <!-- Gerado pelo workflow atividade.yml a partir dos eventos públicos do GitHub. Não edite aqui. -->
 
+- 🔀 **[feat: Íris no ar e perfil mais enxuto, leve e pontual](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/38)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 18/11/2026</sub>
+- 📝 **[#39 Teste do painel de estudos (branch de teste, será fechada)](https://github.com/IsaacGomes260653/IsaacGomes260653/issues/39)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
+  <sub>Issue aberta · <em>Opened issue</em> · 18/11/2026</sub>
+- 🔀 **[chore: links de código do roadmap seguem as pastas por etapa do estudos-dart](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/41)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 18/11/2026</sub>
+- 🔀 **[refactor: estudos organizados em pastas por etapa do roadmap](https://github.com/IsaacGomes260653/estudos-dart/pull/6)** · [estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 18/11/2026</sub>
+- 🔀 **[feat: novo roadmap de estudos com Alura, dart.dev e Code With Andrea](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/40)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 18/11/2026</sub>
+- ✅ **[#39 Teste do painel de estudos (branch de teste, será fechada)](https://github.com/IsaacGomes260653/IsaacGomes260653/issues/39)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
+  <sub>Issue fechada · <em>Closed issue</em> · 18/11/2026</sub>
 - ⬆️ **[`feat/iris-no-ar`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/19145b10cad9a3098c32a3dc663e9062ba401e32)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>Commits enviados · <em>Pushed commits</em> · 13/11/2026</sub>
 - 🔀 **[build: site estático publicado no GitHub Pages](https://github.com/IsaacGomes260653/iris-pet-spa/pull/5)** · [iris-pet-spa](https://github.com/IsaacGomes260653/iris-pet-spa)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 11/11/2026</sub>
-- 🔀 **[fix: bola visível no voo inteiro da brincadeira do rodapé](https://github.com/IsaacGomes260653/iris-pet-spa/pull/4)** · [iris-pet-spa](https://github.com/IsaacGomes260653/iris-pet-spa)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 11/11/2026</sub>
-- 🔀 **[fix: prazo no horário de Brasília em vez de UTC](https://github.com/IsaacGomes260653/forget_me_not/pull/7)** · [forget\_me\_not](https://github.com/IsaacGomes260653/forget_me_not)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 11/11/2026</sub>
-- 🔀 **[docs: README de portfólio com banner, demonstração e arquitetura](https://github.com/IsaacGomes260653/forget_me_not/pull/6)** · [forget\_me\_not](https://github.com/IsaacGomes260653/forget_me_not)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 11/11/2026</sub>
-- ⬆️ **[`docs/readme-portfolio`](https://github.com/IsaacGomes260653/forget_me_not/commit/ba463dabc167e4fcc591406b74e5db62a3dd7f66)** · [forget\_me\_not](https://github.com/IsaacGomes260653/forget_me_not)<br>
-  <sub>Commits enviados · <em>Pushed commits</em> · 11/11/2026</sub>
-- 🔀 **[chore: imagem de compartilhamento no visual Painel do perfil](https://github.com/IsaacGomes260653/estudos-dart/pull/5)** · [estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 09/11/2026</sub>
-- 🔀 **[chore: imagem de compartilhamento no visual Painel do perfil](https://github.com/IsaacGomes260653/Controle-de-Refeicao/pull/7)** · [Controle-de-Refeicao](https://github.com/IsaacGomes260653/Controle-de-Refeicao)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 09/11/2026</sub>
 <!-- ATIVIDADE:FIM -->
 
 </details>
