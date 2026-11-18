@@ -173,13 +173,11 @@ Meus estudos de Dart rumo ao Flutter: um arquivo por assunto, com casos curtos e
 
 ✅ Concluído / Done · 🔄 Em andamento / In progress · ⬜ Pendente / To do
 
-#### Rumo ao Flutter · Road to Flutter
-
 <picture>
-  <source media="(max-width: 1199px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-celular-escuro.svg?v=01d10769">
-  <source media="(max-width: 1199px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-celular-claro.svg?v=2be61e32">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-escuro.svg?v=cb102750">
-  <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-claro.svg?v=c2f38d69" alt="Rumo ao Flutter · Road to Flutter. 1 Lógica: em andamento, 5 de 47 subtemas; 2 POO: pendente, 0 de 27 subtemas; 3 Assíncrono: pendente, 0 de 15 subtemas; 4 Projeto: pendente, 0 de 10 subtemas; 5 Flutter: pendente, 0 de 28 subtemas. / 1 Logic: in progress, 5 of 47 subtopics; 2 OOP: to do, 0 of 27 subtopics; 3 Async: to do, 0 of 15 subtopics; 4 Project: to do, 0 of 10 subtopics; 5 Flutter: to do, 0 of 28 subtopics.">
+  <source media="(max-width: 1199px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-celular-escuro.svg?v=43ba6b7a">
+  <source media="(max-width: 1199px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-celular-claro.svg?v=46725e37">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-escuro.svg?v=093d2f57">
+  <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/flutter-claro.svg?v=89e491b1" alt="Rumo ao Flutter · Road to Flutter. 1 Lógica: em andamento, 5 de 47 subtemas; 2 POO: pendente, 0 de 27 subtemas; 3 Assíncrono: pendente, 0 de 15 subtemas; 4 Projeto: pendente, 0 de 10 subtemas; 5 Flutter: pendente, 0 de 28 subtemas. / 1 Logic: in progress, 5 of 47 subtopics; 2 OOP: to do, 0 of 27 subtopics; 3 Async: to do, 0 of 15 subtopics; 4 Project: to do, 0 of 10 subtopics; 5 Flutter: to do, 0 of 28 subtopics.">
 </picture>
 
 📍 **Agora / Now:** [`final` × `const` (canonicalização)](https://dart.dev/language/variables#final-and-const) · Variáveis e tipos · etapa 1<br>
@@ -598,13 +596,6 @@ As três árvores, layout, interface e navegação, estado e arquitetura, dados 
 
 #### Em paralelo: credenciais e ferramentas do trabalho · In parallel: work credentials and tools
 
-<picture>
-  <source media="(max-width: 1199px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/paralelo-celular-escuro.svg?v=ef4c5868">
-  <source media="(max-width: 1199px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/paralelo-celular-claro.svg?v=a3faff36">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/paralelo-escuro.svg?v=57f5e178">
-  <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/paralelo-claro.svg?v=3a752225" alt="Em paralelo · In parallel. Jira Fundamentals: pendente, 0 de 4 subtemas; GitHub Foundations (GH-900): pendente, 0 de 3 subtemas; PSM I: pendente, 0 de 3 subtemas; Git a fundo · Git in depth: pendente, 0 de 9 subtemas; Scrum e Kanban · Scrum and Kanban: pendente, 0 de 7 subtemas. / Jira Fundamentals: to do, 0 of 4 subtopics; GitHub Foundations (GH-900): to do, 0 of 3 subtopics; PSM I: to do, 0 of 3 subtopics; Git a fundo · Git in depth: to do, 0 of 9 subtopics; Scrum e Kanban · Scrum and Kanban: to do, 0 of 7 subtopics.">
-</picture>
-
 <details>
 <summary><b>Jira Fundamentals</b> — ⬜ Pendente / To do · 0/4</summary>
 
@@ -697,13 +688,6 @@ Os fundamentos dos dois e como tudo isso aparece no Jira.<br>
 </details>
 
 #### Trilhas futuras · Future tracks
-
-<picture>
-  <source media="(max-width: 1199px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/outros-celular-escuro.svg?v=19aec912">
-  <source media="(max-width: 1199px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/outros-celular-claro.svg?v=3fe9755e">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/outros-escuro.svg?v=7012437a">
-  <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/estudos/outros-claro.svg?v=7d144e51" alt="Trilhas futuras · Future tracks. IA · AI: pendente, 0 de 1 subtemas; Databricks: pendente, 0 de 3 subtemas; AWS: pendente, 0 de 14 subtemas; Cibersegurança · Cybersecurity: pendente, 0 de 1 subtemas; Java e Ruby (apoio) · Java and Ruby (support): pendente, 0 de 6 subtemas. / IA · AI: to do, 0 of 1 subtopics; Databricks: to do, 0 of 3 subtopics; AWS: to do, 0 of 14 subtopics; Cibersegurança · Cybersecurity: to do, 0 of 1 subtopics; Java e Ruby (apoio) · Java and Ruby (support): to do, 0 of 6 subtopics.">
-</picture>
 
 <details>
 <summary><b>IA · AI</b> — ⬜ Pendente / To do · 0/1</summary>
