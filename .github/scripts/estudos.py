@@ -221,6 +221,8 @@ def lista(subtemas, recuo=""):
             linhas.append(lista(s["itens"], recuo + "  "))
         else:
             estrela = "⭐ " if s.get("estrela") else ""
+            if status_sub(s) == "estudando":  # o item em andamento se destaca na lista
+                rotulo = f"**{rotulo}**"
             linhas.append(f"{recuo}- {icone(status_sub(s))} {estrela}{rotulo}{codigo}")
     return "\n".join(filter(None, linhas))
 
@@ -699,7 +701,7 @@ def teste():
     assert "Logic and syntax</b> — 🔄 Em andamento / In progress · 2/4 ✅</summary>" in md
     assert "**Progresso / Progress:** `█████░░░░░` 50% · 2/4 ✅ · ⭐ 1/2" in md
     assert ('<details open>\n<summary>🔄 <b><a href="https://v">Variables</a></b> · 1/2</summary>\n\n'
-            "- ✅ ⭐ [Null safety](https://v#n)\n- 🔄 ⭐ [`final` × `const` · `final` vs `const`](https://v#f)\n\n</details>") in md
+            "- ✅ ⭐ [Null safety](https://v#n)\n- 🔄 ⭐ **[`final` × `const` · `final` vs `const`](https://v#f)**\n\n</details>") in md
     assert ("</details>\n\n- ⬜ Ramos · Branches\n\n<details>\n<summary>✅ <b>Pronto &lt;T&gt;</b> · 1/1 · "
             '<a href="https://g">código / code</a></summary>\n\n- ✅ A · [código / code](https://g/a)\n\n</details>') in md
     assert ("📍 **Agora / Now:** [`final` × `const`](https://v#f) · Variables · etapa 1<br>\n"

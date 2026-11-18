@@ -213,7 +213,7 @@ Como o Dart funciona por dentro, variáveis e tipos, operadores, controle de flu
 - ✅ [Null safety](https://dart.dev/language/variables#null-safety) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/NullSafety.dart)
 - ✅ [Valor padrão · Default value](https://dart.dev/language/variables#default-value) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/DefaultValue.dart)
 - ✅ [`late`](https://dart.dev/language/variables#late-variables) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/LateVariables.dart)
-- 🔄 [`final` × `const` (canonicalização) · `final` × `const` (canonicalization)](https://dart.dev/language/variables#final-and-const) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/FinalAndConst.dart)
+- 🔄 **[`final` × `const` (canonicalização) · `final` × `const` (canonicalization)](https://dart.dev/language/variables#final-and-const)** · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/Variaveis/FinalAndConst.dart)
 - ✅ [`int` e `double` (`/` × `~/`) · `int` and `double` (`/` × `~/`)](https://dart.dev/language/built-in-types#numbers) · [código / code](https://github.com/IsaacGomes260653/estudos-dart/blob/main/BuiltInTypes/Numbers.dart)
 - ⬜ [`String`: interpolação, imutabilidade e `StringBuffer` · `String`: interpolation, immutability, and `StringBuffer`](https://dart.dev/language/built-in-types#strings)
 - ⬜ [`bool`](https://dart.dev/language/built-in-types#booleans)
