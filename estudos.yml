@@ -451,7 +451,7 @@ trilhas:
 agora:
   - { pt: "💼 Estagiário na **[ília](https://ilia.digital)**, conciliado com a graduação", en: "Intern at **[ília](https://ilia.digital)**, alongside my degree" }
   - { pt: "🐾 Construindo o **[Íris Pet Spa](https://github.com/IsaacGomes260653/iris-pet-spa)**, site imersivo em Next.js e WebGL", en: "Building **[Íris Pet Spa](https://github.com/IsaacGomes260653/iris-pet-spa)**, immersive Next.js and WebGL site" }
-  - { pt: "📘 Estudando Dart rumo ao Flutter, código comentado no **[estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)**", en: "Studying Dart on the road to Flutter, commented code in **[estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)**" }
+  - { pt: "📘 Estudando **[Dart](https://github.com/IsaacGomes260653/estudos-dart)** rumo ao Flutter, na Alura e na documentação oficial", en: "Studying **[Dart](https://github.com/IsaacGomes260653/estudos-dart)** on the road to Flutter, on Alura and the official docs" }
 
 # Cursos complementares, fora das trilhas: aparecem em "Extras", sem status.
 extras:
