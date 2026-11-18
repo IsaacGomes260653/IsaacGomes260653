@@ -1,8 +1,10 @@
 name: generate activity graph
 
 on:
+  # Minuto quebrado de propósito: na virada da hora e nos quartos de hora o
+  # GitHub atrasa ou pula agendamentos, porque é quando quase todo mundo agenda.
   schedule:
-    - cron: "0 */6 * * *" # a cada 6h
+    - cron: "23 */6 * * *" # a cada 6h
   workflow_dispatch:
   push:
     branches:

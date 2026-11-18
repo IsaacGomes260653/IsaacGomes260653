@@ -5,8 +5,10 @@ name: generate summary cards
 # nas versões desktop e celular, clara e escura, no branch output-stats.
 
 on:
+  # Minuto quebrado de propósito: na virada da hora e nos quartos de hora o
+  # GitHub atrasa ou pula agendamentos, porque é quando quase todo mundo agenda.
   schedule:
-    - cron: "30 */6 * * *" # a cada 6h
+    - cron: "53 */6 * * *" # a cada 6h
   workflow_dispatch:
   push:
     branches:

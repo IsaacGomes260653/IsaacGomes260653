@@ -184,11 +184,16 @@ def numero(n):
     return f"{n:,}".replace(",", ".")
 
 
-def periodo(inicio, fim, hoje):
-    if not inicio:
-        return "sem sequência"
+def periodo(inicio, fim, hoje, vazio="sem sequência"):
+    # Sequência zerada chega como (amanhã do fim, fim, 0): sem período para mostrar.
+    if not inicio or inicio > fim:
+        return vazio
     f = lambda d: d.strftime("%d/%m") if d.year == hoje.year else d.strftime("%d/%m/%Y")
     return f(inicio) if inicio == fim else f"{f(inicio)} – {f(fim)}"
+
+
+# O que aparece no lugar do período quando a sequência atual está em zero.
+ZERADA = "recomeça hoje"
 
 
 def dias_pt(n):
@@ -203,7 +208,7 @@ def resumo(d, hoje):
     """Texto do alt: tudo o que o painel mostra, em PT e EN."""
     a, m = d["atual"], d["maior"]
     return (f"{numero(d['total'])} contribuições no último ano ({periodo(d['desde'], hoje, hoje)}); "
-            f"sequência atual de {dias_pt(a[2])} ({periodo(a[0], a[1], hoje)}); maior sequência de {dias_pt(m[2])}; "
+            f"sequência atual de {dias_pt(a[2])} ({periodo(a[0], a[1], hoje, ZERADA)}); maior sequência de {dias_pt(m[2])}; "
             f"{numero(d['commits'])} commits desde 2025; {d['prs']} pull requests; {d['repos']} repositórios públicos com contribuição"
             f" / {numero(d['total'])} contributions in the last year; current streak {dias_en(a[2])}; longest streak {dias_en(m[2])}; "
             f"{numero(d['commits'])} commits since 2025; {d['prs']} pull requests; {d['repos']} public repos contributed to")
@@ -300,7 +305,7 @@ def painel(tema, d, hoje, agora):
     t.texto("Sequência atual", xd, 104, 16, TITULO, "tinta", 302)
     t.chama(a[2], xd + mede("Sequência atual", 16, TITULO) + 22, 108)
     t.texto(f"current streak · {dias_en(a[2])}", xd, 121, 12, TEXTO, "suave", 302)
-    t.texto(periodo(a[0], a[1], hoje), xd, 140, 12, TITULO, "ouro", 302)
+    t.texto(periodo(a[0], a[1], hoje, ZERADA), xd, 140, 12, TITULO, "ouro", 302)
     t.texto(f"Maior sequência: {dias_pt(m[2])}", xd, 170, 13, TEXTO, "apoio", 302)
     t.texto(f"longest streak · {dias_en(m[2])}", xd, 187, 12, TEXTO, "suave", 302)
     t.texto(periodo(m[0], m[1], hoje), xd, 205, 12, TITULO, "ouro", 302)
@@ -329,7 +334,7 @@ def painel_celular(tema, d, hoje, agora):
     t.texto("Sequência atual", xd, 254, 16, TITULO, "tinta", W - x0 - xd)
     t.chama(a[2], xd + mede("Sequência atual", 16, TITULO) + 22, 258)
     t.texto(f"current streak · {dias_en(a[2])}", xd, 272, 12, TEXTO, "suave", W - x0 - xd)
-    t.texto(periodo(a[0], a[1], hoje), xd, 292, 12, TITULO, "ouro", W - x0 - xd)
+    t.texto(periodo(a[0], a[1], hoje, ZERADA), xd, 292, 12, TITULO, "ouro", W - x0 - xd)
     t.texto(f"Maior sequência: {dias_pt(m[2])} · {periodo(m[0], m[1], hoje)}", x0, 346, 13, TEXTO, "apoio", larg)
     t.texto(f"longest streak · {dias_en(m[2])}", x0, 364, 12, TEXTO, "suave", larg)
     t.linha(x0, 388, W - x0)
@@ -359,6 +364,7 @@ def teste():
     # Ontem e hoje sem contribuição: sequência zerada; a maior continua.
     atual, maior = sequencias(cal, d(2026, 10, 24))
     assert atual[2] == 0 and maior == (d(2026, 10, 20), d(2026, 10, 22), 3), (atual, maior)
+    assert periodo(*atual[:2], d(2026, 10, 24), ZERADA) == "recomeça hoje"  # nada de "24/10 – 23/10"
     # Hoje com contribuição conta, e dia futuro (fuso) é ignorado.
     atual, _ = sequencias({**cal, "2026-10-23": 1, "2026-10-24": 2, "2026-10-25": 9}, d(2026, 10, 24))
     assert atual == (d(2026, 10, 20), d(2026, 10, 24), 5), atual

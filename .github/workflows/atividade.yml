@@ -1,8 +1,10 @@
 name: atualiza a atividade recente
 
 on:
+  # Minuto quebrado de propósito: na virada da hora e nos quartos de hora o
+  # GitHub atrasa ou pula agendamentos, porque é quando quase todo mundo agenda.
   schedule:
-    - cron: "30 */12 * * *" # a cada 12h (09:30 e 21:30 em Brasília)
+    - cron: "37 */12 * * *" # a cada 12h (09:37 e 21:37 em Brasília)
   workflow_dispatch:
   push:
     branches:

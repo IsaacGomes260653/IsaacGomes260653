@@ -3,10 +3,10 @@
      desktop, nos temas claro e escuro. Fonte: linkedin-banner/github.html. -->
 <p align="center">
   <picture>
-    <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-escuro.svg?v=6">
-    <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-claro.svg?v=6">
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-escuro.svg?v=6">
-    <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-claro.svg?v=6" alt="Isaac Gomes de Moraes. Estagiário na ília. Ciência da Computação no UniCEUB, Brasília, DF / Intern at ília. Computer Science at UniCEUB, Brasília, Brazil">
+    <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-escuro.svg?v=7">
+    <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-mobile-claro.svg?v=7">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-escuro.svg?v=7">
+    <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/banner-desktop-claro.svg?v=7" alt="Isaac Gomes de Moraes. Estagiário na ília. Ciência da Computação no UniCEUB, Brasília, DF / Intern at ília. Computer Science at UniCEUB, Brasília, Brazil">
   </picture>
 </p>
 
@@ -18,7 +18,7 @@
 
 <p align="center">
   <a href="https://ilia.digital"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-1-escuro.svg?v=8c012379"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-1-claro.svg?v=ded20641" width="264" alt="Estagiário na ília: Conciliado com a graduação (Agora) / Intern at ília: Alongside my degree (Now)"></picture></a>
-  <a href="https://github.com/IsaacGomes260653/iris-pet-spa"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-2-escuro.svg?v=f6fe8c27"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-2-claro.svg?v=1ab551f4" width="264" alt="Construindo o Íris Pet Spa: Site imersivo em Next.js e WebGL (Em construção) / Building Íris Pet Spa: Immersive Next.js and WebGL site (Building)"></picture></a>
+  <a href="https://isaacgomes260653.github.io/iris-pet-spa/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-2-escuro.svg?v=fef199f6"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-2-claro.svg?v=cb595728" width="264" alt="Construí o Íris Pet Spa: Site imersivo em Next.js e WebGL (No ar) / Built Íris Pet Spa: Immersive Next.js and WebGL site (Live)"></picture></a>
   <a href="https://github.com/IsaacGomes260653/estudos-dart"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-3-escuro.svg?v=b11797c8"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/agora/card-3-claro.svg?v=9f3ea0b7" width="264" alt="Estudando Dart rumo ao Flutter: Na Alura e na documentação oficial (Estudando) / Studying Dart on the road to Flutter: On Alura and the official docs (Studying)"></picture></a>
 </p>
 <!-- AGORA:FIM -->
@@ -96,9 +96,10 @@ Native Portuguese · advanced English (Casa Thomas Jefferson).</em>
 ---
 
 <a id="projetos"></a>
-<!-- Escrita à mão: nenhum workflow reescreve esta seção. Fica fechada por padrão;
-     ao incluir ou tirar um projeto, atualize o número entre parênteses do título. -->
-<details>
+<!-- Escrita à mão: nenhum workflow reescreve esta seção. Fica aberta por padrão,
+     porque é a prova de trabalho; ao incluir ou tirar um projeto, atualize o número
+     entre parênteses do título. -->
+<details open>
 <summary><b>📌 Projetos em destaque · Featured projects (7)</b></summary>
 
 #### 🎮 PlayHub · entregue / delivered
@@ -112,16 +113,16 @@ Portal de mini-jogos para a Mostra de Ciências do CEUB 2026: 7 jogos direto no 
 
 [Repositório / Repository](https://github.com/IsaacGomes260653/CEUB_CIENCIA_2026) · [Jogar / Play](https://isaacgomes260653.github.io/CEUB_CIENCIA_2026/)
 
-#### 🐾 Íris Pet Spa
+#### 🐾 Íris Pet Spa · no ar / live
 
 Site de uma rede de petshop fictícia contado como um passeio em primeira pessoa, com rolagem cinematográfica e globo 3D das lojas. [Lighthouse 98 no desktop](https://github.com/IsaacGomes260653/iris-pet-spa#acessibilidade-e-desempenho).<br>
 <em>Website for a fictional pet shop chain told as a first-person walk, with cinematic scrolling and a 3D globe of the stores. <a href="https://github.com/IsaacGomes260653/iris-pet-spa#acessibilidade-e-desempenho">Lighthouse 98 on desktop</a>.</em>
 
-<a href="https://github.com/IsaacGomes260653/iris-pet-spa"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/projetos/iris-pet-spa.webp" width="480" alt="Seção das lojas do Íris Pet Spa: globo 3D com as unidades no Brasil / Íris Pet Spa stores section: 3D globe with the locations in Brazil"></a>
+<a href="https://isaacgomes260653.github.io/iris-pet-spa/"><img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/projetos/iris-pet-spa.webp" width="480" alt="Seção das lojas do Íris Pet Spa: globo 3D com as unidades no Brasil / Íris Pet Spa stores section: 3D globe with the locations in Brazil"></a>
 
 <img alt="Next.js" src="https://img.shields.io/badge/Next.js-122039?style=flat-square&logo=nextdotjs&logoColor=white"> <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-122039?style=flat-square&logo=typescript&logoColor=white"> <img alt="GSAP" src="https://img.shields.io/badge/GSAP-122039?style=flat-square&logo=greensock&logoColor=white"> <img alt="Three.js" src="https://img.shields.io/badge/Three.js-122039?style=flat-square&logo=threedotjs&logoColor=white">
 
-[Repositório / Repository](https://github.com/IsaacGomes260653/iris-pet-spa) · <sub>demo em breve / demo coming soon</sub>
+[Repositório / Repository](https://github.com/IsaacGomes260653/iris-pet-spa) · [Abrir o site / Open the site](https://isaacgomes260653.github.io/iris-pet-spa/)
 
 #### 🍽️ RanchoControl
 
@@ -955,10 +956,10 @@ Java com orientação a objetos e Ruby, como linguagens de apoio.<br>
 <p align="center">
   <a href="https://www.linkedin.com/in/isaacgomesmoraes/">
     <picture>
-      <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-mobile-escuro.svg?v=6">
-      <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-mobile-claro.svg?v=6">
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-desktop-escuro.svg?v=6">
-      <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-desktop-claro.svg?v=6" alt="Obrigado pela visita / Thanks for visiting. Vamos conversar? / Let’s talk? Abre o LinkedIn / Opens LinkedIn">
+      <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-mobile-escuro.svg?v=7">
+      <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-mobile-claro.svg?v=7">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-desktop-escuro.svg?v=7">
+      <img src="https://raw.githubusercontent.com/IsaacGomes260653/IsaacGomes260653/main/assets/banner/rodape-desktop-claro.svg?v=7" alt="Obrigado pela visita / Thanks for visiting. Vamos conversar? / Let’s talk? Abre o LinkedIn / Opens LinkedIn">
     </picture>
   </a>
 </p>

@@ -6,7 +6,8 @@ Cada item do campo agora do estudos.yml (o mesmo da issue do painel, uma linha
 - o texto até a 1ª vírgula é o título, e o resto, a descrição;
 - o 1º link do item é o destino do card (com a seta ↗ no canto);
 - a 1ª palavra escolhe o selo: Estudando → ESTUDANDO · STUDYING,
-  Construindo → EM CONSTRUÇÃO · BUILDING, qualquer outra → AGORA · NOW.
+  Construindo → EM CONSTRUÇÃO · BUILDING, Construí → NO AR · LIVE,
+  qualquer outra → AGORA · NOW.
 
 O GitHub não carrega fontes em imagens, então o texto vira contorno da Mona
 Sans, lido do glifos.json. Ele é gerado uma vez a partir da fonte, com o
@@ -61,9 +62,10 @@ SETA = '<path d="M7 7h10v10"/><path d="M7 17 17 7"/>'
 EMOJIS = {"💼": "maleta", "🐾": "pata", **dict.fromkeys("📘📗📕📙📚📖📓📒", "livro")}
 
 SELOS = {"estudando": ("ESTUDANDO", "STUDYING"), "construindo": ("EM CONSTRUÇÃO", "BUILDING"),
-         "agora": ("AGORA", "NOW")}
+         "no_ar": ("NO AR", "LIVE"), "agora": ("AGORA", "NOW")}
 VERBOS = {"estudando": "estudando", "aprendendo": "estudando", "cursando": "estudando",
-          "construindo": "construindo", "criando": "construindo", "desenvolvendo": "construindo"}
+          "construindo": "construindo", "criando": "construindo", "desenvolvendo": "construindo",
+          "construí": "no_ar", "criei": "no_ar", "desenvolvi": "no_ar", "lancei": "no_ar", "publiquei": "no_ar"}
 
 # Só CSS, que o GitHub deixa rodar dentro de imagens: um anel sai do ponto do
 # selo e some. Para quem pede menos movimento, fica só o ponto parado.
@@ -286,6 +288,7 @@ def teste():
     assert c["link"] == "https://x" and card({"pt": "Sem link", "en": "[en](https://e)"})["link"] == "https://e"
     assert card({"pt": "📘 Estudando Dart"})["selo"] == ("ESTUDANDO", "STUDYING")
     assert card({"pt": "💼 Estagiário na ília"})["selo"] == ("AGORA", "NOW")
+    assert card({"pt": "🐾 Construí o Íris, site"})["selo"] == card({"pt": "Lancei o app"})["selo"] == ("NO AR", "LIVE")
     assert mede("EM CONSTRUÇÃO · BUILDING", 11, 620, 0.06) + 37 <= TEXTO  # o selo mais longo cabe
     assert divide("Sem vírgula") == ("Sem vírgula", "")
     frase = "uma frase bem comprida que precisa quebrar em mais de uma linha dentro do card"

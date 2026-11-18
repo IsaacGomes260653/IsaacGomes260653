@@ -448,7 +448,7 @@ trilhas:
 # Seção "Agora · Now" do README (também dá para editar pela issue do painel).
 agora:
   - { pt: "💼 Estagiário na **[ília](https://ilia.digital)**, conciliado com a graduação", en: "Intern at **[ília](https://ilia.digital)**, alongside my degree" }
-  - { pt: "🐾 Construindo o **[Íris Pet Spa](https://github.com/IsaacGomes260653/iris-pet-spa)**, site imersivo em Next.js e WebGL", en: "Building **[Íris Pet Spa](https://github.com/IsaacGomes260653/iris-pet-spa)**, immersive Next.js and WebGL site" }
+  - { pt: "🐾 Construí o **[Íris Pet Spa](https://isaacgomes260653.github.io/iris-pet-spa/)**, site imersivo em Next.js e WebGL", en: "Built **[Íris Pet Spa](https://isaacgomes260653.github.io/iris-pet-spa/)**, immersive Next.js and WebGL site" }
   - { pt: "📘 Estudando **[Dart](https://github.com/IsaacGomes260653/estudos-dart)** rumo ao Flutter, na Alura e na documentação oficial", en: "Studying **[Dart](https://github.com/IsaacGomes260653/estudos-dart)** on the road to Flutter, on Alura and the official docs" }
 
 # Cursos complementares, fora das trilhas: aparecem em "Extras", sem status.
