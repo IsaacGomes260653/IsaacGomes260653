@@ -293,12 +293,12 @@ trilhas:
           pt: "Selo da Atlassian University, grátis."
           en: "Atlassian University badge, free."
         subtemas:
-          - { nome: "Get started quickly with Jira", url: "https://community-link.atlassian.com/learning/path/get-the-most-out-of-jira/course/get-started-with-jira" }
-          - { nome: "Track your work effectively in Jira", url: "https://community-link.atlassian.com/learning/path/get-the-most-out-of-jira/course/track-your-work-effectively-in-jira" }
-          - { nome: "Personalize how you work in Jira", url: "https://community-link.atlassian.com/learning/path/get-the-most-out-of-jira/course/jira-dashboard-training" }
+          - { nome: "Get started quickly with Jira", url: "https://community.atlassian.com/learning/path/get-the-most-out-of-jira/course/get-started-with-jira" }
+          - { nome: "Track your work effectively in Jira", url: "https://community.atlassian.com/learning/path/get-the-most-out-of-jira/course/track-your-work-effectively-in-jira" }
+          - { nome: "Personalize how you work in Jira", url: "https://community.atlassian.com/learning/path/get-the-most-out-of-jira/course/jira-dashboard-training" }
           - { nome: { pt: "Selo Jira Fundamentals", en: "Jira Fundamentals badge" } }
         onde:
-          - { nome: "Atlassian University · Jira", url: "https://community-link.atlassian.com/learning/path/get-the-most-out-of-jira", preco: "gratuito / free" }
+          - { nome: "Atlassian University · Jira", url: "https://community.atlassian.com/learning/path/get-the-most-out-of-jira", preco: "gratuito / free" }
 
       - titulo: { pt: "GitHub Foundations (GH-900)", en: "GitHub Foundations (GH-900)" }
         status: a_comecar

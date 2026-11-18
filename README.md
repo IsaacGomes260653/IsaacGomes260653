@@ -604,12 +604,12 @@ Selo da Atlassian University, grátis.<br>
 
 **Progresso / Progress:** `░░░░░░░░░░` 0% · 0/4
 
-- ⬜ [Get started quickly with Jira](https://community-link.atlassian.com/learning/path/get-the-most-out-of-jira/course/get-started-with-jira)
-- ⬜ [Track your work effectively in Jira](https://community-link.atlassian.com/learning/path/get-the-most-out-of-jira/course/track-your-work-effectively-in-jira)
-- ⬜ [Personalize how you work in Jira](https://community-link.atlassian.com/learning/path/get-the-most-out-of-jira/course/jira-dashboard-training)
+- ⬜ [Get started quickly with Jira](https://community.atlassian.com/learning/path/get-the-most-out-of-jira/course/get-started-with-jira)
+- ⬜ [Track your work effectively in Jira](https://community.atlassian.com/learning/path/get-the-most-out-of-jira/course/track-your-work-effectively-in-jira)
+- ⬜ [Personalize how you work in Jira](https://community.atlassian.com/learning/path/get-the-most-out-of-jira/course/jira-dashboard-training)
 - ⬜ Selo Jira Fundamentals · Jira Fundamentals badge
 
-**Onde / Where:** [Atlassian University · Jira](https://community-link.atlassian.com/learning/path/get-the-most-out-of-jira) (gratuito / free)
+**Onde / Where:** [Atlassian University · Jira](https://community.atlassian.com/learning/path/get-the-most-out-of-jira) (gratuito / free)
 
 </details>
 
