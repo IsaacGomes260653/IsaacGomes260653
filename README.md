@@ -29,6 +29,8 @@
 <!-- ATIVIDADE:INICIO -->
 <!-- Gerado pelo workflow atividade.yml a partir dos eventos públicos do GitHub. Não edite aqui. -->
 
+- 🔀 **[feat: imagem de compartilhamento do site e link do site no README](https://github.com/IsaacGomes260653/iris-pet-spa/pull/6)** · [iris-pet-spa](https://github.com/IsaacGomes260653/iris-pet-spa)<br>
+  <sub>PR mesclado · <em>Merged pull request</em> · 18/11/2026</sub>
 - 🔀 **[feat: Íris no ar e perfil mais enxuto, leve e pontual](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/38)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 18/11/2026</sub>
 - 📝 **[#39 Teste do painel de estudos (branch de teste, será fechada)](https://github.com/IsaacGomes260653/IsaacGomes260653/issues/39)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
@@ -43,8 +45,6 @@
   <sub>Issue fechada · <em>Closed issue</em> · 18/11/2026</sub>
 - ⬆️ **[`feat/iris-no-ar`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/19145b10cad9a3098c32a3dc663e9062ba401e32)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>Commits enviados · <em>Pushed commits</em> · 13/11/2026</sub>
-- 🔀 **[build: site estático publicado no GitHub Pages](https://github.com/IsaacGomes260653/iris-pet-spa/pull/5)** · [iris-pet-spa](https://github.com/IsaacGomes260653/iris-pet-spa)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 11/11/2026</sub>
 <!-- ATIVIDADE:FIM -->
 
 </details>
