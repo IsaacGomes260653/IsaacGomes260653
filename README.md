@@ -43,8 +43,8 @@
   <sub>PR mesclado · <em>Merged pull request</em> · 18/11/2026</sub>
 - ✅ **[#39 Teste do painel de estudos (branch de teste, será fechada)](https://github.com/IsaacGomes260653/IsaacGomes260653/issues/39)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>Issue fechada · <em>Closed issue</em> · 18/11/2026</sub>
-- ⬆️ **[`feat/iris-no-ar`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/19145b10cad9a3098c32a3dc663e9062ba401e32)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
-  <sub>Commits enviados · <em>Pushed commits</em> · 13/11/2026</sub>
+- ⬆️ **[`teste/painel-estudos-roadmap`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/da915b9a3fc8e02fd80b3c4321614c94c389993e)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
+  <sub>Commits enviados · <em>Pushed commits</em> · 18/11/2026</sub>
 <!-- ATIVIDADE:FIM -->
 
 </details>
