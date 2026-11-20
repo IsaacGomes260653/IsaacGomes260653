@@ -41,10 +41,10 @@
   <sub>PR mesclado · <em>Merged pull request</em> · 18/11/2026</sub>
 - 🔀 **[feat: novo roadmap de estudos com Alura, dart.dev e Code With Andrea](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/40)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 18/11/2026</sub>
+- ⬆️ **[`feat/roadmap-alura-dart-dev`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/2c94fbfcc6ec824d2a8419b259782444f2010035)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
+  <sub>Commits enviados · <em>Pushed commits</em> · 18/11/2026</sub>
 - ✅ **[#39 Teste do painel de estudos (branch de teste, será fechada)](https://github.com/IsaacGomes260653/IsaacGomes260653/issues/39)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>Issue fechada · <em>Closed issue</em> · 18/11/2026</sub>
-- ⬆️ **[`teste/painel-estudos-roadmap`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/da915b9a3fc8e02fd80b3c4321614c94c389993e)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
-  <sub>Commits enviados · <em>Pushed commits</em> · 18/11/2026</sub>
 <!-- ATIVIDADE:FIM -->
 
 </details>
