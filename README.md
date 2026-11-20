@@ -35,16 +35,16 @@
   <sub>PR mesclado · <em>Merged pull request</em> · 18/11/2026</sub>
 - 📝 **[#39 Teste do painel de estudos (branch de teste, será fechada)](https://github.com/IsaacGomes260653/IsaacGomes260653/issues/39)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>Issue aberta · <em>Opened issue</em> · 18/11/2026</sub>
+- ⬆️ **[`feat/iris-no-ar`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/75322caeb672934a6ca0eaf33f048c521d0d9d31)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
+  <sub>Commits enviados · <em>Pushed commits</em> · 18/11/2026</sub>
 - 🔀 **[chore: links de código do roadmap seguem as pastas por etapa do estudos-dart](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/41)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 18/11/2026</sub>
 - 🔀 **[refactor: estudos organizados em pastas por etapa do roadmap](https://github.com/IsaacGomes260653/estudos-dart/pull/6)** · [estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 18/11/2026</sub>
 - 🔀 **[feat: novo roadmap de estudos com Alura, dart.dev e Code With Andrea](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/40)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 18/11/2026</sub>
-- ⬆️ **[`feat/roadmap-alura-dart-dev`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/2c94fbfcc6ec824d2a8419b259782444f2010035)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
+- ⬆️ **[`feat/roadmap-alura-dart-dev`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/7812227ea06517423494e2d057c0706431c4dfd4)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>Commits enviados · <em>Pushed commits</em> · 18/11/2026</sub>
-- ✅ **[#39 Teste do painel de estudos (branch de teste, será fechada)](https://github.com/IsaacGomes260653/IsaacGomes260653/issues/39)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
-  <sub>Issue fechada · <em>Closed issue</em> · 18/11/2026</sub>
 <!-- ATIVIDADE:FIM -->
 
 </details>
