@@ -29,6 +29,8 @@
 <!-- ATIVIDADE:INICIO -->
 <!-- Gerado pelo workflow atividade.yml a partir dos eventos públicos do GitHub. Não edite aqui. -->
 
+- ⬆️ **[`feature/47-testes-nome-cliente`](https://github.com/IsaacGomes260653/minimercadob/commit/a7e5ae8cfe98434e2a56ce297b67d5adda6adee3)** · [minimercadob](https://github.com/IsaacGomes260653/minimercadob)<br>
+  <sub>Commits enviados · <em>Pushed commits</em> · 23/11/2026</sub>
 - 🔀 **[feat: imagem de compartilhamento do site e link do site no README](https://github.com/IsaacGomes260653/iris-pet-spa/pull/6)** · [iris-pet-spa](https://github.com/IsaacGomes260653/iris-pet-spa)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 18/11/2026</sub>
 - 🔀 **[feat: Íris no ar e perfil mais enxuto, leve e pontual](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/38)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
@@ -43,8 +45,6 @@
   <sub>PR mesclado · <em>Merged pull request</em> · 18/11/2026</sub>
 - 🔀 **[feat: novo roadmap de estudos com Alura, dart.dev e Code With Andrea](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/40)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 18/11/2026</sub>
-- ⬆️ **[`feat/roadmap-alura-dart-dev`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/7812227ea06517423494e2d057c0706431c4dfd4)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
-  <sub>Commits enviados · <em>Pushed commits</em> · 18/11/2026</sub>
 <!-- ATIVIDADE:FIM -->
 
 </details>
