@@ -29,6 +29,8 @@
 <!-- ATIVIDADE:INICIO -->
 <!-- Gerado pelo workflow atividade.yml a partir dos eventos públicos do GitHub. Não edite aqui. -->
 
+- ⬆️ **[`docs/readme-portfolio`](https://github.com/IsaacGomes260653/Sistema-de-Gerenciamento-de-Tarefas/commit/4902114a2e54350c8858563a650abbcf3afaa2f8)** · [Sistema-de-Gerenciamento-de-Tarefas](https://github.com/IsaacGomes260653/Sistema-de-Gerenciamento-de-Tarefas)<br>
+  <sub>Commits enviados · <em>Pushed commits</em> · 24/11/2026</sub>
 - ⬆️ **[`docs/readme-portfolio`](https://github.com/IsaacGomes260653/Album-da-copa/commit/475e5ce28807461f1bec371167ccc4f961a14bb4)** · [Album-da-copa](https://github.com/IsaacGomes260653/Album-da-copa)<br>
   <sub>Commits enviados · <em>Pushed commits</em> · 23/11/2026</sub>
 - ⬆️ **[`feature/47-testes-nome-cliente`](https://github.com/IsaacGomes260653/minimercadob/commit/a7e5ae8cfe98434e2a56ce297b67d5adda6adee3)** · [minimercadob](https://github.com/IsaacGomes260653/minimercadob)<br>
@@ -42,8 +44,6 @@
 - ⬆️ **[`feat/iris-no-ar`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/75322caeb672934a6ca0eaf33f048c521d0d9d31)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>Commits enviados · <em>Pushed commits</em> · 18/11/2026</sub>
 - 🔀 **[chore: links de código do roadmap seguem as pastas por etapa do estudos-dart](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/41)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 18/11/2026</sub>
-- 🔀 **[refactor: estudos organizados em pastas por etapa do roadmap](https://github.com/IsaacGomes260653/estudos-dart/pull/6)** · [estudos-dart](https://github.com/IsaacGomes260653/estudos-dart)<br>
   <sub>PR mesclado · <em>Merged pull request</em> · 18/11/2026</sub>
 <!-- ATIVIDADE:FIM -->
 
