@@ -29,6 +29,8 @@
 <!-- ATIVIDADE:INICIO -->
 <!-- Gerado pelo workflow atividade.yml a partir dos eventos públicos do GitHub. Não edite aqui. -->
 
+- ⬆️ **[`main`](https://github.com/IsaacGomes260653/estudos-javascript/commit/b111400a7530e3ff664b9bf23ac485e08a4e1d37)** · [estudos-javascript](https://github.com/IsaacGomes260653/estudos-javascript)<br>
+  <sub>Commits enviados · <em>Pushed commits</em> · 25/11/2026</sub>
 - ⬆️ **[`docs/readme-portfolio`](https://github.com/IsaacGomes260653/Sistema-de-Gerenciamento-de-Tarefas/commit/4902114a2e54350c8858563a650abbcf3afaa2f8)** · [Sistema-de-Gerenciamento-de-Tarefas](https://github.com/IsaacGomes260653/Sistema-de-Gerenciamento-de-Tarefas)<br>
   <sub>Commits enviados · <em>Pushed commits</em> · 24/11/2026</sub>
 - ⬆️ **[`docs/readme-portfolio`](https://github.com/IsaacGomes260653/Album-da-copa/commit/475e5ce28807461f1bec371167ccc4f961a14bb4)** · [Album-da-copa](https://github.com/IsaacGomes260653/Album-da-copa)<br>
@@ -43,8 +45,6 @@
   <sub>Issue aberta · <em>Opened issue</em> · 18/11/2026</sub>
 - ⬆️ **[`feat/iris-no-ar`](https://github.com/IsaacGomes260653/IsaacGomes260653/commit/75322caeb672934a6ca0eaf33f048c521d0d9d31)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
   <sub>Commits enviados · <em>Pushed commits</em> · 18/11/2026</sub>
-- 🔀 **[chore: links de código do roadmap seguem as pastas por etapa do estudos-dart](https://github.com/IsaacGomes260653/IsaacGomes260653/pull/41)** · [IsaacGomes260653](https://github.com/IsaacGomes260653/IsaacGomes260653)<br>
-  <sub>PR mesclado · <em>Merged pull request</em> · 18/11/2026</sub>
 <!-- ATIVIDADE:FIM -->
 
 </details>
